@@ -1,0 +1,13 @@
+{
+  "id": "lesson-1",
+  "number": 1,
+  "title": "Homework title",
+  "subtitle": "Outcomes B2, 3rd edition · Unit and lesson focus",
+  "status": "draft",
+  "publishedAt": "",
+  "notification": {
+    "enabled": false,
+    "version": 1
+  },
+  "blocks": []
+}
