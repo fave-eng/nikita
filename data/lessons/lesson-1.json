@@ -24,6 +24,7 @@
         "6 Not as much as I would like to. I really enjoy having a day off from cooking, but it works out quite pricey. As a rule, it is usually to celebrate someone’s birthday."
       ],
       "items": [
+        { "id": "1-example", "number": "Example", "example": true, "prompt": "go camping near home", "exampleAnswer": "1 - the speaker says they go camping along the local coast." },
         { "id": "1a", "number": "a", "input": "select", "prompt": "use public transport", "options": ["1", "2", "3", "4", "5", "6"], "answer": 2 },
         { "id": "1b", "number": "b", "input": "select", "prompt": "visit museums and galleries", "options": ["1", "2", "3", "4", "5", "6"], "answer": 3 },
         { "id": "1c", "number": "c", "input": "select", "prompt": "go out to dinner", "options": ["1", "2", "3", "4", "5", "6"], "answer": 5 },
@@ -35,8 +36,10 @@
     {
       "type": "exercise",
       "id": "exercise-2",
-      "title": "2 There is one missing word in each sentence. Add the word in the correct place.",
+      "title": "2 One word is missing in each sentence. Type only the missing word.",
+      "instructions": "Do not rewrite the whole sentence. Write the one word that completes the sentence correctly.",
       "items": [
+        { "id": "2-example", "number": "Example", "example": true, "prompt": "I do not go to concerts much as I used to.", "exampleAnswer": "as - I do not go to concerts as much as I used to." },
         { "id": "2-1", "number": 1, "input": "text", "prompt": "As a rule, I go out once a week, usually on Saturday evenings.", "answer": "usually" },
         { "id": "2-2", "number": 2, "input": "text", "prompt": "I do not read for pleasure as much as I like to.", "answer": "would" },
         { "id": "2-3", "number": 3, "input": "text", "prompt": "I tend see my family just on birthdays and at Christmas.", "answer": "to" },
@@ -52,7 +55,9 @@
       "type": "exercise",
       "id": "exercise-3",
       "title": "3 Choose the correct words.",
+      "instructions": "Read the whole sentence, then choose the adjective that best fits the meaning.",
       "items": [
+        { "id": "3-example", "number": "Example", "example": true, "prompt": "The song stays in your head all day. It is very catchy / dreadful.", "exampleAnswer": "catchy" },
         { "id": "3-1", "number": 1, "input": "single", "prompt": "I could listen to it all day. The music is so inspiring, just so uplifting / weird.", "options": ["uplifting", "weird"], "answer": 0 },
         { "id": "3-2", "number": 2, "input": "single", "prompt": "I saw it twice. The plot was really exciting, just really gripping / disturbing.", "options": ["gripping", "disturbing"], "answer": 0 },
         { "id": "3-3", "number": 3, "input": "single", "prompt": "Why is this play so popular? I thought it was terrible, absolutely catchy / awful.", "options": ["catchy", "awful"], "answer": 1 },
@@ -66,8 +71,9 @@
       "title": "4 Complete the sentences using the adjectives that were not answers in Exercise 3.",
       "dependsOn": "exercise-3",
       "dependencyWaitingText": "Complete Exercise 3 first.",
-      "dependencyReadyText": "Use the remaining words from Exercise 3.",
+      "dependencyReadyText": "Use the remaining words from Exercise 3. Type one adjective in each gap:",
       "items": [
+        { "id": "4-example", "number": "Example", "example": true, "prompt": "If the remaining word is awful: The film was absolutely ...", "exampleAnswer": "awful" },
         { "id": "4-1", "number": 1, "input": "text", "prompt": "I could not stop laughing. The show was so funny, absolutely ...", "answer": "hilarious" },
         { "id": "4-2", "number": 2, "input": "text", "prompt": "The second half was so boring, just very ...", "answer": "dull" },
         { "id": "4-3", "number": 3, "input": "text", "prompt": "I would not take your kids to see it. The special effects are quite upsetting, really quite ...", "answer": "disturbing" },
@@ -79,14 +85,16 @@
     {
       "type": "exercise",
       "id": "exercise-5",
-      "title": "5 Add the words in brackets in the correct place.",
+      "title": "5 Complete B’s polite disagreement with a softening word.",
+      "instructions": "Choose the missing word in each gap. Use a bit, really or that to make the disagreement sound more polite.",
       "items": [
-        { "id": "5-1", "number": 1, "input": "text", "prompt": "A: I am really into heavy metal. B: Oh, right. I find it loud and scary, to be honest. It is the kind of thing my teenage son listens to. (a bit)", "answer": "a bit" },
-        { "id": "5-2", "number": 2, "input": "text", "prompt": "A: Was not that a brilliant film? B: Did you think so? It did not do anything for me, I am afraid. (really)", "answer": "really" },
-        { "id": "5-3", "number": 3, "input": "text", "prompt": "A: Do you listen to jazz much? B: Er, I am not keen on jazz. I prefer something lighter, a bit more commercial. (that)", "answer": "that" },
-        { "id": "5-4", "number": 4, "input": "text", "prompt": "A: Do you fancy coming to see a musical at the theatre tonight? B: Thanks, but I am not very keen on musicals. I prefer something more serious, more realistic. (a bit)", "answer": "a bit" },
-        { "id": "5-5", "number": 5, "input": "text", "prompt": "A: Have you read the latest Philip Roth novel? B: To be honest, I am not interested in fiction. I tend to read about politics and current affairs. (really)", "answer": "really" },
-        { "id": "5-6", "number": 6, "input": "text", "prompt": "A: I have seen all the Bond movies at least twice. B: Really? I am not fond of action movies. I am more into romantic comedies, to be honest. (that)", "answer": "that" }
+        { "id": "5-example", "number": "Example", "example": true, "prompt": "A: I love horror films. B: I am not ... keen on them, to be honest.", "exampleAnswer": "that - I am not that keen on them, to be honest." },
+        { "id": "5-1", "number": 1, "input": "select", "prompt": "A: I am really into heavy metal. B: Oh, right. I find it loud and ... scary, to be honest.", "options": ["a bit", "really", "that"], "answer": 0 },
+        { "id": "5-2", "number": 2, "input": "select", "prompt": "A: Was that a brilliant film? B: Did you think so? It did not ... do anything for me, I am afraid.", "options": ["a bit", "really", "that"], "answer": 1 },
+        { "id": "5-3", "number": 3, "input": "select", "prompt": "A: Do you listen to jazz much? B: Er, I am not ... keen on jazz. I prefer something lighter.", "options": ["a bit", "really", "that"], "answer": 2 },
+        { "id": "5-4", "number": 4, "input": "select", "prompt": "A: Do you fancy coming to see a musical tonight? B: Thanks, but I prefer something ... more serious.", "options": ["a bit", "really", "that"], "answer": 0 },
+        { "id": "5-5", "number": 5, "input": "select", "prompt": "A: Have you read the latest Philip Roth novel? B: To be honest, I am not ... interested in fiction.", "options": ["a bit", "really", "that"], "answer": 1 },
+        { "id": "5-6", "number": 6, "input": "select", "prompt": "A: I have seen all the Bond movies at least twice. B: Really? I am not ... fond of action movies.", "options": ["a bit", "really", "that"], "answer": 2 }
       ]
     }
   ]
