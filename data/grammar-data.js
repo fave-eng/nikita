@@ -83,5 +83,89 @@ window.GRAMMAR_DATA = [
         ]
       }
     ]
+  },
+  {
+    id: 'grammar-lesson-2-speculation',
+    order: 2,
+    title: 'Speculating about pictures',
+    level: 'B2.1',
+    status: 'available',
+    linkedLessonId: 'lesson-2',
+    page: 'grammar-topic.html?id=grammar-lesson-2-speculation',
+    passScore: 100,
+    overview: {
+      lead: 'Use these forms when you look at evidence and make a careful guess. They help you sound confident when the evidence is strong, and cautious when it is not.',
+      keyRule: 'Choose the phrase by how certain you are: must for a strong conclusion; may, might or could for a possibility; seem, appear and look for an impression from what you can see.',
+      subjects: ['must', 'may / might / could', 'seem / appear', 'look as if', 'could well'],
+      example: 'They must be tourists. / It could well be France. / He looks as if he is lost in thought.'
+    },
+    uses: [
+      { icon: 'Must', title: 'Strong conclusion', text: 'Use must + base verb when the evidence makes you feel almost certain.', example: 'The lights are off. They must be asleep.' },
+      { icon: 'May', title: 'Possibility', text: 'Use may, might or could + base verb when something is possible but not certain.', example: 'It might be a museum.' },
+      { icon: 'Seem', title: 'Visible impression', text: 'Use seem to and appear to when you describe what something suggests.', example: 'She appears to be upset.' },
+      { icon: 'Look', title: 'What you can see', text: 'Use look as if / as though + clause, or look like + noun phrase.', example: 'They look as if they are celebrating. / It looks like a university canteen.' }
+    ],
+    forms: [
+      { id: 'affirmative', icon: '+', title: 'Making a guess', formula: 'subject + must / may / might / could + base verb', example: 'He must live nearby. / They could be friends.', translation: 'A conclusion or possibility now.', note: 'After a modal verb, use the base form: must be, might live, could have.' },
+      { id: 'negative', icon: '-', title: 'Negative guesses', formula: 'subject + cannot / may not / might not + base verb', example: 'It cannot be cheap. / She might not know the answer.', translation: 'A strong negative conclusion or a negative possibility.', note: 'Do not use must not to mean “I think this is impossible”; must not usually means “it is prohibited”.' },
+      { id: 'question', icon: '?', title: 'Questions', formula: 'Do / Does + subject + seem to + verb ...?', example: 'Does he seem to be worried?', translation: 'Ask about an impression.', note: 'We usually make guesses as statements, not questions with must or might.' },
+      { id: 'short-answer', icon: '✓', title: 'Seem, appear and look', formula: 'seem / appear + to + verb; look as if + clause; look like + noun', example: 'They seem to be waiting. / He looks as if he is tired. / It looks like rain.', translation: 'Different ways to describe evidence.', note: 'Use a clause after as if, but a noun or noun phrase after like.' }
+    ],
+    contrast: {
+      title: 'How certain is the guess?',
+      intro: 'The phrase changes the strength of the speaker’s conclusion.',
+      ordinary: { label: 'Strong evidence', verbs: 'be, have, live', affirmative: 'It must be expensive.', negative: 'It cannot be cheap.', question: 'Does it seem expensive?', rule: 'Must and cannot show a strong conclusion from evidence.' },
+      be: { label: 'Possible explanation', verbs: 'be, come from, belong to', affirmative: 'It may / might / could be Spain.', negative: 'It may not be Spain.', question: 'Does it look like Spain?', rule: 'May, might and could express possibility. Could well makes a possibility sound fairly likely.' }
+    },
+    questionBuilder: { title: 'Word order and form', pattern: ['subject', 'modal / seem / look', 'base verb or complement', '...'], example: 'She seems to be upset. / They might be waiting for a bus.', translation: 'A natural word order for a cautious conclusion.', note: 'Do not add to after must, may, might or could: It might be, not It might to be.' },
+    memoryRule: { title: 'Quick check', steps: ['Strong evidence? Use must + base verb.', 'Only a possibility? Use may, might or could + base verb.', 'A likely possibility? Use could well + base verb.', 'An impression from appearance? Use seem to / appear to + verb.', 'A full clause after look? Use look as if / as though. A noun phrase? Use look like.'] },
+    commonMistakes: [
+      { wrong: 'He must to be tired.', right: 'He must be tired.', reason: 'Modal verbs are followed by the base form without to.' },
+      { wrong: 'It mustn’t be France.', right: 'It cannot be France.', reason: 'Must not usually means prohibition, not an impossible conclusion.' },
+      { wrong: 'They look as if tired.', right: 'They look as if they are tired.', reason: 'As if is followed by a clause with a subject and verb.' },
+      { wrong: 'It looks as if a museum.', right: 'It looks like a museum.', reason: 'Use like before a noun phrase.' }
+    ],
+    quizExercises: [
+      {
+        title: 'Choose the meaning',
+        instructions: 'Choose the correct answer.',
+        items: [
+          { type: 'single', difficulty: 'Easy', skill: 'Strong conclusion', prompt: 'The ground is wet. It ___ have rained.', options: ['must', 'must to', 'is must'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Possibility', prompt: 'That building ___ be a gallery, but I am not sure.', options: ['might', 'might to', 'is might'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Appearance', prompt: 'She ___ to be listening carefully.', options: ['seems', 'seem', 'is seem'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Like and as if', prompt: 'It looks ___ a university canteen.', options: ['like', 'as if', 'to'], answer: 0 }
+        ]
+      },
+      {
+        title: 'Complete the sentences',
+        instructions: 'Write one word in each gap.',
+        items: [
+          { type: 'gaps', difficulty: 'Medium', skill: 'Strong conclusion', prompt: 'Complete the sentence.', segments: ['They ', ' be waiting for a train; they are standing on the platform.'], answers: ['must'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Possibility', prompt: 'Complete the sentence.', segments: ['It could ', ' be Italy; the landscape is very similar.'], answers: ['well'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Appearance', prompt: 'Complete the sentence.', segments: ['He appears ', ' be lost in thought.'], answers: ['to'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'As if', prompt: 'Complete the sentence.', segments: ['They look as ', ' they are enjoying themselves.'], answers: ['if'] }
+        ]
+      },
+      {
+        title: 'Choose and transform',
+        instructions: 'Choose the correct form or write the complete answer.',
+        items: [
+          { type: 'select', difficulty: 'Challenge', skill: 'Impossible conclusion', prompt: 'Choose the best completion: The museum is closed, so it ___ be open to visitors.', options: ['cannot', 'must not', 'does not must'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Look like', prompt: 'Choose the best completion: From the uniforms, they ___ school students.', options: ['look like', 'look as if', 'appear'], answer: 0 },
+          { type: 'text', difficulty: 'Challenge', skill: 'Strong conclusion', prompt: 'Complete: She / must / be / very pleased with herself.', answer: 'She must be very pleased with herself.', acceptedAnswers: ['She must be very pleased with herself', 'She must be very pleased with herself.'] },
+          { type: 'text', difficulty: 'Challenge', skill: 'Appearance', prompt: 'Complete: I / get / impression / that / he / be / worried.', answer: 'I get the impression that he is worried.', acceptedAnswers: ['I get the impression that he is worried', 'I get the impression that he is worried.'] }
+        ]
+      },
+      {
+        title: 'Build complete sentences',
+        instructions: 'Write a complete sentence. Use the word or phrase in brackets.',
+        items: [
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Could well', prompt: 'it / could well / be / his hometown', tokens: ['It', 'could well', 'be', 'his hometown'], answer: 'It could well be his hometown.', acceptedAnswers: ['It could well be his hometown', 'It could well be his hometown.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Look as if', prompt: 'they / look as if / they / have just got married', tokens: ['They', 'look as if', 'they', 'have just got married'], answer: 'They look as if they have just got married.', acceptedAnswers: ['They look as if they have just got married', 'They look as if they have just got married.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Seem to', prompt: 'everyone / seems to / be / queuing for something', tokens: ['Everyone', 'seems to', 'be', 'queuing for something'], answer: 'Everyone seems to be queuing for something.', acceptedAnswers: ['Everyone seems to be queuing for something', 'Everyone seems to be queuing for something.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Cannot', prompt: 'this / cannot / be / the right address', tokens: ['This', 'cannot', 'be', 'the right address'], answer: 'This cannot be the right address.', acceptedAnswers: ['This cannot be the right address', 'This cannot be the right address.'] }
+        ]
+      }
+    ]
   }
 ];

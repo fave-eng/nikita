@@ -46,5 +46,39 @@ window.VOCABULARY_DATA = [
       { id: 'l1-29', uniqueKey: 'standing ovation', en: 'standing ovation', ru: 'applause from an audience standing up', transcription: '', exampleEn: 'The actors received a standing ovation.', group: 'art' },
       { id: 'l1-30', uniqueKey: 'memorable performance', en: 'memorable performance', ru: 'a performance that stays in your memory', transcription: '', exampleEn: 'It was a memorable performance.', group: 'art' }
     ]
+  },
+  {
+    id: 'vocab-lesson-2-films-pictures',
+    title: 'Films and pictures',
+    label: 'Unit 1B–1C · 17 useful words and phrases',
+    icon: '🖼️',
+    type: 'lesson',
+    linkedLessonId: 'lesson-2',
+    page: 'vocabulary.html?id=vocab-lesson-2-films-pictures',
+    description: 'Useful language from Unit 1 for films, visual art and speculation.',
+    groups: [
+      { id: 'film', title: 'Films and TV', subtitle: 'Stories, production and audiences', icon: '🎞️' },
+      { id: 'pictures', title: 'Pictures', subtitle: 'Art and visual description', icon: '🖼️' },
+      { id: 'speculation', title: 'Speculation', subtitle: 'Making careful guesses', icon: '🔎' }
+    ],
+    words: [
+      { id: 'l2-01', uniqueKey: 'non-English-language', en: 'non-English-language', ru: 'not in English', transcription: '', exampleEn: 'The festival celebrates non-English-language films.', group: 'film' },
+      { id: 'l2-02', uniqueKey: 'dubbing', en: 'dubbing', ru: 'replacing a film’s original speech with another language', transcription: '/ˈdʌbɪŋ/', exampleEn: 'Good dubbing can make a film easier to follow.', group: 'film' },
+      { id: 'l2-03', uniqueKey: 'global reach', en: 'global reach', ru: 'the ability to reach people around the world', transcription: '', exampleEn: 'Streaming platforms are trying to increase their global reach.', group: 'film' },
+      { id: 'l2-04', uniqueKey: 'local-language programming', en: 'local-language programming', ru: 'films or shows made in a local language', transcription: '', exampleEn: 'Local-language programming has attracted new viewers.', group: 'film' },
+      { id: 'l2-05', uniqueKey: 'social division', en: 'social division', ru: 'a difference between social groups', transcription: '', exampleEn: 'The film explores social divisions in the city.', group: 'film' },
+      { id: 'l2-06', uniqueKey: 'common ground', en: 'common ground', ru: 'shared interests or ideas', transcription: '', exampleEn: 'The two cultures found common ground through cinema.', group: 'film' },
+      { id: 'l2-07', uniqueKey: 'remake', en: 'remake', ru: 'a new version of an older film', transcription: '/ˈriːmeɪk/', exampleEn: 'The studio released a remake of a classic film.', group: 'film' },
+      { id: 'l2-08', uniqueKey: 'sequel', en: 'sequel', ru: 'a film or book that continues an earlier story', transcription: '/ˈsiːkwəl/', exampleEn: 'The sequel was less successful than the original.', group: 'film' },
+      { id: 'l2-09', uniqueKey: 'creative risk', en: 'creative risk', ru: 'a bold artistic decision that may not succeed', transcription: '', exampleEn: 'The director took a creative risk with the ending.', group: 'film' },
+      { id: 'l2-10', uniqueKey: 'open to interpretation', en: 'open to interpretation', ru: 'able to have different possible meanings', transcription: '', exampleEn: 'The final scene is open to interpretation.', group: 'pictures' },
+      { id: 'l2-11', uniqueKey: 'domestic scene', en: 'domestic scene', ru: 'a scene connected with home and family life', transcription: '', exampleEn: 'The painting shows a quiet domestic scene.', group: 'pictures' },
+      { id: 'l2-12', uniqueKey: 'atmospheric', en: 'atmospheric', ru: 'creating a particular mood', transcription: '/ˌætməsˈferɪk/', exampleEn: 'The image is dark and atmospheric.', group: 'pictures' },
+      { id: 'l2-13', uniqueKey: 'could well', en: 'could well', ru: 'might very possibly', transcription: '', exampleEn: 'It could well be a coastal town.', group: 'speculation' },
+      { id: 'l2-14', uniqueKey: 'look as if', en: 'look as if', ru: 'to seem to be or to be doing something', transcription: '', exampleEn: 'They look as if they are waiting for someone.', group: 'speculation' },
+      { id: 'l2-15', uniqueKey: 'appear to', en: 'appear to', ru: 'to seem to be or do something', transcription: '', exampleEn: 'The visitors appear to be lost.', group: 'speculation' },
+      { id: 'l2-16', uniqueKey: 'seem to', en: 'seem to', ru: 'to appear to be or do something', transcription: '', exampleEn: 'She seems to know the answer.', group: 'speculation' },
+      { id: 'l2-17', uniqueKey: 'get the impression', en: 'get the impression', ru: 'to form an opinion based on what you notice', transcription: '', exampleEn: 'I get the impression that he is worried.', group: 'speculation' }
+    ]
   }
 ];
