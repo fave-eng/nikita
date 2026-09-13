@@ -5,7 +5,7 @@
   "subtitle": "Outcomes B2, 3rd edition · Unit 1 · Workbook practice",
   "status": "available",
   "publishedAt": "2026-09-13",
-  "notification": { "enabled": false, "version": 1 },
+  "notification": { "enabled": true, "version": 1 },
   "vocabularyId": "vocab-lesson-1-entertainment",
   "grammarIds": ["grammar-lesson-1-habits"],
   "totalPoints": 73,
