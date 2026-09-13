@@ -1,99 +1,85 @@
 {
   "id": "lesson-2",
   "number": 2,
-  "title": "Unit 1: Films and pictures",
-  "subtitle": "Outcomes B2, 3rd edition · Unit 1B–1C · Workbook practice",
+  "title": "Unit 1B-1C: Films and pictures",
+  "subtitle": "Outcomes B2, 3rd edition · Unit 1B-1C · Workbook practice",
   "status": "available",
   "publishedAt": "2026-09-14",
   "notification": { "enabled": false, "version": 1 },
   "vocabularyId": "vocab-lesson-2-films-pictures",
   "grammarIds": ["grammar-lesson-2-speculation"],
-  "totalPoints": 14,
+  "totalPoints": 30,
   "blocks": [
-    { "type": "section", "title": "Grammar: Speculating about pictures", "text": "" },
-    { "type": "grammar-link", "title": "Speculating about pictures", "text": "Open the grammar topic before you start the workbook practice.", "grammarId": "grammar-lesson-2-speculation", "buttonLabel": "Open topic" },
-    { "type": "section", "title": "Reading: It’s a big world out there", "text": "" },
-    {
-      "type": "reading",
-      "id": "reading-a-world-of-difference",
-      "title": "A world of difference",
-      "sections": [
-        { "heading": "", "text": "Back in 2020, the South Korean film Parasite made history by becoming the first ever non-English-language film to win the prestigious Best Picture award at the Oscars. Directed by Bong Joon-ho and set in Seoul, the film is a sharp satire about two families from very different classes – one who live in poverty in a basement flat, and another very wealthy family who live in a huge house on top of a hill. Indeed, many feel that it was the focus on tensions around social divisions that made the film so popular with audiences around the world." },
-        { "heading": "", "text": "However, the success of Parasite is simply the tip of a much bigger iceberg. Over recent years, there’s been an explosion of non-English-language films, driven largely by the desire of major streaming services like Netflix, Amazon Prime and HBO to expand their global reach. Local-language programming has helped attract new users as the platforms move into new markets, and shows from places like Germany, France, Spain and South Korea have all been popular both in their home countries and elsewhere. With more than 60% of Netflix viewers now outside the US, maybe it’s not surprising that series such as Lupin, Squid Game and Money Heist were so popular when they came out." },
-        { "heading": "", "text": "One of the main reasons for the success of many shows is the fact that dubbing technology has improved dramatically. This means it’s now possible for people to watch films in their local languages – and the dubbing is no longer anything like as dreadful or as funny as it used to be." },
-        { "heading": "", "text": "In addition, the growth of interest in non-English-language content perhaps reflects a desire for different stories, and for more variety and creativity. Viewers also seem to enjoy finding common ground across different cultures. While American films are still big business at box offices everywhere, it is perhaps no real surprise that these changes are coming at a time when Hollywood is increasingly reliant on remakes of old classics, sequels to earlier successes and superhero movies. So as Hollywood becomes less ready to take creative risks, audiences are looking elsewhere for original entertainment." }
-      ]
-    },
-    {
-      "type": "exercise",
-      "id": "exercise-reading-2",
-      "title": "2 Read the article on page 11 about the boom in non-English-language programming. Answer the questions.",
-      "items": [
-        { "id": "r2-1", "number": 1, "input": "text", "prompt": "Why was the film Parasite significant?", "answer": "It was the first non-English-language film to win the Best Picture award at the Oscars.", "acceptedAnswers": ["It was the first non-English-language film to win the Best Picture award at the Oscars", "It was the first ever non-English-language film to win the Best Picture award at the Oscars"] },
-        { "id": "r2-2", "number": 2, "input": "text", "prompt": "What theory is suggested to explain the film’s popularity?", "answer": "Its focus on tensions around social divisions.", "acceptedAnswers": ["Its focus on tensions around social divisions", "The focus on tensions around social divisions"] },
-        { "id": "r2-3", "number": 3, "input": "text", "prompt": "What’s behind the increase in non-English-language films?", "answer": "The desire of major streaming services to expand their global reach.", "acceptedAnswers": ["The desire of major streaming services to expand their global reach", "Major streaming services want to expand their global reach"] },
-        { "id": "r2-4", "number": 4, "input": "text", "prompt": "How have technological developments helped?", "answer": "Dubbing technology has improved dramatically.", "acceptedAnswers": ["Dubbing technology has improved dramatically", "Improved dubbing technology"] },
-        { "id": "r2-5", "number": 5, "input": "text", "prompt": "What positive comment is made about American films?", "answer": "They are still big business at box offices everywhere.", "acceptedAnswers": ["They are still big business at box offices everywhere", "American films are still big business at box offices everywhere"] },
-        { "id": "r2-6", "number": 6, "input": "text", "prompt": "What problems with them are also mentioned?", "answer": "Hollywood is increasingly reliant on remakes, sequels and superhero movies.", "acceptedAnswers": ["Hollywood is increasingly reliant on remakes, sequels and superhero movies", "They are increasingly reliant on remakes, sequels and superhero movies"] }
-      ]
-    },
-    {
-      "type": "info",
-      "title": "7 Work in pairs. Discuss the questions.",
-      "text": "1 Can you think of five different issues a film might tackle?\n\n2 Can you agree on five all-time classics?\n\n3 Can you think of three films that are adaptations of books?\n\n4 What’s the opposite of a film that’s filled with twists and turns?\n\n5 Can you think of three films that are sequels?\n\n6 Can you think of three common flaws many films have?\n\n7 Can you agree on two films you both think have an amazing cast?\n\n8 Can you think of any films that were shot in your town or region?"
-    },
-    {
-      "type": "info",
-      "title": "8 Choose three of these topics and make notes on what you’d like to say about them.",
-      "text": "1 the best film your country has ever produced\n2 the best TV series you’ve seen recently\n3 a film that all the family can enjoy\n4 a film that made you cry\n5 a film or TV series that makes you laugh out loud\n6 the best film / TV series you’ve ever seen\n7 a film or TV series from your country that you really hate\n8 the film industry in your country\n\n9 Work in groups. Share your ideas. Are there any recommendations you’d like to check out?"
-    },
     { "type": "section", "title": "Vocabulary: Talking about pictures", "text": "" },
     {
-      "type": "info",
-      "title": "1 Work in pairs. Read the quotations about art. Discuss what you think each quotation means. How far do you agree with each one? Explain why.",
-      "text": "Modern art = I could do that + Yeah, but you didn’t. —Craig Damrauer\n\nAdvertising is the greatest art form of the 20th century. —Marshall McLuhan\n\nArt is eternal, but life is short. —Evelyn de Morgan\n\nThe more minimal the art, the more maximum the explanation. —Hilton Kramer"
-    },
-    {
       "type": "exercise",
-      "id": "exercise-pictures-2",
-      "title": "2 Work in pairs. Look at this painting. Discuss who the character might be and what you think is happening.",
-      "images": [{ "src": "images/lesson-2/traveller-above-fog.png", "alt": "A lone traveller standing above a sea of mist", "caption": "Painting for discussion", "compact": true }],
-      "items": []
-    },
-    {
-      "type": "info",
-      "title": "3 Read the definitions. With your partner, discuss which adjectives could describe the painting in Exercise 2.",
-      "text": "1 Bold colours are very bright, strong and clear, whereas subtle colours are not strong or bright. They’re softer and more delicate.\n\n2 If a painting is conventional, it’s traditional and not new or different in any way.\n\n3 If a painting is dramatic, it contains a lot of exciting action.\n\n4 If it’s atmospheric, a painting creates a special mood – such as a feeling of sadness or mystery.\n\n5 Abstract paintings represent concepts, ideas or emotions, whereas realistic paintings show people, objects or events in a more photographic way.\n\n6 If it’s ambiguous, the meaning of the work isn’t clear – it’s open to interpretation.\n\n7 If a painting shows a domestic scene, you see moments related to home and family."
-    },
-    {
-      "type": "exercise",
-      "id": "exercise-pictures-4",
-      "title": "4 Which of these sentences about the painting do you agree with?",
-      "stickyImage": { "src": "images/lesson-2/traveller-above-fog.png", "alt": "A lone traveller standing above a sea of mist", "caption": "Painting for discussion" },
+      "id": "exercise-pictures-1",
+      "title": "1 Complete the paragraph with the correct form of the words in brackets.",
       "items": [
-        { "id": "p4-1", "number": 1, "input": "textarea", "prompt": "The main character has his back to the viewer, which creates a feeling of mystery.", "scored": false },
-        { "id": "p4-2", "number": 2, "input": "textarea", "prompt": "He looks as if he’s lost in thought.", "scored": false },
-        { "id": "p4-3", "number": 3, "input": "textarea", "prompt": "He’s obviously a sad and lonely man.", "scored": false },
-        { "id": "p4-4", "number": 4, "input": "textarea", "prompt": "He seems to be the most important thing in the painting.", "scored": false },
-        { "id": "p4-5", "number": 5, "input": "textarea", "prompt": "He appears to be looking for something better than what he has.", "scored": false },
-        { "id": "p4-6", "number": 6, "input": "textarea", "prompt": "He looks very proud. I get the impression he feels very pleased with himself.", "scored": false },
-        { "id": "p4-7", "number": 7, "input": "textarea", "prompt": "He looks like a very wealthy man.", "scored": false },
-        { "id": "p4-8", "number": 8, "input": "textarea", "prompt": "It must be somewhere in Europe. It could well be France.", "scored": false }
+        { "id": "p1-1", "number": 1, "input": "text", "prompt": "Describing a painting is always open to ... (interpret)", "answer": "interpretation" },
+        { "id": "p1-2", "number": 2, "input": "text", "prompt": "What appears ... (atmosphere)", "answer": "atmospheric" },
+        { "id": "p1-3", "number": 3, "input": "text", "prompt": "or ... (drama)", "answer": "dramatic" },
+        { "id": "p1-4", "number": 4, "input": "text", "prompt": "may seem dull or ... (convention) to another.", "answer": "conventional" },
+        { "id": "p1-5", "number": 5, "input": "text", "prompt": "because its meaning is often ... (ambiguity).", "answer": "ambiguous" }
       ]
     },
     {
       "type": "exercise",
-      "id": "exercise-pictures-5",
-      "title": "5 Cover Exercise 4. Complete the sentences describing different paintings using words and phrases from Exercise 4.",
+      "id": "exercise-pictures-3",
+      "title": "2 Match the sentence halves.",
       "items": [
-        { "id": "p5-1", "number": 1, "input": "text", "prompt": "I think it could ______ be Spain or Italy in this picture.", "answer": "well" },
-        { "id": "p5-2", "number": 2, "input": "text", "prompt": "Everyone looks ______ they’re having a really good time in this picture.", "answer": "as if", "acceptedAnswers": ["as if", "as though"] },
-        { "id": "p5-3a", "number": 3, "input": "text", "prompt": "I get the ______ she’s been crying.", "answer": "impression" },
-        { "id": "p5-3b", "number": "", "input": "text", "prompt": "She ______ really upset.", "answer": "looks" },
-        { "id": "p5-4", "number": 4, "input": "text", "prompt": "They’ve ______ just moved in and are redecorating the whole flat, from the look of it.", "answer": "obviously" },
-        { "id": "p5-5a", "number": 5, "input": "text", "prompt": "They ______ all be students.", "answer": "appear to", "acceptedAnswers": ["appear to", "seem to"] },
-        { "id": "p5-5b", "number": "", "input": "text", "prompt": "That looks ______ a university canteen to me.", "answer": "like" },
-        { "id": "p5-6", "number": 6, "input": "text", "prompt": "Everyone in this picture ______ to be queuing or waiting for something.", "answer": "seems", "acceptedAnswers": ["seems", "appears"] }
+        { "id": "p3-1", "number": 1, "input": "select", "prompt": "This one is so realistic. It looks as ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it has been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "a bit like your brother.", "show some sort of nightmare."], "answer": 3 },
+        { "id": "p3-2", "number": 2, "input": "select", "prompt": "Come and look at this. The man in the picture ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it has been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "a bit like your brother.", "show some sort of nightmare."], "answer": 6 },
+        { "id": "p3-3", "number": 3, "input": "select", "prompt": "I do not see the attraction. To me all his paintings ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it has been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "a bit like your brother.", "show some sort of nightmare."], "answer": 2 },
+        { "id": "p3-4", "number": 4, "input": "select", "prompt": "She looks furious, so they have ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it has been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "a bit like your brother.", "show some sort of nightmare."], "answer": 5 },
+        { "id": "p3-5", "number": 5, "input": "select", "prompt": "The artist was born in Belgium and that could ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it has been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "a bit like your brother.", "show some sort of nightmare."], "answer": 1 },
+        { "id": "p3-6", "number": 6, "input": "select", "prompt": "It all seems very weird. I think it must ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it has been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "a bit like your brother.", "show some sort of nightmare."], "answer": 7 },
+        { "id": "p3-7", "number": 7, "input": "select", "prompt": "It is a celebration and they appear ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it has been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "a bit like your brother.", "show some sort of nightmare."], "answer": 0 },
+        { "id": "p3-8", "number": 8, "input": "select", "prompt": "Looking at this one, I get ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it has been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "a bit like your brother.", "show some sort of nightmare."], "answer": 4 }
+      ]
+    },
+    { "type": "section", "title": "Grammar: Adjectives and adverbs", "text": "" },
+    {
+      "type": "exercise",
+      "id": "exercise-adverbs-4",
+      "title": "3 Find and correct the five sentences that contain mistakes with adjectives or adverbs.",
+      "items": [
+        { "id": "a4-1", "number": 1, "input": "text", "prompt": "You look tired. Have you been working hard recently?", "scored": false },
+        { "id": "a4-2", "number": 2, "input": "text", "prompt": "She said it was an absolute dreadful film.", "answer": "She said it was an absolutely dreadful film." },
+        { "id": "a4-3", "number": 3, "input": "text", "prompt": "If you arrive lately for work again, you will be in real trouble.", "answer": "If you arrive late for work again, you will be in real trouble." },
+        { "id": "a4-4", "number": 4, "input": "text", "prompt": "Do not forget to check your work really careful.", "answer": "Do not forget to check your work really carefully." },
+        { "id": "a4-5", "number": 5, "input": "text", "prompt": "She looks very sadly. Do you think she has been crying?", "answer": "She looks very sad. Do you think she has been crying?" },
+        { "id": "a4-6", "number": 6, "input": "text", "prompt": "Funny enough, I was thinking exactly the same thing.", "scored": false },
+        { "id": "a4-7", "number": 7, "input": "text", "prompt": "We hardly ever go to the cinema nowadays.", "scored": false },
+        { "id": "a4-8", "number": 8, "input": "text", "prompt": "Look direct at the camera and give a big smile.", "answer": "Look directly at the camera and give a big smile." }
+      ]
+    },
+    { "type": "section", "title": "Vocabulary: Writing a review", "text": "" },
+    {
+      "type": "exercise",
+      "id": "exercise-review-4",
+      "title": "4 Complete the sentences with the words in the box. There are two words that you do not need.",
+      "wordBank": ["downside", "singing along", "disappointing", "encores", "following", "worth", "irresistible", "expertise"],
+      "items": [
+        { "id": "r4-1", "number": 1, "input": "text", "prompt": "One of the best things about the concert was the ... of the conductor.", "answer": "expertise" },
+        { "id": "r4-2", "number": 2, "input": "text", "prompt": "It was amazing to hear the crowd ... to all the band’s hits.", "answer": "singing along" },
+        { "id": "r4-3", "number": 3, "input": "text", "prompt": "It is well ... the price of the concert ticket.", "answer": "worth" },
+        { "id": "r4-4", "number": 4, "input": "text", "prompt": "The biggest ... was the acoustics in the hall. It was very difficult to hear the singers.", "answer": "downside" },
+        { "id": "r4-5", "number": 5, "input": "text", "prompt": "I cannot see why this pianist has such a large ... . To me, she is very dull.", "answer": "following" },
+        { "id": "r4-6", "number": 6, "input": "text", "prompt": "After playing three ... , the band finally went off stage, leaving the crowd still wanting more.", "answer": "encores" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-review-5",
+      "title": "5 Match the collocations.",
+      "items": [
+        { "id": "r5-1", "number": 1, "input": "select", "prompt": "give", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 1 },
+        { "id": "r5-2", "number": 2, "input": "select", "prompt": "play", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 3 },
+        { "id": "r5-3", "number": 3, "input": "select", "prompt": "develop", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 0 },
+        { "id": "r5-4", "number": 4, "input": "select", "prompt": "compose", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 5 },
+        { "id": "r5-5", "number": 5, "input": "select", "prompt": "give", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 4 },
+        { "id": "r5-6", "number": 6, "input": "select", "prompt": "put on", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 2 }
       ]
     }
   ]

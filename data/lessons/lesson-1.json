@@ -1,20 +1,28 @@
 {
   "id": "lesson-1",
   "number": 1,
-  "title": "Unit 1: Entertainment",
-  "subtitle": "Outcomes B2, 3rd edition · Unit 1 · Workbook practice",
+  "title": "Unit 1A: Entertainment",
+  "subtitle": "Outcomes B2, 3rd edition · Unit 1A · Workbook practice",
   "status": "available",
   "publishedAt": "2026-09-13",
-  "notification": { "enabled": true, "version": 1 },
+  "notification": { "enabled": false, "version": 1 },
   "vocabularyId": "vocab-lesson-1-entertainment",
   "grammarIds": ["grammar-lesson-1-habits"],
-  "totalPoints": 73,
+  "totalPoints": 30,
   "blocks": [
     { "type": "section", "title": "Grammar: Habits", "text": "" },
-    { "type": "grammar-link", "title": "Habits", "text": "Open the grammar topic before you start the workbook practice.", "grammarId": "grammar-lesson-1-habits", "buttonLabel": "Open topic" },
     {
-      "type": "exercise", "id": "exercise-1", "title": "1 Read the answers to the question Do you ... much? What are the people talking about? Match the answers (1–6) to the questions (a–f).",
-      "dialogue": ["1 Hardly ever nowadays. We used to get away about twice a year but it’s just too expensive now. We’ve got a tent so we go camping along the local coast whenever we can.", "2 Not as much as I used to. To be honest, I got really overdrawn at one point and so I had to stop. Now I’ll pick up a bargain in the sales but only if I really need it.", "3 Not if I can avoid it! The local service is never on time and it’s always packed. I tend to cycle everywhere but I’ll take the tube if it’s pouring down.", "4 All the time. I think they’re a brilliant local resource. Most of them are free and you can learn such a lot. Even my kids enjoy the interactive exhibitions.", "5 Whenever I get the chance. My sister lives abroad so we use the internet a lot for email and stuff. But I also like to chat, so I end up with a huge phone bill!", "6 Not as much as I’d like to. I really enjoy having a day off from cooking but it works out quite pricey. As a rule, it’s usually to celebrate someone’s birthday."],
+      "type": "exercise",
+      "id": "exercise-1",
+      "title": "1 Read the answers to the question Do you ... much? What are the people talking about? Match the answers (1-6) to the questions (a-f).",
+      "dialogue": [
+        "1 Hardly ever nowadays. We used to get away about twice a year, but it is just too expensive now. We have got a tent, so we go camping along the local coast whenever we can.",
+        "2 Not as much as I used to. To be honest, I got really overdrawn at one point, so I had to stop. Now I pick up a bargain in the sales, but only if I really need it.",
+        "3 Not if I can avoid it. The local service is never on time and it is always packed. I tend to cycle everywhere, but I take the tube if it is pouring down.",
+        "4 All the time. I think they are a brilliant local resource. Most of them are free and you can learn such a lot. Even my kids enjoy the interactive exhibitions.",
+        "5 Whenever I get the chance. My sister lives abroad, so we use the internet a lot for email and stuff. But I also like to chat, so I end up with a huge phone bill.",
+        "6 Not as much as I would like to. I really enjoy having a day off from cooking, but it works out quite pricey. As a rule, it is usually to celebrate someone’s birthday."
+      ],
       "items": [
         { "id": "1a", "number": "a", "input": "select", "prompt": "use public transport", "options": ["1", "2", "3", "4", "5", "6"], "answer": 2 },
         { "id": "1b", "number": "b", "input": "select", "prompt": "visit museums and galleries", "options": ["1", "2", "3", "4", "5", "6"], "answer": 3 },
@@ -25,116 +33,61 @@
       ]
     },
     {
-      "type": "exercise", "id": "exercise-2", "title": "2 There is one missing word in each sentence. Add the word in the correct place.",
+      "type": "exercise",
+      "id": "exercise-2",
+      "title": "2 There is one missing word in each sentence. Add the word in the correct place.",
       "items": [
         { "id": "2-1", "number": 1, "input": "text", "prompt": "As a rule, I go out once a week, usually on Saturday evenings.", "answer": "usually" },
-        { "id": "2-2", "number": 2, "input": "text", "prompt": "I don’t read for pleasure as much as I like to.", "answer": "would" },
+        { "id": "2-2", "number": 2, "input": "text", "prompt": "I do not read for pleasure as much as I like to.", "answer": "would" },
         { "id": "2-3", "number": 3, "input": "text", "prompt": "I tend see my family just on birthdays and at Christmas.", "answer": "to" },
         { "id": "2-4", "number": 4, "input": "text", "prompt": "We used go to the cinema about once a week before they put the prices up.", "answer": "to" },
-        { "id": "2-5", "number": 5, "input": "text", "prompt": "I check the BBC website all time, I rarely use any other sites.", "answer": "the" },
-        { "id": "2-6", "number": 6, "input": "text", "prompt": "She must be really busy. She ever comes to the badminton club anymore.", "answer": "hardly" },
-        { "id": "2-7", "number": 7, "input": "text", "prompt": "I enjoy going to the theatre but we only go once a while.", "answer": "in" },
+        { "id": "2-5", "number": 5, "input": "text", "prompt": "I check the BBC website all time. I rarely use any other sites.", "answer": "the" },
+        { "id": "2-6", "number": 6, "input": "text", "prompt": "She must be really busy. She ever comes to the badminton club any more.", "answer": "hardly" },
+        { "id": "2-7", "number": 7, "input": "text", "prompt": "I enjoy going to the theatre, but we only go once a while.", "answer": "in" },
         { "id": "2-8", "number": 8, "input": "text", "prompt": "We used to go walking every weekend. We get up early and be out on the hills to see the sunrise.", "answer": "would" }
       ]
     },
-    { "type": "section", "title": "Vocabulary: Describing films, music and books", "text": "" },
+    { "type": "section", "title": "Vocabulary: Films, music and books", "text": "" },
     {
-      "type": "exercise", "id": "exercise-3", "title": "3 Choose the correct words.",
+      "type": "exercise",
+      "id": "exercise-3",
+      "title": "3 Choose the correct words.",
       "items": [
         { "id": "3-1", "number": 1, "input": "single", "prompt": "I could listen to it all day. The music is so inspiring, just so uplifting / weird.", "options": ["uplifting", "weird"], "answer": 0 },
         { "id": "3-2", "number": 2, "input": "single", "prompt": "I saw it twice. The plot was really exciting, just really gripping / disturbing.", "options": ["gripping", "disturbing"], "answer": 0 },
         { "id": "3-3", "number": 3, "input": "single", "prompt": "Why is this play so popular? I thought it was terrible, absolutely catchy / awful.", "options": ["catchy", "awful"], "answer": 1 },
-        { "id": "3-4", "number": 4, "input": "single", "prompt": "I can’t stand her acting. She’s just too much, always so dull / over-the-top.", "options": ["dull", "over-the-top"], "answer": 1 },
-        { "id": "3-5", "number": 5, "input": "single", "prompt": "It all sounds the same to me. It’s only produced to make money, just very hilarious / commercial.", "options": ["hilarious", "commercial"], "answer": 1 }
+        { "id": "3-4", "number": 4, "input": "single", "prompt": "I cannot stand her acting. She is just too much, always so dull / over-the-top.", "options": ["dull", "over-the-top"], "answer": 1 },
+        { "id": "3-5", "number": 5, "input": "single", "prompt": "It all sounds the same to me. It is only produced to make money, just very hilarious / commercial.", "options": ["hilarious", "commercial"], "answer": 1 }
       ]
     },
     {
-      "type": "exercise", "id": "exercise-4", "title": "4 Complete these sentences using the adjectives that weren’t the answers in Exercise 3.", "dependsOn": "exercise-3", "dependencyWaitingText": "Complete Exercise 3 first.", "dependencyReadyText": "Use your remaining answers from Exercise 3:",
+      "type": "exercise",
+      "id": "exercise-4",
+      "title": "4 Complete the sentences using the adjectives that were not answers in Exercise 3.",
+      "dependsOn": "exercise-3",
+      "dependencyWaitingText": "Complete Exercise 3 first.",
+      "dependencyReadyText": "Use the remaining words from Exercise 3.",
       "items": [
-        { "id": "4-1", "number": 1, "input": "text", "prompt": "I couldn’t stop laughing. The show was so funny, absolutely ...", "answer": "hilarious" },
+        { "id": "4-1", "number": 1, "input": "text", "prompt": "I could not stop laughing. The show was so funny, absolutely ...", "answer": "hilarious" },
         { "id": "4-2", "number": 2, "input": "text", "prompt": "The second half was so boring, just very ...", "answer": "dull" },
-        { "id": "4-3", "number": 3, "input": "text", "prompt": "I wouldn’t take your kids to see it. The special effects are quite upsetting, really quite ...", "answer": "disturbing" },
-        { "id": "4-4", "number": 4, "input": "text", "prompt": "I didn’t get it at all. The dialogue was really strange, just really ...", "answer": "weird" },
-        { "id": "4-5", "number": 5, "input": "text", "prompt": "I can’t stop singing it. It’s so easy to remember, really quite ...", "answer": "catchy" }
+        { "id": "4-3", "number": 3, "input": "text", "prompt": "I would not take your kids to see it. The special effects are quite upsetting, really quite ...", "answer": "disturbing" },
+        { "id": "4-4", "number": 4, "input": "text", "prompt": "I did not get it at all. The dialogue was really strange, just really ...", "answer": "weird" },
+        { "id": "4-5", "number": 5, "input": "text", "prompt": "I cannot stop singing it. It is so easy to remember, really quite ...", "answer": "catchy" }
       ]
     },
     { "type": "section", "title": "Developing conversations: Disagreeing politely", "text": "" },
     {
-      "type": "exercise", "id": "exercise-5", "title": "5 Add the words in brackets in the correct place.",
+      "type": "exercise",
+      "id": "exercise-5",
+      "title": "5 Add the words in brackets in the correct place.",
       "items": [
-        { "id": "5-1", "number": 1, "input": "text", "prompt": "A: I’m really into heavy metal. B: Oh, right. I find it loud and scary, to be honest. It’s the kind of thing my teenage son listens to. (a bit)", "answer": "a bit" },
-        { "id": "5-2", "number": 2, "input": "text", "prompt": "A: Wasn’t that a brilliant film? B: Did you think so? It didn’t do anything for me, I’m afraid. (really)", "answer": "really" },
-        { "id": "5-3", "number": 3, "input": "text", "prompt": "A: Do you listen to jazz much? B: Er, I’m not keen on jazz. I prefer something lighter, a bit more commercial. (that)", "answer": "that" },
-        { "id": "5-4", "number": 4, "input": "text", "prompt": "A: Do you fancy coming to see a musical at the theatre tonight? B: Thanks, but I’m not very keen on musicals. I prefer something more serious, more realistic. (a bit)", "answer": "a bit" },
-        { "id": "5-5", "number": 5, "input": "text", "prompt": "A: Have you read the latest Philip Roth novel? B: To be honest, I’m not interested in fiction. I tend to read about politics and current affairs. (really)", "answer": "really" },
-        { "id": "5-6", "number": 6, "input": "text", "prompt": "A: I’ve seen all the Bond movies at least twice. B: Really? I’m not fond of action movies. I’m more into romantic comedies, to be honest. (that)", "answer": "that" }
+        { "id": "5-1", "number": 1, "input": "text", "prompt": "A: I am really into heavy metal. B: Oh, right. I find it loud and scary, to be honest. It is the kind of thing my teenage son listens to. (a bit)", "answer": "a bit" },
+        { "id": "5-2", "number": 2, "input": "text", "prompt": "A: Was not that a brilliant film? B: Did you think so? It did not do anything for me, I am afraid. (really)", "answer": "really" },
+        { "id": "5-3", "number": 3, "input": "text", "prompt": "A: Do you listen to jazz much? B: Er, I am not keen on jazz. I prefer something lighter, a bit more commercial. (that)", "answer": "that" },
+        { "id": "5-4", "number": 4, "input": "text", "prompt": "A: Do you fancy coming to see a musical at the theatre tonight? B: Thanks, but I am not very keen on musicals. I prefer something more serious, more realistic. (a bit)", "answer": "a bit" },
+        { "id": "5-5", "number": 5, "input": "text", "prompt": "A: Have you read the latest Philip Roth novel? B: To be honest, I am not interested in fiction. I tend to read about politics and current affairs. (really)", "answer": "really" },
+        { "id": "5-6", "number": 6, "input": "text", "prompt": "A: I have seen all the Bond movies at least twice. B: Really? I am not fond of action movies. I am more into romantic comedies, to be honest. (that)", "answer": "that" }
       ]
-    },
-    { "type": "section", "title": "Vocabulary: Talking about pictures", "text": "" },
-    {
-      "type": "exercise", "id": "exercise-pictures-1", "title": "1 Complete the paragraph with the correct form of the words in brackets.",
-      "items": [
-        { "id": "p1-1", "number": 1, "input": "text", "prompt": "Describing a painting is always open to ... (interpret)", "answer": "interpretation" },
-        { "id": "p1-2", "number": 2, "input": "text", "prompt": "What appears ... (atmosphere)", "answer": "atmospheric" },
-        { "id": "p1-3", "number": 3, "input": "text", "prompt": "or ... (drama)", "answer": "dramatic" },
-        { "id": "p1-4", "number": 4, "input": "text", "prompt": "may seem dull or ... (convention) to another.", "answer": "conventional" },
-        { "id": "p1-5", "number": 5, "input": "text", "prompt": "because its meaning is often ... (ambiguity).", "answer": "ambiguous" }
-      ]
-    },
-    {
-      "type": "exercise", "id": "exercise-pictures-2", "title": "2 Complete the conversation with the words in the box.",
-      "wordBank": ["realistic", "intimate", "subtle", "abstract", "bold"],
-      "stickyImage": { "src": "images/lesson-1/gallery-illustration.png", "alt": "Two visitors looking at paintings in a modern art gallery", "caption": "Gallery scene" },
-      "items": [
-        { "id": "p2-1", "number": 1, "input": "text", "prompt": "It’s all a bit too ... for me.", "answer": "abstract" },
-        { "id": "p2-2", "number": 2, "input": "text", "prompt": "Look, this one is very ... . You feel you could almost pick up the fruit and eat it.", "answer": "realistic" },
-        { "id": "p2-3", "number": 3, "input": "text", "prompt": "The colours are very ... .", "answer": "bold" },
-        { "id": "p2-4", "number": 4, "input": "text", "prompt": "These colours are very soft and relaxing, ... .", "answer": "subtle" },
-        { "id": "p2-5", "number": 5, "input": "text", "prompt": "It’s too ... to share with other people, really.", "answer": "intimate" }
-      ]
-    },
-    {
-      "type": "exercise", "id": "exercise-pictures-3", "title": "3 Match the sentence halves.",
-      "items": [
-        { "id": "p3-1", "number": 1, "input": "select", "prompt": "This one is so realistic. It looks as ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it’s been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "looks a bit like your brother.", "show some sort of nightmare."], "answer": 3 },
-        { "id": "p3-2", "number": 2, "input": "select", "prompt": "Come and look at this. The man in the picture ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it’s been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "looks a bit like your brother.", "show some sort of nightmare."], "answer": 6 },
-        { "id": "p3-3", "number": 3, "input": "select", "prompt": "I don’t see the attraction. To me all his paintings ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it’s been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "looks a bit like your brother.", "show some sort of nightmare."], "answer": 4 },
-        { "id": "p3-4", "number": 4, "input": "select", "prompt": "She looks furious so they’ve ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it’s been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "looks a bit like your brother.", "show some sort of nightmare."], "answer": 5 },
-        { "id": "p3-5", "number": 5, "input": "select", "prompt": "The artist was born in Belgium and that could ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it’s been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "looks a bit like your brother.", "show some sort of nightmare."], "answer": 1 },
-        { "id": "p3-6", "number": 6, "input": "select", "prompt": "It all seems very weird. I think it must ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it’s been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "looks a bit like your brother.", "show some sort of nightmare."], "answer": 7 },
-        { "id": "p3-7", "number": 7, "input": "select", "prompt": "It’s a celebration and they appear ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it’s been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "looks a bit like your brother.", "show some sort of nightmare."], "answer": 0 },
-        { "id": "p3-8", "number": 8, "input": "select", "prompt": "Looking at this one, I get ...", "options": ["to have just got married.", "well be his hometown.", "look really dull.", "if it’s been photographed with a camera.", "the impression the artist was rather depressed.", "obviously been arguing.", "looks a bit like your brother.", "show some sort of nightmare."], "answer": 2 }
-      ]
-    },
-    {
-      "type": "exercise", "id": "exercise-adverbs-4", "title": "4 Find and correct the six sentences that contain mistakes with adjectives or adverbs.",
-      "items": [
-        { "id": "a4-1", "number": 2, "input": "text", "prompt": "She said it was an absolute dreadful film.", "answer": "She said it was an absolutely dreadful film." },
-        { "id": "a4-2", "number": 4, "input": "text", "prompt": "Don’t forget to check your work really careful.", "answer": "Don’t forget to check your work really carefully." },
-        { "id": "a4-3", "number": 3, "input": "text", "prompt": "If you aren’t lately for work again, you’ll be in real trouble.", "answer": "If you aren’t late for work again, you’ll be in real trouble." },
-        { "id": "a4-4", "number": 5, "input": "text", "prompt": "She looks very sadly. Do you think she’s been crying?", "answer": "She looks very sad. Do you think she’s been crying?" },
-        { "id": "a4-5", "number": 7, "input": "text", "prompt": "We hardly ever go to the cinema nowadays.", "scored": false },
-        { "id": "a4-6", "number": 8, "input": "text", "prompt": "Look direct at the camera and give a big smile!", "answer": "Look directly at the camera and give a big smile!" }
-      ]
-    },
-    {
-      "type": "exercise", "id": "exercise-adverbs-5", "title": "5 Complete the sentences with one word from box A and one from box B.",
-      "wordBank": ["unusually", "wrongly", "terribly", "absolutely", "completely", "badly", "rebuilt", "amazing", "injured", "chilly", "sad", "arrested"],
-      "items": [
-        { "id": "a5-1", "number": 1, "input": "text", "prompt": "Both the driver and passenger were ... in the accident.", "answer": "terribly injured" },
-        { "id": "a5-2", "number": 2, "input": "text", "prompt": "The gallery was ... after the fire.", "answer": "completely rebuilt" },
-        { "id": "a5-3", "number": 3, "input": "text", "prompt": "I was ... to hear the news of his death.", "answer": "terribly sad" },
-        { "id": "a5-4", "number": 4, "input": "text", "prompt": "The gig was ... – the best I’ve ever been to.", "answer": "absolutely amazing" },
-        { "id": "a5-5", "number": 5, "input": "text", "prompt": "The man was ... but then was released after new evidence came to light.", "answer": "wrongly arrested" },
-        { "id": "a5-6", "number": 6, "input": "text", "prompt": "This month has been ... . We haven’t had such low temperatures for years.", "answer": "unusually chilly" }
-      ]
-    },
-    { "type": "section", "title": "Developing writing: A review – making recommendations", "text": "" },
-    { "type": "exercise", "id": "exercise-writing-6", "title": "6 Read the possible headings for a gig review. According to the information in the Learner tip, which two would make you want to read the whole article?", "items": [{ "id": "w6", "number": "", "input": "multiple", "prompt": "", "options": ["Quest – The next big thing?", "Triumphant return of Quest", "A good gig"], "answer": [1, 2] }] },
-    { "type": "reading", "id": "quest-review", "title": "Quest", "text": "How often do you go along to a gig and see something new? Well, Quest’s Friday night gig at the City Hall certainly caught my attention. Having heard one or two tracks online, I was expecting a group of about six musicians. Imagine my surprise when just three young men walked on stage.\n\nIt was clear that the band already have a small but loyal following. A group of fans in front of the small stage were singing along to at least half of the songs. And it was easy to see why. Quest have a clever combination of catchy lyrics, an irresistible beat, and very much their own sound. All three of the band members play with great energy and expertise despite their age.\n\nThe only downside was when it came to the encores. They ended up repeating some of their material and giving us cover versions of early rock classics. A bit disappointing, but give them time and I’m sure they’ll be writing a lot more.\n\nI’m sure we’ll be hearing a lot more from Quest. Check them out every Friday at the City Hall until the end of the month. It’s well worth it." },
-    { "type": "exercise", "id": "exercise-writing-7", "title": "7 Read the review quickly and choose the correct heading from Exercise 6.", "items": [{ "id": "w7", "number": "", "input": "single", "prompt": "", "options": ["Quest – The next big thing?", "Triumphant return of Quest", "A good gig"], "answer": 2 }] },
-    { "type": "exercise", "id": "exercise-writing-8", "title": "8 Complete the sentences with the words in the box. There are two words that you don’t need.", "wordBank": ["downside", "singing along", "disappointing", "encores", "following", "worth", "irresistible", "expertise"], "items": [{ "id": "w8-1", "number": 1, "input": "text", "prompt": "One of the best things about the concert was the ... of the conductor.", "answer": "expertise" }, { "id": "w8-2", "number": 2, "input": "text", "prompt": "It was amazing to hear the crowd ... to all the band’s hits.", "answer": "singing along" }, { "id": "w8-3", "number": 3, "input": "text", "prompt": "It’s well ... the price of the concert ticket.", "answer": "worth" }, { "id": "w8-4", "number": 4, "input": "text", "prompt": "The biggest ... was the acoustics in the hall.", "answer": "downside" }, { "id": "w8-5", "number": 5, "input": "text", "prompt": "I can’t see why this pianist has such a large ... .", "answer": "following" }, { "id": "w8-6", "number": 6, "input": "text", "prompt": "After playing three ... , the band finally went off stage leaving the crowd still wanting more.", "answer": "encores" }] },
-    { "type": "exercise", "id": "exercise-writing-9", "title": "9 Match the collocations.", "items": [{ "id": "w9-1", "number": 1, "input": "select", "prompt": "give", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 1 }, { "id": "w9-2", "number": 2, "input": "select", "prompt": "play", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 3 }, { "id": "w9-3", "number": 3, "input": "select", "prompt": "develop", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 0 }, { "id": "w9-4", "number": 4, "input": "select", "prompt": "compose", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 5 }, { "id": "w9-5", "number": 5, "input": "select", "prompt": "give", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 4 }, { "id": "w9-6", "number": 6, "input": "select", "prompt": "put on", "options": ["an individual style", "a memorable performance", "an exciting light show", "an old cover version", "a two-minute standing ovation", "an inspiring piece of music"], "answer": 2 }] },
-    { "type": "exercise", "id": "exercise-writing-10", "title": "10 Write a review (150–190 words) of a gig / concert you have been to. Use the language in this section and the following plan to help you:", "items": [{ "id": "w10", "number": "", "input": "textarea", "prompt": "Include: an interesting heading and first sentence; where and when the concert was, and your expectations; positive aspects of the concert; negative aspects of the concert; your overall view and recommendation.", "scored": false, "placeholder": "Write your review here." }] }
+    }
   ]
 }
