@@ -1,0 +1,91 @@
+{
+  "id": "lesson-3",
+  "number": 3,
+  "title": "Idioms describing people",
+  "subtitle": "English Vocabulary in Use Upper-intermediate · Unit 9 · Consolidation practice",
+  "status": "available",
+  "publishedAt": "2026-09-14",
+  "notification": { "enabled": false, "version": 1 },
+  "vocabularyId": "vocab-lesson-3-idioms-people",
+  "grammarIds": [],
+  "totalPoints": 30,
+  "blocks": [
+    { "type": "section", "title": "Vocabulary: Idioms describing people", "text": "" },
+    {
+      "type": "exercise",
+      "id": "idioms-meaning-1",
+      "title": "1 Choose the correct meaning of each idiom.",
+      "instructions": "Read the idiom in bold. Choose the meaning that best explains it.",
+      "items": [
+        { "id": "m1-example", "number": "Example", "example": true, "prompt": "She has a heart of gold.", "exampleAnswer": "She is very kind and generous." },
+        { "id": "m1-1", "number": 1, "input": "select", "prompt": "He is as hard as nails.", "options": ["He is very strong physically.", "He shows no sympathy for other people.", "He works extremely hard."], "answer": 1 },
+        { "id": "m1-2", "number": 2, "input": "select", "prompt": "She is an awkward customer.", "options": ["She is difficult to deal with.", "She buys unusual things.", "She complains about prices."], "answer": 0 },
+        { "id": "m1-3", "number": 3, "input": "select", "prompt": "He has his head screwed on.", "options": ["He is sensible and practical.", "He never forgets names.", "He is very ambitious."], "answer": 0 },
+        { "id": "m1-4", "number": 4, "input": "select", "prompt": "She has her head in the clouds.", "options": ["She is imaginative but not very realistic.", "She is calm in a crisis.", "She is afraid of heights."], "answer": 0 },
+        { "id": "m1-5", "number": 5, "input": "select", "prompt": "He is a bit of an odd-ball.", "options": ["He is very lazy.", "He is unusual or strange.", "He is top of the class."], "answer": 1 },
+        { "id": "m1-6", "number": 6, "input": "select", "prompt": "She is a know-all.", "options": ["She thinks she knows everything.", "She always gets the best marks.", "She is good at remembering facts."], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "idioms-context-2",
+      "title": "2 Complete the sentences with the best idiom.",
+      "instructions": "Choose one idiom for each gap. Pay attention to whether the sentence is positive, negative or neutral.",
+      "wordBank": ["a heart of gold", "as good as gold", "a pain in the neck", "middle-of-the-road", "top of the class", "a lazy-bones", "round the bend", "keeps her head"],
+      "items": [
+        { "id": "c2-example", "number": "Example", "example": true, "prompt": "Mia helps everyone and never expects anything back. She has ...", "exampleAnswer": "a heart of gold" },
+        { "id": "c2-1", "number": 1, "input": "select", "prompt": "The children were quiet and polite all evening. They were ...", "options": ["a heart of gold", "as good as gold", "a pain in the neck", "middle-of-the-road", "top of the class", "a lazy-bones", "round the bend", "keeps her head"], "answer": 1 },
+        { "id": "c2-2", "number": 2, "input": "select", "prompt": "Leo never tidies his room and avoids every job. He is ...", "options": ["a heart of gold", "as good as gold", "a pain in the neck", "middle-of-the-road", "top of the class", "a lazy-bones", "round the bend", "keeps her head"], "answer": 5 },
+        { "id": "c2-3", "number": 3, "input": "select", "prompt": "My neighbour plays loud music at midnight. He is ...", "options": ["a heart of gold", "as good as gold", "a pain in the neck", "middle-of-the-road", "top of the class", "a lazy-bones", "round the bend", "keeps her head"], "answer": 2 },
+        { "id": "c2-4", "number": 4, "input": "select", "prompt": "Anna stays calm even when everyone else is stressed. She ...", "options": ["a heart of gold", "as good as gold", "a pain in the neck", "middle-of-the-road", "top of the class", "a lazy-bones", "round the bend", "keeps her head"], "answer": 7 },
+        { "id": "c2-5", "number": 5, "input": "select", "prompt": "His opinions are never extreme. They are usually ...", "options": ["a heart of gold", "as good as gold", "a pain in the neck", "middle-of-the-road", "top of the class", "a lazy-bones", "round the bend", "keeps her head"], "answer": 3 },
+        { "id": "c2-6", "number": 6, "input": "select", "prompt": "Grace gets the highest marks in almost every subject. She is ...", "options": ["a heart of gold", "as good as gold", "a pain in the neck", "middle-of-the-road", "top of the class", "a lazy-bones", "round the bend", "keeps her head"], "answer": 4 },
+        { "id": "c2-7", "number": 7, "input": "select", "prompt": "If I had to listen to that noise all day, I would go ...", "options": ["a heart of gold", "as good as gold", "a pain in the neck", "middle-of-the-road", "top of the class", "a lazy-bones", "round the bend", "keeps her head"], "answer": 6 },
+        { "id": "c2-8", "number": 8, "input": "select", "prompt": "Tom can be rude, but he is generous when it matters. He has ...", "options": ["a heart of gold", "as good as gold", "a pain in the neck", "middle-of-the-road", "top of the class", "a lazy-bones", "round the bend", "keeps her head"], "answer": 0 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "idioms-missing-word-3",
+      "title": "3 Complete each idiom with one missing word.",
+      "instructions": "Type only the missing word, not the whole idiom.",
+      "items": [
+        { "id": "mw3-example", "number": "Example", "example": true, "prompt": "a heart of ...", "exampleAnswer": "gold" },
+        { "id": "mw3-1", "number": 1, "input": "text", "prompt": "as hard as ...", "answer": "nails" },
+        { "id": "mw3-2", "number": 2, "input": "text", "prompt": "a nasty ... of work", "answer": "piece" },
+        { "id": "mw3-3", "number": 3, "input": "text", "prompt": "a head like a ...", "answer": "sieve" },
+        { "id": "mw3-4", "number": 4, "input": "text", "prompt": "a good head for ...", "answer": "figures" },
+        { "id": "mw3-5", "number": 5, "input": "text", "prompt": "head and ... above everyone else", "answer": "shoulders" },
+        { "id": "mw3-6", "number": 6, "input": "text", "prompt": "bury your head in the ...", "answer": "sand" }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "idioms-situations-4",
+      "title": "4 Choose the idiom that best describes each situation.",
+      "instructions": "Choose the idiom you would naturally use to talk about the person or behaviour.",
+      "items": [
+        { "id": "s4-example", "number": "Example", "example": true, "prompt": "Nina is kind, generous and always ready to help.", "exampleAnswer": "She has a heart of gold." },
+        { "id": "s4-1", "number": 1, "input": "select", "prompt": "Mark keeps telling everyone how brilliant he is.", "options": ["He is a big-head.", "He is as good as gold.", "He has his heart in the right place."], "answer": 0 },
+        { "id": "s4-2", "number": 2, "input": "select", "prompt": "Elena understands money, budgets and numbers very quickly.", "options": ["She has a head like a sieve.", "She has a good head for figures.", "She has her head in the clouds."], "answer": 1 },
+        { "id": "s4-3", "number": 3, "input": "select", "prompt": "Sam refuses to talk about a serious problem and hopes it will disappear.", "options": ["He is burying his head in the sand.", "He is keeping his head.", "He is head and shoulders above everyone else."], "answer": 0 },
+        { "id": "s4-4", "number": 4, "input": "select", "prompt": "Bella means well, even if she sometimes says the wrong thing.", "options": ["Her heart is in the right place.", "She is as hard as nails.", "She is a know-all."], "answer": 0 },
+        { "id": "s4-5", "number": 5, "input": "select", "prompt": "Oscar behaves in a very exaggerated way and makes every small problem dramatic.", "options": ["He is middle-of-the-road.", "He is over the top.", "He is top of the class."], "answer": 1 }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "idioms-natural-use-5",
+      "title": "5 Choose the most natural response.",
+      "instructions": "Choose the response that uses the idiom correctly and sounds natural.",
+      "items": [
+        { "id": "nu5-example", "number": "Example", "example": true, "prompt": "A: I forgot my keys again. B:", "exampleAnswer": "You have a head like a sieve." },
+        { "id": "nu5-1", "number": 1, "input": "single", "prompt": "A: My brother keeps correcting everyone, even when he is wrong. B:", "options": ["He sounds like a real know-all.", "He sounds as good as gold.", "He sounds middle-of-the-road."], "answer": 0 },
+        { "id": "nu5-2", "number": 2, "input": "single", "prompt": "A: Carla never panics, even under pressure. B:", "options": ["She really keeps her head.", "She really has her head in the clouds.", "She really gets on everyone’s nerves."], "answer": 0 },
+        { "id": "nu5-3", "number": 3, "input": "single", "prompt": "A: He has helped me every weekend since I moved house. B:", "options": ["He has a heart of gold.", "He is a nasty piece of work.", "He is an awkward customer."], "answer": 0 },
+        { "id": "nu5-4", "number": 4, "input": "single", "prompt": "A: I cannot work with Mia. She complains about every tiny detail. B:", "options": ["She sounds like an awkward customer.", "She sounds like a teacher’s pet.", "She sounds head and shoulders above everyone else."], "answer": 0 },
+        { "id": "nu5-5", "number": 5, "input": "single", "prompt": "A: Dan is miles better than the rest of the team. B:", "options": ["He is head and shoulders above them.", "He has his head in the clouds.", "He is a lazy-bones."], "answer": 0 }
+      ]
+    }
+  ]
+}

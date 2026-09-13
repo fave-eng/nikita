@@ -80,5 +80,47 @@ window.VOCABULARY_DATA = [
       { id: 'l2-16', uniqueKey: 'seem to', en: 'seem to', ru: 'to appear to be or do something', transcription: '', exampleEn: 'She seems to know the answer.', group: 'speculation' },
       { id: 'l2-17', uniqueKey: 'get the impression', en: 'get the impression', ru: 'to form an opinion based on what you notice', transcription: '', exampleEn: 'I get the impression that he is worried.', group: 'speculation' }
     ]
+  },
+  {
+    id: 'vocab-lesson-3-idioms-people',
+    title: 'Idioms describing people',
+    label: 'Unit 9 · 24 idioms and expressions',
+    icon: '🧠',
+    type: 'lesson',
+    linkedLessonId: 'lesson-3',
+    page: 'vocabulary.html?id=vocab-lesson-3-idioms-people',
+    description: 'Idioms for describing character, behaviour, ability and social habits.',
+    groups: [
+      { id: 'character', title: 'Character', subtitle: 'Positive and negative qualities', icon: '💬' },
+      { id: 'head', title: 'Head idioms', subtitle: 'Sense, memory and ability', icon: '🧠' },
+      { id: 'social', title: 'Social behaviour', subtitle: 'How people behave around others', icon: '👥' },
+      { id: 'classroom', title: 'Classroom people', subtitle: 'School and study idioms', icon: '📚' }
+    ],
+    words: [
+      { id: 'l3-01', uniqueKey: 'heart of gold', en: 'a heart of gold', ru: 'very kind and generous', transcription: '', exampleEn: 'Maya has a heart of gold and always helps new students.', group: 'character' },
+      { id: 'l3-02', uniqueKey: 'as hard as nails', en: 'as hard as nails', ru: 'showing no sympathy for others', transcription: '', exampleEn: 'The manager can be as hard as nails when people make excuses.', group: 'character' },
+      { id: 'l3-03', uniqueKey: 'as good as gold', en: 'as good as gold', ru: 'very well-behaved and helpful', transcription: '', exampleEn: 'The children were as good as gold during the visit.', group: 'character' },
+      { id: 'l3-04', uniqueKey: 'heart in the right place', en: 'to have your heart in the right place', ru: 'to mean well even if you make mistakes', transcription: '', exampleEn: 'His advice was clumsy, but his heart was in the right place.', group: 'character' },
+      { id: 'l3-05', uniqueKey: 'awkward customer', en: 'an awkward customer', ru: 'a difficult person to deal with', transcription: '', exampleEn: 'The new client is an awkward customer, so prepare carefully.', group: 'character' },
+      { id: 'l3-06', uniqueKey: 'pain in the neck', en: 'a pain in the neck', ru: 'someone or something very annoying', transcription: '', exampleEn: 'Changing the password every week is a pain in the neck.', group: 'character' },
+      { id: 'l3-07', uniqueKey: 'get on someone’s nerves', en: 'to get on someone’s nerves', ru: 'to irritate someone a lot', transcription: '', exampleEn: 'His constant tapping gets on everyone’s nerves.', group: 'character' },
+      { id: 'l3-08', uniqueKey: 'nasty piece of work', en: 'a nasty piece of work', ru: 'a very unpleasant person', transcription: '', exampleEn: 'I would not trust him; he is a nasty piece of work.', group: 'character' },
+      { id: 'l3-09', uniqueKey: 'head screwed on', en: 'to have your head screwed on', ru: 'to be sensible and practical', transcription: '', exampleEn: 'For someone so young, she really has her head screwed on.', group: 'head' },
+      { id: 'l3-10', uniqueKey: 'head for figures', en: 'to have a good head for figures', ru: 'to be good with numbers', transcription: '', exampleEn: 'Ask Omar to check the budget; he has a good head for figures.', group: 'head' },
+      { id: 'l3-11', uniqueKey: 'head like a sieve', en: 'to have a head like a sieve', ru: 'to have a bad memory', transcription: '', exampleEn: 'I forgot the meeting again. I have a head like a sieve.', group: 'head' },
+      { id: 'l3-12', uniqueKey: 'head in the clouds', en: 'to have your head in the clouds', ru: 'to be unrealistic or unaware of reality', transcription: '', exampleEn: 'He dreams about success but never works; his head is in the clouds.', group: 'head' },
+      { id: 'l3-13', uniqueKey: 'head and shoulders above', en: 'head and shoulders above someone', ru: 'much better than someone else', transcription: '', exampleEn: 'Her presentation was head and shoulders above the others.', group: 'head' },
+      { id: 'l3-14', uniqueKey: 'bury your head in the sand', en: 'to bury your head in the sand', ru: 'to refuse to face a difficult situation', transcription: '', exampleEn: 'You cannot bury your head in the sand about the deadline.', group: 'head' },
+      { id: 'l3-15', uniqueKey: 'keep your head', en: 'to keep your head', ru: 'to stay calm in a difficult situation', transcription: '', exampleEn: 'She kept her head and solved the problem quickly.', group: 'head' },
+      { id: 'l3-16', uniqueKey: 'odd-ball', en: 'an odd-ball', ru: 'a strange or unusual person', transcription: '', exampleEn: 'He is a bit of an odd-ball, but he is fun to work with.', group: 'social' },
+      { id: 'l3-17', uniqueKey: 'over the top', en: 'over the top', ru: 'too extreme or exaggerated', transcription: '', exampleEn: 'His reaction was completely over the top.', group: 'social' },
+      { id: 'l3-18', uniqueKey: 'round the bend', en: 'round the bend', ru: 'crazy or extremely annoyed', transcription: '', exampleEn: 'That noise is driving me round the bend.', group: 'social' },
+      { id: 'l3-19', uniqueKey: 'middle-of-the-road', en: 'middle-of-the-road', ru: 'normal, moderate and not extreme', transcription: '', exampleEn: 'Her politics are fairly middle-of-the-road.', group: 'social' },
+      { id: 'l3-20', uniqueKey: 'teacher’s pet', en: 'a teacher’s pet', ru: 'the teacher’s favourite student', transcription: '', exampleEn: 'Everyone says Max is the teacher’s pet.', group: 'classroom' },
+      { id: 'l3-21', uniqueKey: 'top of the class', en: 'top of the class', ru: 'the student with the best marks', transcription: '', exampleEn: 'Laura is top of the class in maths.', group: 'classroom' },
+      { id: 'l3-22', uniqueKey: 'know-all', en: 'a know-all', ru: 'someone who thinks they know everything', transcription: '', exampleEn: 'Do not be such a know-all; let other people speak.', group: 'classroom' },
+      { id: 'l3-23', uniqueKey: 'big-head', en: 'a big-head', ru: 'someone who thinks they are very important or clever', transcription: '', exampleEn: 'Winning one prize has turned him into a big-head.', group: 'classroom' },
+      { id: 'l3-24', uniqueKey: 'lazy-bones', en: 'a lazy-bones', ru: 'a very lazy person', transcription: '', exampleEn: 'Get up, lazy-bones. We need to leave in ten minutes.', group: 'classroom' }
+    ]
   }
 ];
