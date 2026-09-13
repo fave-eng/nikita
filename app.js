@@ -1695,6 +1695,45 @@
     });
   }
 
+  function setupExerciseDependencies(root, blocks) {
+    blocks.filter((block) => block.type === 'exercise' && safeText(block.dependsOn)).forEach((block, index) => {
+      const targetId = safeText(block.id, `task-${index}`);
+      const target = root.querySelector(`[data-task="${CSS.escape(targetId)}"]`);
+      const source = blocks.find((candidate) => safeText(candidate.id) === safeText(block.dependsOn));
+      const sourceNode = source ? root.querySelector(`[data-task="${CSS.escape(safeText(source.id))}"]`) : null;
+      if (!target || !source || !sourceNode) return;
+
+      const status = target.querySelector('[data-exercise-dependency]');
+      const controls = [...target.querySelectorAll('input, select, textarea')];
+      const update = () => {
+        const sourceItems = Array.isArray(source.items) ? source.items.filter((item) => !item.example) : [];
+        const selected = sourceItems.map((item, itemIndex) => {
+          const itemNode = sourceNode.querySelector(`[data-exercise-item="${CSS.escape(safeText(item.id, `${itemIndex + 1}`))}"]`);
+          if (!itemNode) return '';
+          if (item.input === 'single') return itemNode.querySelector('input:checked')?.value ?? '';
+          if (item.input === 'select') return itemNode.querySelector('select')?.value ?? '';
+          return itemNode.querySelector('input, textarea')?.value?.trim() || '';
+        });
+        const ready = sourceItems.length > 0 && selected.every((value) => value !== '');
+        controls.forEach((control) => { control.disabled = !ready; });
+        if (!status) return;
+        if (!ready) {
+          status.textContent = safeText(block.dependencyWaitingText, 'Complete the previous exercise first.');
+          status.classList.remove('is-ready');
+          return;
+        }
+        const sourceOptions = sourceItems.flatMap((item) => Array.isArray(item.options) ? item.options : []);
+        const chosen = new Set(sourceItems.map((item, itemIndex) => item.options?.[Number(selected[itemIndex])]).filter(Boolean));
+        const remaining = unique(sourceOptions.filter((option) => !chosen.has(option)));
+        status.textContent = `${safeText(block.dependencyReadyText, 'Use these answers from the previous exercise:')} ${remaining.join(' · ')}`;
+        status.classList.add('is-ready');
+      };
+      sourceNode.addEventListener('input', update);
+      sourceNode.addEventListener('change', update);
+      update();
+    });
+  }
+
   function renderLessonBlock(block, index) {
     const id = safeText(block.id, `task-${index}`);
     const title = escapeHtml(block.title || block.prompt || `Homework ${index + 1}`);
@@ -1732,9 +1771,14 @@
       }).join('')}</div>` : '';
       const dialogue = renderExerciseDialogue(block);
       const contentCards = renderExerciseContentCards(block);
-      return `<article class="card lesson-block exercise-card" data-task="${escapeHtml(id)}" data-type="exercise">
+      const stickyImage = block.stickyImage && typeof block.stickyImage === 'object' && block.stickyImage.src
+        ? `<figure class="exercise-sticky-media"><img src="${escapeHtml(block.stickyImage.src)}" alt="${escapeHtml(block.stickyImage.alt || '')}" loading="lazy">${block.stickyImage.caption ? `<figcaption>${escapeHtml(block.stickyImage.caption)}</figcaption>` : ''}</figure>`
+        : '';
+      const exerciseItems = `<div class="exercise-items">${items.map((item, itemIndex) => renderExerciseItem(item, id, itemIndex)).join('')}</div>`;
+      const dependency = block.dependsOn ? `<p class="exercise-dependency" data-exercise-dependency></p>` : '';
+      return `<article class="card lesson-block exercise-card${stickyImage ? ' has-sticky-media' : ''}" data-task="${escapeHtml(id)}" data-type="exercise">
         <div class="exercise-heading"><span class="eyebrow">Exercise</span><h3>${title}</h3>${block.instructions ? `<p class="muted exercise-instructions">${escapeHtml(block.instructions)}</p>` : ''}${player}${wordBank}${media}${dialogue}${contentCards}</div>
-        <div class="exercise-items">${items.map((item, itemIndex) => renderExerciseItem(item, id, itemIndex)).join('')}</div>
+        ${dependency}${stickyImage ? `<div class="exercise-sticky-layout">${stickyImage}${exerciseItems}</div>` : exerciseItems}
       </article>`;
     }
     if (block.type === 'family-tree') return renderFamilyTreeBlock(block, id, title);
@@ -2171,6 +2215,7 @@
     );
     restoreLessonAnswers(root, blocks, restoredAnswers);
     setupReadingQuizBlocks(root, blocks);
+    setupExerciseDependencies(root, blocks);
     setupManualLessonWidgets(root);
     setupSpeechPlayers(root);
     root.querySelectorAll('[data-mark-index]').forEach((button) => {
