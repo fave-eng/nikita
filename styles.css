@@ -827,7 +827,29 @@ body[data-view="lesson"] #lesson-root {
 }
 
 .exercise-example {
+  border-color: #c7d2fe;
   background: #fbfcfe;
+}
+
+.exercise-example .exercise-item-header {
+  align-items: flex-start;
+}
+
+.exercise-example .exercise-number {
+  width: auto;
+  min-width: 92px;
+  height: auto;
+  min-height: 31px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #4f46e5;
+  line-height: 1;
+}
+
+.exercise-example .exercise-prompt {
+  max-width: 760px;
+  padding-top: 4px;
 }
 
 .example-answer {
@@ -839,6 +861,7 @@ body[data-view="lesson"] #lesson-root {
   padding: 11px 13px;
   border: 1px dashed #cbd5e1;
   border-radius: 11px;
+  background: #fff;
   color: #475569;
 }
 
@@ -1127,6 +1150,13 @@ body[data-view="lesson"] #lesson-root {
   .exercise-number {
     width: 28px;
     height: 28px;
+  }
+
+  .exercise-example .exercise-number {
+    width: auto;
+    min-width: 86px;
+    height: auto;
+    min-height: 28px;
   }
 
   .lesson-actions .button-row,

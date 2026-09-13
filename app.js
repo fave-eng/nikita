@@ -1129,7 +1129,7 @@
     if (item.example) {
       return `<div class="exercise-item exercise-example" data-exercise-item="${escapeHtml(itemId)}">
         <div class="exercise-item-header">${numberMarkup}<div class="exercise-prompt">${prompt}</div></div>
-        <div class="example-answer"><span>Example</span><strong>${escapeHtml(item.exampleAnswer || '')}</strong></div>
+        <div class="example-answer"><span>Answer</span><strong>${escapeHtml(item.exampleAnswer || '')}</strong></div>
       </div>`;
     }
 
