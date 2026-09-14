@@ -5,7 +5,7 @@
   "subtitle": "Outcomes B2, 3rd edition · Unit 1B-1C · Workbook practice",
   "status": "available",
   "publishedAt": "2026-09-14",
-  "notification": { "enabled": false, "version": 1 },
+  "notification": { "enabled": true, "version": 1 },
   "vocabularyId": "vocab-lesson-2-films-pictures",
   "grammarIds": ["grammar-lesson-2-speculation"],
   "totalPoints": 30,
