@@ -16,6 +16,13 @@
   "totalPoints": 39,
   "blocks": [
     {
+      "type": "grammar-link",
+      "title": "Adjectives and adverbs",
+      "text": "",
+      "grammarId": "grammar-lesson-4-adjectives-adverbs",
+      "buttonLabel": "Open topic"
+    },
+    {
       "type": "section",
       "title": "Vocabulary: Talking about pictures",
       "text": ""
@@ -360,13 +367,6 @@
           "answer": "unusually chilly"
         }
       ]
-    },
-    {
-      "type": "grammar-link",
-      "title": "Adjectives and adverbs",
-      "text": "",
-      "grammarId": "grammar-lesson-4-adjectives-adverbs",
-      "buttonLabel": "Open topic"
     },
     {
       "type": "section",
