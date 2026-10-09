@@ -36,23 +36,8 @@
     .exercise-card.exercise-layout-media-list .exercise-item.has-item-media .exercise-item-header { grid-area: header; }
     .exercise-card.exercise-layout-media-list .exercise-item.has-item-media .exercise-control { grid-area: control; padding-left: 0; }
     .exercise-card.exercise-layout-media-list .exercise-item.has-item-media > .feedback { grid-area: feedback; }
-    @media (max-width: 620px) {
-      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media { grid-template-columns: 92px minmax(0, 1fr); column-gap: 12px; }
-      .exercise-card.exercise-layout-media-list .exercise-item-media { width: 92px; }
-    }
-    @media (max-width: 420px) {
-      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media {
-        grid-template-columns: 84px minmax(0, 1fr);
-        grid-template-areas: "media header" "control control" "feedback feedback";
-        row-gap: 12px;
-      }
-      .exercise-card.exercise-layout-media-list .exercise-item-media { width: 84px; }
-      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media .exercise-item-header { margin-bottom: 0; }
-    }
 
-    .lesson-vocabulary-shortcut {
-      margin-bottom: 18px;
-    }
+    .lesson-vocabulary-shortcut { margin-bottom: 18px; }
     .lesson-vocabulary-link {
       display: flex;
       align-items: center;
@@ -77,12 +62,7 @@
       outline: 3px solid rgba(124, 58, 237, 0.25);
       outline-offset: 3px;
     }
-    .lesson-vocabulary-copy {
-      display: flex;
-      align-items: center;
-      gap: 13px;
-      min-width: 0;
-    }
+    .lesson-vocabulary-copy { display: flex; align-items: center; gap: 13px; min-width: 0; }
     .lesson-vocabulary-icon {
       display: grid;
       place-items: center;
@@ -94,9 +74,7 @@
       border-radius: 14px;
     }
     .lesson-vocabulary-text strong,
-    .lesson-vocabulary-text span {
-      display: block;
-    }
+    .lesson-vocabulary-text span { display: block; }
     .lesson-vocabulary-text strong {
       margin-bottom: 3px;
       font-family: "Plus Jakarta Sans", sans-serif;
@@ -113,22 +91,307 @@
       color: var(--violet);
       transition: transform 180ms ease;
     }
-    .lesson-vocabulary-link:hover .lesson-vocabulary-arrow {
-      transform: translateX(4px);
+    .lesson-vocabulary-link:hover .lesson-vocabulary-arrow { transform: translateX(4px); }
+
+
+    /* Homework 5: Exercises 2 and 3 are integrated into the article itself. */
+    .lesson-reading-hidden-source {
+      display: none !important;
     }
+
+    .reading-card.inline-reading-card {
+      width: min(100%, 980px);
+      margin-inline: auto;
+      overflow: visible;
+    }
+
+    .article-reading-task {
+      margin: 18px 0 20px;
+      padding: 16px;
+      border: 1.5px solid #c7d2fe;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #ffffff 0%, #f8f7ff 100%);
+    }
+
+    .article-reading-task-head {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .article-reading-task-number {
+      display: grid;
+      place-items: center;
+      flex: 0 0 34px;
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--indigo), var(--violet));
+      color: #fff;
+      font-weight: 900;
+    }
+
+    .article-reading-task-head strong {
+      display: block;
+      margin-bottom: 3px;
+      color: var(--dark);
+      font-size: .95rem;
+    }
+
+    .article-reading-task-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .86rem;
+      line-height: 1.5;
+    }
+
+    .article-sentence-bank {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .article-sentence-option {
+      display: grid;
+      grid-template-columns: 28px minmax(0, 1fr);
+      gap: 8px;
+      align-items: start;
+      padding: 9px 10px;
+      border: 1px solid #ddd6fe;
+      border-radius: 11px;
+      background: #fff;
+      color: #334155;
+      font-size: .82rem;
+      line-height: 1.4;
+    }
+
+    .article-sentence-option strong {
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: #eef2ff;
+      color: #4338ca;
+      text-transform: lowercase;
+    }
+
+    .reading-card.inline-reading-card .reading-sections {
+      gap: 16px;
+    }
+
+    .reading-card.inline-reading-card .reading-section {
+      padding: 16px 17px;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    .reading-card.inline-reading-card .reading-section-copy {
+      color: #27364a;
+      font-size: .98rem;
+      line-height: 1.78;
+    }
+
+    .article-gap-control {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin: 2px 4px;
+      padding: 4px 6px;
+      border: 1.5px solid #a5b4fc;
+      border-radius: 10px;
+      background: #eef2ff;
+      vertical-align: baseline;
+      box-shadow: 0 2px 0 rgba(79, 70, 229, .06);
+    }
+
+    .article-gap-badge {
+      display: inline-grid;
+      place-items: center;
+      width: 23px;
+      height: 23px;
+      border-radius: 7px;
+      background: #4f46e5;
+      color: #fff;
+      font-size: .72rem;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .article-gap-select {
+      width: 68px;
+      min-width: 68px;
+      min-height: 34px;
+      padding: 5px 28px 5px 8px;
+      border: 1px solid #818cf8;
+      border-radius: 8px;
+      background-color: #fff;
+      color: #312e81;
+      font: inherit;
+      font-weight: 850;
+    }
+
+    .article-gap-preview {
+      flex: 1 1 260px;
+      min-width: 180px;
+      color: #3730a3;
+      font-size: .88rem;
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    .article-gap-preview:empty {
+      display: none;
+    }
+
+    .article-gap-control.is-correct {
+      border-color: #22c55e;
+      background: #f0fdf4;
+    }
+
+    .article-gap-control.is-correct .article-gap-badge {
+      background: #16a34a;
+    }
+
+    .article-gap-control.is-wrong {
+      border-color: #f87171;
+      background: #fef2f2;
+    }
+
+    .article-gap-control.is-wrong .article-gap-badge {
+      background: #dc2626;
+    }
+
+    .article-summary-control {
+      display: grid;
+      grid-template-columns: minmax(140px, .35fr) minmax(0, 1fr);
+      gap: 10px;
+      align-items: center;
+      margin-top: 14px;
+      padding: 11px 12px;
+      border-top: 1px dashed #cbd5e1;
+      background: #fafafa;
+      border-radius: 0 0 12px 12px;
+    }
+
+    .article-summary-label {
+      color: #4f46e5;
+      font-size: .76rem;
+      font-weight: 900;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .article-summary-select {
+      width: 100%;
+      min-width: 0;
+      min-height: 42px;
+      padding: 8px 36px 8px 10px;
+      border: 1px solid #c7d2fe;
+      border-radius: 10px;
+      background: #fff;
+      color: #1f2937;
+      font: inherit;
+      font-size: .9rem;
+      font-weight: 700;
+    }
+
+    .article-summary-control.is-correct {
+      border-top-color: #86efac;
+      background: #f0fdf4;
+    }
+
+    .article-summary-control.is-wrong {
+      border-top-color: #fca5a5;
+      background: #fef2f2;
+    }
+
+    .reading-card.inline-reading-card .reading-section:last-child {
+      background: #f8fafc;
+    }
+
+    /* Keep replacement targets visibly underlined, exactly like the workbook. */
+    .exercise-prompt .replacement-target {
+      text-decoration-line: underline;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+      text-decoration-color: #334155;
+      font-weight: inherit;
+    }
+
+    /* Homework 5 inline gaps: long enough to see complete B2 answers. */
+    [data-task="hw5-vbq1-3"] .sentence-gaps.has-wide-gaps .gap-input {
+      width: clamp(150px, 22vw, 230px);
+      min-width: 150px;
+      text-align: left;
+    }
+    [data-task="hw5-vbq1-3"] .exercise-item-header .exercise-prompt:empty {
+      display: none;
+    }
+    [data-task="hw5-vbq1-3"] .exercise-item-header:has(.exercise-prompt:empty) {
+      margin-bottom: 4px;
+    }
+
+    [data-task="hw5-unit2-vocab-2"] .sentence-gaps.has-wide-gaps .gap-input {
+      width: clamp(170px, 25vw, 290px);
+      min-width: 170px;
+      text-align: left;
+    }
+
+
+
+    @media (max-width: 760px) {
+      .article-sentence-bank {
+        grid-template-columns: 1fr;
+      }
+
+      .article-summary-control {
+        grid-template-columns: 1fr;
+        gap: 7px;
+      }
+
+      .article-gap-control {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        max-width: 100%;
+      }
+
+      .article-gap-preview {
+        grid-column: 1 / -1;
+        min-width: 0;
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media {
+        grid-template-columns: 92px minmax(0, 1fr);
+        column-gap: 12px;
+      }
+      .exercise-card.exercise-layout-media-list .exercise-item-media { width: 92px; }
+
+      [data-task="hw5-vbq1-3"] .sentence-gaps.has-wide-gaps .gap-input,
+      [data-task="hw5-unit2-vocab-2"] .sentence-gaps.has-wide-gaps .gap-input {
+        width: min(100%, 280px);
+        min-width: 150px;
+      }
+    }
+
     @media (max-width: 420px) {
-      .lesson-vocabulary-link {
-        min-height: 66px;
-        padding: 14px;
+      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media {
+        grid-template-columns: 84px minmax(0, 1fr);
+        grid-template-areas: "media header" "control control" "feedback feedback";
+        row-gap: 12px;
       }
-      .lesson-vocabulary-icon {
-        flex-basis: 40px;
-        width: 40px;
-        height: 40px;
-      }
-      .lesson-vocabulary-text span {
-        font-size: 0.78rem;
-      }
+      .exercise-card.exercise-layout-media-list .exercise-item-media { width: 84px; }
+      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media .exercise-item-header { margin-bottom: 0; }
+
+      .lesson-vocabulary-link { min-height: 66px; padding: 14px; }
+      .lesson-vocabulary-icon { flex-basis: 40px; width: 40px; height: 40px; }
+      .lesson-vocabulary-text span { font-size: 0.78rem; }
     }
   </style>
 
@@ -154,9 +417,9 @@
   <main id="main" class="main-content container">
 
     <a class="lesson-back-link" href="homework.html">
-  <span aria-hidden="true">←</span>
-  Back to homework
-</a>
+      <span aria-hidden="true">←</span>
+      Back to homework
+    </a>
 
     <section class="section reveal">
       <div id="lesson-vocabulary-shortcut" class="lesson-vocabulary-shortcut" hidden></div>
@@ -173,7 +436,6 @@
   </nav>
   <div class="toast" id="app-toast" role="status" aria-live="polite"></div>
 
-
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const root = document.getElementById('lesson-root');
@@ -187,7 +449,331 @@
       let lesson = null;
       let applying = false;
 
-      const applyImages = () => {
+      const underlinePrompt = (node, phrase) => {
+        const prompt = node?.querySelector('.exercise-prompt');
+        const target = String(phrase || '');
+        if (!prompt || !target || prompt.dataset.underlineEnhanced === 'true') return;
+        const source = prompt.textContent || '';
+        const start = source.indexOf(target);
+        if (start < 0) return;
+
+        const before = document.createTextNode(source.slice(0, start));
+        const marked = document.createElement('u');
+        marked.className = 'replacement-target';
+        marked.textContent = target;
+        const after = document.createTextNode(source.slice(start + target.length));
+        prompt.replaceChildren(before, marked, after);
+        prompt.dataset.underlineEnhanced = 'true';
+      };
+
+      const readingSourceSelect = (exercise, itemId) =>
+        exercise?.querySelector(`[data-exercise-item="${esc(itemId)}"] select`);
+
+      const setSourceSelectValue = (select, value) => {
+        if (!select) return;
+        select.value = value;
+        select.dispatchEvent(new Event('change', { bubbles: true }));
+      };
+
+      const applyInlineReadingTasks = () => {
+        if (lessonId !== 'lesson-5') return;
+        if (root.querySelector('.reading-card.inline-reading-card')) return;
+
+        const article = root.querySelector('.reading-card');
+        const ex2 = root.querySelector('[data-task="hw5-reading-2"]');
+        const ex3 = root.querySelector('[data-task="hw5-reading-3"]');
+        if (!article || !ex2 || !ex3) return;
+
+        const ex2Block = lesson.blocks.find((block) => block.id === 'hw5-reading-2');
+        const ex3Block = lesson.blocks.find((block) => block.id === 'hw5-reading-3');
+        if (!ex2Block || !ex3Block) return;
+
+        const readingSections = [...article.querySelectorAll('.reading-section')];
+        const articleParagraphs = readingSections.slice(0, 5);
+        if (articleParagraphs.length !== 5) return;
+
+        article.classList.add('inline-reading-card');
+        ex2.classList.add('lesson-reading-hidden-source');
+        ex3.classList.add('lesson-reading-hidden-source');
+        ex2.setAttribute('aria-hidden', 'true');
+        ex3.setAttribute('aria-hidden', 'true');
+
+        const firstSection = articleParagraphs[0];
+        const task = document.createElement('section');
+        task.className = 'article-reading-task';
+
+        const head = document.createElement('div');
+        head.className = 'article-reading-task-head';
+
+        const taskNumber = document.createElement('span');
+        taskNumber.className = 'article-reading-task-number';
+        taskNumber.textContent = '2';
+
+        const headCopy = document.createElement('div');
+        const headTitle = document.createElement('strong');
+        headTitle.textContent = 'Complete the article.';
+        const headText = document.createElement('p');
+        headText.textContent = String(ex2Block.title || '').replace(/^2\s*/, '');
+        headCopy.append(headTitle, headText);
+        head.append(taskNumber, headCopy);
+
+        const bank = document.createElement('div');
+        bank.className = 'article-sentence-bank';
+
+        (ex2Block.wordBank || []).forEach((entry) => {
+          const match = String(entry).match(/^([a-h])\s+(.*)$/i);
+          const row = document.createElement('div');
+          row.className = 'article-sentence-option';
+
+          const letter = document.createElement('strong');
+          letter.textContent = match ? match[1] : '';
+
+          const text = document.createElement('span');
+          text.textContent = match ? match[2] : String(entry);
+
+          row.append(letter, text);
+          bank.appendChild(row);
+        });
+
+        task.append(head, bank);
+        firstSection.parentNode.insertBefore(task, firstSection);
+
+        const gapItems = new Map(
+          (ex2Block.items || []).map((item) => [String(item.number || '').trim(), item])
+        );
+
+        articleParagraphs.forEach((section) => {
+          const paragraph = section.querySelector('.reading-section-copy');
+          if (!paragraph) return;
+
+          const sourceText = paragraph.textContent || '';
+          const fragment = document.createDocumentFragment();
+          const pattern = /\[(\d+)\]/g;
+          let cursor = 0;
+          let match;
+
+          while ((match = pattern.exec(sourceText))) {
+            fragment.append(document.createTextNode(sourceText.slice(cursor, match.index)));
+
+            const gapNumber = match[1];
+            const item = gapItems.get(gapNumber);
+            const sourceSelect = item ? readingSourceSelect(ex2, item.id) : null;
+
+            if (!item || !sourceSelect) {
+              fragment.append(document.createTextNode(match[0]));
+              cursor = pattern.lastIndex;
+              continue;
+            }
+
+            const wrap = document.createElement('span');
+            wrap.className = 'article-gap-control';
+            wrap.dataset.gapItemId = item.id;
+
+            const badge = document.createElement('span');
+            badge.className = 'article-gap-badge';
+            badge.textContent = gapNumber;
+
+            const select = document.createElement('select');
+            select.className = 'article-gap-select';
+            select.setAttribute('aria-label', `Gap ${gapNumber}`);
+
+            const empty = document.createElement('option');
+            empty.value = '';
+            empty.textContent = '—';
+            select.appendChild(empty);
+
+            (item.options || []).forEach((option, optionIndex) => {
+              const optionNode = document.createElement('option');
+              optionNode.value = String(optionIndex);
+              optionNode.textContent = option;
+              select.appendChild(optionNode);
+            });
+
+            const preview = document.createElement('span');
+            preview.className = 'article-gap-preview';
+
+            const updatePreview = () => {
+              if (select.value === '') {
+                preview.textContent = '';
+                return;
+              }
+
+              const optionIndex = Number(select.value);
+              const letter = item.options?.[optionIndex];
+              const bankEntry = (ex2Block.wordBank || []).find((entry) =>
+                String(entry).toLowerCase().startsWith(`${String(letter).toLowerCase()} `)
+              );
+
+              preview.textContent = bankEntry
+                ? String(bankEntry).replace(/^[a-h]\s+/i, '')
+                : '';
+            };
+
+            select.value = sourceSelect.value;
+            updatePreview();
+
+            select.addEventListener('change', () => {
+              setSourceSelectValue(sourceSelect, select.value);
+              updatePreview();
+            });
+
+            wrap.append(badge, select, preview);
+            fragment.append(wrap);
+            cursor = pattern.lastIndex;
+          }
+
+          fragment.append(document.createTextNode(sourceText.slice(cursor)));
+          paragraph.replaceChildren(fragment);
+        });
+
+        const summaryItems = Array.isArray(ex3Block.items) ? ex3Block.items : [];
+
+        const syncSummaryProxies = () => {
+          articleParagraphs.forEach((section, paragraphIndex) => {
+            const proxy = section.querySelector('.article-summary-select');
+            if (!proxy) return;
+
+            const paragraphValue = String(paragraphIndex);
+            const selectedItem = summaryItems.find((item) => {
+              const source = readingSourceSelect(ex3, item.id);
+              return source?.value === paragraphValue;
+            });
+
+            proxy.value = selectedItem?.id || '';
+          });
+        };
+
+        articleParagraphs.forEach((section, paragraphIndex) => {
+          const control = document.createElement('div');
+          control.className = 'article-summary-control';
+
+          const label = document.createElement('span');
+          label.className = 'article-summary-label';
+          label.textContent = `Exercise 3 · Paragraph ${paragraphIndex + 1} summary`;
+
+          const select = document.createElement('select');
+          select.className = 'article-summary-select';
+          select.setAttribute('aria-label', `Summary for paragraph ${paragraphIndex + 1}`);
+
+          const empty = document.createElement('option');
+          empty.value = '';
+          empty.textContent = 'Choose the summary';
+          select.appendChild(empty);
+
+          summaryItems.forEach((item) => {
+            const option = document.createElement('option');
+            option.value = item.id;
+            option.textContent = item.prompt;
+            select.appendChild(option);
+          });
+
+          select.addEventListener('change', () => {
+            const paragraphValue = String(paragraphIndex);
+            const selectedId = select.value;
+
+            summaryItems.forEach((item) => {
+              const source = readingSourceSelect(ex3, item.id);
+              if (!source) return;
+
+              if (item.id === selectedId) {
+                source.value = paragraphValue;
+                source.dispatchEvent(new Event('change', { bubbles: true }));
+              } else if (source.value === paragraphValue) {
+                source.value = '';
+                source.dispatchEvent(new Event('change', { bubbles: true }));
+              }
+            });
+
+            syncSummaryProxies();
+          });
+
+          control.append(label, select);
+          section.appendChild(control);
+        });
+
+        const syncInlineReadingState = () => {
+          article.querySelectorAll('.article-gap-control').forEach((wrap) => {
+            const itemId = wrap.dataset.gapItemId;
+            const sourceItem = ex2.querySelector(`[data-exercise-item="${esc(itemId)}"]`);
+            const sourceSelect = sourceItem?.querySelector('select');
+            const proxy = wrap.querySelector('.article-gap-select');
+            const preview = wrap.querySelector('.article-gap-preview');
+
+            if (proxy && sourceSelect && proxy.value !== sourceSelect.value) {
+              proxy.value = sourceSelect.value;
+              const optionIndex = proxy.value === '' ? -1 : Number(proxy.value);
+              const item = gapItems.get(String(sourceItem?.querySelector('.exercise-number')?.textContent || '').trim());
+              const letter = optionIndex >= 0 ? item?.options?.[optionIndex] : null;
+              const bankEntry = letter
+                ? (ex2Block.wordBank || []).find((entry) =>
+                    String(entry).toLowerCase().startsWith(`${String(letter).toLowerCase()} `)
+                  )
+                : null;
+              if (preview) preview.textContent = bankEntry ? String(bankEntry).replace(/^[a-h]\s+/i, '') : '';
+            }
+
+            if (proxy && sourceSelect) proxy.disabled = sourceSelect.disabled;
+
+            wrap.classList.toggle('is-correct', Boolean(sourceItem?.classList.contains('is-correct')));
+            wrap.classList.toggle('is-wrong', Boolean(sourceItem?.classList.contains('is-wrong')));
+          });
+
+          syncSummaryProxies();
+
+          articleParagraphs.forEach((section, paragraphIndex) => {
+            const control = section.querySelector('.article-summary-control');
+            const proxy = control?.querySelector('.article-summary-select');
+            if (!control || !proxy) return;
+
+            const selectedId = proxy.value;
+            const selectedSourceItem = selectedId
+              ? ex3.querySelector(`[data-exercise-item="${esc(selectedId)}"]`)
+              : null;
+            const selectedSource = selectedSourceItem?.querySelector('select');
+
+            if (proxy && selectedSource) proxy.disabled = selectedSource.disabled;
+
+            const correct = Boolean(
+              selectedSourceItem?.classList.contains('is-correct') &&
+              selectedSource?.value === String(paragraphIndex)
+            );
+            const wrong = Boolean(
+              selectedSourceItem?.classList.contains('is-wrong') &&
+              selectedSource?.value === String(paragraphIndex)
+            );
+
+            control.classList.toggle('is-correct', correct);
+            control.classList.toggle('is-wrong', wrong);
+          });
+        };
+
+        syncSummaryProxies();
+        syncInlineReadingState();
+
+        const sourceObserver = new MutationObserver(syncInlineReadingState);
+        sourceObserver.observe(ex2, {
+          subtree: true,
+          attributes: true,
+          attributeFilter: ['class', 'disabled']
+        });
+        sourceObserver.observe(ex3, {
+          subtree: true,
+          attributes: true,
+          attributeFilter: ['class', 'disabled']
+        });
+
+        root.addEventListener('click', (event) => {
+          if (event.target.closest('#check-lesson') || event.target.closest('#submit-lesson')) {
+            window.setTimeout(syncInlineReadingState, 0);
+            window.setTimeout(syncInlineReadingState, 120);
+          }
+        });
+
+        window.setTimeout(syncInlineReadingState, 80);
+        window.setTimeout(syncInlineReadingState, 500);
+      };
+
+      const applyEnhancements = () => {
         if (!lesson || applying) return;
         applying = true;
         try {
@@ -198,37 +784,44 @@
             if (block.layout === 'media-list') exercise.classList.add('exercise-layout-media-list');
 
             for (const item of block.items) {
-              if (!item?.id || !item.image) continue;
+              if (!item?.id) continue;
               const node = exercise.querySelector(`[data-exercise-item="${esc(item.id)}"]`);
-              if (!node || node.dataset.mediaEnhanced === 'true') continue;
+              if (!node) continue;
 
-              const figure = document.createElement('figure');
-              figure.className = 'exercise-item-media';
-              const image = document.createElement('img');
-              image.src = item.image;
-              image.alt = item.imageAlt || '';
-              image.loading = 'lazy';
-              image.decoding = 'async';
-              figure.appendChild(image);
-              node.insertBefore(figure, node.firstChild);
-              node.classList.add('has-item-media');
-              node.dataset.mediaEnhanced = 'true';
+              if (item.underline) underlinePrompt(node, item.underline);
+
+              if (item.image && node.dataset.mediaEnhanced !== 'true') {
+                const figure = document.createElement('figure');
+                figure.className = 'exercise-item-media';
+                const image = document.createElement('img');
+                image.src = item.image;
+                image.alt = item.imageAlt || '';
+                image.loading = 'lazy';
+                image.decoding = 'async';
+                figure.appendChild(image);
+                node.insertBefore(figure, node.firstChild);
+                node.classList.add('has-item-media');
+                node.dataset.mediaEnhanced = 'true';
+              }
             }
           }
+
+          applyInlineReadingTasks();
         } finally {
           applying = false;
         }
       };
 
-      new MutationObserver(applyImages).observe(root, { childList: true, subtree: true });
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=1`, { cache: 'no-store' })
+      new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
+
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=3`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
         })
         .then((data) => {
           lesson = data;
-          applyImages();
+          applyEnhancements();
 
           const shortcut = document.getElementById('lesson-vocabulary-shortcut');
           const vocabularyId = String(data.vocabularyId || '').trim();
@@ -263,7 +856,7 @@
             shortcut.hidden = false;
           }
         })
-        .catch((error) => console.warn('Lesson images were not loaded.', error));
+        .catch((error) => console.warn('Lesson enhancements were not loaded.', error));
     });
   </script>
 
