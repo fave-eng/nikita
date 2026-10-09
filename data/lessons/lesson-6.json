@@ -13,7 +13,7 @@
   "grammarIds": [
     "grammar-lesson-6-question-formation"
   ],
-  "totalPoints": 31,
+  "totalPoints": 32,
   "blocks": [
     {
       "type": "grammar-link",
@@ -380,107 +380,86 @@
       ],
       "items": [
         {
-          "id": "2c-1",
+          "id": "2c-interest",
           "number": "",
-          "example": true,
-          "prompt": "How interesting!",
-          "exampleAnswer": "Expressions showing interest"
+          "input": "select-gaps",
+          "prompt": "Expressions showing interest · How interesting! (example)",
+          "segments": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "options": [
+            "How interesting!",
+            "I’m sorry.",
+            "Me too!",
+            "Oh, really?",
+            "What a shame!",
+            "Why (not)?",
+            "Why do you say that?",
+            "Why’s that?",
+            "Wow!"
+          ],
+          "answers": [
+            2,
+            3,
+            8
+          ]
         },
         {
-          "id": "2c-2",
+          "id": "2c-sympathy",
           "number": "",
-          "input": "select",
-          "prompt": "I’m sorry.",
-          "options": [
-            "Expressions showing interest",
-            "Expressions showing sympathy",
-            "Follow-up questions"
+          "input": "select-gaps",
+          "prompt": "Expressions showing sympathy",
+          "segments": [
+            "",
+            "",
+            ""
           ],
-          "answer": 1
+          "options": [
+            "How interesting!",
+            "I’m sorry.",
+            "Me too!",
+            "Oh, really?",
+            "What a shame!",
+            "Why (not)?",
+            "Why do you say that?",
+            "Why’s that?",
+            "Wow!"
+          ],
+          "answers": [
+            1,
+            4
+          ]
         },
         {
-          "id": "2c-3",
+          "id": "2c-follow-up",
           "number": "",
-          "input": "select",
-          "prompt": "Me too!",
-          "options": [
-            "Expressions showing interest",
-            "Expressions showing sympathy",
-            "Follow-up questions"
+          "input": "select-gaps",
+          "prompt": "Follow-up questions",
+          "segments": [
+            "",
+            "",
+            "",
+            ""
           ],
-          "answer": 0
-        },
-        {
-          "id": "2c-4",
-          "number": "",
-          "input": "select",
-          "prompt": "Oh, really?",
           "options": [
-            "Expressions showing interest",
-            "Expressions showing sympathy",
-            "Follow-up questions"
+            "How interesting!",
+            "I’m sorry.",
+            "Me too!",
+            "Oh, really?",
+            "What a shame!",
+            "Why (not)?",
+            "Why do you say that?",
+            "Why’s that?",
+            "Wow!"
           ],
-          "answer": 0
-        },
-        {
-          "id": "2c-5",
-          "number": "",
-          "input": "select",
-          "prompt": "What a shame!",
-          "options": [
-            "Expressions showing interest",
-            "Expressions showing sympathy",
-            "Follow-up questions"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "2c-6",
-          "number": "",
-          "input": "select",
-          "prompt": "Why (not)?",
-          "options": [
-            "Expressions showing interest",
-            "Expressions showing sympathy",
-            "Follow-up questions"
-          ],
-          "answer": 2
-        },
-        {
-          "id": "2c-7",
-          "number": "",
-          "input": "select",
-          "prompt": "Why do you say that?",
-          "options": [
-            "Expressions showing interest",
-            "Expressions showing sympathy",
-            "Follow-up questions"
-          ],
-          "answer": 2
-        },
-        {
-          "id": "2c-8",
-          "number": "",
-          "input": "select",
-          "prompt": "Why’s that?",
-          "options": [
-            "Expressions showing interest",
-            "Expressions showing sympathy",
-            "Follow-up questions"
-          ],
-          "answer": 2
-        },
-        {
-          "id": "2c-9",
-          "number": "",
-          "input": "select",
-          "prompt": "Wow!",
-          "options": [
-            "Expressions showing interest",
-            "Expressions showing sympathy",
-            "Follow-up questions"
-          ],
-          "answer": 0
+          "answers": [
+            5,
+            6,
+            7
+          ]
         }
       ]
     },
@@ -514,99 +493,162 @@
         {
           "id": "3a-2",
           "number": 2,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
-          "wideGaps": true,
           "segments": [
             "If someone tries to annoy me, I prefer to give a ",
             " rather than get angry."
           ],
+          "options": [
+            "foolproof",
+            "geek",
+            "good-natured rivalry",
+            "gut feeling",
+            "job seekers",
+            "light-hearted response",
+            "the point of",
+            "work-life balance"
+          ],
           "answers": [
-            "light-hearted response"
+            5
           ]
         },
         {
           "id": "3a-3",
           "number": 3,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
-          "wideGaps": true,
           "segments": [
             "My colleague and I enjoy a ",
             " over who meets our monthly targets first."
           ],
+          "options": [
+            "foolproof",
+            "geek",
+            "good-natured rivalry",
+            "gut feeling",
+            "job seekers",
+            "light-hearted response",
+            "the point of",
+            "work-life balance"
+          ],
           "answers": [
-            "good-natured rivalry"
+            2
           ]
         },
         {
           "id": "3a-4",
           "number": 4,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
-          "wideGaps": true,
           "segments": [
             "Great news for ",
             ": more than 50% of UK companies intend to hire new staff this year."
           ],
+          "options": [
+            "foolproof",
+            "geek",
+            "good-natured rivalry",
+            "gut feeling",
+            "job seekers",
+            "light-hearted response",
+            "the point of",
+            "work-life balance"
+          ],
           "answers": [
-            "job seekers"
+            4
           ]
         },
         {
           "id": "3a-5",
           "number": 5,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
-          "wideGaps": true,
           "segments": [
             "I have a ",
             " that this interview will go very badly."
           ],
+          "options": [
+            "foolproof",
+            "geek",
+            "good-natured rivalry",
+            "gut feeling",
+            "job seekers",
+            "light-hearted response",
+            "the point of",
+            "work-life balance"
+          ],
           "answers": [
-            "gut feeling"
+            3
           ]
         },
         {
           "id": "3a-6",
           "number": 6,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
-          "wideGaps": true,
           "segments": [
             "I don’t see ",
             " some interview questions – they seem quite ridiculous."
           ],
+          "options": [
+            "foolproof",
+            "geek",
+            "good-natured rivalry",
+            "gut feeling",
+            "job seekers",
+            "light-hearted response",
+            "the point of",
+            "work-life balance"
+          ],
           "answers": [
-            "the point of"
+            6
           ]
         },
         {
           "id": "3a-7",
           "number": 7,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
-          "wideGaps": true,
           "segments": [
             "It can be difficult to get the right ",
             ", especially if you have a position of responsibility in a company."
           ],
-          "answers": [
+          "options": [
+            "foolproof",
+            "geek",
+            "good-natured rivalry",
+            "gut feeling",
+            "job seekers",
+            "light-hearted response",
+            "the point of",
             "work-life balance"
+          ],
+          "answers": [
+            7
           ]
         },
         {
           "id": "3a-8",
           "number": 8,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
-          "wideGaps": true,
           "segments": [
             "This article gives five ",
             " tips on how to be successful at a job interview."
           ],
+          "options": [
+            "foolproof",
+            "geek",
+            "good-natured rivalry",
+            "gut feeling",
+            "job seekers",
+            "light-hearted response",
+            "the point of",
+            "work-life balance"
+          ],
           "answers": [
-            "foolproof"
+            0
           ]
         }
       ]
@@ -676,9 +718,19 @@
         {
           "id": "3b-1",
           "number": 1,
-          "example": true,
+          "input": "select",
           "prompt": "(adj.) extremely useful",
-          "exampleAnswer": "invaluable"
+          "options": [
+            "invaluable",
+            "thorough",
+            "potential",
+            "stand out",
+            "slouch",
+            "steer clear of",
+            "genuine",
+            "fiddle with"
+          ],
+          "answer": 0
         },
         {
           "id": "3b-2",

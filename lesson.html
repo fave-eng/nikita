@@ -342,6 +342,112 @@
       padding: 0 .08em;
     }
 
+
+    /* Homework 6 */
+    [data-task="hw6-ex2c"] .exercise-items {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    [data-task="hw6-ex2c"] .exercise-item {
+      margin: 0;
+      padding: 14px;
+      border: 1px solid #dbe4f0;
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    [data-task="hw6-ex2c"] .exercise-item-header {
+      margin-bottom: 10px;
+    }
+
+    [data-task="hw6-ex2c"] .exercise-prompt {
+      font-weight: 850;
+    }
+
+    [data-task="hw6-ex2c"] .sentence-gaps.has-select-gaps {
+      display: grid;
+      gap: 8px;
+    }
+
+    [data-task="hw6-ex2c"] .dialogue-answer-select {
+      width: 100%;
+      min-width: 0;
+    }
+
+    [data-task="hw6-ex3a"] .sentence-gaps.has-select-gaps {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 7px;
+      line-height: 1.7;
+    }
+
+    [data-task="hw6-ex3a"] .dialogue-answer-select {
+      width: clamp(190px, 28vw, 320px);
+      max-width: 100%;
+    }
+
+    .hw6-inline-definition {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin: 1px 3px;
+      padding: 3px 5px;
+      border: 1px solid #c7d2fe;
+      border-radius: 8px;
+      background: #f5f3ff;
+      vertical-align: baseline;
+    }
+
+    .hw6-inline-definition .reading-context-term {
+      background: transparent;
+      padding: 0;
+    }
+
+    .hw6-definition-select {
+      width: clamp(270px, 42vw, 560px);
+      max-width: 100%;
+      min-height: 36px;
+      padding: 6px 34px 6px 9px;
+      border: 1px solid #a5b4fc;
+      border-radius: 7px;
+      background: #fff;
+      color: #312e81;
+      font: inherit;
+      font-size: .84rem;
+      font-weight: 650;
+    }
+
+    .hw6-inline-definition.is-correct {
+      border-color: #22c55e;
+      background: #f0fdf4;
+    }
+
+    .hw6-inline-definition.is-wrong {
+      border-color: #f87171;
+      background: #fef2f2;
+    }
+
+    @media (max-width: 820px) {
+      [data-task="hw6-ex2c"] .exercise-items {
+        grid-template-columns: 1fr;
+      }
+
+      .hw6-inline-definition {
+        display: inline-grid;
+        grid-template-columns: 1fr;
+        width: min(100%, 620px);
+        margin-inline: 0;
+      }
+
+      .hw6-definition-select {
+        width: 100%;
+      }
+    }
+
     /* Keep replacement targets visibly underlined, exactly like the workbook. */
     .exercise-prompt .replacement-target {
       text-decoration-line: underline;
@@ -432,7 +538,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="config.js" defer></script>
   <script src="data/vocabulary-data.js?v=15" defer></script>
-  <script src="data/grammar-data.js?v=12" defer></script>
+  <script src="data/grammar-data.js?v=13" defer></script>
   <script src="app.js?v=19" defer></script>
 </head>
 <body class="has-bottom-nav" data-page="homework" data-view="lesson">
@@ -870,6 +976,124 @@
         });
       };
 
+
+      const applyLesson6Enhancements = () => {
+        if (lessonId !== 'lesson-6') return;
+
+        /* Put Grammar at the actual beginning of the homework, before Task plan. */
+        const grammarCard = root.querySelector('.grammar-link-card');
+        const roadmap = root.querySelector('.lesson-roadmap');
+        if (grammarCard && roadmap && grammarCard.dataset.movedToTop !== 'true') {
+          roadmap.parentNode.insertBefore(grammarCard, roadmap);
+          grammarCard.dataset.movedToTop = 'true';
+        }
+
+        /* Embed Exercise 3b directly into the interview article. */
+        const sourceExercise = root.querySelector('[data-task="hw6-ex3b"]');
+        const article = [...root.querySelectorAll('.reading-card')]
+          .find((card) => /Important interview tips/i.test(card.textContent || ''));
+
+        if (!sourceExercise || !article || article.dataset.hw6DefinitionsEnhanced === 'true') return;
+
+        const block = lesson.blocks.find((candidate) => candidate.id === 'hw6-ex3b');
+        if (!block || !Array.isArray(block.items)) return;
+
+        const termMap = new Map([
+          ['invaluable', '3b-1'],
+          ['thorough', '3b-2'],
+          ['potential', '3b-3'],
+          ['stand out', '3b-4'],
+          ['slouch', '3b-5'],
+          ['steer clear of', '3b-6'],
+          ['genuine', '3b-7'],
+          ['fiddle with', '3b-8']
+        ]);
+
+        sourceExercise.classList.add('lesson-reading-hidden-source');
+        sourceExercise.setAttribute('aria-hidden', 'true');
+
+        const definitions = block.items.map((item) => item.prompt);
+
+        const sourceSelectFor = (itemId) =>
+          sourceExercise.querySelector(`[data-exercise-item="${esc(itemId)}"] select`);
+
+        article.querySelectorAll('.reading-context-term').forEach((termNode) => {
+          const term = String(termNode.textContent || '').trim().toLowerCase();
+          const itemId = termMap.get(term);
+          if (!itemId || termNode.closest('.hw6-inline-definition')) return;
+
+          const item = block.items.find((candidate) => candidate.id === itemId);
+          const sourceSelect = sourceSelectFor(itemId);
+          if (!item || !sourceSelect) return;
+
+          const wrap = document.createElement('span');
+          wrap.className = 'hw6-inline-definition';
+          wrap.dataset.hw6DefinitionItem = itemId;
+
+          termNode.parentNode.insertBefore(wrap, termNode);
+          wrap.appendChild(termNode);
+
+          const select = document.createElement('select');
+          select.className = 'hw6-definition-select';
+          select.setAttribute('aria-label', `Definition of ${termNode.textContent}`);
+
+          const placeholder = document.createElement('option');
+          placeholder.value = '';
+          placeholder.textContent = 'Choose the definition';
+          select.appendChild(placeholder);
+
+          definitions.forEach((definition, index) => {
+            const option = document.createElement('option');
+            option.value = String(index);
+            option.textContent = `${index + 1}. ${definition}`;
+            select.appendChild(option);
+          });
+
+          select.value = sourceSelect.value;
+          select.addEventListener('change', () => {
+            sourceSelect.value = select.value;
+            sourceSelect.dispatchEvent(new Event('change', { bubbles: true }));
+          });
+
+          wrap.appendChild(select);
+        });
+
+        const sync = () => {
+          article.querySelectorAll('[data-hw6-definition-item]').forEach((wrap) => {
+            const itemId = wrap.dataset.hw6DefinitionItem;
+            const sourceItem = sourceExercise.querySelector(`[data-exercise-item="${esc(itemId)}"]`);
+            const sourceSelect = sourceItem?.querySelector('select');
+            const proxy = wrap.querySelector('.hw6-definition-select');
+
+            if (sourceSelect && proxy && proxy.value !== sourceSelect.value) {
+              proxy.value = sourceSelect.value;
+            }
+            if (sourceSelect && proxy) proxy.disabled = sourceSelect.disabled;
+
+            wrap.classList.toggle('is-correct', Boolean(sourceItem?.classList.contains('is-correct')));
+            wrap.classList.toggle('is-wrong', Boolean(sourceItem?.classList.contains('is-wrong')));
+          });
+        };
+
+        const observer = new MutationObserver(sync);
+        observer.observe(sourceExercise, {
+          subtree: true,
+          attributes: true,
+          attributeFilter: ['class', 'disabled']
+        });
+
+        root.addEventListener('click', (event) => {
+          if (event.target.closest('#check-lesson') || event.target.closest('#submit-lesson')) {
+            window.setTimeout(sync, 0);
+            window.setTimeout(sync, 120);
+          }
+        });
+
+        sync();
+        window.setTimeout(sync, 120);
+        article.dataset.hw6DefinitionsEnhanced = 'true';
+      };
+
       const applyEnhancements = () => {
         if (!lesson || applying) return;
         applying = true;
@@ -905,6 +1129,7 @@
 
           applyInlineReadingTasks();
           applyReadingBoldTerms();
+          applyLesson6Enhancements();
         } finally {
           applying = false;
         }
@@ -912,7 +1137,7 @@
 
       new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
 
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=3`, { cache: 'no-store' })
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=4`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
