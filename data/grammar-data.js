@@ -167,5 +167,104 @@ window.GRAMMAR_DATA = [
         ]
       }
     ]
+  },
+  {
+    id: 'grammar-lesson-4-adjectives-adverbs',
+    order: 3,
+    title: 'Adjectives and adverbs',
+    level: 'B2.1',
+    status: 'available',
+    linkedLessonId: 'lesson-4',
+    page: 'grammar-topic.html?id=grammar-lesson-4-adjectives-adverbs',
+    passScore: 100,
+    overview: {
+      lead: 'Adjectives describe people, things and situations. Adverbs usually describe actions, adjectives or other adverbs. The key is to identify what the word is describing.',
+      keyRule: 'Use an adjective after linking verbs such as be, look, seem, feel and sound. Use an adverb to describe how an action happens, and use adverbs such as really, absolutely and terribly to modify adjectives.',
+      subjects: ['adjective', 'adverb', 'linking verb + adjective', 'adverb + adjective', '-ly forms'],
+      example: 'She looks tired. / She spoke quietly. / It was absolutely amazing.'
+    },
+    uses: [
+      { icon: 'Adj', title: 'Describe a noun or state', text: 'Use an adjective to describe a person, thing or situation.', example: 'It was a dreadful film.' },
+      { icon: 'Look', title: 'After linking verbs', text: 'Use an adjective after be, look, seem, feel, sound, smell and taste because the adjective describes the subject.', example: 'She looks sad. / The music sounds great.' },
+      { icon: 'Adv', title: 'Describe an action', text: 'Use an adverb to describe how, when or how often an action happens.', example: 'Check your work carefully. / We hardly ever go out.' },
+      { icon: 'Int', title: 'Modify an adjective', text: 'Adverbs can make an adjective stronger or weaker.', example: 'The show was absolutely amazing. / It was unusually chilly.' }
+    ],
+    forms: [
+      { id: 'affirmative', icon: '+', title: 'Adjective', formula: 'linking verb + adjective', example: 'She looks tired. / The room feels cold.', translation: 'The adjective describes the subject.', note: 'Do not use an -ly adverb after look, feel, seem or sound when you describe the subject.' },
+      { id: 'negative', icon: '→', title: 'Adverb', formula: 'verb + adverb', example: 'She answered calmly. / Look directly at the camera.', translation: 'The adverb describes the action.', note: 'Many adverbs are formed with adjective + -ly, but not all.' },
+      { id: 'question', icon: '++', title: 'Adverb + adjective', formula: 'degree adverb + adjective', example: 'absolutely dreadful / terribly sad / unusually chilly', translation: 'The adverb changes the strength or meaning of the adjective.', note: 'Some combinations are much more natural than others, so learn common collocations as phrases.' },
+      { id: 'short-answer', icon: '!', title: 'Irregular and confusing forms', formula: 'hard ≠ hardly; late ≠ lately', example: 'work hard / hardly ever; arrive late / lately = recently', translation: 'Some similar-looking forms have different meanings.', note: 'Good → well is irregular when well is an adverb: She sings well.' }
+    ],
+    contrast: {
+      title: 'Adjective or adverb?',
+      intro: 'Ask what the word describes: a noun or state, an action, or another adjective.',
+      ordinary: { label: 'Adjective', verbs: 'be, look, seem, feel, sound', affirmative: 'She looks sad.', negative: 'The film was not interesting.', question: 'Does it sound strange?', rule: 'Use an adjective after a linking verb when it describes the subject.' },
+      be: { label: 'Adverb', verbs: 'work, speak, check, arrive, look at', affirmative: 'She spoke quietly.', negative: 'He did not answer clearly.', question: 'Did you check it carefully?', rule: 'Use an adverb when it describes how an action happens.' }
+    },
+    questionBuilder: {
+      title: 'How to choose the form',
+      pattern: ['What does the word describe?', 'noun / state → adjective', 'action / adjective → adverb', 'check irregular forms'],
+      example: 'She looks sad, but she spoke sadly about the news.',
+      translation: 'The same root can need different forms depending on its job in the sentence.',
+      note: 'Do not choose the form only because it “sounds right”; identify what it modifies.'
+    },
+    memoryRule: {
+      title: 'Quick check',
+      steps: [
+        'After be, look, seem, feel and sound, use an adjective to describe the subject.',
+        'To describe how someone does an action, use an adverb.',
+        'To strengthen an adjective, use an adverb such as really, absolutely, terribly or unusually.',
+        'Remember confusing pairs: hard / hardly and late / lately.',
+        'Check spelling when adding -ly: easy → easily; terrible → terribly; true → truly.'
+      ]
+    },
+    commonMistakes: [
+      { wrong: 'She looks sadly.', right: 'She looks sad.', reason: 'After look, use an adjective to describe the subject.' },
+      { wrong: 'Check your work careful.', right: 'Check your work carefully.', reason: 'The word describes how you check, so use an adverb.' },
+      { wrong: 'He arrived lately.', right: 'He arrived late.', reason: 'Late means not on time; lately means recently.' },
+      { wrong: 'I hardly worked for the exam.', right: 'I worked hard for the exam.', reason: 'Hard means with effort; hardly means almost not.' }
+    ],
+    quizExercises: [
+      {
+        title: 'Choose adjective or adverb',
+        instructions: 'Choose the correct answer.',
+        items: [
+          { type: 'single', difficulty: 'Easy', skill: 'Linking verb', prompt: 'The room feels ___.', options: ['cold', 'coldly'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Action', prompt: 'She explained the problem ___.', options: ['clear', 'clearly'], answer: 1 },
+          { type: 'single', difficulty: 'Easy', skill: 'Linking verb', prompt: 'That idea sounds ___.', options: ['interesting', 'interestingly'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Action', prompt: 'Please read the instructions ___.', options: ['careful', 'carefully'], answer: 1 }
+        ]
+      },
+      {
+        title: 'Complete the form',
+        instructions: 'Write the correct form of the word in brackets.',
+        items: [
+          { type: 'gaps', difficulty: 'Medium', skill: 'Adverb formation', prompt: 'Complete the sentence.', segments: ['The audience listened ', ' to the final song. (quiet)'], answers: ['quietly'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Adjective after look', prompt: 'Complete the sentence.', segments: ['He looked ', ' after the long journey. (tire)'], answers: ['tired'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Adverb formation', prompt: 'Complete the sentence.', segments: ['She answered the question ', '. (easy)'], answers: ['easily'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Degree adverb', prompt: 'Complete the sentence.', segments: ['The performance was ', ' good. (surprising)'], answers: ['surprisingly'] }
+        ]
+      },
+      {
+        title: 'Choose the correct meaning',
+        instructions: 'Choose the form that fits the context.',
+        items: [
+          { type: 'select', difficulty: 'Challenge', skill: 'Hard / hardly', prompt: 'I worked ___ all week to finish the project.', options: ['hard', 'hardly'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Late / lately', prompt: 'He arrived ___ and missed the opening song.', options: ['late', 'lately'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Hardly', prompt: 'We ___ ever watch television now.', options: ['hard', 'hardly'], answer: 1 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Lately', prompt: 'Have you seen any good films ___?', options: ['late', 'lately'], answer: 1 }
+        ]
+      },
+      {
+        title: 'Build complete sentences',
+        instructions: 'Put the words in the correct order.',
+        items: [
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Adverb + adjective', prompt: 'film / was / absolutely / the / dreadful', tokens: ['The film', 'was', 'absolutely', 'dreadful'], answer: 'The film was absolutely dreadful.', acceptedAnswers: ['The film was absolutely dreadful', 'The film was absolutely dreadful.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Adverb of manner', prompt: 'camera / look / directly / the / at', tokens: ['Look', 'directly', 'at', 'the camera'], answer: 'Look directly at the camera.', acceptedAnswers: ['Look directly at the camera', 'Look directly at the camera.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Linking verb', prompt: 'looks / she / very / sad', tokens: ['She', 'looks', 'very', 'sad'], answer: 'She looks very sad.', acceptedAnswers: ['She looks very sad', 'She looks very sad.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Adverb + adjective', prompt: 'weather / unusually / the / chilly / is', tokens: ['The weather', 'is', 'unusually', 'chilly'], answer: 'The weather is unusually chilly.', acceptedAnswers: ['The weather is unusually chilly', 'The weather is unusually chilly.'] }
+        ]
+      }
+    ]
   }
 ];

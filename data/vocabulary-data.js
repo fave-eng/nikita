@@ -162,5 +162,46 @@ window.VOCABULARY_DATA = [
       { id: 'l4-22', uniqueKey: 'well attended', en: 'well attended', ru: 'visited by many people', transcription: '', exampleEn: 'The exhibition was well attended at the weekend.', group: 'listening' },
       { id: 'l4-23', uniqueKey: 'theatre-goer', en: 'theatre-goer', ru: 'a person who regularly goes to the theatre', transcription: '', exampleEn: 'She used to be a keen theatre-goer.', group: 'listening' }
     ]
+  },
+  {
+    id: 'vocab-lesson-4-pictures-reviews',
+    title: 'Pictures and reviews',
+    label: 'Homework 4 · 23 useful words and phrases',
+    icon: '🖼️',
+    type: 'lesson',
+    linkedLessonId: 'lesson-4',
+    page: 'vocabulary.html?id=vocab-lesson-4-pictures-reviews',
+    description: 'New language from Homework 4 for talking about pictures, adjective and adverb combinations, and writing reviews.',
+    groups: [
+      { id: 'pictures', title: 'Talking about pictures', subtitle: 'Describing images and impressions', icon: '🖼️' },
+      { id: 'grammar', title: 'Useful combinations', subtitle: 'Common adjective and adverb combinations', icon: '✍️' },
+      { id: 'reviews', title: 'Concert reviews', subtitle: 'Performance and venue language', icon: '🎵' },
+      { id: 'writing', title: 'Review writing', subtitle: 'Useful language for structuring a review', icon: '📝' }
+    ],
+    words: [
+      { id: 'l5-01', uniqueKey: 'dramatic', en: 'dramatic', ru: 'strong, exciting or impressive in appearance or effect', transcription: '/drəˈmætɪk/', exampleEn: 'The painting uses a dramatic contrast between light and dark.', group: 'pictures' },
+      { id: 'l5-02', uniqueKey: 'furious', en: 'furious', ru: 'extremely angry', transcription: '/ˈfjʊəriəs/', exampleEn: 'She looked furious when she saw the damage.', group: 'pictures' },
+      { id: 'l5-03', uniqueKey: 'hometown', en: 'hometown', ru: 'the town or city where someone was born or grew up', transcription: '/ˈhəʊmtaʊn/', exampleEn: 'The artist often painted scenes from his hometown.', group: 'pictures' },
+      { id: 'l5-04', uniqueKey: 'nightmare', en: 'nightmare', ru: 'a very frightening dream or a very unpleasant situation', transcription: '/ˈnaɪtmeə/', exampleEn: 'The image looks like a scene from a nightmare.', group: 'pictures' },
+      { id: 'l5-05', uniqueKey: 'depressed', en: 'depressed', ru: 'very unhappy and without hope', transcription: '/dɪˈprest/', exampleEn: 'The colours make the figure look depressed.', group: 'pictures' },
+      { id: 'l5-06', uniqueKey: 'funnily enough', en: 'funnily enough', ru: 'used when something is surprising or unexpected', transcription: '', exampleEn: 'Funnily enough, I was thinking the same thing.', group: 'grammar' },
+      { id: 'l5-07', uniqueKey: 'come to light', en: 'come to light', ru: 'to become known or be discovered', transcription: '', exampleEn: 'New evidence came to light during the investigation.', group: 'grammar' },
+      { id: 'l5-08', uniqueKey: 'badly injured', en: 'badly injured', ru: 'seriously hurt', transcription: '', exampleEn: 'Two passengers were badly injured in the accident.', group: 'grammar' },
+      { id: 'l5-09', uniqueKey: 'completely rebuilt', en: 'completely rebuilt', ru: 'built again from the beginning after serious damage', transcription: '', exampleEn: 'The gallery was completely rebuilt after the fire.', group: 'grammar' },
+      { id: 'l5-10', uniqueKey: 'wrongly arrested', en: 'wrongly arrested', ru: 'arrested even though the person should not have been', transcription: '', exampleEn: 'He was wrongly arrested and later released.', group: 'grammar' },
+      { id: 'l5-11', uniqueKey: 'unusually chilly', en: 'unusually chilly', ru: 'colder than is normal or expected', transcription: '', exampleEn: 'The weather has been unusually chilly this month.', group: 'grammar' },
+      { id: 'l5-12', uniqueKey: 'conductor', en: 'conductor', ru: 'a person who directs an orchestra or musical performance', transcription: '/kənˈdʌktə/', exampleEn: 'The conductor received a standing ovation.', group: 'reviews' },
+      { id: 'l5-13', uniqueKey: 'sing along', en: 'sing along', ru: 'to sing a song while it is being performed or played', transcription: '', exampleEn: 'The crowd sang along to every chorus.', group: 'reviews' },
+      { id: 'l5-14', uniqueKey: 'acoustics', en: 'acoustics', ru: 'the way sound behaves in a room or building', transcription: '/əˈkuːstɪks/', exampleEn: 'The hall has excellent acoustics.', group: 'reviews' },
+      { id: 'l5-15', uniqueKey: 'expertise', en: 'expertise', ru: 'a high level of knowledge or skill', transcription: '/ˌekspɜːˈtiːz/', exampleEn: 'The conductor’s expertise was obvious.', group: 'reviews' },
+      { id: 'l5-16', uniqueKey: 'well worth', en: 'well worth', ru: 'definitely worth the time, money or effort', transcription: '', exampleEn: 'The show was well worth the ticket price.', group: 'reviews' },
+      { id: 'l5-17', uniqueKey: 'cover version', en: 'cover version', ru: 'a new performance or recording of a song by another artist', transcription: '', exampleEn: 'The band played an old cover version.', group: 'reviews' },
+      { id: 'l5-18', uniqueKey: 'individual style', en: 'individual style', ru: 'a distinctive personal way of doing or creating something', transcription: '', exampleEn: 'The guitarist has developed an individual style.', group: 'reviews' },
+      { id: 'l5-19', uniqueKey: 'compose', en: 'compose', ru: 'to write a piece of music', transcription: '/kəmˈpəʊz/', exampleEn: 'She composed the music for the final scene.', group: 'reviews' },
+      { id: 'l5-20', uniqueKey: 'put on a light show', en: 'put on a light show', ru: 'to organise and present a visual light performance', transcription: '', exampleEn: 'The venue put on an exciting light show.', group: 'reviews' },
+      { id: 'l5-21', uniqueKey: 'expectations', en: 'expectations', ru: 'beliefs about what you think will happen or how good something will be', transcription: '/ˌekspekˈteɪʃənz/', exampleEn: 'The concert exceeded my expectations.', group: 'writing' },
+      { id: 'l5-22', uniqueKey: 'overall view', en: 'overall view', ru: 'a general opinion after considering all aspects', transcription: '', exampleEn: 'My overall view is very positive.', group: 'writing' },
+      { id: 'l5-23', uniqueKey: 'recommendation', en: 'recommendation', ru: 'a statement saying that something is good and worth trying', transcription: '/ˌrekəmenˈdeɪʃən/', exampleEn: 'I ended the review with a clear recommendation.', group: 'writing' }
+    ]
   }
 ];
