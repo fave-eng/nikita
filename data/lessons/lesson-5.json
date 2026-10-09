@@ -357,49 +357,56 @@
           "number": 1,
           "input": "text",
           "prompt": "That film was so full of hope and positive.",
-          "answer": "inspiring"
+          "answer": "inspiring",
+          "underline": "full of hope and positive"
         },
         {
           "id": "q1-2",
           "number": 2,
           "input": "text",
           "prompt": "It was a beautiful painting in soft colours.",
-          "answer": "subtle"
+          "answer": "subtle",
+          "underline": "soft colours"
         },
         {
           "id": "q1-3",
           "number": 3,
           "input": "text",
           "prompt": "I didn’t like the ending. What happened to the main character was unclear.",
-          "answer": "ambiguous"
+          "answer": "ambiguous",
+          "underline": "unclear"
         },
         {
           "id": "q1-4",
           "number": 4,
           "input": "text",
           "prompt": "I couldn’t watch it. It was just too upsetting.",
-          "answer": "disturbing"
+          "answer": "disturbing",
+          "underline": "upsetting"
         },
         {
           "id": "q1-5",
           "number": 5,
           "input": "text",
           "prompt": "The story is so exciting. You won’t be able to put it down.",
-          "answer": "gripping"
+          "answer": "gripping",
+          "underline": "exciting"
         },
         {
           "id": "q1-6",
           "number": 6,
           "input": "text",
           "prompt": "His jokes were extremely funny. I’ve never laughed so much.",
-          "answer": "hilarious"
+          "answer": "hilarious",
+          "underline": "extremely funny"
         },
         {
           "id": "q1-7",
           "number": 7,
           "input": "text",
           "prompt": "I wish she wouldn’t tell me all the private details of her life.",
-          "answer": "intimate"
+          "answer": "intimate",
+          "underline": "private"
         }
       ]
     },
@@ -411,51 +418,100 @@
         {
           "id": "q3-1",
           "number": 1,
-          "input": "text",
-          "prompt": "The damage was ............, so it was easy to repair.",
-          "answer": "minimal"
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "The damage was ",
+            ", so it was easy to repair."
+          ],
+          "answers": [
+            "minimal"
+          ],
+          "wideGaps": true
         },
         {
           "id": "q3-2",
           "number": 2,
-          "input": "text",
-          "prompt": "This film is quite ............ and tries new techniques.",
-          "answer": "experimental"
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "This film is quite ",
+            " and tries new techniques."
+          ],
+          "answers": [
+            "experimental"
+          ],
+          "wideGaps": true
         },
         {
           "id": "q3-3",
           "number": 3,
-          "input": "text",
-          "prompt": "It’s all about good and bad: it has a strong ............ message.",
-          "answer": "moral"
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "It’s all about good and bad: it has a strong ",
+            " message."
+          ],
+          "answers": [
+            "moral"
+          ],
+          "wideGaps": true
         },
         {
           "id": "q3-4",
           "number": 4,
-          "input": "text",
-          "prompt": "Having lower costs gives us a ............ advantage.",
-          "answer": "commercial"
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Having lower costs gives us a ",
+            " advantage."
+          ],
+          "answers": [
+            "commercial"
+          ],
+          "wideGaps": true
         },
         {
           "id": "q3-5",
           "number": 5,
-          "input": "text",
-          "prompt": "We all have a ............ need for love and security.",
-          "answer": "psychological"
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "We all have a ",
+            " need for love and security."
+          ],
+          "answers": [
+            "psychological"
+          ],
+          "wideGaps": true
         },
         {
           "id": "q3-6",
           "number": 6,
-          "input": "text",
-          "prompt": "It’s a ............ weakness, which will destroy him.",
-          "answer": "fatal"
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "It’s a ",
+            " weakness, which will destroy him."
+          ],
+          "answers": [
+            "fatal"
+          ],
+          "wideGaps": true
         },
         {
           "id": "q3-7",
           "number": 7,
-          "input": "text",
-          "prompt": "Her writing style is very different. She never uses ............ ideas.",
-          "answer": "conventional"
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Her writing style is very different. She never uses ",
+            " ideas."
+          ],
+          "answers": [
+            "conventional"
+          ],
+          "wideGaps": true
         }
       ]
     },
@@ -583,7 +639,8 @@
             "dominates",
             "dates back",
             "has been renovated"
-          ]
+          ],
+          "wideGaps": true
         },
         {
           "id": "u2v2-2",
@@ -600,7 +657,8 @@
             "to steer clear",
             "knocked down",
             "have soared"
-          ]
+          ],
+          "wideGaps": true
         },
         {
           "id": "u2v2-3",
@@ -615,7 +673,8 @@
           "answers": [
             "were based",
             "has been cleaned up"
-          ]
+          ],
+          "wideGaps": true
         }
       ]
     }

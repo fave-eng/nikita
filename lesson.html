@@ -36,23 +36,8 @@
     .exercise-card.exercise-layout-media-list .exercise-item.has-item-media .exercise-item-header { grid-area: header; }
     .exercise-card.exercise-layout-media-list .exercise-item.has-item-media .exercise-control { grid-area: control; padding-left: 0; }
     .exercise-card.exercise-layout-media-list .exercise-item.has-item-media > .feedback { grid-area: feedback; }
-    @media (max-width: 620px) {
-      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media { grid-template-columns: 92px minmax(0, 1fr); column-gap: 12px; }
-      .exercise-card.exercise-layout-media-list .exercise-item-media { width: 92px; }
-    }
-    @media (max-width: 420px) {
-      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media {
-        grid-template-columns: 84px minmax(0, 1fr);
-        grid-template-areas: "media header" "control control" "feedback feedback";
-        row-gap: 12px;
-      }
-      .exercise-card.exercise-layout-media-list .exercise-item-media { width: 84px; }
-      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media .exercise-item-header { margin-bottom: 0; }
-    }
 
-    .lesson-vocabulary-shortcut {
-      margin-bottom: 18px;
-    }
+    .lesson-vocabulary-shortcut { margin-bottom: 18px; }
     .lesson-vocabulary-link {
       display: flex;
       align-items: center;
@@ -77,12 +62,7 @@
       outline: 3px solid rgba(124, 58, 237, 0.25);
       outline-offset: 3px;
     }
-    .lesson-vocabulary-copy {
-      display: flex;
-      align-items: center;
-      gap: 13px;
-      min-width: 0;
-    }
+    .lesson-vocabulary-copy { display: flex; align-items: center; gap: 13px; min-width: 0; }
     .lesson-vocabulary-icon {
       display: grid;
       place-items: center;
@@ -94,9 +74,7 @@
       border-radius: 14px;
     }
     .lesson-vocabulary-text strong,
-    .lesson-vocabulary-text span {
-      display: block;
-    }
+    .lesson-vocabulary-text span { display: block; }
     .lesson-vocabulary-text strong {
       margin-bottom: 3px;
       font-family: "Plus Jakarta Sans", sans-serif;
@@ -113,22 +91,117 @@
       color: var(--violet);
       transition: transform 180ms ease;
     }
-    .lesson-vocabulary-link:hover .lesson-vocabulary-arrow {
-      transform: translateX(4px);
+    .lesson-vocabulary-link:hover .lesson-vocabulary-arrow { transform: translateX(4px); }
+
+    /* Homework 5: keep the article next to Reading exercises 2–4 on desktop. */
+    .lesson-reading-workspace {
+      width: min(1180px, calc(100vw - 40px));
+      margin-left: 50%;
+      transform: translateX(-50%);
+      display: grid;
+      grid-template-columns: minmax(360px, 0.95fr) minmax(460px, 1.05fr);
+      gap: 20px;
+      align-items: start;
     }
+    .lesson-reading-reference {
+      position: sticky;
+      top: 86px;
+      max-height: calc(100vh - 112px);
+      overflow: auto;
+      padding-right: 3px;
+      scrollbar-gutter: stable;
+    }
+    .lesson-reading-reference .reading-card {
+      margin: 0;
+    }
+    .lesson-reading-reference .reading-sections {
+      gap: 12px;
+    }
+    .lesson-reading-reference .reading-section {
+      padding: 13px 14px;
+    }
+    .lesson-reading-reference .reading-section-copy {
+      font-size: .91rem;
+      line-height: 1.58;
+    }
+    .lesson-reading-exercises {
+      display: grid;
+      gap: 18px;
+      min-width: 0;
+    }
+    .lesson-reading-exercises .lesson-block {
+      margin: 0;
+    }
+
+    /* Keep replacement targets visibly underlined, exactly like the workbook. */
+    .exercise-prompt .replacement-target {
+      text-decoration-line: underline;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+      text-decoration-color: #334155;
+      font-weight: inherit;
+    }
+
+    /* Homework 5 inline gaps: long enough to see complete B2 answers. */
+    [data-task="hw5-vbq1-3"] .sentence-gaps.has-wide-gaps .gap-input {
+      width: clamp(150px, 22vw, 230px);
+      min-width: 150px;
+      text-align: left;
+    }
+    [data-task="hw5-vbq1-3"] .exercise-item-header .exercise-prompt:empty {
+      display: none;
+    }
+    [data-task="hw5-vbq1-3"] .exercise-item-header:has(.exercise-prompt:empty) {
+      margin-bottom: 4px;
+    }
+
+    [data-task="hw5-unit2-vocab-2"] .sentence-gaps.has-wide-gaps .gap-input {
+      width: clamp(170px, 25vw, 290px);
+      min-width: 170px;
+      text-align: left;
+    }
+
+    @media (max-width: 900px) {
+      .lesson-reading-workspace {
+        width: 100%;
+        margin-left: 0;
+        transform: none;
+        grid-template-columns: 1fr;
+      }
+      .lesson-reading-reference {
+        position: static;
+        max-height: none;
+        overflow: visible;
+        padding-right: 0;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media {
+        grid-template-columns: 92px minmax(0, 1fr);
+        column-gap: 12px;
+      }
+      .exercise-card.exercise-layout-media-list .exercise-item-media { width: 92px; }
+
+      [data-task="hw5-vbq1-3"] .sentence-gaps.has-wide-gaps .gap-input,
+      [data-task="hw5-unit2-vocab-2"] .sentence-gaps.has-wide-gaps .gap-input {
+        width: min(100%, 280px);
+        min-width: 150px;
+      }
+    }
+
     @media (max-width: 420px) {
-      .lesson-vocabulary-link {
-        min-height: 66px;
-        padding: 14px;
+      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media {
+        grid-template-columns: 84px minmax(0, 1fr);
+        grid-template-areas: "media header" "control control" "feedback feedback";
+        row-gap: 12px;
       }
-      .lesson-vocabulary-icon {
-        flex-basis: 40px;
-        width: 40px;
-        height: 40px;
-      }
-      .lesson-vocabulary-text span {
-        font-size: 0.78rem;
-      }
+      .exercise-card.exercise-layout-media-list .exercise-item-media { width: 84px; }
+      .exercise-card.exercise-layout-media-list .exercise-item.has-item-media .exercise-item-header { margin-bottom: 0; }
+
+      .lesson-vocabulary-link { min-height: 66px; padding: 14px; }
+      .lesson-vocabulary-icon { flex-basis: 40px; width: 40px; height: 40px; }
+      .lesson-vocabulary-text span { font-size: 0.78rem; }
     }
   </style>
 
@@ -154,9 +227,9 @@
   <main id="main" class="main-content container">
 
     <a class="lesson-back-link" href="homework.html">
-  <span aria-hidden="true">←</span>
-  Back to homework
-</a>
+      <span aria-hidden="true">←</span>
+      Back to homework
+    </a>
 
     <section class="section reveal">
       <div id="lesson-vocabulary-shortcut" class="lesson-vocabulary-shortcut" hidden></div>
@@ -173,7 +246,6 @@
   </nav>
   <div class="toast" id="app-toast" role="status" aria-live="polite"></div>
 
-
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const root = document.getElementById('lesson-root');
@@ -187,7 +259,52 @@
       let lesson = null;
       let applying = false;
 
-      const applyImages = () => {
+      const underlinePrompt = (node, phrase) => {
+        const prompt = node?.querySelector('.exercise-prompt');
+        const target = String(phrase || '');
+        if (!prompt || !target || prompt.dataset.underlineEnhanced === 'true') return;
+        const source = prompt.textContent || '';
+        const start = source.indexOf(target);
+        if (start < 0) return;
+
+        const before = document.createTextNode(source.slice(0, start));
+        const marked = document.createElement('u');
+        marked.className = 'replacement-target';
+        marked.textContent = target;
+        const after = document.createTextNode(source.slice(start + target.length));
+        prompt.replaceChildren(before, marked, after);
+        prompt.dataset.underlineEnhanced = 'true';
+      };
+
+      const applyReadingWorkspace = () => {
+        if (lessonId !== 'lesson-5') return;
+        if (root.querySelector('.lesson-reading-workspace')) return;
+
+        const article = root.querySelector('.reading-card');
+        const exercises = [
+          root.querySelector('[data-task="hw5-reading-2"]'),
+          root.querySelector('[data-task="hw5-reading-3"]'),
+          root.querySelector('[data-task="hw5-reading-4"]')
+        ];
+
+        if (!article || exercises.some((item) => !item)) return;
+
+        const workspace = document.createElement('div');
+        workspace.className = 'lesson-reading-workspace';
+
+        const reference = document.createElement('div');
+        reference.className = 'lesson-reading-reference';
+
+        const exerciseColumn = document.createElement('div');
+        exerciseColumn.className = 'lesson-reading-exercises';
+
+        article.parentNode.insertBefore(workspace, article);
+        reference.appendChild(article);
+        exercises.forEach((exercise) => exerciseColumn.appendChild(exercise));
+        workspace.append(reference, exerciseColumn);
+      };
+
+      const applyEnhancements = () => {
         if (!lesson || applying) return;
         applying = true;
         try {
@@ -198,37 +315,44 @@
             if (block.layout === 'media-list') exercise.classList.add('exercise-layout-media-list');
 
             for (const item of block.items) {
-              if (!item?.id || !item.image) continue;
+              if (!item?.id) continue;
               const node = exercise.querySelector(`[data-exercise-item="${esc(item.id)}"]`);
-              if (!node || node.dataset.mediaEnhanced === 'true') continue;
+              if (!node) continue;
 
-              const figure = document.createElement('figure');
-              figure.className = 'exercise-item-media';
-              const image = document.createElement('img');
-              image.src = item.image;
-              image.alt = item.imageAlt || '';
-              image.loading = 'lazy';
-              image.decoding = 'async';
-              figure.appendChild(image);
-              node.insertBefore(figure, node.firstChild);
-              node.classList.add('has-item-media');
-              node.dataset.mediaEnhanced = 'true';
+              if (item.underline) underlinePrompt(node, item.underline);
+
+              if (item.image && node.dataset.mediaEnhanced !== 'true') {
+                const figure = document.createElement('figure');
+                figure.className = 'exercise-item-media';
+                const image = document.createElement('img');
+                image.src = item.image;
+                image.alt = item.imageAlt || '';
+                image.loading = 'lazy';
+                image.decoding = 'async';
+                figure.appendChild(image);
+                node.insertBefore(figure, node.firstChild);
+                node.classList.add('has-item-media');
+                node.dataset.mediaEnhanced = 'true';
+              }
             }
           }
+
+          applyReadingWorkspace();
         } finally {
           applying = false;
         }
       };
 
-      new MutationObserver(applyImages).observe(root, { childList: true, subtree: true });
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=1`, { cache: 'no-store' })
+      new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
+
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=2`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
         })
         .then((data) => {
           lesson = data;
-          applyImages();
+          applyEnhancements();
 
           const shortcut = document.getElementById('lesson-vocabulary-shortcut');
           const vocabularyId = String(data.vocabularyId || '').trim();
@@ -263,7 +387,7 @@
             shortcut.hidden = false;
           }
         })
-        .catch((error) => console.warn('Lesson images were not loaded.', error));
+        .catch((error) => console.warn('Lesson enhancements were not loaded.', error));
     });
   </script>
 
