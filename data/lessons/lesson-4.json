@@ -1,0 +1,616 @@
+{
+  "id": "lesson-4",
+  "number": 4,
+  "title": "Unit 1: Pictures and reviews",
+  "subtitle": "Outcomes B2, 3rd edition · Unit 1 · Workbook practice",
+  "status": "available",
+  "publishedAt": "2026-10-09",
+  "notification": {
+    "enabled": false,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-4-pictures-reviews",
+  "grammarIds": [
+    "grammar-lesson-4-adjectives-adverbs"
+  ],
+  "totalPoints": 39,
+  "blocks": [
+    {
+      "type": "grammar-link",
+      "title": "Adjectives and adverbs",
+      "text": "",
+      "grammarId": "grammar-lesson-4-adjectives-adverbs",
+      "buttonLabel": "Open topic"
+    },
+    {
+      "type": "section",
+      "title": "Vocabulary: Talking about pictures",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw4-ex1",
+      "title": "1 Complete the paragraph with the correct form of the words in brackets.",
+      "items": [
+        {
+          "id": "1",
+          "number": "",
+          "input": "gaps",
+          "prompt": "",
+          "wideGaps": true,
+          "segments": [
+            "There are nearly as many opinions on art as there are paintings themselves. Describing a painting is always open to ",
+            " (interpret). What appears ",
+            " (atmosphere) or ",
+            " (drama) to one person may seem dull or ",
+            " (convention) to another. Abstract art is perhaps the style that is most difficult to appreciate because its meaning is often ",
+            " (ambiguity)."
+          ],
+          "answers": [
+            "interpretation",
+            "atmospheric",
+            "dramatic",
+            "conventional",
+            "ambiguous"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw4-ex3",
+      "title": "3 Match the sentence halves.",
+      "wordBank": [
+        "a to have just got married.",
+        "b well be his hometown.",
+        "c look really dull.",
+        "d if it’s been photographed with a camera.",
+        "e the impression the artist was rather depressed.",
+        "f obviously just been arguing.",
+        "g looks a bit like your brother.",
+        "h show some sort of nightmare."
+      ],
+      "items": [
+        {
+          "id": "3-1",
+          "number": 1,
+          "input": "select",
+          "prompt": "This one is so realistic. It looks as .....",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "3-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "Come and look at this. The man in the picture .....",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 6
+        },
+        {
+          "id": "3-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "I don’t see the attraction. To me all his paintings .....",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "3-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "She looks furious so they’ve .....",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 5
+        },
+        {
+          "id": "3-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "The artist was born in Belgium and that could .....",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "3-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "It all seems very weird. I think it must .....",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 7
+        },
+        {
+          "id": "3-7",
+          "number": 7,
+          "input": "select",
+          "prompt": "It’s a celebration and they appear .....",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "3-8",
+          "number": 8,
+          "input": "select",
+          "prompt": "Looking at this one, I get .....",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 4
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Grammar: Adjectives and adverbs",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw4-ex4",
+      "title": "4 Find and correct the six sentences that contain mistakes with adjectives or adverbs.",
+      "items": [
+        {
+          "id": "4-1",
+          "number": 1,
+          "input": "text",
+          "prompt": "You look tired. Have you been working hard recently?",
+          "answer": "You look tired. Have you been working hard recently?",
+          "acceptedAnswers": [
+            "You look tired. Have you been working hard recently?",
+            "You look tired. Have you been working hard recently"
+          ]
+        },
+        {
+          "id": "4-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "She said it was an absolute dreadful film.",
+          "answer": "She said it was an absolutely dreadful film.",
+          "acceptedAnswers": [
+            "She said it was an absolutely dreadful film.",
+            "She said it was an absolutely dreadful film"
+          ]
+        },
+        {
+          "id": "4-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "If you arrive lately for work again, you’ll be in real trouble.",
+          "answer": "If you arrive late for work again, you’ll be in real trouble.",
+          "acceptedAnswers": [
+            "If you arrive late for work again, you’ll be in real trouble.",
+            "If you arrive late for work again, you'll be in real trouble.",
+            "If you arrive late for work again, you’ll be in real trouble",
+            "If you arrive late for work again, you'll be in real trouble"
+          ]
+        },
+        {
+          "id": "4-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "Don’t forget to check your work really careful.",
+          "answer": "Don’t forget to check your work really carefully.",
+          "acceptedAnswers": [
+            "Don’t forget to check your work really carefully.",
+            "Don't forget to check your work really carefully.",
+            "Don’t forget to check your work really carefully",
+            "Don't forget to check your work really carefully"
+          ]
+        },
+        {
+          "id": "4-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "She looks very sadly. Do you think she’s been crying?",
+          "answer": "She looks very sad. Do you think she’s been crying?",
+          "acceptedAnswers": [
+            "She looks very sad. Do you think she’s been crying?",
+            "She looks very sad. Do you think she's been crying?",
+            "She looks very sad. Do you think she’s been crying",
+            "She looks very sad. Do you think she's been crying"
+          ]
+        },
+        {
+          "id": "4-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "Funny enough, I was thinking exactly the same thing.",
+          "answer": "Funnily enough, I was thinking exactly the same thing.",
+          "acceptedAnswers": [
+            "Funnily enough, I was thinking exactly the same thing.",
+            "Funnily enough, I was thinking exactly the same thing"
+          ]
+        },
+        {
+          "id": "4-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "We hardly ever go to the cinema nowadays.",
+          "answer": "We hardly ever go to the cinema nowadays.",
+          "acceptedAnswers": [
+            "We hardly ever go to the cinema nowadays.",
+            "We hardly ever go to the cinema nowadays"
+          ]
+        },
+        {
+          "id": "4-8",
+          "number": 8,
+          "input": "text",
+          "prompt": "Look direct at the camera and give a big smile!",
+          "answer": "Look directly at the camera and give a big smile!",
+          "acceptedAnswers": [
+            "Look directly at the camera and give a big smile!",
+            "Look directly at the camera and give a big smile"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw4-ex5",
+      "title": "5 Complete the sentences with one word from box A and one from box B.",
+      "wordBank": [
+        "A: unusually · wrongly · terribly · absolutely · completely · badly",
+        "B: rebuilt · amazing · injured · chilly · sad · arrested"
+      ],
+      "items": [
+        {
+          "id": "5-1",
+          "number": 1,
+          "input": "text",
+          "prompt": "Both the driver and passenger were ................. in the accident.",
+          "answer": "badly injured"
+        },
+        {
+          "id": "5-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "The gallery was ................. after the fire.",
+          "answer": "completely rebuilt"
+        },
+        {
+          "id": "5-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "It was ................. to hear the news of his death.",
+          "answer": "terribly sad"
+        },
+        {
+          "id": "5-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "The gig was ................. — the best I’ve ever been to.",
+          "answer": "absolutely amazing"
+        },
+        {
+          "id": "5-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "The man was ................. but then was released after new evidence came to light.",
+          "answer": "wrongly arrested"
+        },
+        {
+          "id": "5-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "This month has been ................. . We haven’t had such low temperatures for years.",
+          "answer": "unusually chilly"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Developing writing: A review – making recommendations",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw4-ex8",
+      "title": "8 Complete the sentences with the words in the box. There are two words that you don’t need.",
+      "wordBank": [
+        "downside",
+        "encores",
+        "irresistible",
+        "singing along",
+        "following",
+        "expertise",
+        "disappointing",
+        "worth"
+      ],
+      "items": [
+        {
+          "id": "8-1",
+          "number": 1,
+          "input": "select",
+          "prompt": "One of the best things about the concert was the ................. of the conductor.",
+          "options": [
+            "downside",
+            "encores",
+            "irresistible",
+            "singing along",
+            "following",
+            "expertise",
+            "disappointing",
+            "worth"
+          ],
+          "answer": 5
+        },
+        {
+          "id": "8-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "It was amazing to hear the crowd ................. to all the band’s hits.",
+          "options": [
+            "downside",
+            "encores",
+            "irresistible",
+            "singing along",
+            "following",
+            "expertise",
+            "disappointing",
+            "worth"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "8-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "It’s well ................. the price of the concert ticket.",
+          "options": [
+            "downside",
+            "encores",
+            "irresistible",
+            "singing along",
+            "following",
+            "expertise",
+            "disappointing",
+            "worth"
+          ],
+          "answer": 7
+        },
+        {
+          "id": "8-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "The biggest ................. was the acoustics in the hall. It was very difficult to hear the singers.",
+          "options": [
+            "downside",
+            "encores",
+            "irresistible",
+            "singing along",
+            "following",
+            "expertise",
+            "disappointing",
+            "worth"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "8-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "I can’t see why this pianist has such a large ................. . To me, she’s very dull.",
+          "options": [
+            "downside",
+            "encores",
+            "irresistible",
+            "singing along",
+            "following",
+            "expertise",
+            "disappointing",
+            "worth"
+          ],
+          "answer": 4
+        },
+        {
+          "id": "8-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "After playing three ................., the band finally went off stage leaving the crowd still wanting more.",
+          "options": [
+            "downside",
+            "encores",
+            "irresistible",
+            "singing along",
+            "following",
+            "expertise",
+            "disappointing",
+            "worth"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw4-ex9",
+      "title": "9 Match the collocations.",
+      "wordBank": [
+        "a an individual style",
+        "b a memorable performance",
+        "c an exciting light show",
+        "d an old cover version",
+        "e a two-minute standing ovation",
+        "f an inspiring piece of music"
+      ],
+      "items": [
+        {
+          "id": "9-1",
+          "number": 1,
+          "input": "select",
+          "prompt": "give",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 4
+        },
+        {
+          "id": "9-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "play",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "9-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "develop",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "9-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "compose",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 5
+        },
+        {
+          "id": "9-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "give",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "9-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "put on",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw4-ex10",
+      "title": "10 Write a review (150–190 words) of a gig / concert you have been to. Use the language in this section and the following plan to help you:",
+      "items": [
+        {
+          "id": "10-1",
+          "number": "",
+          "input": "textarea",
+          "scored": false,
+          "prompt": "Include:\n• an interesting heading and first sentence. Where and when the concert was, and your expectations.\n• positive aspects of the concert.\n• negative aspects of the concert.\n• your overall view and recommendation.",
+          "placeholder": "Write 150–190 words."
+        }
+      ]
+    }
+  ]
+}

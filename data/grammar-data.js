@@ -167,5 +167,203 @@ window.GRAMMAR_DATA = [
         ]
       }
     ]
+  },
+  {
+    id: 'grammar-lesson-4-adjectives-adverbs',
+    order: 3,
+    title: 'Adjectives and adverbs',
+    level: 'B2.1',
+    status: 'available',
+    linkedLessonId: 'lesson-4',
+    page: 'grammar-topic.html?id=grammar-lesson-4-adjectives-adverbs',
+    passScore: 100,
+    overview: {
+      lead: 'Adjectives describe people, things and situations. Adverbs usually describe actions, adjectives or other adverbs. The key is to identify what the word is describing.',
+      keyRule: 'Use an adjective after linking verbs such as be, look, seem, feel and sound. Use an adverb to describe how an action happens, and use adverbs such as really, absolutely and terribly to modify adjectives.',
+      subjects: ['adjective', 'adverb', 'linking verb + adjective', 'adverb + adjective', '-ly forms'],
+      example: 'She looks tired. / She spoke quietly. / It was absolutely amazing.'
+    },
+    uses: [
+      { icon: 'Adj', title: 'Describe a noun or state', text: 'Use an adjective to describe a person, thing or situation.', example: 'It was a dreadful film.' },
+      { icon: 'Look', title: 'After linking verbs', text: 'Use an adjective after be, look, seem, feel, sound, smell and taste because the adjective describes the subject.', example: 'She looks sad. / The music sounds great.' },
+      { icon: 'Adv', title: 'Describe an action', text: 'Use an adverb to describe how, when or how often an action happens.', example: 'Check your work carefully. / We hardly ever go out.' },
+      { icon: 'Int', title: 'Modify an adjective', text: 'Adverbs can make an adjective stronger or weaker.', example: 'The show was absolutely amazing. / It was unusually chilly.' }
+    ],
+    forms: [
+      { id: 'affirmative', icon: '+', title: 'Adjective', formula: 'linking verb + adjective', example: 'She looks tired. / The room feels cold.', translation: 'The adjective describes the subject.', note: 'Do not use an -ly adverb after look, feel, seem or sound when you describe the subject.' },
+      { id: 'negative', icon: '→', title: 'Adverb', formula: 'verb + adverb', example: 'She answered calmly. / Look directly at the camera.', translation: 'The adverb describes the action.', note: 'Many adverbs are formed with adjective + -ly, but not all.' },
+      { id: 'question', icon: '++', title: 'Adverb + adjective', formula: 'degree adverb + adjective', example: 'absolutely dreadful / terribly sad / unusually chilly', translation: 'The adverb changes the strength or meaning of the adjective.', note: 'Some combinations are much more natural than others, so learn common collocations as phrases.' },
+      { id: 'short-answer', icon: '!', title: 'Irregular and confusing forms', formula: 'hard ≠ hardly; late ≠ lately', example: 'work hard / hardly ever; arrive late / lately = recently', translation: 'Some similar-looking forms have different meanings.', note: 'Good → well is irregular when well is an adverb: She sings well.' }
+    ],
+    contrast: {
+      title: 'Adjective or adverb?',
+      intro: 'Ask what the word describes: a noun or state, an action, or another adjective.',
+      ordinary: { label: 'Adjective', verbs: 'be, look, seem, feel, sound', affirmative: 'She looks sad.', negative: 'The film was not interesting.', question: 'Does it sound strange?', rule: 'Use an adjective after a linking verb when it describes the subject.' },
+      be: { label: 'Adverb', verbs: 'work, speak, check, arrive, look at', affirmative: 'She spoke quietly.', negative: 'He did not answer clearly.', question: 'Did you check it carefully?', rule: 'Use an adverb when it describes how an action happens.' }
+    },
+    questionBuilder: {
+      title: 'How to choose the form',
+      pattern: ['What does the word describe?', 'noun / state → adjective', 'action / adjective → adverb', 'check irregular forms'],
+      example: 'She looks sad, but she spoke sadly about the news.',
+      translation: 'The same root can need different forms depending on its job in the sentence.',
+      note: 'Do not choose the form only because it “sounds right”; identify what it modifies.'
+    },
+    memoryRule: {
+      title: 'Quick check',
+      steps: [
+        'After be, look, seem, feel and sound, use an adjective to describe the subject.',
+        'To describe how someone does an action, use an adverb.',
+        'To strengthen an adjective, use an adverb such as really, absolutely, terribly or unusually.',
+        'Remember confusing pairs: hard / hardly and late / lately.',
+        'Check spelling when adding -ly: easy → easily; terrible → terribly; true → truly.'
+      ]
+    },
+    commonMistakes: [
+      { wrong: 'She looks sadly.', right: 'She looks sad.', reason: 'After look, use an adjective to describe the subject.' },
+      { wrong: 'Check your work careful.', right: 'Check your work carefully.', reason: 'The word describes how you check, so use an adverb.' },
+      { wrong: 'He arrived lately.', right: 'He arrived late.', reason: 'Late means not on time; lately means recently.' },
+      { wrong: 'I hardly worked for the exam.', right: 'I worked hard for the exam.', reason: 'Hard means with effort; hardly means almost not.' }
+    ],
+    quizExercises: [
+      {
+        title: 'Choose adjective or adverb',
+        instructions: 'Choose the correct answer.',
+        items: [
+          { type: 'single', difficulty: 'Easy', skill: 'Linking verb', prompt: 'The room feels ___.', options: ['cold', 'coldly'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Action', prompt: 'She explained the problem ___.', options: ['clear', 'clearly'], answer: 1 },
+          { type: 'single', difficulty: 'Easy', skill: 'Linking verb', prompt: 'That idea sounds ___.', options: ['interesting', 'interestingly'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Action', prompt: 'Please read the instructions ___.', options: ['careful', 'carefully'], answer: 1 }
+        ]
+      },
+      {
+        title: 'Complete the form',
+        instructions: 'Write the correct form of the word in brackets.',
+        items: [
+          { type: 'gaps', difficulty: 'Medium', skill: 'Adverb formation', prompt: 'Complete the sentence.', segments: ['The audience listened ', ' to the final song. (quiet)'], answers: ['quietly'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Adjective after look', prompt: 'Complete the sentence.', segments: ['He looked ', ' after the long journey. (tire)'], answers: ['tired'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Adverb formation', prompt: 'Complete the sentence.', segments: ['She answered the question ', '. (easy)'], answers: ['easily'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Degree adverb', prompt: 'Complete the sentence.', segments: ['The performance was ', ' good. (surprising)'], answers: ['surprisingly'] }
+        ]
+      },
+      {
+        title: 'Choose the correct meaning',
+        instructions: 'Choose the form that fits the context.',
+        items: [
+          { type: 'select', difficulty: 'Challenge', skill: 'Hard / hardly', prompt: 'I worked ___ all week to finish the project.', options: ['hard', 'hardly'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Late / lately', prompt: 'He arrived ___ and missed the opening song.', options: ['late', 'lately'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Hardly', prompt: 'We ___ ever watch television now.', options: ['hard', 'hardly'], answer: 1 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Lately', prompt: 'Have you seen any good films ___?', options: ['late', 'lately'], answer: 1 }
+        ]
+      },
+      {
+        title: 'Build complete sentences',
+        instructions: 'Put the words in the correct order.',
+        items: [
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Adverb + adjective', prompt: 'film / was / absolutely / the / dreadful', tokens: ['The film', 'was', 'absolutely', 'dreadful'], answer: 'The film was absolutely dreadful.', acceptedAnswers: ['The film was absolutely dreadful', 'The film was absolutely dreadful.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Adverb of manner', prompt: 'camera / look / directly / the / at', tokens: ['Look', 'directly', 'at', 'the camera'], answer: 'Look directly at the camera.', acceptedAnswers: ['Look directly at the camera', 'Look directly at the camera.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Linking verb', prompt: 'looks / she / very / sad', tokens: ['She', 'looks', 'very', 'sad'], answer: 'She looks very sad.', acceptedAnswers: ['She looks very sad', 'She looks very sad.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Adverb + adjective', prompt: 'weather / unusually / the / chilly / is', tokens: ['The weather', 'is', 'unusually', 'chilly'], answer: 'The weather is unusually chilly.', acceptedAnswers: ['The weather is unusually chilly', 'The weather is unusually chilly.'] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'grammar-lesson-5-relative-clauses',
+    order: 4,
+    title: 'Relative clauses',
+    level: 'B2.1',
+    status: 'available',
+    linkedLessonId: 'lesson-5',
+    page: 'grammar-topic.html?id=grammar-lesson-5-relative-clauses',
+    passScore: 100,
+    overview: {
+      lead: 'Relative clauses add information about a person, thing, place, time or possession. They let you join ideas without repeating the same noun.',
+      keyRule: 'Use defining relative clauses for essential information and non-defining relative clauses for extra information. Non-defining clauses are separated by commas and do not normally use that.',
+      subjects: ['who', 'which', 'that', 'whose', 'where', 'when'],
+      example: 'The area that we visited was beautiful. / Riga, which is on the Baltic Sea, has a historic centre.'
+    },
+    uses: [
+      { icon: 'D', title: 'Defining clauses', text: 'Use a defining relative clause when the information identifies exactly which person or thing you mean.', example: 'The hotel that we booked was near the old town.' },
+      { icon: 'ND', title: 'Non-defining clauses', text: 'Use commas when the relative clause gives extra information that is not needed to identify the noun.', example: 'The castle, which dates back to the 1500s, dominates the area.' },
+      { icon: 'P', title: 'People and things', text: 'Use who for people and which for things. That can replace who or which in many defining clauses.', example: 'The guide who showed us around was excellent. / The building that we saw is a museum.' },
+      { icon: 'O', title: 'Place, time and possession', text: 'Use where for places, when for times and whose for possession.', example: 'This is the street where I grew up. / 2019 was the year when I moved. / We met a woman whose family owns the hotel.' }
+    ],
+    forms: [
+      { id: 'affirmative', icon: '+', title: 'Defining relative clause', formula: 'noun + who / which / that + clause', example: 'The café that opened last year is always busy.', translation: 'Essential information: which café?', note: 'No commas are used.' },
+      { id: 'negative', icon: ',', title: 'Non-defining relative clause', formula: 'noun, who / which / whose + clause,', example: 'The museum, which is free on Sundays, closes at six.', translation: 'Extra information about an already identified noun.', note: 'Use commas. Do not normally use that.' },
+      { id: 'question', icon: 'Ø', title: 'Omitting the relative pronoun', formula: 'noun + (who / which / that) + subject + verb', example: 'The hotel (that) we booked was expensive.', translation: 'The pronoun can be omitted when it is the object of the relative clause.', note: 'Do not omit it when it is the subject: The hotel that stands here ...' },
+      { id: 'short-answer', icon: 'W', title: 'Where, when and whose', formula: 'place + where; time + when; person / thing + whose + noun', example: 'That is the square where the festival takes place. / I met a guide whose English was excellent.', translation: 'Use these forms for place, time and possession.', note: 'Whose is followed by a noun.' }
+    ],
+    contrast: {
+      title: 'Defining or non-defining?',
+      intro: 'The difference is whether the information is necessary to identify the noun.',
+      ordinary: { label: 'Defining', verbs: 'who / which / that', affirmative: 'The streets that lead to the castle are narrow.', negative: 'The hotel that we booked was not central.', question: 'Which hotel? The one that we booked.', rule: 'Essential information; no commas.' },
+      be: { label: 'Non-defining', verbs: 'who / which / whose', affirmative: 'The old town, which is very walkable, is full of cafés.', negative: 'Our hotel, which was not expensive, had a great view.', question: 'Extra information about an already identified noun.', rule: 'Use commas and do not normally use that.' }
+    },
+    questionBuilder: {
+      title: 'Choose the connector',
+      pattern: ['person → who', 'thing → which / that', 'place → where', 'time → when', 'possession → whose'],
+      example: 'The district where we stayed was very lively.',
+      translation: 'Choose the relative word by the meaning you need.',
+      note: 'Then decide whether the information is defining or non-defining.'
+    },
+    memoryRule: {
+      title: 'Quick check',
+      steps: [
+        'Is the information essential? Use a defining clause without commas.',
+        'Is it extra information? Use commas and a non-defining clause.',
+        'Person: who; thing: which; place: where; time: when; possession: whose.',
+        'That is common in defining clauses, but not normally in non-defining clauses.',
+        'You may omit who / which / that only when it is the object, not the subject.'
+      ]
+    },
+    commonMistakes: [
+      { wrong: 'The hotel, that we booked, was expensive.', right: 'The hotel, which we booked, was expensive.', reason: 'Do not normally use that in a non-defining relative clause.' },
+      { wrong: 'The street which I grew up is nearby.', right: 'The street where I grew up is nearby.', reason: 'Use where for a place when it means “in that place”.' },
+      { wrong: 'The guide whose showed us around was friendly.', right: 'The guide who showed us around was friendly.', reason: 'Use who for a person as the subject. Whose expresses possession.' },
+      { wrong: 'The building built in 1890 which is now a museum is beautiful.', right: 'The building, which was built in 1890, is now a museum.', reason: 'Use commas when the clause gives extra information about an already identified noun.' }
+    ],
+    quizExercises: [
+      {
+        title: 'Choose the relative word',
+        instructions: 'Choose the correct answer.',
+        items: [
+          { type: 'single', difficulty: 'Easy', skill: 'People', prompt: 'The guide ___ showed us the cathedral was excellent.', options: ['who', 'where', 'when'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Things', prompt: 'The building ___ dominates the square is the town hall.', options: ['which', 'where', 'whose'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Places', prompt: 'That is the district ___ we stayed.', options: ['where', 'who', 'whose'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Possession', prompt: 'We met a local artist ___ studio is near the river.', options: ['whose', 'which', 'when'], answer: 0 }
+        ]
+      },
+      {
+        title: 'Complete the sentences',
+        instructions: 'Write the missing relative word.',
+        items: [
+          { type: 'gaps', difficulty: 'Medium', skill: 'Defining person', prompt: 'Complete the sentence.', segments: ['The woman ', ' recommended the hotel lives nearby.'], answers: ['who'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Defining thing', prompt: 'Complete the sentence.', segments: ['The castle ', ' we visited is over 500 years old.'], answers: [['that', 'which']] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Place', prompt: 'Complete the sentence.', segments: ['This is the café ', ' we had breakfast.'], answers: ['where'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Time', prompt: 'Complete the sentence.', segments: ['Sunday is the day ', ' the market is busiest.'], answers: ['when'] }
+        ]
+      },
+      {
+        title: 'Defining or non-defining?',
+        instructions: 'Choose the correct sentence.',
+        items: [
+          { type: 'select', difficulty: 'Challenge', skill: 'Commas', prompt: 'Our hotel is already identified. Choose the correct sentence.', options: ['Our hotel, which overlooks the river, is very quiet.', 'Our hotel that overlooks the river is very quiet.'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Defining', prompt: 'You need to identify which streets. Choose the correct sentence.', options: ['The streets that lead to the old town are pedestrianised.', 'The streets, that lead to the old town, are pedestrianised.'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'That', prompt: 'Choose the natural non-defining clause.', options: ['The cathedral, which was renovated recently, is open again.', 'The cathedral, that was renovated recently, is open again.'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Omission', prompt: 'Choose the sentence where the relative pronoun can be omitted.', options: ['The museum (that) we visited was free.', 'The museum (that) stands by the river is free.'], answer: 0 }
+        ]
+      },
+      {
+        title: 'Build complete sentences',
+        instructions: 'Put the words in the correct order.',
+        items: [
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Where', prompt: 'district / where / we stayed / the / was very lively', tokens: ['The district', 'where', 'we stayed', 'was very lively'], answer: 'The district where we stayed was very lively.', acceptedAnswers: ['The district where we stayed was very lively', 'The district where we stayed was very lively.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Who', prompt: 'guide / who / showed us around / the / was excellent', tokens: ['The guide', 'who', 'showed us around', 'was excellent'], answer: 'The guide who showed us around was excellent.', acceptedAnswers: ['The guide who showed us around was excellent', 'The guide who showed us around was excellent.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Whose', prompt: 'artist / whose / work we saw / the / lives nearby', tokens: ['The artist', 'whose', 'work we saw', 'lives nearby'], answer: 'The artist whose work we saw lives nearby.', acceptedAnswers: ['The artist whose work we saw lives nearby', 'The artist whose work we saw lives nearby.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Non-defining which', prompt: 'the castle / which dates back to 1550 / is now a museum', tokens: ['The castle,', 'which dates back to 1550,', 'is now a museum'], answer: 'The castle, which dates back to 1550, is now a museum.', acceptedAnswers: ['The castle, which dates back to 1550, is now a museum', 'The castle, which dates back to 1550, is now a museum.'] }
+        ]
+      }
+    ]
   }
 ];
