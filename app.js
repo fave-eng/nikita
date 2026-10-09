@@ -3202,6 +3202,45 @@
     });
   }
 
+  let recoverySyncStarted = false;
+  let recoverySyncTimer = 0;
+  let recoverySyncRunning = false;
+
+  async function runRecoverySync(reason = 'retry') {
+    if (!CloudService.isConfigured() || recoverySyncRunning) return false;
+    recoverySyncRunning = true;
+    try {
+      await CloudService.init();
+      await window.ProgressService.syncFromCloud();
+      await refreshCurrentView();
+      console.info(`[Nikita recovery sync] completed (${reason})`);
+      return true;
+    } catch (error) {
+      console.warn(`[Nikita recovery sync] failed (${reason}):`, error);
+      return false;
+    } finally {
+      recoverySyncRunning = false;
+    }
+  }
+
+  function scheduleRecoverySync(reason, delay = 1200) {
+    window.clearTimeout(recoverySyncTimer);
+    recoverySyncTimer = window.setTimeout(() => {
+      runRecoverySync(reason);
+    }, delay);
+  }
+
+  function startRecoverySync() {
+    if (recoverySyncStarted || !CloudService.isConfigured()) return;
+    recoverySyncStarted = true;
+
+    window.addEventListener('online', () => scheduleRecoverySync('back-online', 400));
+    window.addEventListener('pageshow', () => scheduleRecoverySync('page-show', 800));
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden) scheduleRecoverySync('page-visible', 800);
+    });
+  }
+
   async function init() {
     migrateLegacyLocalProgress();
     archiveLegacyLesson8LocalProgress();
@@ -3217,14 +3256,19 @@
     await refreshCurrentView();
     startHomeworkAutoRefresh();
     if (!CloudService.isConfigured()) return;
+    startRecoverySync();
     try {
       await CloudService.init();
       await window.ProgressService.syncFromCloud();
       await refreshCurrentView();
+      // One extra retry is intentional for recovery of progress that was already
+      // stored locally before Supabase permissions for Nikita were fixed.
+      scheduleRecoverySync('post-startup-confirmation', 3500);
     } catch (error) {
       console.error('Supabase connection error:', error);
       const detail = safeText(error?.message || error?.details || error?.hint);
       showToast(detail ? `Supabase error: ${detail}` : 'Supabase is temporarily unavailable.');
+      scheduleRecoverySync('startup-error', 3500);
     }
   }
 
