@@ -194,6 +194,14 @@
       line-height: 1.78;
     }
 
+    .reading-card.inline-reading-card .reading-section-heading {
+      display: none;
+    }
+
+    .reading-card.inline-reading-card .reading-section {
+      position: relative;
+    }
+
     .article-gap-control {
       display: inline-flex;
       align-items: center;
@@ -222,29 +230,43 @@
     }
 
     .article-gap-select {
-      width: 68px;
-      min-width: 68px;
-      min-height: 34px;
-      padding: 5px 28px 5px 8px;
+      width: clamp(260px, 48vw, 620px);
+      max-width: 100%;
+      min-height: 38px;
+      padding: 7px 36px 7px 10px;
       border: 1px solid #818cf8;
       border-radius: 8px;
       background-color: #fff;
       color: #312e81;
       font: inherit;
-      font-weight: 850;
+      font-size: .88rem;
+      font-weight: 750;
     }
 
     .article-gap-preview {
-      flex: 1 1 260px;
-      min-width: 180px;
-      color: #3730a3;
-      font-size: .88rem;
-      font-weight: 700;
-      line-height: 1.45;
+      flex: 1 1 100%;
+      min-width: 0;
+      margin-top: 3px;
+      color: #27364a;
+      font-size: .98rem;
+      font-weight: 500;
+      line-height: 1.72;
     }
 
     .article-gap-preview:empty {
       display: none;
+    }
+
+    .article-gap-control:has(.article-gap-preview:not(:empty)) {
+      display: inline-grid;
+      grid-template-columns: auto minmax(220px, 1fr);
+      align-items: center;
+      max-width: 100%;
+      vertical-align: middle;
+    }
+
+    .article-gap-control:has(.article-gap-preview:not(:empty)) .article-gap-preview {
+      grid-column: 1 / -1;
     }
 
     .article-gap-control.is-correct {
@@ -313,6 +335,13 @@
       background: #f8fafc;
     }
 
+    .reading-context-term {
+      font-weight: 850;
+      background: #eef2ff;
+      border-radius: 4px;
+      padding: 0 .08em;
+    }
+
     /* Keep replacement targets visibly underlined, exactly like the workbook. */
     .exercise-prompt .replacement-target {
       text-decoration-line: underline;
@@ -355,8 +384,13 @@
 
       .article-gap-control {
         display: inline-grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto minmax(0, 1fr);
         max-width: 100%;
+      }
+
+      .article-gap-select {
+        width: 100%;
+        min-width: 0;
       }
 
       .article-gap-preview {
@@ -397,8 +431,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="config.js" defer></script>
-  <script src="data/vocabulary-data.js?v=14" defer></script>
-  <script src="data/grammar-data.js?v=11" defer></script>
+  <script src="data/vocabulary-data.js?v=15" defer></script>
+  <script src="data/grammar-data.js?v=12" defer></script>
   <script src="app.js?v=19" defer></script>
 </head>
 <body class="has-bottom-nav" data-page="homework" data-view="lesson">
@@ -579,13 +613,21 @@
 
             const empty = document.createElement('option');
             empty.value = '';
-            empty.textContent = '—';
+            empty.textContent = 'Choose the missing sentence';
             select.appendChild(empty);
 
             (item.options || []).forEach((option, optionIndex) => {
               const optionNode = document.createElement('option');
               optionNode.value = String(optionIndex);
-              optionNode.textContent = option;
+
+              const bankEntry = (ex2Block.wordBank || []).find((entry) =>
+                String(entry).toLowerCase().startsWith(`${String(option).toLowerCase()} `)
+              );
+
+              optionNode.textContent = bankEntry
+                ? String(bankEntry).replace(/^[a-h]\s+/i, '')
+                : String(option);
+
               select.appendChild(optionNode);
             });
 
@@ -773,6 +815,61 @@
         window.setTimeout(syncInlineReadingState, 500);
       };
 
+      const applyReadingBoldTerms = () => {
+        const readingBlocks = Array.isArray(lesson?.blocks)
+          ? lesson.blocks.filter((block) => block?.type === 'reading' && Array.isArray(block.boldTerms) && block.boldTerms.length)
+          : [];
+        if (!readingBlocks.length) return;
+
+        const readingCards = [...root.querySelectorAll('.reading-card')];
+        readingBlocks.forEach((block, readingIndex) => {
+          const card = readingCards[readingIndex];
+          if (!card || card.dataset.boldTermsEnhanced === 'true') return;
+
+          const terms = [...block.boldTerms]
+            .map((term) => String(term || '').trim())
+            .filter(Boolean)
+            .sort((a, b) => b.length - a.length);
+
+          if (!terms.length) return;
+
+          const pattern = new RegExp(`(${terms.map((term) => term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'gi');
+
+          card.querySelectorAll('.reading-section-copy').forEach((paragraph) => {
+            const walker = document.createTreeWalker(paragraph, NodeFilter.SHOW_TEXT);
+            const nodes = [];
+            let node;
+            while ((node = walker.nextNode())) nodes.push(node);
+
+            nodes.forEach((textNode) => {
+              const value = textNode.nodeValue || '';
+              if (!pattern.test(value)) {
+                pattern.lastIndex = 0;
+                return;
+              }
+              pattern.lastIndex = 0;
+
+              const fragment = document.createDocumentFragment();
+              let cursor = 0;
+              let match;
+              while ((match = pattern.exec(value))) {
+                fragment.append(document.createTextNode(value.slice(cursor, match.index)));
+                const strong = document.createElement('strong');
+                strong.className = 'reading-context-term';
+                strong.textContent = match[0];
+                fragment.append(strong);
+                cursor = match.index + match[0].length;
+              }
+              fragment.append(document.createTextNode(value.slice(cursor)));
+              textNode.parentNode.replaceChild(fragment, textNode);
+              pattern.lastIndex = 0;
+            });
+          });
+
+          card.dataset.boldTermsEnhanced = 'true';
+        });
+      };
+
       const applyEnhancements = () => {
         if (!lesson || applying) return;
         applying = true;
@@ -807,6 +904,7 @@
           }
 
           applyInlineReadingTasks();
+          applyReadingBoldTerms();
         } finally {
           applying = false;
         }

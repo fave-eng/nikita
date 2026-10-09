@@ -1,0 +1,805 @@
+{
+  "id": "lesson-6",
+  "number": 6,
+  "title": "1A Questions and answers",
+  "subtitle": "English File 4th edition Upper-Intermediate · Question formation, intonation and vocabulary",
+  "status": "available",
+  "publishedAt": "2026-10-10",
+  "notification": {
+    "enabled": false,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-6-questions-interviews",
+  "grammarIds": [
+    "grammar-lesson-6-question-formation"
+  ],
+  "totalPoints": 31,
+  "blocks": [
+    {
+      "type": "grammar-link",
+      "title": "Question formation",
+      "text": "",
+      "grammarId": "grammar-lesson-6-question-formation",
+      "buttonLabel": "Open topic"
+    },
+    {
+      "type": "section",
+      "title": "Grammar: question formation",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw6-ex1b",
+      "title": "1b Complete the indirect questions and sentences.",
+      "items": [
+        {
+          "id": "1b-1",
+          "number": 1,
+          "example": true,
+          "prompt": "‘Would Michael like this wallet?’\nDo you think ________________________________?",
+          "exampleAnswer": "Michael would like this wallet"
+        },
+        {
+          "id": "1b-2",
+          "number": 2,
+          "input": "gaps",
+          "prompt": "‘Where is the lift?’",
+          "wideGaps": true,
+          "segments": [
+            "Could you tell me ",
+            "?"
+          ],
+          "answers": [
+            "where the lift is"
+          ]
+        },
+        {
+          "id": "1b-3",
+          "number": 3,
+          "input": "gaps",
+          "prompt": "‘Where did we park the car?’",
+          "wideGaps": true,
+          "segments": [
+            "I can’t remember ",
+            "."
+          ],
+          "answers": [
+            "where we parked the car"
+          ]
+        },
+        {
+          "id": "1b-4",
+          "number": 4,
+          "input": "gaps",
+          "prompt": "‘Are there any tickets left for the concert tonight?’",
+          "wideGaps": true,
+          "segments": [
+            "Do you know ",
+            "?"
+          ],
+          "answers": [
+            "if there are any tickets left for the concert tonight"
+          ]
+        },
+        {
+          "id": "1b-5",
+          "number": 5,
+          "input": "gaps",
+          "prompt": "‘What time does the match start?’",
+          "wideGaps": true,
+          "segments": [
+            "Can you tell me ",
+            "?"
+          ],
+          "answers": [
+            "what time the match starts"
+          ]
+        },
+        {
+          "id": "1b-6",
+          "number": 6,
+          "input": "gaps",
+          "prompt": "‘When’s Sally’s birthday?’",
+          "wideGaps": true,
+          "segments": [
+            "Do you remember ",
+            "?"
+          ],
+          "answers": [
+            "when Sally’s birthday is"
+          ]
+        },
+        {
+          "id": "1b-7",
+          "number": 7,
+          "input": "gaps",
+          "prompt": "‘What does Jamie do for a living?’",
+          "wideGaps": true,
+          "segments": [
+            "Do you have any idea ",
+            "?"
+          ],
+          "answers": [
+            "what Jamie does for a living"
+          ]
+        },
+        {
+          "id": "1b-8",
+          "number": 8,
+          "input": "gaps",
+          "prompt": "‘Where does Natalie live?’",
+          "wideGaps": true,
+          "segments": [
+            "I wonder ",
+            "."
+          ],
+          "answers": [
+            "where Natalie lives"
+          ]
+        },
+        {
+          "id": "1b-9",
+          "number": 9,
+          "input": "gaps",
+          "prompt": "‘What’s Ava’s boyfriend’s name?’",
+          "wideGaps": true,
+          "segments": [
+            "I’m not sure ",
+            "."
+          ],
+          "answers": [
+            "what Ava’s boyfriend’s name is"
+          ]
+        },
+        {
+          "id": "1b-10",
+          "number": 10,
+          "input": "gaps",
+          "prompt": "‘How much did you pay for your new car?’",
+          "wideGaps": true,
+          "segments": [
+            "Would you mind telling me ",
+            "?"
+          ],
+          "answers": [
+            "how much you paid for your new car"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw6-ex1c",
+      "title": "1c Write the questions.",
+      "items": [
+        {
+          "id": "1c-1",
+          "number": 1,
+          "example": true,
+          "prompt": "how long / you / spend / in Brazil last summer",
+          "exampleAnswer": "How long did you spend in Brazil last summer?"
+        },
+        {
+          "id": "1c-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "who / cook / in your family",
+          "scored": false
+        },
+        {
+          "id": "1c-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "when / your brother / pass / his driving test",
+          "scored": false
+        },
+        {
+          "id": "1c-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "you know / who / go / to the party tonight",
+          "scored": false
+        },
+        {
+          "id": "1c-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "who / the manager / talk to / now",
+          "scored": false
+        },
+        {
+          "id": "1c-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "who / eat / the chocolates / I / leave / in the cupboard",
+          "scored": false
+        },
+        {
+          "id": "1c-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "why / you / not come / to school yesterday",
+          "scored": false
+        },
+        {
+          "id": "1c-8",
+          "number": 8,
+          "input": "text",
+          "prompt": "you remember / what time / the meeting / be",
+          "scored": false
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw6-ex1d",
+      "title": "1d Write questions to ask at a job interview. Use a different phrase to begin each question.",
+      "items": [
+        {
+          "id": "1d-1",
+          "number": 1,
+          "input": "text",
+          "prompt": "salary",
+          "scored": false
+        },
+        {
+          "id": "1d-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "holidays",
+          "scored": false
+        },
+        {
+          "id": "1d-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "working hours",
+          "scored": false
+        },
+        {
+          "id": "1d-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "overtime",
+          "scored": false
+        },
+        {
+          "id": "1d-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "travel",
+          "scored": false
+        },
+        {
+          "id": "1d-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "uniform",
+          "scored": false
+        },
+        {
+          "id": "1d-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "parking space",
+          "scored": false
+        },
+        {
+          "id": "1d-8",
+          "number": 8,
+          "input": "text",
+          "prompt": "lunch",
+          "scored": false
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Pronunciation: intonation – showing interest",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw6-ex2a",
+      "title": "2a 1.1 Listen to the questions. Tick (✓) if the speaker sounds interested.",
+      "audio": "audio/EF4e_UpperInt_WB_1.1.mp3",
+      "items": [
+        {
+          "id": "2a-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Which university did you go to?",
+          "exampleAnswer": "✓"
+        },
+        {
+          "id": "2a-2",
+          "number": 2,
+          "input": "multiple",
+          "prompt": "What don’t you like about your job?",
+          "options": [
+            "✓"
+          ],
+          "scored": false
+        },
+        {
+          "id": "2a-3",
+          "number": 3,
+          "input": "multiple",
+          "prompt": "How’s your family?",
+          "options": [
+            "✓"
+          ],
+          "scored": false
+        },
+        {
+          "id": "2a-4",
+          "number": 4,
+          "input": "multiple",
+          "prompt": "Would you like to work abroad?",
+          "options": [
+            "✓"
+          ],
+          "scored": false
+        },
+        {
+          "id": "2a-5",
+          "number": 5,
+          "input": "multiple",
+          "prompt": "How many languages do you speak?",
+          "options": [
+            "✓"
+          ],
+          "scored": false
+        },
+        {
+          "id": "2a-6",
+          "number": 6,
+          "input": "multiple",
+          "prompt": "Why did you leave your last job?",
+          "options": [
+            "✓"
+          ],
+          "scored": false
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw6-ex2c",
+      "title": "2c Complete the table with the expressions and questions in the list.",
+      "wordBank": [
+        "How interesting!",
+        "I’m sorry.",
+        "Me too!",
+        "Oh, really?",
+        "What a shame!",
+        "Why (not)?",
+        "Why do you say that?",
+        "Why’s that?",
+        "Wow!"
+      ],
+      "items": [
+        {
+          "id": "2c-1",
+          "number": "",
+          "example": true,
+          "prompt": "How interesting!",
+          "exampleAnswer": "Expressions showing interest"
+        },
+        {
+          "id": "2c-2",
+          "number": "",
+          "input": "select",
+          "prompt": "I’m sorry.",
+          "options": [
+            "Expressions showing interest",
+            "Expressions showing sympathy",
+            "Follow-up questions"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "2c-3",
+          "number": "",
+          "input": "select",
+          "prompt": "Me too!",
+          "options": [
+            "Expressions showing interest",
+            "Expressions showing sympathy",
+            "Follow-up questions"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "2c-4",
+          "number": "",
+          "input": "select",
+          "prompt": "Oh, really?",
+          "options": [
+            "Expressions showing interest",
+            "Expressions showing sympathy",
+            "Follow-up questions"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "2c-5",
+          "number": "",
+          "input": "select",
+          "prompt": "What a shame!",
+          "options": [
+            "Expressions showing interest",
+            "Expressions showing sympathy",
+            "Follow-up questions"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "2c-6",
+          "number": "",
+          "input": "select",
+          "prompt": "Why (not)?",
+          "options": [
+            "Expressions showing interest",
+            "Expressions showing sympathy",
+            "Follow-up questions"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "2c-7",
+          "number": "",
+          "input": "select",
+          "prompt": "Why do you say that?",
+          "options": [
+            "Expressions showing interest",
+            "Expressions showing sympathy",
+            "Follow-up questions"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "2c-8",
+          "number": "",
+          "input": "select",
+          "prompt": "Why’s that?",
+          "options": [
+            "Expressions showing interest",
+            "Expressions showing sympathy",
+            "Follow-up questions"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "2c-9",
+          "number": "",
+          "input": "select",
+          "prompt": "Wow!",
+          "options": [
+            "Expressions showing interest",
+            "Expressions showing sympathy",
+            "Follow-up questions"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Vocabulary: working out meaning from context",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw6-ex3a",
+      "title": "3a Complete the sentences with the words and phrases in the list.",
+      "wordBank": [
+        "foolproof",
+        "geek",
+        "good-natured rivalry",
+        "gut feeling",
+        "job seekers",
+        "light-hearted response",
+        "the point of",
+        "work-life balance"
+      ],
+      "items": [
+        {
+          "id": "3a-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Josh is a computer ____________, so he’s been applying for jobs in IT.",
+          "exampleAnswer": "geek"
+        },
+        {
+          "id": "3a-2",
+          "number": 2,
+          "input": "gaps",
+          "prompt": "",
+          "wideGaps": true,
+          "segments": [
+            "If someone tries to annoy me, I prefer to give a ",
+            " rather than get angry."
+          ],
+          "answers": [
+            "light-hearted response"
+          ]
+        },
+        {
+          "id": "3a-3",
+          "number": 3,
+          "input": "gaps",
+          "prompt": "",
+          "wideGaps": true,
+          "segments": [
+            "My colleague and I enjoy a ",
+            " over who meets our monthly targets first."
+          ],
+          "answers": [
+            "good-natured rivalry"
+          ]
+        },
+        {
+          "id": "3a-4",
+          "number": 4,
+          "input": "gaps",
+          "prompt": "",
+          "wideGaps": true,
+          "segments": [
+            "Great news for ",
+            ": more than 50% of UK companies intend to hire new staff this year."
+          ],
+          "answers": [
+            "job seekers"
+          ]
+        },
+        {
+          "id": "3a-5",
+          "number": 5,
+          "input": "gaps",
+          "prompt": "",
+          "wideGaps": true,
+          "segments": [
+            "I have a ",
+            " that this interview will go very badly."
+          ],
+          "answers": [
+            "gut feeling"
+          ]
+        },
+        {
+          "id": "3a-6",
+          "number": 6,
+          "input": "gaps",
+          "prompt": "",
+          "wideGaps": true,
+          "segments": [
+            "I don’t see ",
+            " some interview questions – they seem quite ridiculous."
+          ],
+          "answers": [
+            "the point of"
+          ]
+        },
+        {
+          "id": "3a-7",
+          "number": 7,
+          "input": "gaps",
+          "prompt": "",
+          "wideGaps": true,
+          "segments": [
+            "It can be difficult to get the right ",
+            ", especially if you have a position of responsibility in a company."
+          ],
+          "answers": [
+            "work-life balance"
+          ]
+        },
+        {
+          "id": "3a-8",
+          "number": 8,
+          "input": "gaps",
+          "prompt": "",
+          "wideGaps": true,
+          "segments": [
+            "This article gives five ",
+            " tips on how to be successful at a job interview."
+          ],
+          "answers": [
+            "foolproof"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "id": "hw6-interview-article",
+      "title": "Important interview tips",
+      "boldTerms": [
+        "potential",
+        "genuine",
+        "slouch",
+        "fiddle with",
+        "invaluable",
+        "stand out",
+        "steer clear of",
+        "thorough"
+      ],
+      "sections": [
+        {
+          "number": "",
+          "heading": "",
+          "text": "Your CV has got you in the door; now it’s time to convince the interviewer you’re the best person for the job."
+        },
+        {
+          "number": "",
+          "heading": "Research the company",
+          "text": "Do your homework so you don’t give the impression you’re looking for any old job. Search the internet and read not only the company’s website, but also any news stories that come up. Make a list of points you could discuss at the interview and questions you could ask. You want your potential future employer to believe that you have a genuine interest in working for the organization."
+        },
+        {
+          "number": "",
+          "heading": "Look the part",
+          "text": "The company’s dress code should give you an idea of what to wear at the interview, but in most cases, you will be expected to look smart. However, it is not only your clothes you must watch. Think about your body language: do you usually slouch or sit up straight in a chair, or do you sometimes fiddle with a pen? Practise before the day so that you have time to replace any bad habits with positive body language."
+        },
+        {
+          "number": "",
+          "heading": "Mind your manners",
+          "text": "When you get to the interview venue, make sure you greet everyone you meet, including the people in the lift. Offer the interviewer a warm greeting and say ‘please’ and ‘thank you’ when appropriate. Not only do you want to show that you would be an invaluable team member, but you also want the interviewer to choose you over another candidate who may be equally qualified for the job."
+        },
+        {
+          "number": "",
+          "heading": "Give real examples",
+          "text": "You won’t be the first candidate the interviewer has met, so you need to stand out from the competition. When you are asked about your abilities and experience, steer clear of typical answers such as ‘I have great communication skills’ or ‘I’m a people person’. Instead give real examples of situations where you have demonstrated these qualities and brought about a positive result."
+        },
+        {
+          "number": "",
+          "heading": "Ask the right questions",
+          "text": "Towards the end of the interview, you will be invited to ask your own questions about the job. You’ll have that list you made beforehand, but the points on it may already have been covered. Even if the interviewer has been very thorough, you must ask a few questions. This is where your initial research about the company will come in handy."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw6-ex3b",
+      "title": "3b Read the article quickly. Match the bold words in the highlighted phrases to definitions 1–8.",
+      "wordBank": [
+        "invaluable",
+        "thorough",
+        "potential",
+        "stand out",
+        "slouch",
+        "steer clear of",
+        "genuine",
+        "fiddle with"
+      ],
+      "items": [
+        {
+          "id": "3b-1",
+          "number": 1,
+          "example": true,
+          "prompt": "(adj.) extremely useful",
+          "exampleAnswer": "invaluable"
+        },
+        {
+          "id": "3b-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "(adj.) done very carefully, with attention to detail",
+          "options": [
+            "invaluable",
+            "thorough",
+            "potential",
+            "stand out",
+            "slouch",
+            "steer clear of",
+            "genuine",
+            "fiddle with"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "3b-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "(adj.) possible",
+          "options": [
+            "invaluable",
+            "thorough",
+            "potential",
+            "stand out",
+            "slouch",
+            "steer clear of",
+            "genuine",
+            "fiddle with"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "3b-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "(phrasal verb) be noticeable because of being different",
+          "options": [
+            "invaluable",
+            "thorough",
+            "potential",
+            "stand out",
+            "slouch",
+            "steer clear of",
+            "genuine",
+            "fiddle with"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "3b-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "(verb) sit in a lazy way, with your shoulders bent forwards",
+          "options": [
+            "invaluable",
+            "thorough",
+            "potential",
+            "stand out",
+            "slouch",
+            "steer clear of",
+            "genuine",
+            "fiddle with"
+          ],
+          "answer": 4
+        },
+        {
+          "id": "3b-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "(phrase) avoid",
+          "options": [
+            "invaluable",
+            "thorough",
+            "potential",
+            "stand out",
+            "slouch",
+            "steer clear of",
+            "genuine",
+            "fiddle with"
+          ],
+          "answer": 5
+        },
+        {
+          "id": "3b-7",
+          "number": 7,
+          "input": "select",
+          "prompt": "(adj.) real; true",
+          "options": [
+            "invaluable",
+            "thorough",
+            "potential",
+            "stand out",
+            "slouch",
+            "steer clear of",
+            "genuine",
+            "fiddle with"
+          ],
+          "answer": 6
+        },
+        {
+          "id": "3b-8",
+          "number": 8,
+          "input": "select",
+          "prompt": "(verb) keep touching something because you are nervous",
+          "options": [
+            "invaluable",
+            "thorough",
+            "potential",
+            "stand out",
+            "slouch",
+            "steer clear of",
+            "genuine",
+            "fiddle with"
+          ],
+          "answer": 7
+        }
+      ]
+    }
+  ]
+}

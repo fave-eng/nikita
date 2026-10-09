@@ -365,5 +365,104 @@ window.GRAMMAR_DATA = [
         ]
       }
     ]
+  },
+  {
+    id: 'grammar-lesson-6-question-formation',
+    order: 5,
+    title: 'Question formation',
+    level: 'B2.1',
+    status: 'available',
+    linkedLessonId: 'lesson-6',
+    page: 'grammar-topic.html?id=grammar-lesson-6-question-formation',
+    passScore: 100,
+    overview: {
+      lead: 'English questions use different word order depending on whether the question is direct, a subject question, or part of an indirect question.',
+      keyRule: 'In most direct questions, put an auxiliary before the subject. In indirect questions, use statement word order after the introductory phrase.',
+      subjects: ['direct questions', 'subject questions', 'indirect questions', 'prepositions in questions', 'question phrases'],
+      example: 'Where does Natalie live? / Can you tell me where Natalie lives?'
+    },
+    uses: [
+      { icon: '?', title: 'Direct questions', text: 'Use an auxiliary before the subject in most questions.', example: 'Where did you park the car?' },
+      { icon: 'S', title: 'Subject questions', text: 'When who or what is the subject, do not add do, does or did.', example: 'Who repaired your car?' },
+      { icon: 'I', title: 'Indirect questions', text: 'After phrases such as Could you tell me or Do you know, use statement word order.', example: 'Could you tell me where the lift is?' },
+      { icon: 'P', title: 'Prepositions', text: 'In natural spoken English, a preposition often comes at the end of the question.', example: 'Who are you waiting for?' }
+    ],
+    forms: [
+      { id: 'affirmative', icon: '?', title: 'Direct question', formula: 'question word + auxiliary + subject + main verb', example: 'Why did you leave your last job?', translation: 'Use do / does / did when there is no other auxiliary.', note: 'With be or a modal verb, invert that verb and the subject: Where is the lift? / Would you like to work abroad?' },
+      { id: 'negative', icon: 'Who', title: 'Subject question', formula: 'who / what + verb + object', example: 'Who repaired your car?', translation: 'Who is the subject, so no do / does / did is needed.', note: 'Compare: Who called you? / Who did you call?' },
+      { id: 'question', icon: '→', title: 'Indirect question', formula: 'introductory phrase + question word / if + subject + verb', example: 'Do you know what time the match starts?', translation: 'The embedded question has statement word order.', note: 'Do not use inversion after the introductory phrase.' },
+      { id: 'short-answer', icon: 'Prep', title: 'Preposition at the end', formula: 'question word + auxiliary + subject + verb + preposition', example: 'Who is Jack going out with?', translation: 'This is normal in everyday English.', note: 'Very formal structures such as With whom ... are possible but are uncommon in ordinary conversation.' }
+    ],
+    contrast: {
+      title: 'Direct or indirect?',
+      intro: 'The main difference is the word order after the question word.',
+      ordinary: { label: 'Direct', verbs: 'auxiliary before subject', affirmative: 'Where does Natalie live?', negative: 'Why didn’t you tell me?', question: 'What time does the match start?', rule: 'Use normal question word order.' },
+      be: { label: 'Indirect', verbs: 'subject before verb', affirmative: 'I wonder where Natalie lives.', negative: 'I’m not sure why he didn’t come.', question: 'Can you tell me what time the match starts?', rule: 'Use statement word order inside the embedded question.' }
+    },
+    questionBuilder: {
+      title: 'Build the question',
+      pattern: ['question word', 'auxiliary or verb be / modal', 'subject', 'main verb', 'rest of question'],
+      example: 'How many languages do you speak?',
+      translation: 'For indirect questions, keep only the introductory phrase as a question and use statement order afterwards.',
+      note: 'First decide whether who / what is the subject. Then decide whether the question is direct or indirect.'
+    },
+    memoryRule: {
+      title: 'Quick check',
+      steps: [
+        'Direct question: auxiliary before the subject.',
+        'Subject question with who / what: no do / does / did.',
+        'Indirect question: statement word order after the introductory phrase.',
+        'Use if or whether for indirect yes / no questions.',
+        'In normal spoken English, prepositions often stay at the end of the question.'
+      ]
+    },
+    commonMistakes: [
+      { wrong: 'Where you usually go on holiday?', right: 'Where do you usually go on holiday?', reason: 'A present simple direct question needs do before the subject.' },
+      { wrong: 'Could you tell me where is the lift?', right: 'Could you tell me where the lift is?', reason: 'An indirect question uses statement word order.' },
+      { wrong: 'Who did repair your car?', right: 'Who repaired your car?', reason: 'Who is the subject, so did is not needed.' },
+      { wrong: 'Do you know what time does the match start?', right: 'Do you know what time the match starts?', reason: 'The embedded question uses statement word order.' }
+    ],
+    quizExercises: [
+      {
+        title: 'Choose the correct question',
+        instructions: 'Choose the correct answer.',
+        items: [
+          { type: 'single', difficulty: 'Easy', skill: 'Direct question', prompt: 'Choose the correct question.', options: ['Where do you usually go on holiday?', 'Where you usually go on holiday?'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Subject question', prompt: 'Choose the correct question.', options: ['Who repaired your car?', 'Who did repair your car?'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Indirect question', prompt: 'Choose the correct question.', options: ['Could you tell me where the lift is?', 'Could you tell me where is the lift?'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Preposition', prompt: 'Choose the natural everyday question.', options: ['Who are you waiting for?', 'For who are you waiting?'], answer: 0 }
+        ]
+      },
+      {
+        title: 'Complete the questions',
+        instructions: 'Write the missing words.',
+        items: [
+          { type: 'gaps', difficulty: 'Medium', skill: 'Present simple question', prompt: 'Complete the question.', segments: ['How many languages ', ' you speak?'], answers: ['do'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Past simple question', prompt: 'Complete the question.', segments: ['Why ', ' you leave your last job?'], answers: ['did'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Indirect question', prompt: 'Complete the question.', segments: ['Do you know where Natalie ', '?'], answers: ['lives'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Indirect yes/no question', prompt: 'Complete the question.', segments: ['Do you know ', ' there are any tickets left?'], answers: [['if', 'whether']] }
+        ]
+      },
+      {
+        title: 'Direct or indirect word order?',
+        instructions: 'Choose the form that completes the sentence correctly.',
+        items: [
+          { type: 'select', difficulty: 'Challenge', skill: 'Indirect question', prompt: 'I wonder ___ .', options: ['where he works', 'where does he work'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Direct question', prompt: '___ at the meeting yesterday?', options: ['What happened', 'What did happen'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Indirect question', prompt: 'Can you tell me ___ ?', options: ['what time the match starts', 'what time does the match start'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Subject / object question', prompt: '___ the chocolates?', options: ['Who ate', 'Who did eat'], answer: 0 }
+        ]
+      },
+      {
+        title: 'Build complete questions',
+        instructions: 'Put the words in the correct order.',
+        items: [
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Direct question', prompt: 'you / where / work / do', tokens: ['Where', 'do', 'you', 'work'], answer: 'Where do you work?', acceptedAnswers: ['Where do you work?', 'Where do you work'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Indirect question', prompt: 'tell me / could / where / the station / is / you', tokens: ['Could you', 'tell me', 'where', 'the station', 'is'], answer: 'Could you tell me where the station is?', acceptedAnswers: ['Could you tell me where the station is?', 'Could you tell me where the station is'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Subject question', prompt: 'your car / who / repaired', tokens: ['Who', 'repaired', 'your car'], answer: 'Who repaired your car?', acceptedAnswers: ['Who repaired your car?', 'Who repaired your car'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Indirect question', prompt: 'do you know / how much / paid / you / for it', tokens: ['Do you know', 'how much', 'you', 'paid', 'for it'], answer: 'Do you know how much you paid for it?', acceptedAnswers: ['Do you know how much you paid for it?', 'Do you know how much you paid for it'] }
+        ]
+      }
+    ]
   }
 ];

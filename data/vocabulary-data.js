@@ -249,5 +249,44 @@ window.VOCABULARY_DATA = [
       { id: 'l6-28', uniqueKey: 'be based', en: 'be based', ru: 'to have a particular place as the main location of a business or activity', transcription: '', exampleEn: 'Many small businesses were based there.', group: 'change' },
       { id: 'l6-29', uniqueKey: 'clean up', en: 'clean up', ru: 'to make a place cleaner, safer or more attractive', transcription: '', exampleEn: 'The old industrial area has been cleaned up.', group: 'change' }
     ]
+  },
+  {
+    id: 'vocab-lesson-6-questions-interviews',
+    title: 'Questions and interviews',
+    label: 'Homework 6 · 22 useful words and phrases',
+    icon: '💬',
+    type: 'lesson',
+    linkedLessonId: 'lesson-6',
+    page: 'vocabulary.html?id=vocab-lesson-6-questions-interviews',
+    description: 'Useful language from Homework 6 for interview situations, context clues and natural follow-up conversation.',
+    groups: [
+      { id: 'context', title: 'Working out meaning', subtitle: 'Vocabulary from context', icon: '🔎' },
+      { id: 'interviews', title: 'Interview language', subtitle: 'Useful words for job interviews', icon: '💼' },
+      { id: 'interaction', title: 'Conversation', subtitle: 'Following up and showing interest', icon: '💬' }
+    ],
+    words: [
+      { id: 'l7-01', uniqueKey: 'foolproof', en: 'foolproof', ru: 'designed so that it cannot fail or be used incorrectly', transcription: '/ˈfuːlpruːf/', exampleEn: 'The article gives five foolproof interview tips.', group: 'context' },
+      { id: 'l7-02', uniqueKey: 'geek', en: 'geek', ru: 'a person who is very interested in and knowledgeable about a particular subject, especially technology', transcription: '/ɡiːk/', exampleEn: 'Josh is a computer geek.', group: 'context' },
+      { id: 'l7-03', uniqueKey: 'good-natured rivalry', en: 'good-natured rivalry', ru: 'friendly competition that does not cause serious conflict', transcription: '', exampleEn: 'They enjoy a good-natured rivalry at work.', group: 'context' },
+      { id: 'l7-04', uniqueKey: 'gut feeling', en: 'gut feeling', ru: 'a strong feeling about something without a clear logical reason', transcription: '', exampleEn: 'I have a gut feeling that the interview will go well.', group: 'context' },
+      { id: 'l7-05', uniqueKey: 'job seekers', en: 'job seekers', ru: 'people who are looking for work', transcription: '', exampleEn: 'The news is useful for job seekers.', group: 'context' },
+      { id: 'l7-06', uniqueKey: 'light-hearted response', en: 'light-hearted response', ru: 'a relaxed or humorous answer that is not too serious', transcription: '', exampleEn: 'She gave a light-hearted response instead of getting angry.', group: 'context' },
+      { id: 'l7-07', uniqueKey: 'the point of', en: 'the point of', ru: 'the purpose or usefulness of something', transcription: '', exampleEn: 'I don’t see the point of asking that question.', group: 'context' },
+      { id: 'l7-08', uniqueKey: 'work-life balance', en: 'work-life balance', ru: 'the amount of time and energy you give to work compared with your personal life', transcription: '', exampleEn: 'A good work-life balance can reduce stress.', group: 'context' },
+      { id: 'l7-09', uniqueKey: 'potential employer', en: 'potential employer', ru: 'a person or company that may employ you in the future', transcription: '', exampleEn: 'Research your potential employer before the interview.', group: 'interviews' },
+      { id: 'l7-10', uniqueKey: 'genuine interest', en: 'genuine interest', ru: 'real and sincere interest', transcription: '', exampleEn: 'Show genuine interest in the company.', group: 'interviews' },
+      { id: 'l7-11', uniqueKey: 'dress code', en: 'dress code', ru: 'rules about what people should wear in a particular place or situation', transcription: '', exampleEn: 'Check the company’s dress code before the interview.', group: 'interviews' },
+      { id: 'l7-12', uniqueKey: 'body language', en: 'body language', ru: 'the way your body movements and position communicate feelings or attitudes', transcription: '', exampleEn: 'Positive body language can make a good impression.', group: 'interviews' },
+      { id: 'l7-13', uniqueKey: 'slouch', en: 'slouch', ru: 'to sit or stand with your shoulders bent forward in a lazy way', transcription: '/slaʊtʃ/', exampleEn: 'Try not to slouch in the interview.', group: 'interviews' },
+      { id: 'l7-14', uniqueKey: 'fiddle with', en: 'fiddle with', ru: 'to keep touching or moving something, often because you are nervous', transcription: '', exampleEn: 'He fiddled with his pen while he was waiting.', group: 'interviews' },
+      { id: 'l7-15', uniqueKey: 'invaluable', en: 'invaluable', ru: 'extremely useful or important', transcription: '/ɪnˈvæljuəbəl/', exampleEn: 'She would be an invaluable team member.', group: 'interviews' },
+      { id: 'l7-16', uniqueKey: 'stand out', en: 'stand out', ru: 'to be easy to notice because you are different or better', transcription: '', exampleEn: 'Give real examples so that you stand out from the competition.', group: 'interviews' },
+      { id: 'l7-17', uniqueKey: 'thorough', en: 'thorough', ru: 'done very carefully and completely', transcription: '/ˈθʌrə/', exampleEn: 'The interviewer had been very thorough.', group: 'interviews' },
+      { id: 'l7-18', uniqueKey: 'convince', en: 'convince', ru: 'to make someone believe that something is true or that they should do something', transcription: '/kənˈvɪns/', exampleEn: 'You need to convince the interviewer that you are suitable.', group: 'interviews' },
+      { id: 'l7-19', uniqueKey: 'appropriate', en: 'appropriate', ru: 'suitable or correct for a particular situation', transcription: '/əˈprəʊpriət/', exampleEn: 'Use polite language when appropriate.', group: 'interviews' },
+      { id: 'l7-20', uniqueKey: 'qualified', en: 'qualified', ru: 'having the skills, knowledge or experience needed for a job', transcription: '/ˈkwɒlɪfaɪd/', exampleEn: 'Both candidates were equally qualified.', group: 'interviews' },
+      { id: 'l7-21', uniqueKey: 'candidate', en: 'candidate', ru: 'a person who is being considered for a job or position', transcription: '/ˈkændɪdət/', exampleEn: 'The interviewer met several candidates.', group: 'interviews' },
+      { id: 'l7-22', uniqueKey: 'follow-up question', en: 'follow-up question', ru: 'a question asked after an answer to get more information', transcription: '', exampleEn: 'A follow-up question shows that you are listening.', group: 'interaction' }
+    ]
   }
 ];
