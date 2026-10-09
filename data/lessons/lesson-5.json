@@ -1,0 +1,623 @@
+{
+  "id": "lesson-5",
+  "number": 5,
+  "title": "Unit 1 review + Unit 2: Sightseeing",
+  "subtitle": "Outcomes B2, 3rd edition · Reading, vocabulary and Unit 2 practice",
+  "status": "available",
+  "publishedAt": "2026-10-09",
+  "notification": {
+    "enabled": false,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-5-sightseeing",
+  "grammarIds": [
+    "grammar-lesson-5-relative-clauses"
+  ],
+  "totalPoints": 52,
+  "blocks": [
+    {
+      "type": "grammar-link",
+      "title": "Relative clauses",
+      "text": "",
+      "grammarId": "grammar-lesson-5-relative-clauses",
+      "buttonLabel": "Open topic"
+    },
+    {
+      "type": "section",
+      "title": "Reading",
+      "text": ""
+    },
+    {
+      "type": "reading",
+      "title": "FANCY A MASTERPIECE FOR JUST £40?",
+      "sections": [
+        {
+          "number": "",
+          "heading": "",
+          "text": "The market for contemporary art shows no sign of falling and the opportunity to snap up an original at a bargain price just can’t be missed. Every year London’s Royal College of Art (RCA) organises its Secret exhibition and sale. [1] The College invites both established, well-known artists and young art students to create an original piece of art based on just two rules – the work must be done on a postcard and must be signed on the back [2] All the cards are exhibited for a week and then sold in a one-day sale at a price of just £40 each."
+        },
+        {
+          "number": "",
+          "heading": "",
+          "text": "Since the first exhibition, Secret has really captured the public’s imagination. [3] The list of famous contributors includes: artists Damien Hirst, David Hockney and Tracey Emin, designers Manolo Blahnik, Paul Smith and Stella McCartney, and musicians David Bowie and Paul Simonon from The Clash. [4] Part of the fun is deciding which of them is by a famous artist or designer, and which is by a hard-up art student. Buyers could end up with a great investment or just a pretty picture by a student the public has never heard of."
+        },
+        {
+          "number": "",
+          "heading": "",
+          "text": "At one recent exhibition, a lucky visitor bought a sketch of a human skull with an eye in the middle of its forehead, only to discover that it was by fashionable British artist Damien Hirst. It was later auctioned at Sotheby’s for over £15,000. Another good investment was the painting of a bearded man in a canoe by British artist, Peter Doig. It sold for £42,000 at the same Sotheby’s auction as the Hirst postcard."
+        },
+        {
+          "number": "",
+          "heading": "",
+          "text": "Secret was set up in 1994 and was the brainchild of an RCA student who wanted to help raise funds for fine art students at the college. Since its beginnings, over one million pounds has been raised for the Royal College of Art Fine Art Student Award Fund. [5] Professor Glynn Williams, Head of Fine Art at the RCA said: ‘RCA Secret is about securing the future of the next generation of artists and when the public buy postcards at the event they are helping to make this possible. [6] – everyone has an equal chance of getting a big name.’"
+        },
+        {
+          "number": "",
+          "heading": "",
+          "text": "As well as raising much-needed funds for the students at the College, RCA Secret has attracted loyal support from a group of art lovers who have been visiting the show since it started. It is not only one of the most popular events at the RCA, [7]"
+        },
+        {
+          "number": "",
+          "heading": "Glossary",
+          "text": "hard-up: short of money · skull: the bone structure of the head · auction: to sell something at a public event at which things are sold to the person who offers the most money"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw5-reading-2",
+      "title": "2 Seven parts of the article have been removed. Write the correct letter (a–g) in the gaps in the article. There is one extra sentence that you do not need to use.",
+      "wordBank": [
+        "a The postcards can be viewed in person at the RCA or online.",
+        "b in order to keep the artist’s identity a secret",
+        "c It’s one of the most democratic art sales in the world",
+        "d Most examples are much too expensive for the average buyer.",
+        "e The idea behind it is simple.",
+        "f but it has also developed into an important date in the British art calendar.",
+        "g The money has helped hundreds of students in the early stages of their career.",
+        "h Now over 1,000 artists take part in the event each year."
+      ],
+      "items": [
+        {
+          "id": "r2-1",
+          "number": 1,
+          "input": "select",
+          "prompt": "Gap 1",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 4
+        },
+        {
+          "id": "r2-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "Gap 2",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "r2-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "Gap 3",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 7
+        },
+        {
+          "id": "r2-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "Gap 4",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "r2-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "Gap 5",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 6
+        },
+        {
+          "id": "r2-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "Gap 6",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "r2-7",
+          "number": 7,
+          "input": "select",
+          "prompt": "Gap 7",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "answer": 5
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw5-reading-3",
+      "title": "3 Number the paragraph summaries in the same order as the article.",
+      "items": [
+        {
+          "id": "r3-1",
+          "number": "",
+          "input": "select",
+          "prompt": "who benefits from Secret",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 4
+        },
+        {
+          "id": "r3-2",
+          "number": "",
+          "input": "select",
+          "prompt": "the overall role of Secret",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "r3-3",
+          "number": "",
+          "input": "select",
+          "prompt": "how Secret works",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "r3-4",
+          "number": "",
+          "input": "select",
+          "prompt": "who made a good investment from Secret",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "r3-5",
+          "number": "",
+          "input": "select",
+          "prompt": "who has taken part",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw5-reading-4",
+      "title": "4 Choose the correct words. Look back at the article if you need to.",
+      "items": [
+        {
+          "id": "r4-1",
+          "number": "",
+          "input": "inline-single",
+          "prompt": "",
+          "segments": [
+            "I’d never ",
+            " of Secret until I went along with a friend last year. I wasn’t really hoping to ",
+            " a bargain, more just interested to see the art. We spent ages ",
+            " the postcards and the hall was packed. The exhibition has obviously ",
+            " the public’s imagination. In the end, I bought just two cards and neither of them will make anything at ",
+            ". I don’t really mind. I think it’s a great way to ",
+            " funds for young artists."
+          ],
+          "choices": [
+            {
+              "options": [
+                "heard",
+                "known"
+              ],
+              "answer": 0
+            },
+            {
+              "options": [
+                "find",
+                "snap up"
+              ],
+              "answer": 1
+            },
+            {
+              "options": [
+                "viewing",
+                "looking"
+              ],
+              "answer": 0
+            },
+            {
+              "options": [
+                "taken",
+                "captured"
+              ],
+              "answer": 1
+            },
+            {
+              "options": [
+                "auction",
+                "investment"
+              ],
+              "answer": 0
+            },
+            {
+              "options": [
+                "rise",
+                "raise"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Vocabulary Builder Quiz 1",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw5-vbq1-1",
+      "title": "1 Replace the underlined words with an adjective from VB Unit 1.",
+      "items": [
+        {
+          "id": "q1-1",
+          "number": 1,
+          "input": "text",
+          "prompt": "That film was so full of hope and positive.",
+          "answer": "inspiring"
+        },
+        {
+          "id": "q1-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "It was a beautiful painting in soft colours.",
+          "answer": "subtle"
+        },
+        {
+          "id": "q1-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "I didn’t like the ending. What happened to the main character was unclear.",
+          "answer": "ambiguous"
+        },
+        {
+          "id": "q1-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "I couldn’t watch it. It was just too upsetting.",
+          "answer": "disturbing"
+        },
+        {
+          "id": "q1-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "The story is so exciting. You won’t be able to put it down.",
+          "answer": "gripping"
+        },
+        {
+          "id": "q1-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "His jokes were extremely funny. I’ve never laughed so much.",
+          "answer": "hilarious"
+        },
+        {
+          "id": "q1-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "I wish she wouldn’t tell me all the private details of her life.",
+          "answer": "intimate"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw5-vbq1-3",
+      "title": "3 Complete the sentences with adjectives ending in -al.",
+      "items": [
+        {
+          "id": "q3-1",
+          "number": 1,
+          "input": "text",
+          "prompt": "The damage was ............, so it was easy to repair.",
+          "answer": "minimal"
+        },
+        {
+          "id": "q3-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "This film is quite ............ and tries new techniques.",
+          "answer": "experimental"
+        },
+        {
+          "id": "q3-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "It’s all about good and bad: it has a strong ............ message.",
+          "answer": "moral"
+        },
+        {
+          "id": "q3-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "Having lower costs gives us a ............ advantage.",
+          "answer": "commercial"
+        },
+        {
+          "id": "q3-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "We all have a ............ need for love and security.",
+          "answer": "psychological"
+        },
+        {
+          "id": "q3-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "It’s a ............ weakness, which will destroy him.",
+          "answer": "fatal"
+        },
+        {
+          "id": "q3-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "Her writing style is very different. She never uses ............ ideas.",
+          "answer": "conventional"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Unit 2: Sightseeing · Vocabulary: Buildings and areas",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw5-unit2-vocab-1",
+      "title": "1 Complete the descriptions with the pairs of adjectives in the box.",
+      "wordBank": [
+        "deprived / residential",
+        "high-rise / hideous",
+        "up-and-coming / trendy",
+        "rough / run-down",
+        "affluent / stunning",
+        "historic / grand"
+      ],
+      "items": [
+        {
+          "id": "u2v1-1",
+          "number": 1,
+          "input": "gaps",
+          "segments": [
+            "People say it’s an ",
+            " area. They’re starting to open a lot more shops, bars and stuff like that. I hope it doesn’t get too ",
+            ", though, as the house prices will go up."
+          ],
+          "answers": [
+            "up-and-coming",
+            "trendy"
+          ]
+        },
+        {
+          "id": "u2v1-2",
+          "number": 2,
+          "input": "gaps",
+          "segments": [
+            "The architecture is amazing. It’s full of ",
+            " buildings like the first synagogue in the area, but there are also ",
+            " places and squares."
+          ],
+          "answers": [
+            "historic",
+            "grand"
+          ]
+        },
+        {
+          "id": "u2v1-3",
+          "number": 3,
+          "input": "gaps",
+          "segments": [
+            "It’s always been a bit ",
+            " with lots of litter and graffiti everywhere, but now it’s starting to look really ",
+            ". All the houses are in a terrible state."
+          ],
+          "answers": [
+            "rough",
+            "run-down"
+          ]
+        },
+        {
+          "id": "u2v1-4",
+          "number": 4,
+          "input": "gaps",
+          "segments": [
+            "It’s always been the most ",
+            " district in the city and I could never afford to live there. The houses are ",
+            ", with up to seven bedrooms and enormous gardens."
+          ],
+          "answers": [
+            "affluent",
+            "stunning"
+          ]
+        },
+        {
+          "id": "u2v1-5",
+          "number": 5,
+          "input": "gaps",
+          "segments": [
+            "About 20 years ago this part of town was quite ",
+            ". There were lots of empty houses and shops, and very few facilities. Now it’s been transformed into a quiet, ",
+            " area. Loads of young families live there."
+          ],
+          "answers": [
+            "deprived",
+            "residential"
+          ]
+        },
+        {
+          "id": "u2v1-6",
+          "number": 6,
+          "input": "gaps",
+          "segments": [
+            "They’re planning to build some ",
+            " blocks of about 25 floors on the edge of the old town. I think mixing old and new like that is going to look ",
+            "."
+          ],
+          "answers": [
+            "high-rise",
+            "hideous"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw5-unit2-vocab-2",
+      "title": "2 Complete the conversations with the correct form of the verbs in brackets.",
+      "items": [
+        {
+          "id": "u2v2-1",
+          "number": 1,
+          "input": "gaps",
+          "layout": "dialogue",
+          "segments": [
+            "A: Wow! Look at that castle. It totally ",
+            " (dominate) the whole area. What does it say about it in the guidebook?\nB: Apparently, it ",
+            " (date back) to the sixteenth century and it ",
+            " (renovate) several times since then."
+          ],
+          "answers": [
+            "dominates",
+            "dates back",
+            "has been renovated"
+          ]
+        },
+        {
+          "id": "u2v2-2",
+          "number": 2,
+          "input": "gaps",
+          "layout": "dialogue",
+          "segments": [
+            "A: Why have they bought a flat down by the station? It used to be really rough down there. I always told visitors ",
+            " (steer clear) of it.\nB: It’s all changed now. They ",
+            " (knock down) the run-down old buildings about a year ago and built some trendy new flats. Needless to say, prices over there ",
+            " (soar) now."
+          ],
+          "answers": [
+            "to steer clear",
+            "knocked down",
+            "have soared"
+          ]
+        },
+        {
+          "id": "u2v2-3",
+          "number": 3,
+          "input": "gaps",
+          "layout": "dialogue",
+          "segments": [
+            "A: Do you remember where I used to live?\nB: Yeah, it was quite trendy. Lots of small shops and businesses ",
+            " (base) there. And there was that old factory on the main road.\nA: Yes! You wouldn’t recognise it now. It ",
+            " (clean up) and it houses a big art gallery and café."
+          ],
+          "answers": [
+            "were based",
+            "has been cleaned up"
+          ]
+        }
+      ]
+    }
+  ]
+}

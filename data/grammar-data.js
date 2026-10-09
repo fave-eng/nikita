@@ -266,5 +266,104 @@ window.GRAMMAR_DATA = [
         ]
       }
     ]
+  },
+  {
+    id: 'grammar-lesson-5-relative-clauses',
+    order: 4,
+    title: 'Relative clauses',
+    level: 'B2.1',
+    status: 'available',
+    linkedLessonId: 'lesson-5',
+    page: 'grammar-topic.html?id=grammar-lesson-5-relative-clauses',
+    passScore: 100,
+    overview: {
+      lead: 'Relative clauses add information about a person, thing, place, time or possession. They let you join ideas without repeating the same noun.',
+      keyRule: 'Use defining relative clauses for essential information and non-defining relative clauses for extra information. Non-defining clauses are separated by commas and do not normally use that.',
+      subjects: ['who', 'which', 'that', 'whose', 'where', 'when'],
+      example: 'The area that we visited was beautiful. / Riga, which is on the Baltic Sea, has a historic centre.'
+    },
+    uses: [
+      { icon: 'D', title: 'Defining clauses', text: 'Use a defining relative clause when the information identifies exactly which person or thing you mean.', example: 'The hotel that we booked was near the old town.' },
+      { icon: 'ND', title: 'Non-defining clauses', text: 'Use commas when the relative clause gives extra information that is not needed to identify the noun.', example: 'The castle, which dates back to the 1500s, dominates the area.' },
+      { icon: 'P', title: 'People and things', text: 'Use who for people and which for things. That can replace who or which in many defining clauses.', example: 'The guide who showed us around was excellent. / The building that we saw is a museum.' },
+      { icon: 'O', title: 'Place, time and possession', text: 'Use where for places, when for times and whose for possession.', example: 'This is the street where I grew up. / 2019 was the year when I moved. / We met a woman whose family owns the hotel.' }
+    ],
+    forms: [
+      { id: 'affirmative', icon: '+', title: 'Defining relative clause', formula: 'noun + who / which / that + clause', example: 'The café that opened last year is always busy.', translation: 'Essential information: which café?', note: 'No commas are used.' },
+      { id: 'negative', icon: ',', title: 'Non-defining relative clause', formula: 'noun, who / which / whose + clause,', example: 'The museum, which is free on Sundays, closes at six.', translation: 'Extra information about an already identified noun.', note: 'Use commas. Do not normally use that.' },
+      { id: 'question', icon: 'Ø', title: 'Omitting the relative pronoun', formula: 'noun + (who / which / that) + subject + verb', example: 'The hotel (that) we booked was expensive.', translation: 'The pronoun can be omitted when it is the object of the relative clause.', note: 'Do not omit it when it is the subject: The hotel that stands here ...' },
+      { id: 'short-answer', icon: 'W', title: 'Where, when and whose', formula: 'place + where; time + when; person / thing + whose + noun', example: 'That is the square where the festival takes place. / I met a guide whose English was excellent.', translation: 'Use these forms for place, time and possession.', note: 'Whose is followed by a noun.' }
+    ],
+    contrast: {
+      title: 'Defining or non-defining?',
+      intro: 'The difference is whether the information is necessary to identify the noun.',
+      ordinary: { label: 'Defining', verbs: 'who / which / that', affirmative: 'The streets that lead to the castle are narrow.', negative: 'The hotel that we booked was not central.', question: 'Which hotel? The one that we booked.', rule: 'Essential information; no commas.' },
+      be: { label: 'Non-defining', verbs: 'who / which / whose', affirmative: 'The old town, which is very walkable, is full of cafés.', negative: 'Our hotel, which was not expensive, had a great view.', question: 'Extra information about an already identified noun.', rule: 'Use commas and do not normally use that.' }
+    },
+    questionBuilder: {
+      title: 'Choose the connector',
+      pattern: ['person → who', 'thing → which / that', 'place → where', 'time → when', 'possession → whose'],
+      example: 'The district where we stayed was very lively.',
+      translation: 'Choose the relative word by the meaning you need.',
+      note: 'Then decide whether the information is defining or non-defining.'
+    },
+    memoryRule: {
+      title: 'Quick check',
+      steps: [
+        'Is the information essential? Use a defining clause without commas.',
+        'Is it extra information? Use commas and a non-defining clause.',
+        'Person: who; thing: which; place: where; time: when; possession: whose.',
+        'That is common in defining clauses, but not normally in non-defining clauses.',
+        'You may omit who / which / that only when it is the object, not the subject.'
+      ]
+    },
+    commonMistakes: [
+      { wrong: 'The hotel, that we booked, was expensive.', right: 'The hotel, which we booked, was expensive.', reason: 'Do not normally use that in a non-defining relative clause.' },
+      { wrong: 'The street which I grew up is nearby.', right: 'The street where I grew up is nearby.', reason: 'Use where for a place when it means “in that place”.' },
+      { wrong: 'The guide whose showed us around was friendly.', right: 'The guide who showed us around was friendly.', reason: 'Use who for a person as the subject. Whose expresses possession.' },
+      { wrong: 'The building built in 1890 which is now a museum is beautiful.', right: 'The building, which was built in 1890, is now a museum.', reason: 'Use commas when the clause gives extra information about an already identified noun.' }
+    ],
+    quizExercises: [
+      {
+        title: 'Choose the relative word',
+        instructions: 'Choose the correct answer.',
+        items: [
+          { type: 'single', difficulty: 'Easy', skill: 'People', prompt: 'The guide ___ showed us the cathedral was excellent.', options: ['who', 'where', 'when'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Things', prompt: 'The building ___ dominates the square is the town hall.', options: ['which', 'where', 'whose'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Places', prompt: 'That is the district ___ we stayed.', options: ['where', 'who', 'whose'], answer: 0 },
+          { type: 'single', difficulty: 'Easy', skill: 'Possession', prompt: 'We met a local artist ___ studio is near the river.', options: ['whose', 'which', 'when'], answer: 0 }
+        ]
+      },
+      {
+        title: 'Complete the sentences',
+        instructions: 'Write the missing relative word.',
+        items: [
+          { type: 'gaps', difficulty: 'Medium', skill: 'Defining person', prompt: 'Complete the sentence.', segments: ['The woman ', ' recommended the hotel lives nearby.'], answers: ['who'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Defining thing', prompt: 'Complete the sentence.', segments: ['The castle ', ' we visited is over 500 years old.'], answers: [['that', 'which']] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Place', prompt: 'Complete the sentence.', segments: ['This is the café ', ' we had breakfast.'], answers: ['where'] },
+          { type: 'gaps', difficulty: 'Medium', skill: 'Time', prompt: 'Complete the sentence.', segments: ['Sunday is the day ', ' the market is busiest.'], answers: ['when'] }
+        ]
+      },
+      {
+        title: 'Defining or non-defining?',
+        instructions: 'Choose the correct sentence.',
+        items: [
+          { type: 'select', difficulty: 'Challenge', skill: 'Commas', prompt: 'Our hotel is already identified. Choose the correct sentence.', options: ['Our hotel, which overlooks the river, is very quiet.', 'Our hotel that overlooks the river is very quiet.'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Defining', prompt: 'You need to identify which streets. Choose the correct sentence.', options: ['The streets that lead to the old town are pedestrianised.', 'The streets, that lead to the old town, are pedestrianised.'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'That', prompt: 'Choose the natural non-defining clause.', options: ['The cathedral, which was renovated recently, is open again.', 'The cathedral, that was renovated recently, is open again.'], answer: 0 },
+          { type: 'select', difficulty: 'Challenge', skill: 'Omission', prompt: 'Choose the sentence where the relative pronoun can be omitted.', options: ['The museum (that) we visited was free.', 'The museum (that) stands by the river is free.'], answer: 0 }
+        ]
+      },
+      {
+        title: 'Build complete sentences',
+        instructions: 'Put the words in the correct order.',
+        items: [
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Where', prompt: 'district / where / we stayed / the / was very lively', tokens: ['The district', 'where', 'we stayed', 'was very lively'], answer: 'The district where we stayed was very lively.', acceptedAnswers: ['The district where we stayed was very lively', 'The district where we stayed was very lively.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Who', prompt: 'guide / who / showed us around / the / was excellent', tokens: ['The guide', 'who', 'showed us around', 'was excellent'], answer: 'The guide who showed us around was excellent.', acceptedAnswers: ['The guide who showed us around was excellent', 'The guide who showed us around was excellent.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Whose', prompt: 'artist / whose / work we saw / the / lives nearby', tokens: ['The artist', 'whose', 'work we saw', 'lives nearby'], answer: 'The artist whose work we saw lives nearby.', acceptedAnswers: ['The artist whose work we saw lives nearby', 'The artist whose work we saw lives nearby.'] },
+          { type: 'reorder', difficulty: 'Advanced', skill: 'Non-defining which', prompt: 'the castle / which dates back to 1550 / is now a museum', tokens: ['The castle,', 'which dates back to 1550,', 'is now a museum'], answer: 'The castle, which dates back to 1550, is now a museum.', acceptedAnswers: ['The castle, which dates back to 1550, is now a museum', 'The castle, which dates back to 1550, is now a museum.'] }
+        ]
+      }
+    ]
   }
 ];

@@ -203,5 +203,51 @@ window.VOCABULARY_DATA = [
       { id: 'l5-22', uniqueKey: 'overall view', en: 'overall view', ru: 'a general opinion after considering all aspects', transcription: '', exampleEn: 'My overall view is very positive.', group: 'writing' },
       { id: 'l5-23', uniqueKey: 'recommendation', en: 'recommendation', ru: 'a statement saying that something is good and worth trying', transcription: '/ˌrekəmenˈdeɪʃən/', exampleEn: 'I ended the review with a clear recommendation.', group: 'writing' }
     ]
+  },
+  {
+    id: 'vocab-lesson-5-sightseeing',
+    title: 'Sightseeing: buildings and areas',
+    label: 'Homework 5 · 29 useful words and phrases',
+    icon: '🏙️',
+    type: 'lesson',
+    linkedLessonId: 'lesson-5',
+    page: 'vocabulary.html?id=vocab-lesson-5-sightseeing',
+    description: 'Useful language from the Unit 1 reading review and the start of Unit 2 for buildings, neighbourhoods and urban change.',
+    groups: [
+      { id: 'reading', title: 'Reading', subtitle: 'Art sale and reading vocabulary', icon: '📰' },
+      { id: 'places', title: 'Buildings and areas', subtitle: 'Describing neighbourhoods and architecture', icon: '🏙️' },
+      { id: 'change', title: 'Urban change', subtitle: 'Verbs for places and development', icon: '🏗️' }
+    ],
+    words: [
+      { id: 'l6-01', uniqueKey: 'masterpiece', en: 'masterpiece', ru: 'an extremely good work of art', transcription: '/ˈmɑːstəpiːs/', exampleEn: 'The visitor hoped to buy a masterpiece for £40.', group: 'reading' },
+      { id: 'l6-02', uniqueKey: 'contemporary art', en: 'contemporary art', ru: 'art being produced in the present period', transcription: '', exampleEn: 'The market for contemporary art is still strong.', group: 'reading' },
+      { id: 'l6-03', uniqueKey: 'snap up', en: 'snap up', ru: 'to buy or get something quickly because it is attractive or cheap', transcription: '', exampleEn: 'Collectors snap up the postcards as soon as the sale opens.', group: 'reading' },
+      { id: 'l6-04', uniqueKey: 'hard-up', en: 'hard-up', ru: 'having very little money', transcription: '', exampleEn: 'A hard-up student may still produce excellent work.', group: 'reading' },
+      { id: 'l6-05', uniqueKey: 'contributor', en: 'contributor', ru: 'a person who gives work, money or ideas to something', transcription: '/kənˈtrɪbjətə/', exampleEn: 'Famous artists have been contributors to the exhibition.', group: 'reading' },
+      { id: 'l6-06', uniqueKey: 'auction', en: 'auction', ru: 'a public sale where the item goes to the person who offers the most money', transcription: '/ˈɔːkʃən/', exampleEn: 'The postcard was later sold at auction.', group: 'reading' },
+      { id: 'l6-07', uniqueKey: 'brainchild', en: 'brainchild', ru: 'an idea or project created by a particular person', transcription: '/ˈbreɪntʃaɪld/', exampleEn: 'The event was the brainchild of an art student.', group: 'reading' },
+      { id: 'l6-08', uniqueKey: 'raise funds', en: 'raise funds', ru: 'to collect money for a particular purpose', transcription: '', exampleEn: 'The exhibition raises funds for art students.', group: 'reading' },
+      { id: 'l6-09', uniqueKey: 'capture the public’s imagination', en: 'capture the public’s imagination', ru: 'to become very interesting or exciting to many people', transcription: '', exampleEn: 'The project quickly captured the public’s imagination.', group: 'reading' },
+      { id: 'l6-10', uniqueKey: 'up-and-coming', en: 'up-and-coming', ru: 'becoming successful or popular and likely to become more so', transcription: '/ˌʌp ən ˈkʌmɪŋ/', exampleEn: 'It is an up-and-coming area with new cafés and shops.', group: 'places' },
+      { id: 'l6-11', uniqueKey: 'trendy', en: 'trendy', ru: 'fashionable and popular at the moment', transcription: '/ˈtrendi/', exampleEn: 'The neighbourhood has become very trendy.', group: 'places' },
+      { id: 'l6-12', uniqueKey: 'historic', en: 'historic', ru: 'important in history', transcription: '/hɪˈstɒrɪk/', exampleEn: 'The city centre contains several historic buildings.', group: 'places' },
+      { id: 'l6-13', uniqueKey: 'grand', en: 'grand', ru: 'large and impressive', transcription: '/ɡrænd/', exampleEn: 'They live in a grand house near the park.', group: 'places' },
+      { id: 'l6-14', uniqueKey: 'rough', en: 'rough', ru: 'not safe or pleasant, especially because of crime or poor conditions', transcription: '/rʌf/', exampleEn: 'The district used to be quite rough.', group: 'places' },
+      { id: 'l6-15', uniqueKey: 'run-down', en: 'run-down', ru: 'in bad condition because it has not been cared for', transcription: '/ˌrʌn ˈdaʊn/', exampleEn: 'Several run-down buildings are being repaired.', group: 'places' },
+      { id: 'l6-16', uniqueKey: 'affluent', en: 'affluent', ru: 'having a lot of money and a high standard of living', transcription: '/ˈæfluənt/', exampleEn: 'It is one of the city’s most affluent districts.', group: 'places' },
+      { id: 'l6-17', uniqueKey: 'stunning', en: 'stunning', ru: 'extremely attractive or impressive', transcription: '/ˈstʌnɪŋ/', exampleEn: 'The houses have stunning views.', group: 'places' },
+      { id: 'l6-18', uniqueKey: 'deprived', en: 'deprived', ru: 'lacking the money, services or opportunities needed for a good standard of living', transcription: '/dɪˈpraɪvd/', exampleEn: 'The area used to be economically deprived.', group: 'places' },
+      { id: 'l6-19', uniqueKey: 'residential', en: 'residential', ru: 'mainly consisting of homes rather than offices or shops', transcription: '/ˌrezɪˈdenʃəl/', exampleEn: 'It is now a quiet residential area.', group: 'places' },
+      { id: 'l6-20', uniqueKey: 'high-rise', en: 'high-rise', ru: 'having many floors', transcription: '/ˈhaɪ raɪz/', exampleEn: 'They are building new high-rise blocks.', group: 'places' },
+      { id: 'l6-21', uniqueKey: 'hideous', en: 'hideous', ru: 'extremely ugly or unpleasant', transcription: '/ˈhɪdiəs/', exampleEn: 'He thinks the new tower will look hideous.', group: 'places' },
+      { id: 'l6-22', uniqueKey: 'dominate', en: 'dominate', ru: 'to be the most noticeable or important feature of a place', transcription: '/ˈdɒmɪneɪt/', exampleEn: 'The castle dominates the whole area.', group: 'change' },
+      { id: 'l6-23', uniqueKey: 'date back', en: 'date back', ru: 'to have existed since a particular time in the past', transcription: '', exampleEn: 'The building dates back to the sixteenth century.', group: 'change' },
+      { id: 'l6-24', uniqueKey: 'renovate', en: 'renovate', ru: 'to repair and improve an old building', transcription: '/ˈrenəveɪt/', exampleEn: 'The museum has been renovated several times.', group: 'change' },
+      { id: 'l6-25', uniqueKey: 'steer clear of', en: 'steer clear of', ru: 'to avoid a person, place or situation', transcription: '', exampleEn: 'Visitors were told to steer clear of the area.', group: 'change' },
+      { id: 'l6-26', uniqueKey: 'knock down', en: 'knock down', ru: 'to destroy a building deliberately', transcription: '', exampleEn: 'They knocked down the old factory.', group: 'change' },
+      { id: 'l6-27', uniqueKey: 'soar', en: 'soar', ru: 'to rise very quickly to a high level', transcription: '/sɔː/', exampleEn: 'House prices have soared.', group: 'change' },
+      { id: 'l6-28', uniqueKey: 'be based', en: 'be based', ru: 'to have a particular place as the main location of a business or activity', transcription: '', exampleEn: 'Many small businesses were based there.', group: 'change' },
+      { id: 'l6-29', uniqueKey: 'clean up', en: 'clean up', ru: 'to make a place cleaner, safer or more attractive', transcription: '', exampleEn: 'The old industrial area has been cleaned up.', group: 'change' }
+    ]
   }
 ];
