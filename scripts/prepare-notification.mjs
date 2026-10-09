@@ -27,7 +27,7 @@ function loadLessons() {
   if (!fs.existsSync(lessonsDir)) return []
 
   return fs.readdirSync(lessonsDir)
-    .filter((filename) => /^lesson-\d+\.json$/i.test(filename))
+    .filter((filename) => /^lesson-\d+(?:-\d+)?\.json$/i.test(filename))
     .map((filename) => {
       const source = fs.readFileSync(path.join(lessonsDir, filename), 'utf8')
       return JSON.parse(source)

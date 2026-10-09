@@ -6,14 +6,14 @@
   "status": "available",
   "publishedAt": "2026-10-09",
   "notification": {
-    "enabled": false,
+    "enabled": true,
     "version": 1
   },
   "vocabularyId": "vocab-lesson-3-2-entertainment-listening",
   "grammarIds": [
     "grammar-lesson-1-habits"
   ],
-  "totalPoints": 45,
+  "totalPoints": 37,
   "blocks": [
     {
       "type": "section",
@@ -392,7 +392,7 @@
       "type": "exercise",
       "id": "hw32-ex6",
       "title": "6 1.1 You are going to hear people talking in six different situations. Choose the correct answer, a, b or c.",
-      "audio": "audio/01-Дорожка 01.mp3",
+      "audio": "audio/02-Дорожка 02.mp3",
       "items": [
         {
           "id": "6-1",
@@ -475,142 +475,33 @@
     },
     {
       "type": "exercise",
-      "id": "hw32-ex7",
-      "title": "7 1.2 Listen to the sentences. Choose the correct symbol for each underlined sound.",
-      "audio": "audio/02-Дорожка 02.mp3",
+      "id": "hw32-ex8",
+      "title": "8 Choose the correct words. Then practise saying the sentences.",
       "items": [
         {
-          "id": "7-1",
+          "id": "8-1",
           "number": 1,
           "input": "inline-single",
           "prompt": "",
           "segments": [
-            "I wish they wouldn’t do that! ",
-            "\nI just think that ",
-            " they should be true to the original story."
-          ],
-          "choices": [
-            {
-              "options": [
-                "/ə/",
-                "/æ/"
-              ],
-              "answer": 1
-            },
-            {
-              "options": [
-                "/ə/",
-                "/æ/"
-              ],
-              "answer": 0
-            }
-          ]
-        },
-        {
-          "id": "7-2",
-          "number": 2,
-          "input": "inline-single",
-          "prompt": "",
-          "segments": [
-            "People used to ",
-            " go out to have fun.\nPeople don’t socialise like they used to",
+            "When the function word is at the ",
+            " of a sentence, the pronunciation is usually ",
             "."
           ],
           "choices": [
             {
               "options": [
-                "/uː/",
-                "/ə/"
+                "beginning",
+                "end"
               ],
               "answer": 1
             },
             {
               "options": [
-                "/uː/",
-                "/ə/"
-              ],
-              "answer": 0
-            }
-          ]
-        },
-        {
-          "id": "7-3",
-          "number": 3,
-          "input": "inline-single",
-          "prompt": "",
-          "segments": [
-            "You used to ",
-            " be a really keen theatre-goer.\nNot as much as I’d like to",
-            "."
-          ],
-          "choices": [
-            {
-              "options": [
-                "/ə/",
-                "/uː/"
-              ],
-              "answer": 0
-            },
-            {
-              "options": [
-                "/ə/",
-                "/uː/"
+                "weak",
+                "strong"
               ],
               "answer": 1
-            }
-          ]
-        },
-        {
-          "id": "7-4",
-          "number": 4,
-          "input": "inline-single",
-          "prompt": "",
-          "segments": [
-            "It’s the teenagers I feel sorry for",
-            ".\nI mean, there really isn’t much for",
-            " them to do."
-          ],
-          "choices": [
-            {
-              "options": [
-                "/ɔː/",
-                "/ə/"
-              ],
-              "answer": 0
-            },
-            {
-              "options": [
-                "/ɔː/",
-                "/ə/"
-              ],
-              "answer": 1
-            }
-          ]
-        },
-        {
-          "id": "7-5",
-          "number": 5,
-          "input": "inline-single",
-          "prompt": "",
-          "segments": [
-            "I’m not asking you, I’m telling you",
-            "!\nI don’t want you",
-            " to watch any more TV."
-          ],
-          "choices": [
-            {
-              "options": [
-                "/ə/",
-                "/uː/"
-              ],
-              "answer": 1
-            },
-            {
-              "options": [
-                "/ə/",
-                "/uː/"
-              ],
-              "answer": 0
             }
           ]
         }
