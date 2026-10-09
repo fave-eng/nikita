@@ -42,8 +42,8 @@
   function normalizeLesson(rawLesson, requestedId = '') {
     if (!rawLesson || typeof rawLesson !== 'object') return null;
     const id = safeText(rawLesson.id || requestedId).trim();
-    if (!/^lesson-\d+$/.test(id)) return null;
-    const inferredNumber = Number(id.replace('lesson-', '')) || 0;
+    if (!/^lesson-\d+(?:-\d+)?$/.test(id)) return null;
+    const inferredNumber = Number(id.replace('lesson-', '').replace('-', '.')) || 0;
     return {
       ...rawLesson,
       id,
@@ -58,7 +58,7 @@
 
   async function fetchLessonFile(id) {
     const cleanId = safeText(id).trim();
-    if (!/^lesson-\d+$/.test(cleanId)) return null;
+    if (!/^lesson-\d+(?:-\d+)?$/.test(cleanId)) return null;
     if (lessonCache.has(cleanId)) return lessonCache.get(cleanId);
 
     const promise = (async () => {
@@ -304,7 +304,7 @@
     },
     async sendHomeworkReport(lessonId) {
       const normalizedLessonId = safeText(lessonId).trim();
-      if (!/^lesson-\d+$/.test(normalizedLessonId)) return null;
+      if (!/^lesson-\d+(?:-\d+)?$/.test(normalizedLessonId)) return null;
 
       const lesson = HOMEWORK_DATA.find((item) => item.id === normalizedLessonId) || {};
       let homeworkUrl = '';

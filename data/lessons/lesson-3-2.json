@@ -1,0 +1,620 @@
+{
+  "id": "lesson-3-2",
+  "number": 3.2,
+  "title": "Unit 1: Entertainment",
+  "subtitle": "Outcomes B2, 3rd edition · Unit 1 · Workbook practice",
+  "status": "available",
+  "publishedAt": "2026-10-09",
+  "notification": {
+    "enabled": false,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-3-2-entertainment-listening",
+  "grammarIds": [
+    "grammar-lesson-1-habits"
+  ],
+  "totalPoints": 45,
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Grammar: Habits",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw32-ex1",
+      "title": "1 Read the answers to the question Do you ... much? What are the people talking about? Match the answers (1–6) to the questions (a–f).",
+      "wordBank": [
+        "a use public transport",
+        "b visit museums and galleries",
+        "c go out to dinner",
+        "d keep in touch with family and friends",
+        "e travel abroad",
+        "f go shopping"
+      ],
+      "items": [
+        {
+          "id": "1-1",
+          "number": 1,
+          "input": "select",
+          "prompt": "Hardly ever nowadays. We used to get away about twice a year but it’s just too expensive now. We’ve got a tent so we go camping along the local coast whenever we can.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 4
+        },
+        {
+          "id": "1-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "Not as much as I used to. To be honest, I got really overdrawn at one point and so I had to stop. Now I’ll pick up a bargain in the sales but only if I really need it.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 5
+        },
+        {
+          "id": "1-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "Not if I can avoid it! The local service is never on time and it’s always packed. I tend to cycle everywhere but I’ll take the tube if it’s pouring down.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "1-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "All the time. I think they’re a brilliant local resource. Most of them are free and you can learn such a lot. Even my kids enjoy the interactive exhibitions.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "1-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "Whenever I get the chance. My sister lives abroad so we use the internet a lot for email and stuff. But I also like to chat, so I end up with a huge phone bill!",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "1-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "Not as much as I’d like to. I really enjoy having a day off from cooking but it works out quite pricey. As a rule, it’s usually to celebrate someone’s birthday.",
+          "options": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw32-ex2",
+      "title": "2 There is one missing word in each sentence. Add the word in the correct place.",
+      "items": [
+        {
+          "id": "2-1",
+          "number": 1,
+          "input": "text",
+          "prompt": "As rule, I go out once a week, usually on Saturday evenings.",
+          "answer": "As a rule, I go out once a week, usually on Saturday evenings."
+        },
+        {
+          "id": "2-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "I don’t read for pleasure as much as I like to.",
+          "answer": "I don’t read for pleasure as much as I would like to."
+        },
+        {
+          "id": "2-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "I tend see my family just on birthdays and at Christmas.",
+          "answer": "I tend to see my family just on birthdays and at Christmas."
+        },
+        {
+          "id": "2-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "We used go to the cinema about once a week before they put the prices up.",
+          "answer": "We used to go to the cinema about once a week before they put the prices up."
+        },
+        {
+          "id": "2-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "I check the BBC website all time, I rarely use any other sites.",
+          "answer": "I check the BBC website all the time, I rarely use any other sites."
+        },
+        {
+          "id": "2-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "She must be really busy. She ever comes to the badminton club anymore.",
+          "answer": "She must be really busy. She hardly ever comes to the badminton club anymore."
+        },
+        {
+          "id": "2-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "I enjoy going to the theatre but we only go once a while.",
+          "answer": "I enjoy going to the theatre but we only go once in a while."
+        },
+        {
+          "id": "2-8",
+          "number": 8,
+          "input": "text",
+          "prompt": "We used to go walking every weekend. We get up early and be out on the hills to see the sunrise.",
+          "answer": "We used to go walking every weekend. We would get up early and be out on the hills to see the sunrise."
+        }
+      ]
+    },
+    {
+      "type": "grammar-link",
+      "title": "Habits",
+      "text": "",
+      "grammarId": "grammar-lesson-1-habits",
+      "buttonLabel": "Open topic"
+    },
+    {
+      "type": "section",
+      "title": "Vocabulary: Describing films, music and books",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw32-ex3",
+      "title": "3 Choose the correct words.",
+      "items": [
+        {
+          "id": "3-1",
+          "number": 1,
+          "input": "single",
+          "prompt": "I could listen to it all day. The music is so inspiring, just so uplifting / weird.",
+          "options": [
+            "uplifting",
+            "weird"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "3-2",
+          "number": 2,
+          "input": "single",
+          "prompt": "I saw it twice. The plot was really exciting, just really gripping / disturbing.",
+          "options": [
+            "gripping",
+            "disturbing"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "3-3",
+          "number": 3,
+          "input": "single",
+          "prompt": "Why is this play so popular? I thought it was terrible, absolutely catchy / awful.",
+          "options": [
+            "catchy",
+            "awful"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "3-4",
+          "number": 4,
+          "input": "single",
+          "prompt": "I can’t stand her acting. She’s just too much, always so dull / over-the-top.",
+          "options": [
+            "dull",
+            "over-the-top"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "3-5",
+          "number": 5,
+          "input": "single",
+          "prompt": "It all sounds the same to me. It’s only produced to make money, just very hilarious / commercial.",
+          "options": [
+            "hilarious",
+            "commercial"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw32-ex4",
+      "title": "4 Complete these sentences using the adjectives that weren’t the answers in Exercise 3.",
+      "dependsOn": "hw32-ex3",
+      "dependencyWaitingText": "Complete Exercise 3 first.",
+      "dependencyReadyText": "Use the adjectives that weren’t your answers in Exercise 3:",
+      "items": [
+        {
+          "id": "4-1",
+          "number": 1,
+          "input": "text",
+          "prompt": "I couldn’t stop laughing. The show was so funny, absolutely ..........",
+          "answer": "hilarious"
+        },
+        {
+          "id": "4-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "The second half was so boring, just very ..........",
+          "answer": "dull"
+        },
+        {
+          "id": "4-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "I wouldn’t take your kids to see it. The special effects are quite upsetting, really quite ..........",
+          "answer": "disturbing"
+        },
+        {
+          "id": "4-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "I didn’t get it at all. The dialogue was really strange, just really ..........",
+          "answer": "weird"
+        },
+        {
+          "id": "4-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "I can’t stop singing it. It’s so easy to remember, really quite ..........",
+          "answer": "catchy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Developing conversations: Disagreeing politely",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw32-ex5",
+      "title": "5 Add the words in brackets in the correct place.",
+      "items": [
+        {
+          "id": "5-1-example",
+          "number": 1,
+          "example": true,
+          "prompt": "A: I’m really into heavy metal.\nB: Oh, right. I find it loud and scary, to be honest. It’s the kind of thing my teenage son listens to. (a bit)",
+          "exampleAnswer": "Oh, right. I find it a bit loud and scary, to be honest."
+        },
+        {
+          "id": "5-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "A: Wasn’t that a brilliant film?\nB: Did you think so? It didn’t do anything for me, I’m afraid. (really)",
+          "answer": "Did you think so? It didn’t really do anything for me, I’m afraid.",
+          "acceptedAnswers": [
+            "Did you think so? It didn’t really do anything for me, I’m afraid.",
+            "It didn’t really do anything for me, I’m afraid."
+          ]
+        },
+        {
+          "id": "5-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "A: Do you listen to jazz much?\nB: Er, I’m not keen on jazz. I prefer something lighter, a bit more commercial. (that)",
+          "answer": "Er, I’m not that keen on jazz. I prefer something lighter, a bit more commercial.",
+          "acceptedAnswers": [
+            "Er, I’m not that keen on jazz. I prefer something lighter, a bit more commercial.",
+            "I’m not that keen on jazz.",
+            "Er, I’m not that keen on jazz."
+          ]
+        },
+        {
+          "id": "5-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "A: Do you fancy coming to see a musical at the theatre tonight?\nB: Thanks, but I’m not very keen on musicals. I prefer something more serious, more realistic. (a bit)",
+          "answer": "Thanks, but I’m not very keen on musicals. I prefer something a bit more serious, more realistic.",
+          "acceptedAnswers": [
+            "Thanks, but I’m not very keen on musicals. I prefer something a bit more serious, more realistic.",
+            "I prefer something a bit more serious, more realistic."
+          ]
+        },
+        {
+          "id": "5-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "A: Have you read the latest Philip Roth novel?\nB: To be honest, I’m not interested in fiction. I tend to read about politics and current affairs. (really)",
+          "answer": "To be honest, I’m not really interested in fiction. I tend to read about politics and current affairs.",
+          "acceptedAnswers": [
+            "To be honest, I’m not really interested in fiction. I tend to read about politics and current affairs.",
+            "To be honest, I’m not really interested in fiction."
+          ]
+        },
+        {
+          "id": "5-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "A: I’ve seen all the Bond movies at least twice.\nB: Really? I’m not fond of action movies. I’m more into romantic comedies, to be honest. (that)",
+          "answer": "Really? I’m not that fond of action movies. I’m more into romantic comedies, to be honest.",
+          "acceptedAnswers": [
+            "Really? I’m not that fond of action movies. I’m more into romantic comedies, to be honest.",
+            "I’m not that fond of action movies.",
+            "Really? I’m not that fond of action movies."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Listening",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw32-ex6",
+      "title": "6 1.1 You are going to hear people talking in six different situations. Choose the correct answer, a, b or c.",
+      "audio": "audio/01-Дорожка 01.mp3",
+      "items": [
+        {
+          "id": "6-1",
+          "number": 1,
+          "input": "single",
+          "prompt": "What did the woman think about the film?",
+          "options": [
+            "The main character was too complicated.",
+            "They changed a lot of the original story from the book.",
+            "It wasn’t very exciting."
+          ],
+          "answer": 1
+        },
+        {
+          "id": "6-2",
+          "number": 2,
+          "input": "single",
+          "prompt": "What does the man think about modern forms of entertainment?",
+          "options": [
+            "There’s too much choice.",
+            "You need too much technology to enjoy them.",
+            "It’s made people less sociable."
+          ],
+          "answer": 2
+        },
+        {
+          "id": "6-3",
+          "number": 3,
+          "input": "single",
+          "prompt": "Why doesn’t the man go to the theatre very much anymore?",
+          "options": [
+            "He doesn’t have much time.",
+            "The shows are too dull.",
+            "It’s too expensive."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "6-4",
+          "number": 4,
+          "input": "single",
+          "prompt": "What does the woman say about the facilities in her town?",
+          "options": [
+            "She prefers to go out in the bigger cities nearby.",
+            "She doesn’t approve of the number of pubs.",
+            "There needs to be more provided for young people."
+          ],
+          "answer": 2
+        },
+        {
+          "id": "6-5",
+          "number": 5,
+          "input": "single",
+          "prompt": "Why does the woman criticise her son?",
+          "options": [
+            "He watches TV in his bedroom.",
+            "He doesn’t have a range of hobbies.",
+            "He’s always asking for money."
+          ],
+          "answer": 1
+        },
+        {
+          "id": "6-6",
+          "number": 6,
+          "input": "single",
+          "prompt": "What was the problem with the exhibition?",
+          "options": [
+            "Not many artists contributed their work.",
+            "It wasn’t very well attended.",
+            "The standard of the art was disappointing."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Pronunciation: Strong and weak forms",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw32-ex7",
+      "title": "7 1.2 Listen to the sentences. Choose the correct symbol for each underlined sound.",
+      "audio": "audio/02-Дорожка 02.mp3",
+      "items": [
+        {
+          "id": "7-1",
+          "number": 1,
+          "input": "inline-single",
+          "prompt": "",
+          "segments": [
+            "I wish they wouldn’t do that! ",
+            "\nI just think that ",
+            " they should be true to the original story."
+          ],
+          "choices": [
+            {
+              "options": [
+                "/ə/",
+                "/æ/"
+              ],
+              "answer": 1
+            },
+            {
+              "options": [
+                "/ə/",
+                "/æ/"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "number": 2,
+          "input": "inline-single",
+          "prompt": "",
+          "segments": [
+            "People used to ",
+            " go out to have fun.\nPeople don’t socialise like they used to",
+            "."
+          ],
+          "choices": [
+            {
+              "options": [
+                "/uː/",
+                "/ə/"
+              ],
+              "answer": 1
+            },
+            {
+              "options": [
+                "/uː/",
+                "/ə/"
+              ],
+              "answer": 0
+            }
+          ]
+        },
+        {
+          "id": "7-3",
+          "number": 3,
+          "input": "inline-single",
+          "prompt": "",
+          "segments": [
+            "You used to ",
+            " be a really keen theatre-goer.\nNot as much as I’d like to",
+            "."
+          ],
+          "choices": [
+            {
+              "options": [
+                "/ə/",
+                "/uː/"
+              ],
+              "answer": 0
+            },
+            {
+              "options": [
+                "/ə/",
+                "/uː/"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "7-4",
+          "number": 4,
+          "input": "inline-single",
+          "prompt": "",
+          "segments": [
+            "It’s the teenagers I feel sorry for",
+            ".\nI mean, there really isn’t much for",
+            " them to do."
+          ],
+          "choices": [
+            {
+              "options": [
+                "/ɔː/",
+                "/ə/"
+              ],
+              "answer": 0
+            },
+            {
+              "options": [
+                "/ɔː/",
+                "/ə/"
+              ],
+              "answer": 1
+            }
+          ]
+        },
+        {
+          "id": "7-5",
+          "number": 5,
+          "input": "inline-single",
+          "prompt": "",
+          "segments": [
+            "I’m not asking you, I’m telling you",
+            "!\nI don’t want you",
+            " to watch any more TV."
+          ],
+          "choices": [
+            {
+              "options": [
+                "/ə/",
+                "/uː/"
+              ],
+              "answer": 1
+            },
+            {
+              "options": [
+                "/ə/",
+                "/uː/"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -122,5 +122,45 @@ window.VOCABULARY_DATA = [
       { id: 'l3-23', uniqueKey: 'big-head', en: 'a big-head', ru: 'someone who thinks they are very important or clever', transcription: '', exampleEn: 'Winning one prize has turned him into a big-head.', group: 'classroom' },
       { id: 'l3-24', uniqueKey: 'lazy-bones', en: 'a lazy-bones', ru: 'a very lazy person', transcription: '', exampleEn: 'Get up, lazy-bones. We need to leave in ten minutes.', group: 'classroom' }
     ]
+  },
+  {
+    id: 'vocab-lesson-3-2-entertainment-listening',
+    title: 'Entertainment: listening and opinions',
+    label: 'Homework 3.2 · 23 useful words and phrases',
+    icon: '🎧',
+    type: 'lesson',
+    linkedLessonId: 'lesson-3-2',
+    page: 'vocabulary.html?id=vocab-lesson-3-2-entertainment-listening',
+    description: 'New language from Homework 3.2 for habits, entertainment and listening.',
+    groups: [
+      { id: 'everyday', title: 'Everyday habits', subtitle: 'Useful phrases from the grammar texts', icon: '⏱' },
+      { id: 'opinions', title: 'Opinions', subtitle: 'Describing entertainment and disagreeing politely', icon: '💬' },
+      { id: 'listening', title: 'Listening', subtitle: 'Useful language from the six situations', icon: '🎧' }
+    ],
+    words: [
+      { id: 'l4-01', uniqueKey: 'get away', en: 'get away', ru: 'to go somewhere for a short break or holiday', transcription: '', exampleEn: 'We try to get away for a weekend twice a year.', group: 'everyday' },
+      { id: 'l4-02', uniqueKey: 'overdrawn', en: 'overdrawn', ru: 'having spent more money than you have in your bank account', transcription: '', exampleEn: 'I stopped shopping so much after I became overdrawn.', group: 'everyday' },
+      { id: 'l4-03', uniqueKey: 'pick up a bargain', en: 'pick up a bargain', ru: 'to buy something good at a much lower price than usual', transcription: '', exampleEn: 'You can sometimes pick up a bargain in the sales.', group: 'everyday' },
+      { id: 'l4-04', uniqueKey: 'packed', en: 'packed', ru: 'extremely full of people', transcription: '', exampleEn: 'The train was packed during the evening rush hour.', group: 'everyday' },
+      { id: 'l4-05', uniqueKey: 'pouring down', en: 'pouring down', ru: 'raining very heavily', transcription: '', exampleEn: 'I took the bus because it was pouring down.', group: 'everyday' },
+      { id: 'l4-06', uniqueKey: 'local resource', en: 'local resource', ru: 'a useful service or place available in your local area', transcription: '', exampleEn: 'The library is a valuable local resource.', group: 'everyday' },
+      { id: 'l4-07', uniqueKey: 'interactive exhibition', en: 'interactive exhibition', ru: 'an exhibition where visitors can actively use or respond to displays', transcription: '', exampleEn: 'The museum has an interactive exhibition for adults and children.', group: 'everyday' },
+      { id: 'l4-08', uniqueKey: 'end up with', en: 'end up with', ru: 'to finally have something, often unexpectedly', transcription: '', exampleEn: 'If I chat for hours, I end up with a huge phone bill.', group: 'everyday' },
+      { id: 'l4-09', uniqueKey: 'pricey', en: 'pricey', ru: 'quite expensive', transcription: '', exampleEn: 'Eating out regularly can be quite pricey.', group: 'everyday' },
+      { id: 'l4-10', uniqueKey: 'awful', en: 'awful', ru: 'very bad or unpleasant', transcription: '', exampleEn: 'I thought the ending was awful.', group: 'opinions' },
+      { id: 'l4-11', uniqueKey: 'dull', en: 'dull', ru: 'not interesting or exciting', transcription: '', exampleEn: 'The first half was good, but the second half was dull.', group: 'opinions' },
+      { id: 'l4-12', uniqueKey: 'weird', en: 'weird', ru: 'strange or unusual', transcription: '', exampleEn: 'The dialogue was weird but memorable.', group: 'opinions' },
+      { id: 'l4-13', uniqueKey: 'catchy', en: 'catchy', ru: 'easy to remember, especially a song or tune', transcription: '', exampleEn: 'The chorus is simple and very catchy.', group: 'opinions' },
+      { id: 'l4-14', uniqueKey: 'not that fond of', en: 'not that fond of', ru: 'not liking something very much', transcription: '', exampleEn: 'I’m not that fond of action movies.', group: 'opinions' },
+      { id: 'l4-15', uniqueKey: 'not really interested in', en: 'not really interested in', ru: 'a softer way to say that something does not interest you', transcription: '', exampleEn: 'I’m not really interested in celebrity news.', group: 'opinions' },
+      { id: 'l4-16', uniqueKey: 'complicated', en: 'complicated', ru: 'difficult to understand because it has many parts or details', transcription: '', exampleEn: 'The main character was interesting but complicated.', group: 'listening' },
+      { id: 'l4-17', uniqueKey: 'sociable', en: 'sociable', ru: 'enjoying spending time and talking with other people', transcription: '', exampleEn: 'He is very sociable and goes out most evenings.', group: 'listening' },
+      { id: 'l4-18', uniqueKey: 'facilities', en: 'facilities', ru: 'places, buildings or equipment provided for a particular purpose', transcription: '', exampleEn: 'The town needs better sports facilities for young people.', group: 'listening' },
+      { id: 'l4-19', uniqueKey: 'approve of', en: 'approve of', ru: 'to think that something is acceptable or good', transcription: '', exampleEn: 'Some residents do not approve of the new development.', group: 'listening' },
+      { id: 'l4-20', uniqueKey: 'range of hobbies', en: 'range of hobbies', ru: 'a variety of different activities someone does for pleasure', transcription: '', exampleEn: 'She has a wide range of hobbies.', group: 'listening' },
+      { id: 'l4-21', uniqueKey: 'contribute', en: 'contribute', ru: 'to give or provide something as part of a shared activity or result', transcription: '', exampleEn: 'Several local artists contributed work to the exhibition.', group: 'listening' },
+      { id: 'l4-22', uniqueKey: 'well attended', en: 'well attended', ru: 'visited by many people', transcription: '', exampleEn: 'The exhibition was well attended at the weekend.', group: 'listening' },
+      { id: 'l4-23', uniqueKey: 'theatre-goer', en: 'theatre-goer', ru: 'a person who regularly goes to the theatre', transcription: '', exampleEn: 'She used to be a keen theatre-goer.', group: 'listening' }
+    ]
   }
 ];
