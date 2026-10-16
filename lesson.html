@@ -539,7 +539,7 @@
   <script src="config.js" defer></script>
   <script src="data/vocabulary-data.js?v=18" defer></script>
   <script src="data/grammar-data.js?v=15" defer></script>
-  <script src="app.js?v=19" defer></script>
+  <script src="app.js?v=20" defer></script>
 </head>
 <body class="has-bottom-nav" data-page="homework" data-view="lesson">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -1207,7 +1207,7 @@
 
       new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
 
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=7`, { cache: 'no-store' })
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=10`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
