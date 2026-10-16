@@ -1,0 +1,715 @@
+{
+  "id": "lesson-7",
+  "number": 7,
+  "title": "Getting things done: revision",
+  "subtitle": "B2.1 revision · Deadlines, productivity and causative structures",
+  "status": "available",
+  "publishedAt": "2026-10-16",
+  "notification": {
+    "enabled": false,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-7-getting-things-done",
+  "grammarIds": [
+    "grammar-lesson-7-causative-have-get"
+  ],
+  "totalPoints": 40,
+  "blocks": [
+    {
+      "type": "grammar-link",
+      "title": "Causatives with have and get",
+      "text": "",
+      "grammarId": "grammar-lesson-7-causative-have-get",
+      "buttonLabel": "Review grammar first"
+    },
+    {
+      "type": "section",
+      "title": "Vocabulary: deadlines and productivity",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw7-ex1",
+      "title": "1 Choose the phrase that best describes each situation.",
+      "items": [
+        {
+          "id": "1-1",
+          "number": 1,
+          "input": "select",
+          "prompt": "Marta usually becomes more energetic and focused when she has very little time left.",
+          "options": [
+            "thrive on deadlines",
+            "dread deadlines",
+            "miss a deadline",
+            "extend a deadline"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "1-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "The presentation is on Friday and it is already Wednesday evening.",
+          "options": [
+            "a deadline is looming",
+            "set a deadline",
+            "loose ends",
+            "an incentive"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "1-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "Leo opens his calendar every morning so that none of his projects gets out of control.",
+          "options": [
+            "stay on top of",
+            "check in on",
+            "set out to do something",
+            "miss a deadline"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "1-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "The task is too large to deal with as one piece, so Ana divides it into five smaller stages.",
+          "options": [
+            "break down a task",
+            "block out time",
+            "extend a deadline",
+            "keep up with deadlines"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "1-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "Before finishing the project, Sam still needs to reply to two emails and update one document.",
+          "options": [
+            "loose ends",
+            "an incentive",
+            "a deadline is looming",
+            "be due"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "1-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "The team agrees that the first draft must be ready by 6 p.m. on Thursday.",
+          "options": [
+            "set a deadline",
+            "miss a deadline",
+            "check in on",
+            "block out time"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "1-7",
+          "number": 7,
+          "input": "select",
+          "prompt": "A manager sends a short message at lunchtime to see whether a colleague is progressing well.",
+          "options": [
+            "check in on",
+            "stay on top of",
+            "break down a task",
+            "dread deadlines"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "1-8",
+          "number": 8,
+          "input": "select",
+          "prompt": "Nikita reserves 10:00–11:30 in his calendar only for writing the report.",
+          "options": [
+            "block out time",
+            "be due",
+            "extend a deadline",
+            "set out to do something"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw7-ex2",
+      "title": "2 Complete the project update. Choose the best phrase for each gap.",
+      "wordBank": [
+        "set out to",
+        "break down",
+        "block out",
+        "check in on",
+        "stay on top of",
+        "loose ends",
+        "due",
+        "incentive"
+      ],
+      "items": [
+        {
+          "id": "2-1",
+          "number": 1,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "On Monday, I ",
+            " finish the client proposal before the end of the week."
+          ],
+          "options": [
+            "set out to",
+            "break down",
+            "block out",
+            "check in on",
+            "stay on top of",
+            "loose ends",
+            "due",
+            "incentive"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "2-2",
+          "number": 2,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The job looked huge, so I decided to ",
+            " it into research, drafting and editing."
+          ],
+          "options": [
+            "set out to",
+            "break down",
+            "block out",
+            "check in on",
+            "stay on top of",
+            "loose ends",
+            "due",
+            "incentive"
+          ],
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "2-3",
+          "number": 3,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "I ",
+            " two quiet hours on Tuesday morning so nobody could book a meeting with me."
+          ],
+          "options": [
+            "set out to",
+            "break down",
+            "block out",
+            "check in on",
+            "stay on top of",
+            "loose ends",
+            "due",
+            "incentive"
+          ],
+          "answers": [
+            2
+          ]
+        },
+        {
+          "id": "2-4",
+          "number": 4,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "At midday I ",
+            " our designer to make sure the visuals were nearly ready."
+          ],
+          "options": [
+            "set out to",
+            "break down",
+            "block out",
+            "check in on",
+            "stay on top of",
+            "loose ends",
+            "due",
+            "incentive"
+          ],
+          "answers": [
+            3
+          ]
+        },
+        {
+          "id": "2-5",
+          "number": 5,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "A simple checklist helped me ",
+            " all the small changes requested by the client."
+          ],
+          "options": [
+            "set out to",
+            "break down",
+            "block out",
+            "check in on",
+            "stay on top of",
+            "loose ends",
+            "due",
+            "incentive"
+          ],
+          "answers": [
+            4
+          ]
+        },
+        {
+          "id": "2-6",
+          "number": 6,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "By Thursday afternoon, only a few ",
+            " remained: two references and the final file name."
+          ],
+          "options": [
+            "set out to",
+            "break down",
+            "block out",
+            "check in on",
+            "stay on top of",
+            "loose ends",
+            "due",
+            "incentive"
+          ],
+          "answers": [
+            5
+          ]
+        },
+        {
+          "id": "2-7",
+          "number": 7,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The proposal was ",
+            " on Friday at 4 p.m., so I still had enough time to proofread it."
+          ],
+          "options": [
+            "set out to",
+            "break down",
+            "block out",
+            "check in on",
+            "stay on top of",
+            "loose ends",
+            "due",
+            "incentive"
+          ],
+          "answers": [
+            6
+          ]
+        },
+        {
+          "id": "2-8",
+          "number": 8,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Finishing early gave me an extra ",
+            ": I could take Friday evening off."
+          ],
+          "options": [
+            "set out to",
+            "break down",
+            "block out",
+            "check in on",
+            "stay on top of",
+            "loose ends",
+            "due",
+            "incentive"
+          ],
+          "answers": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw7-ex3",
+      "title": "3 Choose the most useful response to each productivity problem.",
+      "items": [
+        {
+          "id": "3-1",
+          "number": 1,
+          "input": "select",
+          "prompt": "You have three large assignments due in the same week and you keep switching between them.",
+          "options": [
+            "Break each task down and give each stage its own time slot.",
+            "Wait until one deadline is looming and work on that task only.",
+            "Extend every deadline before you start."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "3-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "A teammate has gone quiet and their part of the project is due tomorrow.",
+          "options": [
+            "Check in on their progress and ask whether they need anything.",
+            "Ignore it because their task is not your responsibility.",
+            "Set out to redo their work without contacting them."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "3-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "You keep forgetting small final tasks after the main work is finished.",
+          "options": [
+            "Keep a short list of loose ends and clear it before submission.",
+            "Only work when a deadline is looming.",
+            "Miss the deadline and explain later."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "3-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "Meetings and messages constantly interrupt a task that needs concentration.",
+          "options": [
+            "Block out a protected period for focused work.",
+            "Set a new deadline every time somebody messages you.",
+            "Dread the deadline until you feel motivated."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "3-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "A realistic problem means the team genuinely cannot finish by the agreed date.",
+          "options": [
+            "Discuss extending the deadline before it is missed.",
+            "Pretend the deadline does not exist.",
+            "Add more loose ends to the project."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "3-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "You are handling many small tasks and want to remain in control of all of them.",
+          "options": [
+            "Use one system to stay on top of what is due and what is finished.",
+            "Avoid checking your schedule until the end of the week.",
+            "Set out to remember everything without writing it down."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Grammar: getting other people or things to act",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw7-ex4",
+      "title": "4 Choose the structure that best matches the meaning.",
+      "items": [
+        {
+          "id": "4-1",
+          "number": 1,
+          "input": "select",
+          "prompt": "You are the project lead and you assign the data check to Ben.",
+          "options": [
+            "have someone do something",
+            "get someone to do something",
+            "get something done"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "4-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "A colleague does not want to cover your shift at first, but you persuade her.",
+          "options": [
+            "have someone do something",
+            "get someone to do something",
+            "get something done"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "4-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "The important point is that the report is finished; you do not say who finishes it.",
+          "options": [
+            "have someone do something",
+            "get someone to do something",
+            "get something done"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "4-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "A manager instructs an assistant to rearrange the meeting.",
+          "options": [
+            "have someone do something",
+            "get someone to do something",
+            "get something done"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "4-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "You manage to convince a busy designer to make one last change.",
+          "options": [
+            "have someone do something",
+            "get someone to do something",
+            "get something done"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "4-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "You focus on the result: the broken screen must be repaired today.",
+          "options": [
+            "have someone do something",
+            "get someone to do something",
+            "get something done"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw7-ex5",
+      "title": "5 Complete the sentences with the correct form of the verb.",
+      "items": [
+        {
+          "id": "5-1",
+          "number": 1,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "I’ll have Marta ",
+            " the figures before we send the report."
+          ],
+          "options": [
+            "check",
+            "to check",
+            "checked"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "5-2",
+          "number": 2,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "We finally got the client ",
+            " the new deadline."
+          ],
+          "options": [
+            "accept",
+            "to accept",
+            "accepted"
+          ],
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "5-3",
+          "number": 3,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "I need to get this document ",
+            " before the meeting."
+          ],
+          "options": [
+            "translate",
+            "to translate",
+            "translated"
+          ],
+          "answers": [
+            2
+          ]
+        },
+        {
+          "id": "5-4",
+          "number": 4,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The team lead had us ",
+            " the task into smaller stages."
+          ],
+          "options": [
+            "break",
+            "to break",
+            "broken"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "5-5",
+          "number": 5,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Can you get Alex ",
+            " on the supplier this afternoon?"
+          ],
+          "options": [
+            "check",
+            "to check",
+            "checked"
+          ],
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "5-6",
+          "number": 6,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "We should get the final version ",
+            " by someone who wasn’t involved in writing it."
+          ],
+          "options": [
+            "proofread",
+            "to proofread",
+            "proofreaded"
+          ],
+          "answers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw7-ex6",
+      "title": "6 One sentence is correct. Choose it.",
+      "items": [
+        {
+          "id": "6-1",
+          "number": 1,
+          "input": "single",
+          "prompt": "You arrange for Nina to send the reminder.",
+          "options": [
+            "I’ll have Nina send the reminder.",
+            "I’ll have Nina to send the reminder.",
+            "I’ll have Nina sent the reminder."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "6-2",
+          "number": 2,
+          "input": "single",
+          "prompt": "You persuade Tom to stay for another hour.",
+          "options": [
+            "I got Tom stay for another hour.",
+            "I got Tom to stay for another hour.",
+            "I got Tom stayed for another hour."
+          ],
+          "answer": 1
+        },
+        {
+          "id": "6-3",
+          "number": 3,
+          "input": "single",
+          "prompt": "The priority is finishing the slides; the person is not important.",
+          "options": [
+            "We need to get the slides finish.",
+            "We need to get the slides to finish.",
+            "We need to get the slides finished."
+          ],
+          "answer": 2
+        },
+        {
+          "id": "6-4",
+          "number": 4,
+          "input": "single",
+          "prompt": "The manager instructs the team to deal with the urgent request.",
+          "options": [
+            "She had the team deal with it.",
+            "She had the team to deal with it.",
+            "She had the team dealt with it."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "6-5",
+          "number": 5,
+          "input": "single",
+          "prompt": "You convince a colleague to move the call.",
+          "options": [
+            "I got my colleague move the call.",
+            "I got my colleague to move the call.",
+            "I got my colleague moved the call."
+          ],
+          "answer": 1
+        },
+        {
+          "id": "6-6",
+          "number": 6,
+          "input": "single",
+          "prompt": "You arrange for the office printer to be repaired.",
+          "options": [
+            "We got the printer repair.",
+            "We got the printer to repair.",
+            "We got the printer repaired."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw7-ex7",
+      "title": "7 Productivity rescue plan",
+      "items": [
+        {
+          "id": "7-1",
+          "number": "",
+          "input": "textarea",
+          "scored": false,
+          "prompt": "You have a presentation due tomorrow, two unanswered messages, a teammate who is behind schedule, and a document that still needs checking. Write 100–140 words explaining how you will get everything done. Use at least four phrases from the lesson and include all three structures: have someone do something, get someone to do something, and get something done.",
+          "placeholder": "Write your plan here..."
+        }
+      ]
+    }
+  ]
+}

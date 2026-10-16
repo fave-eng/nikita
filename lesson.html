@@ -537,8 +537,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="config.js" defer></script>
-  <script src="data/vocabulary-data.js?v=15" defer></script>
-  <script src="data/grammar-data.js?v=13" defer></script>
+  <script src="data/vocabulary-data.js?v=16" defer></script>
+  <script src="data/grammar-data.js?v=14" defer></script>
   <script src="app.js?v=19" defer></script>
 </head>
 <body class="has-bottom-nav" data-page="homework" data-view="lesson">
@@ -1094,6 +1094,17 @@
         article.dataset.hw6DefinitionsEnhanced = 'true';
       };
 
+      const applyLesson7Enhancements = () => {
+        if (lessonId !== 'lesson-7') return;
+
+        const grammarCard = root.querySelector('.grammar-link-card');
+        const roadmap = root.querySelector('.lesson-roadmap');
+        if (grammarCard && roadmap && grammarCard.dataset.movedToTop !== 'true') {
+          roadmap.parentNode.insertBefore(grammarCard, roadmap);
+          grammarCard.dataset.movedToTop = 'true';
+        }
+      };
+
       const applyEnhancements = () => {
         if (!lesson || applying) return;
         applying = true;
@@ -1130,6 +1141,7 @@
           applyInlineReadingTasks();
           applyReadingBoldTerms();
           applyLesson6Enhancements();
+          applyLesson7Enhancements();
         } finally {
           applying = false;
         }
@@ -1137,7 +1149,7 @@
 
       new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
 
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=4`, { cache: 'no-store' })
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=5`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();

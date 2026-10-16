@@ -669,5 +669,319 @@ window.GRAMMAR_DATA = [
         ]
       }
     ]
+  },
+  {
+    id: 'grammar-lesson-7-causative-have-get',
+    order: 6,
+    title: 'Causatives with have and get',
+    level: 'B2.1',
+    status: 'available',
+    linkedLessonId: 'lesson-7',
+    page: 'grammar-topic.html?id=grammar-lesson-7-causative-have-get',
+    passScore: 100,
+
+    overview: {
+      lead: 'These structures let you talk about arranging, persuading and making sure actions happen without simply saying that you personally do the action.',
+      keyRule: 'Use have + person + base verb for arranging or instructing; get + person + to-infinitive when there is an idea of persuading, managing or arranging; get + thing + past participle when the result is more important than the person who does it.',
+      subjects: ['have + person + base verb', 'get + person + to-infinitive', 'get + thing + past participle', 'agent vs result', 'causative meaning'],
+      example: 'I’ll have Maya check it. / I got Maya to check it. / I got it checked.'
+    },
+
+    uses: [
+      {
+        icon: 'H',
+        title: 'have someone do something',
+        text: 'Use this when you arrange, ask or instruct a person to do something. The person is named and the next verb is the base form without to.',
+        example: 'I’ll have Ben send the final file.'
+      },
+      {
+        icon: 'G→',
+        title: 'get someone to do something',
+        text: 'Use this when you persuade, manage to convince, or arrange for a person to do something. The person is named and the next verb uses to.',
+        example: 'I got Ben to stay for another hour.'
+      },
+      {
+        icon: '✓',
+        title: 'get something done',
+        text: 'Use this when you focus on the completed result rather than the person doing the action. The object comes before the past participle.',
+        example: 'We need to get the report checked today.'
+      },
+      {
+        icon: '≠',
+        title: 'The meaning changes with the structure',
+        text: 'The three patterns can describe similar real-world situations, but they highlight different things: authority or arrangement, persuasion, or the final result.',
+        example: 'I had Sara call him. / I got Sara to call him. / I got the call made before lunch.'
+      }
+    ],
+
+    forms: [
+      {
+        id: 'affirmative',
+        icon: 'H',
+        title: 'have + person + base verb',
+        formula: 'have + person + verb',
+        example: 'The manager had the team revise the schedule.',
+        translation: 'The manager arranged or instructed the team to do it.',
+        note: 'Do not use to after the person: have the team revise, not have the team to revise.'
+      },
+      {
+        id: 'negative',
+        icon: 'G→',
+        title: 'get + person + to-infinitive',
+        formula: 'get + person + to + verb',
+        example: 'We got the supplier to deliver it early.',
+        translation: 'We persuaded or managed to arrange for the supplier to do it.',
+        note: 'The to-infinitive is required here.'
+      },
+      {
+        id: 'question',
+        icon: '✓',
+        title: 'get + thing + past participle',
+        formula: 'get + object + past participle',
+        example: 'I need to get the figures checked.',
+        translation: 'The result is important; the person who checks them is not named.',
+        note: 'The past participle describes what happens to the object: checked, repaired, translated, finished.'
+      },
+      {
+        id: 'short-answer',
+        icon: 'Focus',
+        title: 'Choose by focus',
+        formula: 'person + action OR object + result',
+        example: 'Have Leo update it. / Get Leo to update it. / Get it updated.',
+        translation: 'Choose the structure according to what you want to emphasize.',
+        note: 'At B2, meaning and focus matter as much as the verb form.'
+      }
+    ],
+
+    contrast: {
+      title: 'What changes?',
+      intro: 'The person or object after have/get tells you which pattern you are building.',
+      ordinary: {
+        label: 'Person is named',
+        verbs: 'have + person + base verb / get + person + to-infinitive',
+        affirmative: 'I had Zoe proofread it. / I got Zoe to proofread it.',
+        negative: 'I didn’t have Zoe proofread it. / I couldn’t get Zoe to proofread it.',
+        question: 'Can you have Zoe proofread it? / Can you get Zoe to proofread it?',
+        rule: 'Have is more neutral for arranging or instructing; get often suggests extra effort, persuasion or successfully arranging something.'
+      },
+      be: {
+        label: 'Result is central',
+        verbs: 'get + object + past participle',
+        affirmative: 'I got the report proofread.',
+        negative: 'I didn’t get the report proofread.',
+        question: 'Did you get the report proofread?',
+        rule: 'The agent can be omitted because the important information is that the action was completed.'
+      }
+    },
+
+    questionBuilder: {
+      title: 'Build the right causative',
+      pattern: [
+        'Do I want to name the person? → yes: have/get + person',
+        'Is it a neutral arrangement or instruction? → have + person + base verb',
+        'Is there persuasion, effort or successful arranging? → get + person + to-infinitive',
+        'Do I mainly care about the result? → get + object + past participle'
+      ],
+      example: 'I had Alex call them. → I got Alex to call them. → I got the call made.',
+      translation: 'Start with the meaning you want, then choose the form.',
+      note: 'Do not mechanically replace have with get: the verb pattern changes.'
+    },
+
+    memoryRule: {
+      title: 'Three patterns to remember',
+      steps: [
+        'HAVE + PERSON + VERB: have Maya check it.',
+        'GET + PERSON + TO + VERB: get Maya to check it.',
+        'GET + THING + PAST PARTICIPLE: get it checked.',
+        'After have + person, never add to.',
+        'After get + person, to is required.',
+        'After get + thing, use a past participle.'
+      ]
+    },
+
+    commonMistakes: [
+      {
+        wrong: 'I had Sam to send the file.',
+        right: 'I had Sam send the file.',
+        reason: 'Have + person is followed by the base verb without to.'
+      },
+      {
+        wrong: 'I got Sam send the file.',
+        right: 'I got Sam to send the file.',
+        reason: 'Get + person requires a to-infinitive.'
+      },
+      {
+        wrong: 'I got the file to check.',
+        right: 'I got the file checked.',
+        reason: 'Get + thing takes a past participle when you mean that the action was completed.'
+      },
+      {
+        wrong: 'I got my colleague checked the figures.',
+        right: 'I got my colleague to check the figures.',
+        reason: 'When a person is named after get, use to + verb.'
+      }
+    ],
+
+    quizExercises: [
+      {
+        title: 'Meaning and focus',
+        instructions: 'Choose the structure that best matches the situation.',
+        items: [
+          {
+            type: 'single',
+            difficulty: 'Easy',
+            skill: 'Arrangement',
+            prompt: 'You are responsible for the project and assign the final check to Mia.',
+            options: ['have someone do something', 'get someone to do something', 'get something done'],
+            answer: 0
+          },
+          {
+            type: 'single',
+            difficulty: 'Easy',
+            skill: 'Persuasion',
+            prompt: 'A colleague initially refuses, but you persuade them to help.',
+            options: ['have someone do something', 'get someone to do something', 'get something done'],
+            answer: 1
+          },
+          {
+            type: 'single',
+            difficulty: 'Easy',
+            skill: 'Result focus',
+            prompt: 'The important point is that the laptop is repaired today.',
+            options: ['have someone do something', 'get someone to do something', 'get something done'],
+            answer: 2
+          },
+          {
+            type: 'single',
+            difficulty: 'Easy',
+            skill: 'Instruction',
+            prompt: 'A manager tells an assistant to move an appointment.',
+            options: ['have someone do something', 'get someone to do something', 'get something done'],
+            answer: 0
+          }
+        ]
+      },
+
+      {
+        title: 'Complete the verb pattern',
+        instructions: 'Choose the correct form.',
+        items: [
+          {
+            type: 'select',
+            difficulty: 'Medium',
+            skill: 'Have + person',
+            prompt: 'I’ll have Leo ___ the spreadsheet.',
+            options: ['update', 'to update', 'updated'],
+            answer: 0
+          },
+          {
+            type: 'select',
+            difficulty: 'Medium',
+            skill: 'Get + person',
+            prompt: 'We got the client ___ the revised date.',
+            options: ['accept', 'to accept', 'accepted'],
+            answer: 1
+          },
+          {
+            type: 'select',
+            difficulty: 'Medium',
+            skill: 'Get + object',
+            prompt: 'I need to get the contract ___ today.',
+            options: ['sign', 'to sign', 'signed'],
+            answer: 2
+          },
+          {
+            type: 'select',
+            difficulty: 'Medium',
+            skill: 'Get + person',
+            prompt: 'Can you get Noor ___ us the latest figures?',
+            options: ['send', 'to send', 'sent'],
+            answer: 1
+          }
+        ]
+      },
+
+      {
+        title: 'Choose the natural sentence',
+        instructions: 'Choose the sentence that expresses the situation correctly.',
+        items: [
+          {
+            type: 'select',
+            difficulty: 'Challenge',
+            skill: 'Neutral arrangement',
+            prompt: 'You arrange for your assistant to contact the venue.',
+            options: ['I had my assistant contact the venue.', 'I had my assistant to contact the venue.'],
+            answer: 0
+          },
+          {
+            type: 'select',
+            difficulty: 'Challenge',
+            skill: 'Persuasion',
+            prompt: 'You finally persuade a teammate to swap tasks.',
+            options: ['I got my teammate to swap tasks.', 'I got my teammate swap tasks.'],
+            answer: 0
+          },
+          {
+            type: 'select',
+            difficulty: 'Challenge',
+            skill: 'Result focus',
+            prompt: 'You arrange for the document to be translated.',
+            options: ['I got the document translated.', 'I got the document to translate.'],
+            answer: 0
+          },
+          {
+            type: 'select',
+            difficulty: 'Challenge',
+            skill: 'Agent focus',
+            prompt: 'You instruct an intern to collect the responses.',
+            options: ['I had an intern collect the responses.', 'I got the responses collected by an intern.'],
+            answer: 0
+          }
+        ]
+      },
+
+      {
+        title: 'Build complete causative sentences',
+        instructions: 'Put the parts in the correct order.',
+        items: [
+          {
+            type: 'reorder',
+            difficulty: 'Advanced',
+            skill: 'Have + person',
+            prompt: 'the final figures / I’ll / have / Maya / check',
+            tokens: ['I’ll', 'have', 'Maya', 'check', 'the final figures'],
+            answer: 'I’ll have Maya check the final figures.',
+            acceptedAnswers: ['I’ll have Maya check the final figures.', "I'll have Maya check the final figures.", 'I’ll have Maya check the final figures', "I'll have Maya check the final figures"]
+          },
+          {
+            type: 'reorder',
+            difficulty: 'Advanced',
+            skill: 'Get + person',
+            prompt: 'to stay / we / got / Dan / for another hour',
+            tokens: ['We', 'got', 'Dan', 'to stay', 'for another hour'],
+            answer: 'We got Dan to stay for another hour.',
+            acceptedAnswers: ['We got Dan to stay for another hour.', 'We got Dan to stay for another hour']
+          },
+          {
+            type: 'reorder',
+            difficulty: 'Advanced',
+            skill: 'Get + object',
+            prompt: 'before Friday / get / we need to / the draft / approved',
+            tokens: ['We need to', 'get', 'the draft', 'approved', 'before Friday'],
+            answer: 'We need to get the draft approved before Friday.',
+            acceptedAnswers: ['We need to get the draft approved before Friday.', 'We need to get the draft approved before Friday']
+          },
+          {
+            type: 'reorder',
+            difficulty: 'Advanced',
+            skill: 'Get + person',
+            prompt: 'the supplier / to confirm / can you / get / the date',
+            tokens: ['Can you', 'get', 'the supplier', 'to confirm', 'the date'],
+            answer: 'Can you get the supplier to confirm the date?',
+            acceptedAnswers: ['Can you get the supplier to confirm the date?', 'Can you get the supplier to confirm the date']
+          }
+        ]
+      }
+    ]
   }
 ];

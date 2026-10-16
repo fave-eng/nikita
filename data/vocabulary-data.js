@@ -288,5 +288,36 @@ window.VOCABULARY_DATA = [
       { id: 'l7-21', uniqueKey: 'candidate', en: 'candidate', ru: 'a person who is being considered for a job or position', transcription: '/ˈkændɪdət/', exampleEn: 'The interviewer met several candidates.', group: 'interviews' },
       { id: 'l7-22', uniqueKey: 'follow-up question', en: 'follow-up question', ru: 'a question asked after an answer to get more information', transcription: '', exampleEn: 'A follow-up question shows that you are listening.', group: 'interaction' }
     ]
+  },
+  {
+    id: 'vocab-lesson-7-getting-things-done',
+    title: 'Getting things done',
+    label: 'Homework 7 · 15 useful words and phrases',
+    icon: '⏳',
+    type: 'lesson',
+    linkedLessonId: 'lesson-7',
+    page: 'vocabulary.html?id=vocab-lesson-7-getting-things-done',
+    description: 'Revision vocabulary for deadlines, scheduling and keeping work under control.',
+    groups: [
+      { id: 'deadlines', title: 'Deadlines', subtitle: 'Talking about time pressure and due dates', icon: '⏰' },
+      { id: 'organisation', title: 'Getting organised', subtitle: 'Managing tasks and monitoring progress', icon: '✅' }
+    ],
+    words: [
+      { id: 'l8-01', uniqueKey: 'thrive on deadlines', en: 'thrive on deadlines', ru: 'to perform especially well when you have fixed time limits', transcription: '', exampleEn: 'Some people thrive on deadlines because pressure helps them focus.', group: 'deadlines' },
+      { id: 'l8-02', uniqueKey: 'deadline looming', en: 'a deadline is looming', ru: 'a deadline is getting very close', transcription: '', exampleEn: 'I work more carefully when a deadline is looming.', group: 'deadlines' },
+      { id: 'l8-03', uniqueKey: 'dread deadlines', en: 'dread deadlines', ru: 'to strongly dislike or feel anxious about deadlines', transcription: '', exampleEn: 'He dreads deadlines because he worries about being late.', group: 'deadlines' },
+      { id: 'l8-04', uniqueKey: 'miss a deadline', en: 'miss a deadline', ru: 'to fail to finish or submit something by the required time', transcription: '', exampleEn: 'We cannot afford to miss the deadline for the application.', group: 'deadlines' },
+      { id: 'l8-05', uniqueKey: 'keep up with deadlines', en: 'keep up with deadlines', ru: 'to continue meeting deadlines as work arrives', transcription: '', exampleEn: 'A clear calendar helps me keep up with deadlines.', group: 'deadlines' },
+      { id: 'l8-06', uniqueKey: 'set a deadline', en: 'set a deadline', ru: 'to decide the latest time by which something must be completed', transcription: '', exampleEn: 'Let’s set a deadline for the first draft.', group: 'deadlines' },
+      { id: 'l8-07', uniqueKey: 'extend a deadline', en: 'extend a deadline', ru: 'to move a deadline to a later time or date', transcription: '', exampleEn: 'The client agreed to extend the deadline by two days.', group: 'deadlines' },
+      { id: 'l8-08', uniqueKey: 'set out to do something', en: 'set out to do something', ru: 'to begin an activity with a particular aim', transcription: '', exampleEn: 'She set out to finish the whole report before lunch.', group: 'organisation' },
+      { id: 'l8-09', uniqueKey: 'break down a task', en: 'break down a task', ru: 'to divide a large task into smaller, more manageable parts', transcription: '', exampleEn: 'Break down the task before you decide how long it will take.', group: 'organisation' },
+      { id: 'l8-10', uniqueKey: 'check in on', en: 'check in on', ru: 'to briefly monitor how a person or process is progressing', transcription: '', exampleEn: 'I’ll check in on the team after lunch.', group: 'organisation' },
+      { id: 'l8-11', uniqueKey: 'incentive', en: 'incentive', ru: 'something that encourages someone to act or work harder', transcription: '/ɪnˈsentɪv/', exampleEn: 'Finishing early is a good incentive because I can relax afterwards.', group: 'organisation' },
+      { id: 'l8-12', uniqueKey: 'stay on top of', en: 'stay on top of', ru: 'to remain in control of work or information', transcription: '', exampleEn: 'A task list helps me stay on top of several projects.', group: 'organisation' },
+      { id: 'l8-13', uniqueKey: 'loose ends', en: 'loose ends', ru: 'small unfinished details that still need attention', transcription: '', exampleEn: 'I always leave twenty minutes to deal with loose ends.', group: 'organisation' },
+      { id: 'l8-14', uniqueKey: 'block out time', en: 'block out time', ru: 'to reserve a period in your schedule for a particular activity', transcription: '', exampleEn: 'I block out time for focused work every morning.', group: 'organisation' },
+      { id: 'l8-15', uniqueKey: 'be due', en: 'be due', ru: 'to be expected or required at a particular time', transcription: '', exampleEn: 'The final version is due at 5 p.m.', group: 'organisation' }
+    ]
   }
 ];
