@@ -6,7 +6,7 @@
   "status": "available",
   "publishedAt": "2026-10-16",
   "notification": {
-    "enabled": false,
+    "enabled": true,
     "version": 1
   },
   "vocabularyId": "vocab-lesson-7-getting-things-done",
