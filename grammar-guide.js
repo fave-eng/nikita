@@ -18,7 +18,7 @@
         <thead><tr>${(section.columns || []).map((c) => `<th>${escapeHtml(c)}</th>`).join('')}</tr></thead>
         <tbody>${(section.rows || []).map((row) => `<tr>${row.map((cell) => `<td>${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody>
       </table></div>
-      ${section.note ? `<div class="tg-note"><strong>Note</strong><span>${escapeHtml(section.note)}</span></div>` : ''}
+      ${section.note ? `<div class="tg-note"><strong>Примечание / Note</strong><span>${escapeHtml(section.note)}</span></div>` : ''}
     </section>`;
 
   const renderPatterns = (section) => `
@@ -30,7 +30,7 @@
           <code>${escapeHtml(item.formula)}</code>
           <p>${escapeHtml(item.example)}</p>
         </article>`).join('')}</div>
-      ${section.warning ? `<div class="tg-warning"><strong>Watch out</strong><span>${escapeHtml(section.warning)}</span></div>` : ''}
+      ${section.warning ? `<div class="tg-warning"><strong>Обратите внимание / Watch out</strong><span>${escapeHtml(section.warning)}</span></div>` : ''}
     </section>`;
 
   const renderSection = (section) => {
@@ -134,7 +134,7 @@
           <div class="tg-heading"><h2>${escapeHtml(section.title)}</h2></div>
           <div class="tg-anatomy">${(section.parts || []).map((part, index) => `<span>${escapeHtml(part)}</span>${index < section.parts.length - 1 ? '<b>→</b>' : ''}`).join('')}</div>
           <div class="tg-examples">${(section.examples || []).map((sentence) => `<article><p>${escapeHtml(sentence)}</p></article>`).join('')}</div>
-          ${section.note ? `<div class="tg-note"><strong>Rule</strong><span>${escapeHtml(section.note)}</span></div>` : ''}
+          ${section.note ? `<div class="tg-note"><strong>Правило / Rule</strong><span>${escapeHtml(section.note)}</span></div>` : ''}
         </section>`;
 
       case 'transformation':
@@ -142,7 +142,7 @@
           <div class="tg-heading"><h2>${escapeHtml(section.title)}</h2></div>
           <div class="tg-transform">${(section.pairs || []).map((pair) => `
             <article><div>${escapeHtml(pair.from)}</div><span>→</span><strong>${escapeHtml(pair.to)}</strong></article>`).join('')}</div>
-          <div class="tg-note"><strong>Rule</strong><span>${escapeHtml(section.rule)}</span></div>
+          <div class="tg-note"><strong>Правило / Rule</strong><span>${escapeHtml(section.rule)}</span></div>
         </section>`;
 
       case 'focusSplit':
@@ -302,7 +302,7 @@
     guideNode.className = 'textbook-grammar-guide';
     guideNode.innerHTML = `
       <article class="tg-intro">
-        <span class="eyebrow">Study guide</span>
+        <span class="eyebrow">Объяснение / Study guide</span>
         <h2>${escapeHtml(guide.title)}</h2>
         <p>${escapeHtml(guide.intro)}</p>
       </article>

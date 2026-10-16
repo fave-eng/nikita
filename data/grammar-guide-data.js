@@ -1,81 +1,81 @@
 window.GRAMMAR_GUIDES = {
   "grammar-lesson-1-habits": {
-    "title": "Habits: present and past",
-    "intro": "The main question is not simply “present or past?”. First decide whether you are describing a regular situation, a general tendency, a past habit that has changed, or one finished past event.",
+    "title": "Habits: present and past · Привычки: настоящее и прошлое",
+    "intro": "Главное — не просто выбрать «настоящее или прошлое». Сначала определите смысл: это регулярное действие сейчас, общая тенденция, привычка в прошлом, которая изменилась, или одно завершённое событие.",
     "sections": [
       {
         "type": "timeline",
-        "title": "1. Start with the time reference",
-        "subtitle": "The time reference decides which grammar is possible.",
+        "title": "1. Сначала определите время",
+        "subtitle": "Временная точка определяет, какие грамматические формы возможны.",
         "items": [
           {
             "label": "NOW",
-            "title": "Present habit",
-            "text": "Use the present simple for routines and typical behaviour.",
+            "title": "Present habit · Привычка сейчас",
+            "text": "Present Simple используется для регулярных действий и типичного поведения.",
             "example": "I usually read before bed."
           },
           {
             "label": "NOW",
-            "title": "Present tendency",
-            "text": "Use tend to when something is generally true, but not necessarily every time.",
+            "title": "Present tendency · Общая тенденция",
+            "text": "tend to используется, когда что-то обычно происходит, но не обязательно каждый раз.",
             "example": "I tend to avoid crowded places."
           },
           {
             "label": "PAST → NOW",
-            "title": "Past habit or state that changed",
-            "text": "Use used to when the situation was true before but is not true now.",
+            "title": "Past habit/state that changed · Прошлая привычка или состояние",
+            "text": "used to показывает, что действие или состояние было обычным в прошлом, но сейчас уже не актуально.",
             "example": "I used to live near the cinema."
           },
           {
             "label": "PAST",
-            "title": "Repeated past action",
-            "text": "Use would for repeated actions in a clearly established past period.",
+            "title": "Repeated past action · Повторяющееся действие в прошлом",
+            "text": "would используется для повторяющихся действий, если период прошлого уже понятен из контекста.",
             "example": "Every summer, we would stay with my grandparents."
           },
           {
             "label": "PAST",
-            "title": "Finished event",
-            "text": "Use the past simple for a completed event at a particular time.",
+            "title": "Finished event · Завершённое событие",
+            "text": "Past Simple используется для одного завершённого события или факта в конкретном прошлом.",
             "example": "I went to the cinema yesterday."
           }
         ]
       },
       {
         "type": "comparison",
-        "title": "2. used to, would and past simple",
-        "subtitle": "These forms can all refer to the past, but they are not interchangeable.",
+        "title": "2. used to, would и Past Simple: подробное сравнение",
+        "subtitle": "Все три формы могут говорить о прошлом, но они не взаимозаменяемы.",
         "columns": [
-          "Form",
-          "What it describes",
-          "Can describe a state?",
-          "Example"
+          "Форма",
+          "Что описывает",
+          "Можно описывать состояние?",
+          "Пример"
         ],
         "rows": [
           [
             "used to + verb",
-            "Repeated action or state that is no longer true",
-            "Yes",
+            "Повторяющееся действие или состояние, которое больше не является правдой",
+            "Да",
             "We used to go there every Friday. / I used to be shy."
           ],
           [
             "would + verb",
-            "Repeated action in a known past period",
-            "No",
+            "Повторяющееся действие в уже установленном периоде прошлого",
+            "Нет",
             "After dinner, we would walk by the river."
           ],
           [
             "past simple",
-            "Finished event; also repeated past behaviour when the time period is clear",
-            "Yes",
+            "Завершённое событие; также повторяющееся действие, если период прошлого ясен",
+            "Да",
             "I went there yesterday. / We often went there in summer."
           ]
         ],
-        "note": "Would needs a past-time frame. Without context, “We would go there” can sound incomplete."
+        "note": "Для would нужен уже установленный контекст прошлого. Без него We would go there может звучать незавершённо."
       },
       {
         "type": "patterns",
-        "title": "3. Forms of used to",
-        "subtitle": "The past is carried by did in negatives and questions.",
+        "title": "3. Формы used to",
+        "subtitle": "В вопросах и отрицаниях прошедшее время выражает did, поэтому после него используется базовая форма use.",
         "items": [
           {
             "label": "+",
@@ -93,98 +93,98 @@ window.GRAMMAR_GUIDES = {
             "example": "Did she use to work nights?"
           }
         ],
-        "warning": "Not: “Did she used to …?” After did, use the base form use."
+        "warning": "Не говорим Did she used to…? После did используем use: Did she use to…?"
       },
       {
         "type": "position",
-        "title": "4. Frequency expressions: where do they go?",
+        "title": "4. Где ставятся выражения частоты?",
         "rules": [
           {
-            "rule": "Before a main verb",
+            "rule": "Перед смысловым глаголом",
             "example": "I usually go out on Fridays. / I hardly ever watch TV."
           },
           {
-            "rule": "After be",
+            "rule": "После глагола be",
             "example": "She is usually busy. / They are hardly ever late."
           },
           {
-            "rule": "At the end for longer expressions",
+            "rule": "Длинные выражения часто ставятся в конце предложения",
             "example": "We go to the theatre once in a while. / I call them every weekend."
           }
         ]
       },
       {
         "type": "contrastCards",
-        "title": "5. Do not confuse used to with be/get used to",
+        "title": "5. Не путайте used to и be/get used to",
         "cards": [
           {
             "title": "used to + verb",
-            "meaning": "past habit/state, no longer true",
+            "meaning": "Привычка или состояние в прошлом, которого сейчас уже нет",
             "example": "I used to work from home."
           },
           {
             "title": "be used to + noun / -ing",
-            "meaning": "be accustomed to something",
+            "meaning": "Быть привыкшим к чему-либо",
             "example": "I'm used to working from home."
           },
           {
             "title": "get used to + noun / -ing",
-            "meaning": "become accustomed to something",
+            "meaning": "Привыкать / постепенно становиться привычным",
             "example": "I'm getting used to working from home."
           }
         ]
       },
       {
         "type": "algorithm",
-        "title": "6. Quick decision",
+        "title": "6. Быстрый алгоритм выбора",
         "steps": [
-          "Is it true now? → present simple or tend to.",
-          "Was it a past state that is no longer true? → used to.",
-          "Was it a repeated past action with a clear past-time frame? → used to or would.",
-          "Was it one completed event? → past simple."
+          "Это правда сейчас? → Present Simple или tend to.",
+          "Это было состоянием/привычкой в прошлом и сейчас изменилось? → used to.",
+          "Это повторяющееся действие в ясном прошлом периоде? → used to или would.",
+          "Это одно завершённое событие? → Past Simple."
         ]
       }
     ]
   },
   "grammar-lesson-2-speculation": {
-    "title": "Speculating about pictures",
-    "intro": "When you speculate, grammar shows how strong your conclusion is and what kind of evidence you have. A strong conclusion is not the same as a possibility, and visual impressions use their own patterns.",
+    "title": "Speculating about pictures · Предположения по картинкам",
+    "intro": "Когда мы предполагаем, грамматика показывает степень уверенности и тип доказательства. Сильный вывод — не то же самое, что обычная возможность, а для визуального впечатления есть отдельные конструкции.",
     "sections": [
       {
         "type": "scale",
-        "title": "1. Strength of the conclusion",
-        "subtitle": "Think of the forms as levels of certainty, not as exact percentages.",
+        "title": "1. Степень уверенности в предположении",
+        "subtitle": "Воспринимайте формы как уровни уверенности, а не как точные проценты.",
         "items": [
           {
             "strength": "strong",
             "label": "must",
-            "meaning": "The evidence makes this conclusion very likely.",
+            "meaning": "Есть сильные основания считать этот вывод правильным.",
             "example": "They must be tourists."
           },
           {
             "strength": "medium",
             "label": "could well",
-            "meaning": "A possibility that seems quite plausible.",
+            "meaning": "Возможность кажется довольно вероятной.",
             "example": "It could well be a university."
           },
           {
             "strength": "possible",
             "label": "may / might / could",
-            "meaning": "A real possibility, but the evidence is not strong enough for a conclusion.",
+            "meaning": "Это реально возможно, но доказательств недостаточно для сильного вывода.",
             "example": "They might be waiting for someone."
           },
           {
             "strength": "negative",
             "label": "can't / cannot",
-            "meaning": "The evidence makes something impossible or extremely unlikely.",
+            "meaning": "По имеющимся признакам это невозможно или крайне маловероятно.",
             "example": "It can't be winter; everyone is wearing T-shirts."
           }
         ]
       },
       {
         "type": "patterns",
-        "title": "2. Modal structure",
-        "subtitle": "After a modal, use the base form without to.",
+        "title": "2. Структура с модальными глаголами",
+        "subtitle": "После must / may / might / could используется базовая форма глагола без to.",
         "items": [
           {
             "label": "state",
@@ -202,78 +202,78 @@ window.GRAMMAR_GUIDES = {
             "example": "She might be waiting for a taxi."
           }
         ],
-        "warning": "Not: “He must to be tired.” Modal verbs are followed by the base form."
+        "warning": "Нельзя: He must to be tired. После модального глагола используем base form: He must be tired."
       },
       {
         "type": "comparison",
-        "title": "3. seem, appear, look like and look as if",
+        "title": "3. seem, appear, look like и look as if: сравнение",
         "columns": [
-          "Structure",
-          "What follows",
-          "Example",
-          "Use"
+          "Конструкция",
+          "Что после неё",
+          "Пример",
+          "Когда использовать"
         ],
         "rows": [
           [
             "seem / appear + to + verb",
-            "infinitive",
+            "to-infinitive",
             "She appears to be upset.",
-            "General impression"
+            "Общее впечатление"
           ],
           [
             "look + adjective",
-            "adjective",
+            "прилагательное",
             "He looks tired.",
-            "Visible state"
+            "Видимое состояние"
           ],
           [
             "look like + noun phrase",
-            "noun / noun phrase",
+            "существительное / noun phrase",
             "It looks like a school.",
-            "Similarity / identification"
+            "Сходство или определение объекта"
           ],
           [
             "look as if / as though + clause",
-            "subject + verb",
+            "полное предложение: subject + verb",
             "They look as if they are celebrating.",
-            "A full visual interpretation"
+            "Полная интерпретация увиденного"
           ]
         ]
       },
       {
         "type": "contrastCards",
-        "title": "4. can't is not the same as mustn't",
+        "title": "4. can't и mustn't — не одно и то же",
         "cards": [
           {
             "title": "It can't be true.",
-            "meaning": "Deduction: I think it is impossible.",
+            "meaning": "Дедукция: я считаю это невозможным.",
             "example": "The shop is closed. They can't be inside."
           },
           {
             "title": "You mustn't do that.",
-            "meaning": "Prohibition: it is not allowed.",
+            "meaning": "Запрет: это нельзя делать.",
             "example": "You mustn't take photos here."
           }
         ]
       },
       {
         "type": "examples",
-        "title": "5. Build a careful description",
+        "title": "5. Как строить аккуратное описание",
         "pairs": [
           {
-            "context": "Strong evidence",
+            "context": "Сильные доказательства",
             "sentence": "They must know each other because they are sharing photos on one phone."
           },
           {
-            "context": "Possible explanation",
+            "context": "Возможное объяснение",
             "sentence": "They could be colleagues, but they might also be friends."
           },
           {
-            "context": "Visual impression",
+            "context": "Визуальное впечатление",
             "sentence": "The man appears to be explaining something."
           },
           {
-            "context": "Full clause after as if",
+            "context": "Полное предложение после as if",
             "sentence": "It looks as if the meeting has just finished."
           }
         ]
@@ -281,44 +281,44 @@ window.GRAMMAR_GUIDES = {
     ]
   },
   "grammar-lesson-4-adjectives-adverbs": {
-    "title": "Adjectives and adverbs",
-    "intro": "The important question is: what does the word describe? Adjectives describe a noun or the subject after a linking verb. Adverbs usually describe an action, an adjective, another adverb, or a whole sentence.",
+    "title": "Adjectives and adverbs · Прилагательные и наречия",
+    "intro": "Главный вопрос: что именно описывает слово? Прилагательное описывает существительное или подлежащее после глагола-связки. Наречие обычно описывает действие, прилагательное, другое наречие или всё предложение.",
     "sections": [
       {
         "type": "roleMap",
-        "title": "1. Identify the job of the word",
+        "title": "1. Определите роль слова",
         "items": [
           {
-            "target": "noun",
-            "use": "adjective",
+            "target": "существительное",
+            "use": "adjective · прилагательное",
             "example": "a dramatic picture"
           },
           {
-            "target": "subject after look/seem/feel/sound",
-            "use": "adjective",
+            "target": "подлежащее после look / seem / feel / sound",
+            "use": "adjective · прилагательное",
             "example": "She looks tired."
           },
           {
-            "target": "action",
-            "use": "adverb",
+            "target": "действие",
+            "use": "adverb · наречие",
             "example": "She spoke quietly."
           },
           {
-            "target": "adjective",
-            "use": "adverb of degree",
+            "target": "прилагательное",
+            "use": "adverb of degree · наречие степени",
             "example": "absolutely amazing"
           },
           {
-            "target": "another adverb",
-            "use": "adverb",
+            "target": "другое наречие",
+            "use": "adverb · наречие",
             "example": "really carefully"
           }
         ]
       },
       {
         "type": "patterns",
-        "title": "2. Linking verbs take adjectives",
-        "subtitle": "These verbs connect the subject with a description; they do not describe an action.",
+        "title": "2. После linking verbs используется прилагательное",
+        "subtitle": "look, feel, sound, seem связывают подлежащее с его характеристикой; они не описывают способ действия.",
         "items": [
           {
             "label": "look",
@@ -341,16 +341,16 @@ window.GRAMMAR_GUIDES = {
             "example": "The task seems difficult."
           }
         ],
-        "warning": "Compare: “She looked sad” (her appearance) and “She looked sadly at the photo” (the way she looked at it)."
+        "warning": "Сравните: She looked sad = она выглядела грустной; She looked sadly at the photo = она грустно посмотрела на фотографию. Во втором случае sadly описывает действие looked at."
       },
       {
         "type": "comparison",
-        "title": "3. Forming adverbs",
+        "title": "3. Как образуются наречия",
         "columns": [
           "Adjective",
           "Adverb",
-          "Pattern",
-          "Example"
+          "Правило",
+          "Пример"
         ],
         "rows": [
           [
@@ -374,119 +374,119 @@ window.GRAMMAR_GUIDES = {
           [
             "good",
             "well",
-            "irregular",
+            "неправильная форма",
             "She speaks English well."
           ],
           [
             "fast",
             "fast",
-            "same form",
+            "форма не меняется",
             "The train moves fast."
           ],
           [
             "hard",
             "hard",
-            "same form",
+            "форма не меняется",
             "They worked hard."
           ]
         ]
       },
       {
         "type": "contrastCards",
-        "title": "4. Same-looking words can change the meaning",
+        "title": "4. Похожие формы могут иметь разное значение",
         "cards": [
           {
             "title": "hard / hardly",
-            "meaning": "hard = with a lot of effort; hardly = almost not",
+            "meaning": "hard = усердно; hardly = почти не",
             "example": "He works hard. / He hardly works."
           },
           {
             "title": "late / lately",
-            "meaning": "late = after the expected time; lately = recently",
+            "meaning": "late = поздно; lately = в последнее время",
             "example": "She arrived late. / I haven't seen her lately."
           },
           {
             "title": "near / nearly",
-            "meaning": "near = close; nearly = almost",
+            "meaning": "near = близко; nearly = почти",
             "example": "Come near. / It's nearly finished."
           },
           {
             "title": "high / highly",
-            "meaning": "high = at a high position/level; highly = very much, often with opinions",
+            "meaning": "high = высоко; highly = очень / в высокой степени",
             "example": "The plane flew high. / She is highly respected."
           }
         ]
       },
       {
         "type": "comparison",
-        "title": "5. Degree adverbs: choose a natural combination",
+        "title": "5. Наречия степени: естественные сочетания",
         "columns": [
-          "Type of adjective",
-          "Common modifiers",
-          "Examples"
+          "Тип прилагательного",
+          "Обычные усилители",
+          "Примеры"
         ],
         "rows": [
           [
-            "Gradable: tired, cold, interesting",
+            "Gradable: tired, cold, interesting · можно усиливать по степени",
             "very, really, quite, fairly",
             "very tired / really interesting"
           ],
           [
-            "Extreme: amazing, awful, impossible",
+            "Extreme: amazing, awful, impossible · уже содержат сильное значение",
             "absolutely, completely, totally, really",
             "absolutely amazing / completely impossible"
           ]
         ],
-        "note": "Very is normally used with gradable adjectives. With many extreme adjectives, absolutely or completely is more natural."
+        "note": "very обычно сочетается с gradable adjectives. С сильными extreme adjectives часто естественнее absolutely, completely или totally."
       },
       {
         "type": "algorithm",
-        "title": "6. Before you choose adjective or adverb",
+        "title": "6. Алгоритм: adjective или adverb?",
         "steps": [
-          "Find the word being described.",
-          "If it is a noun → use an adjective.",
-          "If it follows a linking verb and describes the subject → use an adjective.",
-          "If it describes how an action happens → use an adverb.",
-          "If it changes the strength of an adjective/adverb → use an adverb of degree."
+          "Найдите слово, которое описывается.",
+          "Если описывается существительное → adjective.",
+          "Если слово стоит после linking verb и описывает подлежащее → adjective.",
+          "Если описывается то, как происходит действие → adverb.",
+          "Если слово усиливает adjective/adverb → adverb of degree."
         ]
       }
     ]
   },
   "grammar-lesson-5-relative-clauses": {
-    "title": "Relative clauses",
-    "intro": "A relative clause identifies a noun or adds information about it. The first decision is whether the information is essential. That decision controls commas, the choice of relative pronoun, and whether the pronoun can be omitted.",
+    "title": "Relative clauses · Относительные придаточные",
+    "intro": "Relative clause либо уточняет, о каком именно человеке/предмете идёт речь, либо добавляет дополнительную информацию. Сначала определите, является ли информация обязательной: от этого зависят запятые, relative word и возможность его опустить.",
     "sections": [
       {
         "type": "comparison",
-        "title": "1. Defining vs non-defining relative clauses",
+        "title": "1. Defining и non-defining clauses: главное различие",
         "columns": [
           "",
-          "Defining",
-          "Non-defining"
+          "Defining · уточняет, кто/что именно",
+          "Non-defining · добавляет информацию"
         ],
         "rows": [
           [
-            "Purpose",
-            "Identifies exactly which person/thing we mean",
-            "Adds extra information about an already identified person/thing"
+            "Функция",
+            "Определяет, о каком именно человеке/предмете идёт речь",
+            "Добавляет информацию об уже известном человеке/предмете"
           ],
           [
-            "Commas",
-            "No commas",
-            "Commas are required"
+            "Запятые",
+            "Нет",
+            "Обязательны"
           ],
           [
             "that",
-            "Possible for people/things in many defining clauses",
-            "Not used"
+            "Возможен с людьми и предметами во многих defining clauses",
+            "Не используется"
           ],
           [
-            "Pronoun omission",
-            "Possible when the pronoun is the object",
-            "Not possible"
+            "Можно ли убрать pronoun?",
+            "Да, если pronoun является дополнением",
+            "Нет"
           ],
           [
-            "Example",
+            "Пример",
             "The hotel that we booked was cheap.",
             "Our hotel, which was near the station, was cheap."
           ]
@@ -494,146 +494,146 @@ window.GRAMMAR_GUIDES = {
       },
       {
         "type": "pronounTable",
-        "title": "2. Choose the relative word by meaning",
+        "title": "2. Как выбрать relative word",
         "items": [
           {
             "word": "who",
-            "for": "people",
+            "for": "люди",
             "example": "The woman who called me was helpful."
           },
           {
             "word": "which",
-            "for": "things / animals",
+            "for": "предметы / животные",
             "example": "The book which won the prize is excellent."
           },
           {
             "word": "that",
-            "for": "people or things in defining clauses",
+            "for": "люди или предметы в defining clause",
             "example": "The café that opened last week is busy."
           },
           {
             "word": "whose",
-            "for": "possession",
+            "for": "принадлежность: чей?",
             "example": "The man whose car was stolen called the police."
           },
           {
             "word": "where",
-            "for": "places",
+            "for": "место",
             "example": "This is the town where I grew up."
           },
           {
             "word": "when",
-            "for": "times / periods",
+            "for": "время / период",
             "example": "That was the year when we moved abroad."
           }
         ]
       },
       {
         "type": "flow",
-        "title": "3. Can I omit the relative pronoun?",
+        "title": "3. Можно ли опустить relative pronoun?",
         "steps": [
           {
-            "question": "Is it a non-defining clause?",
-            "yes": "No. Keep the pronoun.",
-            "no": "Go on."
+            "question": "Это non-defining clause?",
+            "yes": "Нет. Pronoun нужно оставить.",
+            "no": "Переходим дальше."
           },
           {
-            "question": "Is the relative pronoun the subject of the relative clause?",
-            "yes": "No. Keep it: The man who lives next door …",
-            "no": "Go on."
+            "question": "Relative pronoun является подлежащим внутри придаточного?",
+            "yes": "Нет. Оставляем: The man who lives next door…",
+            "no": "Переходим дальше."
           },
           {
-            "question": "Is it the object in a defining clause?",
-            "yes": "Yes. It can be omitted: The film (that) we saw …",
-            "no": "Keep it."
+            "question": "Pronoun является дополнением в defining clause?",
+            "yes": "Да. Можно опустить: The film (that) we saw…",
+            "no": "Pronoun нужно оставить."
           }
         ]
       },
       {
         "type": "examples",
-        "title": "4. Subject or object? Compare carefully",
+        "title": "4. Subject или object? Сравните внимательно",
         "pairs": [
           {
-            "context": "Pronoun = subject",
-            "sentence": "The woman who works here speaks three languages. → who cannot be omitted."
+            "context": "Pronoun = подлежащее",
+            "sentence": "The woman who works here speaks three languages. → who нельзя опустить: именно who выполняет действие works."
           },
           {
-            "context": "Pronoun = object",
-            "sentence": "The woman (who) I met yesterday speaks three languages. → who can be omitted."
+            "context": "Pronoun = дополнение",
+            "sentence": "The woman (who) I met yesterday speaks three languages. → who можно опустить: действие met выполняет I."
           },
           {
-            "context": "Non-defining",
-            "sentence": "My sister, who lives in Bristol, is visiting this weekend. → commas + pronoun required."
+            "context": "Non-defining clause",
+            "sentence": "My sister, who lives in Bristol, is visiting this weekend. → запятые + pronoun обязательны."
           }
         ]
       },
       {
         "type": "note",
-        "title": "5. Punctuation changes meaning",
-        "text": "Compare “The students who finished early went home” and “The students, who finished early, went home.” The first means only the students who finished early went home. The second presents “finished early” as extra information about all the students."
+        "title": "5. Запятые меняют смысл",
+        "text": "Сравните: The students who finished early went home — домой ушли только те студенты, которые закончили раньше. The students, who finished early, went home — придаточное лишь добавляет информацию обо всех студентах."
       },
       {
         "type": "algorithm",
-        "title": "6. Build the clause",
+        "title": "6. Алгоритм построения relative clause",
         "steps": [
-          "Identify the noun you are describing.",
-          "Decide: essential information or extra information?",
-          "Choose who / which / that / whose / where / when.",
-          "If it is defining, check whether the pronoun is an object and can be omitted.",
-          "If it is non-defining, add commas and do not use that."
+          "Найдите существительное, которое вы описываете.",
+          "Решите: информация нужна для идентификации или это дополнительный факт?",
+          "Выберите who / which / that / whose / where / when.",
+          "Если clause defining, проверьте: pronoun — дополнение? Тогда его можно опустить.",
+          "Если clause non-defining, поставьте запятые и не используйте that."
         ]
       }
     ]
   },
   "grammar-lesson-6-question-formation": {
-    "title": "Question formation: advanced patterns",
-    "intro": "At B2, the difficult part is recognising which kind of question you are building. Direct object questions use inversion; subject questions do not. Embedded questions return to statement word order.",
+    "title": "Question formation: advanced patterns · Построение вопросов B2",
+    "intro": "На уровне B2 важно сначала определить тип вопроса. В object questions используется инверсия, в subject questions — нет. В embedded questions после вводной части используется порядок слов утверждения.",
     "sections": [
       {
         "type": "questionAnatomy",
-        "title": "1. The basic direct-question pattern",
+        "title": "1. Базовая схема прямого вопроса",
         "parts": [
-          "question word",
-          "auxiliary / be / modal",
-          "subject",
-          "main verb",
-          "rest"
+          "question word · вопросительное слово",
+          "auxiliary / be / modal · вспомогательный глагол",
+          "subject · подлежащее",
+          "main verb · смысловой глагол",
+          "остальная часть"
         ],
         "examples": [
           "Why did you leave your last job?",
           "Where are they staying?",
           "What can we change?"
         ],
-        "note": "If there is no auxiliary in the statement, use do / does / did in the question."
+        "note": "Если в исходном предложении нет auxiliary, в вопросе появляется do / does / did."
       },
       {
         "type": "comparison",
-        "title": "2. Subject questions vs object questions",
+        "title": "2. Subject questions и object questions",
         "columns": [
-          "Question type",
-          "What are you asking about?",
-          "Pattern",
-          "Example"
+          "Тип вопроса",
+          "О чём спрашиваем?",
+          "Схема",
+          "Пример"
         ],
         "rows": [
           [
-            "Subject question",
-            "Who/what performs the action",
+            "Subject question · вопрос к подлежащему",
+            "Кто/что выполняет действие",
             "who/what + verb",
             "Who repaired your car?"
           ],
           [
-            "Object question",
-            "Who/what receives the action",
+            "Object question · вопрос к дополнению",
+            "На кого/что направлено действие",
             "who/what + auxiliary + subject + verb",
             "Who did you call?"
           ]
         ],
-        "note": "A useful test: replace who with a name. “Alex repaired your car” → who is the subject, so no did."
+        "note": "Проверка: замените who именем. Alex repaired your car → Alex выполняет действие, значит who = subject и did не нужен."
       },
       {
         "type": "transformation",
-        "title": "3. Direct → embedded question",
+        "title": "3. Direct question → embedded question",
         "pairs": [
           {
             "from": "Where is the lift?",
@@ -652,53 +652,53 @@ window.GRAMMAR_GUIDES = {
             "to": "Do you know if there are any tickets left?"
           }
         ],
-        "rule": "After the introductory phrase, use statement word order. For yes/no questions, use if or whether."
+        "rule": "После вводной фразы используйте порядок слов утверждения. Для embedded yes/no questions используйте if или whether."
       },
       {
         "type": "contrastCards",
-        "title": "4. Prepositions in questions",
+        "title": "4. Предлоги в вопросах",
         "cards": [
           {
-            "title": "Neutral / everyday English",
-            "meaning": "The preposition normally stays at the end.",
+            "title": "Нейтральный / разговорный английский",
+            "meaning": "Предлог обычно остаётся в конце.",
             "example": "Who are you waiting for? / Who is she talking to?"
           },
           {
-            "title": "Very formal English",
-            "meaning": "The preposition can come before whom.",
+            "title": "Очень формальный английский",
+            "meaning": "Предлог может стоять перед whom.",
             "example": "For whom are you waiting? / To whom was she speaking?"
           }
         ]
       },
       {
         "type": "note",
-        "title": "5. Negative questions",
-        "text": "Negative questions often show surprise, expectation or a request for confirmation: “Haven't you finished yet?” suggests the speaker expected the task to be finished. “Why didn't you tell me?” asks for a reason and often carries surprise or criticism."
+        "title": "5. Отрицательные вопросы",
+        "text": "Negative questions часто выражают удивление, ожидание или просьбу подтвердить информацию. Haven't you finished yet? показывает, что говорящий ожидал, что работа уже закончена. Why didn't you tell me? спрашивает причину и часто передаёт удивление или критику."
       },
       {
         "type": "algorithm",
-        "title": "6. Choose the pattern",
+        "title": "6. Алгоритм выбора структуры",
         "steps": [
-          "Is who/what the subject? → no do/does/did.",
-          "Is it a normal direct question? → use inversion.",
-          "Is it embedded after Could you tell me / Do you know / I wonder…? → statement word order.",
-          "Is the embedded question yes/no? → use if or whether.",
-          "Is there a preposition? → in neutral English, usually leave it at the end."
+          "who/what является подлежащим? → do/does/did не нужен.",
+          "Это обычный direct question? → используйте инверсию.",
+          "Это embedded question после Could you tell me / Do you know / I wonder…? → порядок слов утверждения.",
+          "Embedded question типа yes/no? → используйте if или whether.",
+          "Есть предлог? → в нейтральном английском обычно оставляем его в конце."
         ]
       }
     ]
   },
   "grammar-lesson-7-causative-have-get": {
-    "title": "Causatives with have and get",
-    "intro": "Causative structures are useful when you organise an action rather than simply do it yourself. The structure changes depending on whether you focus on the person doing the action or on the result.",
+    "title": "Causatives with have and get · Каузативные конструкции с have и get",
+    "intro": "Causative structures используются, когда вы организуете действие, поручаете его, добиваетесь его выполнения или говорите о результате, а не просто выполняете действие сами. Выбор структуры зависит от того, хотите ли вы назвать исполнителя или подчеркнуть результат.",
     "sections": [
       {
         "type": "focusSplit",
-        "title": "1. First decide what you want to focus on",
+        "title": "1. Сначала определите: PERSON или RESULT?",
         "sides": [
           {
             "label": "PERSON",
-            "title": "Name the person who does the action",
+            "title": "Называем человека, который выполняет действие",
             "patterns": [
               "have + person + base verb",
               "get + person + to-infinitive"
@@ -707,7 +707,7 @@ window.GRAMMAR_GUIDES = {
           },
           {
             "label": "RESULT",
-            "title": "Focus on the completed action",
+            "title": "Подчёркиваем выполненный результат",
             "patterns": [
               "have/get + thing + past participle"
             ],
@@ -717,61 +717,61 @@ window.GRAMMAR_GUIDES = {
       },
       {
         "type": "comparison",
-        "title": "2. Compare the three main patterns",
+        "title": "2. Сравнение трёх основных моделей",
         "columns": [
-          "Pattern",
-          "Typical meaning",
-          "Example",
-          "Important form"
+          "Модель",
+          "Типичное значение",
+          "Пример",
+          "Ключевая форма"
         ],
         "rows": [
           [
             "have + person + base verb",
-            "arrange / instruct / ask someone to do something",
+            "организовать / поручить / попросить человека что-то сделать",
             "I had Leo update the file.",
-            "No to after the person"
+            "После person нет to"
           ],
           [
             "get + person + to-infinitive",
-            "persuade, manage, or successfully arrange for someone to act",
+            "убедить, добиться или суметь организовать действие человека",
             "I got Leo to update the file.",
-            "to + verb is required"
+            "to + verb обязательно"
           ],
           [
             "have/get + thing + past participle",
-            "arrange for an action to be done; focus on result",
+            "организовать выполнение действия; важен результат",
             "I got the file updated.",
-            "past participle after the object"
+            "После object используется past participle"
           ]
         ]
       },
       {
         "type": "note",
-        "title": "3. have something done is also standard",
-        "text": "For services and arranged actions, both have something done and get something done are common: “I had my hair cut” / “I got my hair cut.” Get is often more informal and can suggest successfully arranging the result."
+        "title": "3. have something done — тоже стандартная конструкция",
+        "text": "Для услуг и действий, выполненных кем-то для нас, нормальны обе формы: have something done и get something done. Например: I had my hair cut / I got my hair cut. Get часто звучит разговорнее и может подчёркивать, что результат удалось организовать."
       },
       {
         "type": "patterns",
-        "title": "4. Tense belongs to have/get",
-        "subtitle": "The causative verb changes for time; the following verb pattern stays the same.",
+        "title": "4. Время выражается через have/get",
+        "subtitle": "Меняется форма have/get, а последующая модель остаётся той же.",
         "items": [
           {
-            "label": "present",
+            "label": "present · настоящее",
             "formula": "have/get",
             "example": "I have the figures checked every Friday."
           },
           {
-            "label": "past",
+            "label": "past · прошлое",
             "formula": "had/got",
             "example": "I got the figures checked yesterday."
           },
           {
-            "label": "future",
+            "label": "future · будущее",
             "formula": "will have/get",
             "example": "I'll have Maya check them tomorrow."
           },
           {
-            "label": "modal",
+            "label": "modal · с модальным глаголом",
             "formula": "modal + have/get",
             "example": "We need to get the report finished today."
           }
@@ -779,35 +779,318 @@ window.GRAMMAR_GUIDES = {
       },
       {
         "type": "contrastCards",
-        "title": "5. Meaning changes with the pattern",
+        "title": "5. Смысл меняется вместе с моделью",
         "cards": [
           {
             "title": "I had Sam call the client.",
-            "meaning": "I arranged/instructed Sam to call.",
-            "example": "The focus is on the arrangement."
+            "meaning": "Я организовал/поручил Sam позвонить клиенту.",
+            "example": "Фокус на организации действия."
           },
           {
             "title": "I got Sam to call the client.",
-            "meaning": "I persuaded or managed to get Sam to call.",
-            "example": "There may have been effort involved."
+            "meaning": "Я убедил Sam или добился того, чтобы он позвонил.",
+            "example": "Возможны усилие или убеждение."
           },
           {
             "title": "I got the client called before lunch.",
-            "meaning": "The important point is that the action was completed.",
-            "example": "The agent is not important."
+            "meaning": "Главное — звонок был сделан; исполнитель не важен.",
+            "example": "Исполнитель не важен."
           }
         ]
       },
       {
         "type": "algorithm",
-        "title": "6. Build the causative",
+        "title": "6. Алгоритм выбора causative",
         "steps": [
-          "Do you want to name the person? → yes: use have/get + person.",
-          "Neutral arrangement or instruction? → have + person + base verb.",
-          "Persuasion, effort or successful arranging? → get + person + to-infinitive.",
-          "Result more important than the person? → have/get + object + past participle."
+          "Хотите назвать человека? → используйте have/get + person.",
+          "Нейтральное поручение или организация? → have + person + base verb.",
+          "Есть убеждение, усилие или удалось добиться действия? → get + person + to-infinitive.",
+          "Важнее результат, чем исполнитель? → have/get + object + past participle."
         ]
       }
     ]
-  }
+  },
+"grammar-lesson-8-auxiliary-verbs": {
+  "title": "Auxiliary verbs: advanced use / Вспомогательные глаголы: продвинутое употребление",
+  "intro": "At B2, auxiliary verbs are not only used to build tenses. They can replace a repeated verb phrase, form question tags, show agreement and add contrast or emphasis. / На уровне B2 вспомогательные глаголы нужны не только для образования времён. Они заменяют повторяющуюся часть сказуемого, образуют question tags, помогают согласиться с собеседником и позволяют усилить или противопоставить утверждение.",
+  "sections": [
+    {
+      "type": "comparison",
+      "title": "1. Which auxiliary do I need? / Какой auxiliary выбрать?",
+      "columns": [
+        "Original verb phrase / Исходная форма",
+        "Auxiliary",
+        "Example / Пример"
+      ],
+      "rows": [
+        [
+          "be",
+          "am / is / are / was / were",
+          "She isn’t worried, but I am."
+        ],
+        [
+          "Present/Past Perfect",
+          "have / has / had",
+          "I’ve been there, but he hasn’t."
+        ],
+        [
+          "Present/Past Simple with an ordinary verb",
+          "do / does / did",
+          "I like it, but she doesn’t."
+        ],
+        [
+          "Modal verb",
+          "can / could / will / would / should …",
+          "I can drive, but he can’t."
+        ]
+      ],
+      "note": "The auxiliary carries the grammar of the missing verb phrase. / Именно auxiliary сохраняет время, форму и модальность пропущенной части."
+    },
+    {
+      "type": "transformation",
+      "title": "2. Avoid repetition / Убираем повтор",
+      "pairs": [
+        {
+          "from": "My mum can drive, but my dad can’t drive.",
+          "to": "My mum can drive, but my dad can’t."
+        },
+        {
+          "from": "I loved that book, but my wife didn’t love that book.",
+          "to": "I loved that book, but my wife didn’t."
+        },
+        {
+          "from": "You weren’t listening, but I was listening.",
+          "to": "You weren’t listening, but I was."
+        }
+      ],
+      "rule": "If the meaning is already clear, keep the auxiliary and omit the repeated verb phrase. / Если повторяемое действие уже понятно из контекста, оставляем auxiliary и убираем остальную часть сказуемого."
+    },
+    {
+      "type": "patterns",
+      "title": "3. Question tags / Разделительные вопросы",
+      "subtitle": "The tag mirrors the tense/modal but normally reverses the polarity. / Хвостик сохраняет время или modal, но обычно меняет + на − или − на +.",
+      "items": [
+        {
+          "label": "+ → −",
+          "formula": "positive statement + negative tag",
+          "example": "You’re coming, aren’t you?"
+        },
+        {
+          "label": "− → +",
+          "formula": "negative statement + positive tag",
+          "example": "You haven’t finished, have you?"
+        },
+        {
+          "label": "modal",
+          "formula": "modal in statement → same modal in tag",
+          "example": "You couldn’t help me, could you?"
+        },
+        {
+          "label": "simple",
+          "formula": "ordinary present/past verb → do/does/did",
+          "example": "You like it, don’t you?"
+        }
+      ],
+      "warning": "The subject in the tag is a pronoun: Sam is coming, isn’t he? / В хвостике подлежащее заменяется местоимением."
+    },
+    {
+      "type": "comparison",
+      "title": "4. So / Neither / short contrast / Согласие и контраст",
+      "columns": [
+        "Meaning / Значение",
+        "Pattern / Схема",
+        "Example / Пример"
+      ],
+      "rows": [
+        [
+          "I agree with a positive statement / согласие с +",
+          "So + auxiliary + subject",
+          "I’m tired. — So am I."
+        ],
+        [
+          "I agree with a negative statement / согласие с −",
+          "Neither/Nor + auxiliary + subject",
+          "I don’t smoke. — Neither do I."
+        ],
+        [
+          "My situation is different / у меня наоборот",
+          "subject + auxiliary (+ not)",
+          "I love the sea. — I don’t."
+        ],
+        [
+          "Strong correction / усиленное возражение",
+          "subject + stressed auxiliary + verb",
+          "You didn’t reply. — I did reply!"
+        ]
+      ]
+    },
+    {
+      "type": "contrastCards",
+      "title": "5. Emphatic do / Усилительное do",
+      "cards": [
+        {
+          "title": "I like it.",
+          "meaning": "Neutral statement / Нейтральное утверждение",
+          "example": "I like the British weather."
+        },
+        {
+          "title": "I do like it.",
+          "meaning": "Emphasis or correction: it really is true. / Усиление или возражение: «я действительно люблю».",
+          "example": "I don’t suppose you like it. — Actually, I do like it."
+        }
+      ]
+    },
+    {
+      "type": "algorithm",
+      "title": "6. Quick algorithm / Быстрый алгоритм",
+      "steps": [
+        "Find be, have or a modal. / Найдите be, have или modal.",
+        "If there is no auxiliary, use do / does / did. / Если auxiliary нет, используйте do / does / did.",
+        "For a tag, reverse + and − and use a pronoun. / Для question tag поменяйте полярность и поставьте местоимение.",
+        "For agreement, use So after a positive statement and Neither/Nor after a negative one. / Для согласия: So после +, Neither/Nor после −.",
+        "For strong correction, stress the auxiliary. / Для усиленного возражения выделите auxiliary."
+      ]
+    }
+  ]
+},
+"grammar-lesson-8-double-comparatives": {
+  "title": "The …, the … + comparatives / Парные сравнительные конструкции",
+  "intro": "This structure shows a relationship between two changing situations: as one thing changes, another changes too. / Эта конструкция показывает связь двух изменений: чем сильнее меняется одна ситуация, тем сильнее меняется другая.",
+  "sections": [
+    {
+      "type": "transformation",
+      "title": "1. Read it as “as X changes, Y changes” / Смысл конструкции",
+      "pairs": [
+        {
+          "from": "We leave earlier → we have a better chance.",
+          "to": "The earlier we leave, the better our chance."
+        },
+        {
+          "from": "The class becomes more interesting → students become more likely to learn.",
+          "to": "The more interesting the class, the more likely students are to learn."
+        },
+        {
+          "from": "You travel farther north → it gets colder.",
+          "to": "The farther north you travel, the colder it gets."
+        }
+      ],
+      "rule": "The does not work as an ordinary article here; it is part of the paired comparative structure. / Здесь the — часть грамматической конструкции, а не обычный определённый артикль."
+    },
+    {
+      "type": "patterns",
+      "title": "2. Main structure / Основная схема",
+      "subtitle": "Both halves begin with the + comparative. / Обе части начинаются с the + comparative.",
+      "items": [
+        {
+          "label": "full",
+          "formula": "the + comparative + subject + verb, the + comparative + subject + verb",
+          "example": "The later you go to bed, the harder it is to get up."
+        },
+        {
+          "label": "noun",
+          "formula": "the + comparative adjective + noun …",
+          "example": "The bigger the class, the harder it is to focus."
+        },
+        {
+          "label": "more",
+          "formula": "the more + adjective …",
+          "example": "The more qualified the person, the higher the salary."
+        },
+        {
+          "label": "less",
+          "formula": "the more …, the less …",
+          "example": "The more you prepare, the less nervous you feel."
+        }
+      ],
+      "warning": "Do not use than between the two halves. / В этой конструкции than не используется."
+    },
+    {
+      "type": "comparison",
+      "title": "3. Form the comparative correctly / Образуем comparative",
+      "columns": [
+        "Type / Тип",
+        "Form / Форма",
+        "Examples / Примеры"
+      ],
+      "rows": [
+        [
+          "Short adjective / короткое",
+          "-er",
+          "big → bigger; cold → colder; late → later"
+        ],
+        [
+          "Ends in -y",
+          "-y → -ier",
+          "early → earlier"
+        ],
+        [
+          "Long adjective / длинное",
+          "more + adjective",
+          "more difficult; more interesting; more qualified"
+        ],
+        [
+          "Irregular / неправильное",
+          "special form",
+          "good → better; bad → worse; far → farther/further"
+        ]
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "4. Normal comparative vs paired comparative / Сравнение",
+      "columns": [
+        "",
+        "Normal comparative",
+        "The …, the …"
+      ],
+      "rows": [
+        [
+          "Meaning / Значение",
+          "compare two things / сравниваем два объекта",
+          "connect two changes / связываем два изменения"
+        ],
+        [
+          "Typical marker",
+          "than",
+          "the + comparative in both halves"
+        ],
+        [
+          "Example",
+          "This route is longer than that one.",
+          "The longer the route, the more tired I get."
+        ]
+      ],
+      "note": "A paired comparative does not normally use than. / В парной конструкции than обычно не ставится."
+    },
+    {
+      "type": "examples",
+      "title": "5. Notice the word order / Обратите внимание на порядок слов",
+      "pairs": [
+        {
+          "context": "comparative before subject",
+          "sentence": "The later you go to bed, the more difficult it is to get up."
+        },
+        {
+          "context": "comparative + noun",
+          "sentence": "The bigger your house, the longer it takes to clean."
+        },
+        {
+          "context": "long adjective",
+          "sentence": "The more qualified the candidate, the higher the salary."
+        }
+      ]
+    },
+    {
+      "type": "algorithm",
+      "title": "6. Build it step by step / Алгоритм",
+      "steps": [
+        "Identify the two changing situations. / Определите два связанных изменения.",
+        "Choose the correct comparative for each. / Образуйте сравнительную форму в обеих частях.",
+        "Put the before each comparative. / Поставьте the перед обеими comparative forms.",
+        "Keep normal subject + verb order after each comparative phrase. / После comparative phrase сохраняйте обычный порядок subject + verb.",
+        "Do not add than. / Не добавляйте than."
+      ]
+    }
+  ]
+}
 };

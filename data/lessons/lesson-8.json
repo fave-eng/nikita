@@ -1,0 +1,1455 @@
+{
+  "id": "lesson-8",
+  "number": 8,
+  "title": "1B It’s a mystery",
+  "subtitle": "B2.1 · Auxiliary verbs, double comparatives and compound adjectives",
+  "status": "available",
+  "publishedAt": "2026-10-16",
+  "notification": {
+    "enabled": false,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-8-compound-adjectives",
+  "grammarIds": [
+    "grammar-lesson-8-auxiliary-verbs",
+    "grammar-lesson-8-double-comparatives"
+  ],
+  "totalPoints": 72,
+  "blocks": [
+    {
+      "type": "grammar-link",
+      "title": "Auxiliary verbs",
+      "text": "Avoid repetition, form question tags, and agree or disagree naturally.",
+      "grammarId": "grammar-lesson-8-auxiliary-verbs",
+      "buttonLabel": "Review grammar"
+    },
+    {
+      "type": "grammar-link",
+      "title": "The …, the … + comparatives",
+      "text": "Use paired comparatives to show how one change is connected to another.",
+      "grammarId": "grammar-lesson-8-double-comparatives",
+      "buttonLabel": "Review grammar"
+    },
+    {
+      "type": "section",
+      "title": "Grammar: auxiliary verbs",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw8-ex1a",
+      "title": "1a Cross out the unnecessary words.",
+      "items": [
+        {
+          "id": "1a-1",
+          "number": 1,
+          "input": "mark",
+          "prompt": "Tap the words that can be removed.",
+          "paragraphs": [
+            [
+              "My mum can drive, but my dad ",
+              {
+                "word": "can’t"
+              },
+              " ",
+              {
+                "word": "drive"
+              },
+              "."
+            ]
+          ],
+          "answer": [
+            false,
+            true
+          ]
+        },
+        {
+          "id": "1a-2",
+          "number": 2,
+          "input": "mark",
+          "prompt": "Tap the words that can be removed.",
+          "paragraphs": [
+            [
+              "I loved that book, but my wife ",
+              {
+                "word": "didn’t"
+              },
+              " ",
+              {
+                "word": "love that book"
+              },
+              "."
+            ]
+          ],
+          "answer": [
+            false,
+            true
+          ]
+        },
+        {
+          "id": "1a-3",
+          "number": 3,
+          "input": "mark",
+          "prompt": "Tap the words that can be removed.",
+          "paragraphs": [
+            [
+              "You weren’t listening to the instructions, but I ",
+              {
+                "word": "was"
+              },
+              " ",
+              {
+                "word": "listening to the instructions"
+              },
+              "."
+            ]
+          ],
+          "answer": [
+            false,
+            true
+          ]
+        },
+        {
+          "id": "1a-4",
+          "number": 4,
+          "input": "mark",
+          "prompt": "Tap the words that can be removed.",
+          "paragraphs": [
+            [
+              "Some people believe in ghosts, but others ",
+              {
+                "word": "don’t"
+              },
+              " ",
+              {
+                "word": "believe in ghosts"
+              },
+              "."
+            ]
+          ],
+          "answer": [
+            false,
+            true
+          ]
+        },
+        {
+          "id": "1a-5",
+          "number": 5,
+          "input": "mark",
+          "prompt": "Tap the words that can be removed.",
+          "paragraphs": [
+            [
+              "Gina’s going to the party, but Robbie ",
+              {
+                "word": "isn’t"
+              },
+              " ",
+              {
+                "word": "going to the party"
+              },
+              "."
+            ]
+          ],
+          "answer": [
+            false,
+            true
+          ]
+        },
+        {
+          "id": "1a-6",
+          "number": 6,
+          "input": "mark",
+          "prompt": "Tap the words that can be removed.",
+          "paragraphs": [
+            [
+              "I always lock the front door, but my partner ",
+              {
+                "word": "doesn’t"
+              },
+              " ",
+              {
+                "word": "always lock the front door"
+              },
+              "."
+            ]
+          ],
+          "answer": [
+            false,
+            true
+          ]
+        },
+        {
+          "id": "1a-7",
+          "number": 7,
+          "input": "mark",
+          "prompt": "Tap the words that can be removed.",
+          "paragraphs": [
+            [
+              "I’ve never been to a fortune teller, but my sister ",
+              {
+                "word": "has"
+              },
+              " ",
+              {
+                "word": "visited a fortune teller"
+              },
+              "."
+            ]
+          ],
+          "answer": [
+            false,
+            true
+          ]
+        },
+        {
+          "id": "1a-8",
+          "number": 8,
+          "input": "mark",
+          "prompt": "Tap the words that can be removed.",
+          "paragraphs": [
+            [
+              "My friends had already heard the story, but I ",
+              {
+                "word": "hadn’t"
+              },
+              " ",
+              {
+                "word": "already heard the story"
+              },
+              "."
+            ]
+          ],
+          "answer": [
+            false,
+            true
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw8-ex1b",
+      "title": "1b Complete the conversations with a question tag or an auxiliary.",
+      "items": [
+        {
+          "id": "1b-1",
+          "number": 1,
+          "example": true,
+          "prompt": "A  I sent you a message last night, but you didn’t reply.\nB  I ______ reply. I texted you straight away.",
+          "exampleAnswer": "did"
+        },
+        {
+          "id": "1b-2",
+          "number": 2,
+          "input": "gaps",
+          "layout": "dialogue",
+          "wideGaps": true,
+          "prompt": "",
+          "segments": [
+            "A  I don’t feel like cooking tonight.\nB  Neither ",
+            " I. Shall we go out for dinner? I’d love a curry.\nA  So ",
+            " I. Come on. Let’s go."
+          ],
+          "answers": [
+            "do",
+            "would"
+          ]
+        },
+        {
+          "id": "1b-3",
+          "number": 3,
+          "input": "gaps",
+          "layout": "dialogue",
+          "wideGaps": true,
+          "prompt": "",
+          "segments": [
+            "A  I’ve seen this film before.\nB  Well, I ",
+            ".\nA  Do you mind if I change channels?\nB  Yes, I ",
+            " mind! I want to see the end."
+          ],
+          "answers": [
+            [
+              "haven't",
+              "haven’t"
+            ],
+            "do"
+          ]
+        },
+        {
+          "id": "1b-4",
+          "number": 4,
+          "input": "gaps",
+          "layout": "dialogue",
+          "wideGaps": true,
+          "prompt": "",
+          "segments": [
+            "A  You’re going to Sam’s party, ",
+            " you?\nB  No, I’m not.\nA  Why not? You haven’t had another argument with him, ",
+            " you?\nB  Yes. We aren’t going out together any more."
+          ],
+          "answers": [
+            [
+              "aren't",
+              "aren’t"
+            ],
+            "have"
+          ]
+        },
+        {
+          "id": "1b-5",
+          "number": 5,
+          "input": "gaps",
+          "layout": "dialogue",
+          "wideGaps": true,
+          "prompt": "",
+          "segments": [
+            "A  I’ll be back a bit late tonight.\nB  ",
+            " you? Where are you going?\nA  To a concert with some friends.\nB  You’ll be back before 12.00, ",
+            " you?\nA  Of course."
+          ],
+          "answers": [
+            "will",
+            [
+              "won't",
+              "won’t"
+            ]
+          ]
+        },
+        {
+          "id": "1b-6",
+          "number": 6,
+          "input": "gaps",
+          "layout": "dialogue",
+          "wideGaps": true,
+          "prompt": "",
+          "segments": [
+            "A  You couldn’t lend me some money, ",
+            " you?\nB  No, sorry. Why?\nA  I’ve spent all my money this month.\nB  So ",
+            " I!"
+          ],
+          "answers": [
+            "could",
+            "have"
+          ]
+        },
+        {
+          "id": "1b-7",
+          "number": 7,
+          "input": "gaps",
+          "layout": "dialogue",
+          "wideGaps": true,
+          "prompt": "",
+          "segments": [
+            "A  I didn’t go out last night.\nB  Neither ",
+            " I. I was too tired.\nA  So ",
+            " I!"
+          ],
+          "answers": [
+            "did",
+            "was"
+          ]
+        },
+        {
+          "id": "1b-8",
+          "number": 8,
+          "input": "gaps",
+          "layout": "dialogue",
+          "wideGaps": true,
+          "prompt": "",
+          "segments": [
+            "A  You aren’t from round here, ",
+            " you?\nB  No, I’m from Australia.\nA  I don’t suppose you like the British weather.\nB  Actually, I ",
+            " like it. I prefer cool weather to hot weather."
+          ],
+          "answers": [
+            "are",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw8-ex1c",
+      "title": "1c Respond with So do I, Neither do I, I do, I don’t, etc., and say why.",
+      "items": [
+        {
+          "id": "1c-1",
+          "number": 1,
+          "input": "text",
+          "scored": false,
+          "prompt": "I didn’t go out yesterday.",
+          "placeholder": "Neither did I, because … / I did, because …"
+        },
+        {
+          "id": "1c-2",
+          "number": 2,
+          "input": "text",
+          "scored": false,
+          "prompt": "I love the sea.",
+          "placeholder": "So do I, because … / I don’t, because …"
+        },
+        {
+          "id": "1c-3",
+          "number": 3,
+          "input": "text",
+          "scored": false,
+          "prompt": "I’ve never been to Scotland.",
+          "placeholder": "Neither have I, because … / I have, and …"
+        },
+        {
+          "id": "1c-4",
+          "number": 4,
+          "input": "text",
+          "scored": false,
+          "prompt": "I’d like to go on a safari.",
+          "placeholder": "So would I, because … / I wouldn’t, because …"
+        },
+        {
+          "id": "1c-5",
+          "number": 5,
+          "input": "text",
+          "scored": false,
+          "prompt": "I wasn’t interested in history at school.",
+          "placeholder": "Neither was I, because … / I was, because …"
+        },
+        {
+          "id": "1c-6",
+          "number": 6,
+          "input": "text",
+          "scored": false,
+          "prompt": "I’m good at languages.",
+          "placeholder": "So am I, because … / I’m not, because …"
+        },
+        {
+          "id": "1c-7",
+          "number": 7,
+          "input": "text",
+          "scored": false,
+          "prompt": "I can swim quite well.",
+          "placeholder": "So can I, because … / I can’t, but …"
+        },
+        {
+          "id": "1c-8",
+          "number": 8,
+          "input": "text",
+          "scored": false,
+          "prompt": "I don’t do any exercise.",
+          "placeholder": "Neither do I, because … / I do, because …"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Grammar in context: the …, the … + comparatives",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw8-ex3",
+      "title": "3 Complete the sentences with the comparative form of the adjectives in the list.",
+      "wordBank": [
+        "big",
+        "cold",
+        "difficult",
+        "early",
+        "far",
+        "good",
+        "high",
+        "interesting",
+        "late",
+        "likely",
+        "long",
+        "qualified"
+      ],
+      "items": [
+        {
+          "id": "3-1",
+          "number": 1,
+          "example": true,
+          "prompt": "The ______ we set off, the ______ chance we’ll have of avoiding the rush-hour traffic.",
+          "exampleAnswer": "earlier · better"
+        },
+        {
+          "id": "3-2",
+          "number": 2,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The ",
+            " the class, the ",
+            " the students are to learn something."
+          ],
+          "options": [
+            "bigger",
+            "colder",
+            "more difficult",
+            "farther / further",
+            "better",
+            "higher",
+            "more interesting",
+            "later",
+            "more likely",
+            "longer",
+            "more qualified",
+            "earlier"
+          ],
+          "answers": [
+            6,
+            8
+          ]
+        },
+        {
+          "id": "3-3",
+          "number": 3,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The ",
+            " you go to bed, the ",
+            " it is to get up in the morning."
+          ],
+          "options": [
+            "bigger",
+            "colder",
+            "more difficult",
+            "farther / further",
+            "better",
+            "higher",
+            "more interesting",
+            "later",
+            "more likely",
+            "longer",
+            "more qualified",
+            "earlier"
+          ],
+          "answers": [
+            7,
+            2
+          ]
+        },
+        {
+          "id": "3-4",
+          "number": 4,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The ",
+            " north you travel in Canada, the ",
+            " it gets."
+          ],
+          "options": [
+            "bigger",
+            "colder",
+            "more difficult",
+            "farther / further",
+            "better",
+            "higher",
+            "more interesting",
+            "later",
+            "more likely",
+            "longer",
+            "more qualified",
+            "earlier"
+          ],
+          "answers": [
+            3,
+            1
+          ]
+        },
+        {
+          "id": "3-5",
+          "number": 5,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The ",
+            " the person is for the job, the ",
+            " the salary."
+          ],
+          "options": [
+            "bigger",
+            "colder",
+            "more difficult",
+            "farther / further",
+            "better",
+            "higher",
+            "more interesting",
+            "later",
+            "more likely",
+            "longer",
+            "more qualified",
+            "earlier"
+          ],
+          "answers": [
+            10,
+            5
+          ]
+        },
+        {
+          "id": "3-6",
+          "number": 6,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The ",
+            " your house, the ",
+            " it takes you to clean it."
+          ],
+          "options": [
+            "bigger",
+            "colder",
+            "more difficult",
+            "farther / further",
+            "better",
+            "higher",
+            "more interesting",
+            "later",
+            "more likely",
+            "longer",
+            "more qualified",
+            "earlier"
+          ],
+          "answers": [
+            0,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Vocabulary: compound adjectives and modifiers",
+      "text": ""
+    },
+    {
+      "type": "exercise",
+      "id": "hw8-ex4a",
+      "title": "4a Match the definitions to the compound adjectives in the list.",
+      "wordBank": [
+        "absent-minded",
+        "bad-tempered",
+        "big-headed",
+        "easy-going",
+        "good-tempered",
+        "laid-back",
+        "narrow-minded",
+        "open-minded",
+        "self-centred",
+        "strong-willed",
+        "tight-fisted",
+        "two-faced",
+        "well-balanced",
+        "well-behaved"
+      ],
+      "items": [
+        {
+          "id": "4a-1",
+          "number": 1,
+          "example": true,
+          "prompt": "easily made angry or annoyed",
+          "exampleAnswer": "bad-tempered"
+        },
+        {
+          "id": "4a-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "ready to consider new ideas and opinions",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 7
+        },
+        {
+          "id": "4a-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "not willing to spend money",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 10
+        },
+        {
+          "id": "4a-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "often forgetting or not noticing things",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "4a-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "determined to do what you want to do, even if other people advise you not to",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 9
+        },
+        {
+          "id": "4a-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "relaxed; not easily worried by things",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 5
+        },
+        {
+          "id": "4a-7",
+          "number": 7,
+          "input": "select",
+          "prompt": "sensible and emotionally in control",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 12
+        },
+        {
+          "id": "4a-8",
+          "number": 8,
+          "input": "select",
+          "prompt": "having a very high opinion of how important and clever you are",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "4a-9",
+          "number": 9,
+          "input": "select",
+          "prompt": "not willing to listen to ideas different from your own",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 6
+        },
+        {
+          "id": "4a-10",
+          "number": 10,
+          "input": "select",
+          "prompt": "dishonest about your feelings; telling people what you think will please them",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 11
+        },
+        {
+          "id": "4a-11",
+          "number": 11,
+          "input": "select",
+          "prompt": "cheerful and not easily made angry",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 4
+        },
+        {
+          "id": "4a-12",
+          "number": 12,
+          "input": "select",
+          "prompt": "thinking only about yourself and not about other people",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 8
+        },
+        {
+          "id": "4a-13",
+          "number": 13,
+          "input": "select",
+          "prompt": "calm; not easily upset by what other people do",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "4a-14",
+          "number": 14,
+          "input": "select",
+          "prompt": "behaving in a way that people think is polite and correct",
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answer": 13
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw8-ex4b",
+      "title": "4b Complete the sentences with the compound adjectives in the list.",
+      "wordBank": [
+        "absent-minded",
+        "bad-tempered",
+        "big-headed",
+        "easy-going",
+        "good-tempered",
+        "laid-back",
+        "narrow-minded",
+        "open-minded",
+        "self-centred",
+        "strong-willed",
+        "tight-fisted",
+        "two-faced",
+        "well-balanced",
+        "well-behaved"
+      ],
+      "items": [
+        {
+          "id": "4b-1",
+          "number": 1,
+          "example": true,
+          "prompt": "My parents are quite ______. They accept most things I do, without getting upset.",
+          "exampleAnswer": "easy-going"
+        },
+        {
+          "id": "4b-2",
+          "number": 2,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Tom’s wife is very ",
+            ". She doesn’t seem to let anything worry her."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            5
+          ]
+        },
+        {
+          "id": "4b-3",
+          "number": 3,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Oliver’s new girlfriend isn’t as dramatic as he is. She seems quite ",
+            "."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            12
+          ]
+        },
+        {
+          "id": "4b-4",
+          "number": 4,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "My partner is quite ",
+            ". He won’t listen to other people’s ideas."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            6
+          ]
+        },
+        {
+          "id": "4b-5",
+          "number": 5,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Grace never thinks of anyone else, because she’s so ",
+            "."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            8
+          ]
+        },
+        {
+          "id": "4b-6",
+          "number": 6,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "My sister-in-law is very ",
+            ". She’s nice to me, and then she speaks badly of me to other people."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            11
+          ]
+        },
+        {
+          "id": "4b-7",
+          "number": 7,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Since he went to work abroad for a while, Leo has become more ",
+            " about other cultures."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            7
+          ]
+        },
+        {
+          "id": "4b-8",
+          "number": 8,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "She’s very ",
+            ", and if she’s decided to become a vegetarian, nothing will stop her."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            9
+          ]
+        },
+        {
+          "id": "4b-9",
+          "number": 9,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "When we go out, my friend Jack never offers to buy the drinks. I wish he wasn’t so ",
+            "."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            10
+          ]
+        },
+        {
+          "id": "4b-10",
+          "number": 10,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The new manager seems very ",
+            ". He spent most of the meeting telling us how successful he was."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            2
+          ]
+        },
+        {
+          "id": "4b-11",
+          "number": 11,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "My grandmother never remembers where she’s put her keys. She’s very ",
+            "."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "4b-12",
+          "number": 12,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "I’ve never seen your children being naughty. They’re really ",
+            "."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            13
+          ]
+        },
+        {
+          "id": "4b-13",
+          "number": 13,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Our English teacher never seems to get angry. She’s extremely ",
+            "."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            4
+          ]
+        },
+        {
+          "id": "4b-14",
+          "number": 14,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "It’s best not to talk to my brother when he first gets up. He’s usually very ",
+            "."
+          ],
+          "options": [
+            "absent-minded",
+            "bad-tempered",
+            "big-headed",
+            "easy-going",
+            "good-tempered",
+            "laid-back",
+            "narrow-minded",
+            "open-minded",
+            "self-centred",
+            "strong-willed",
+            "tight-fisted",
+            "two-faced",
+            "well-balanced",
+            "well-behaved"
+          ],
+          "answers": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw8-ex4c",
+      "title": "4c Choose the correct modifier. Choose Both are possible if both answers work.",
+      "items": [
+        {
+          "id": "4c-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Tony’s new girlfriend is good for him – she seems rather / really well-balanced.",
+          "exampleAnswer": "really"
+        },
+        {
+          "id": "4c-2",
+          "number": 2,
+          "example": true,
+          "prompt": "I don’t trust my neighbour – she’s extremely / incredibly two-faced.",
+          "exampleAnswer": "Both are possible"
+        },
+        {
+          "id": "4c-3",
+          "number": 3,
+          "input": "single",
+          "prompt": "Some people complain about my kids, but I think they’re ___ well-behaved.",
+          "options": [
+            "pretty",
+            "a bit",
+            "Both are possible"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "4c-4",
+          "number": 4,
+          "input": "single",
+          "prompt": "My cousin Olivia is ___ tight-fisted – she doesn’t want to give any money towards our grandfather’s 80th birthday present.",
+          "options": [
+            "very",
+            "really",
+            "Both are possible"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "4c-5",
+          "number": 5,
+          "input": "single",
+          "prompt": "I’m not that keen on my new colleague. I find him ___ big-headed.",
+          "options": [
+            "quite",
+            "rather",
+            "Both are possible"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "4c-6",
+          "number": 6,
+          "input": "single",
+          "prompt": "I get on well with my boss. He’s ___ easy-going.",
+          "options": [
+            "quite",
+            "rather",
+            "Both are possible"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "4c-7",
+          "number": 7,
+          "input": "single",
+          "prompt": "If I have a problem, I usually talk to my aunt. She’s ___ open-minded.",
+          "options": [
+            "a bit",
+            "incredibly",
+            "Both are possible"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "4c-8",
+          "number": 8,
+          "input": "single",
+          "prompt": "I don’t spend much time with my flatmate – she’s ___ self-centred.",
+          "options": [
+            "a bit",
+            "pretty",
+            "Both are possible"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}
