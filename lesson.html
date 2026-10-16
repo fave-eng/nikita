@@ -539,7 +539,7 @@
   <script src="config.js" defer></script>
   <script src="data/vocabulary-data.js?v=18" defer></script>
   <script src="data/grammar-data.js?v=15" defer></script>
-  <script src="app.js?v=20" defer></script>
+  <script src="app.js?v=19" defer></script>
 </head>
 <body class="has-bottom-nav" data-page="homework" data-view="lesson">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -1106,6 +1106,28 @@
       };
 
 
+      const placeLessonVocabularyAfterGrammar = () => {
+        if (!['lesson-8', 'lesson-9'].includes(lessonId)) return;
+
+        const roadmap = root.querySelector('.lesson-roadmap');
+        const sourceShortcut = document.getElementById('lesson-vocabulary-shortcut');
+        if (!roadmap || !sourceShortcut || sourceShortcut.hidden || !sourceShortcut.firstElementChild) return;
+
+        let inlineShortcut = root.querySelector('.lesson-vocabulary-shortcut-inline');
+        if (!inlineShortcut) {
+          inlineShortcut = sourceShortcut.cloneNode(true);
+          inlineShortcut.id = 'lesson-vocabulary-shortcut-inline';
+          inlineShortcut.classList.add('lesson-vocabulary-shortcut-inline');
+          roadmap.parentNode.insertBefore(inlineShortcut, roadmap);
+        } else if (inlineShortcut.nextElementSibling !== roadmap) {
+          roadmap.parentNode.insertBefore(inlineShortcut, roadmap);
+        }
+
+        /* Keep the original shortcut outside lesson-root so a later re-render
+           cannot delete it. The inline copy is the visible one. */
+        sourceShortcut.hidden = true;
+      };
+
       const applyLesson8Enhancements = () => {
         if (lessonId !== 'lesson-8') return;
 
@@ -1119,14 +1141,7 @@
           card.dataset.movedToTop = 'true';
         });
 
-        /* Grammar should be the first study material in this homework.
-           Put the vocabulary shortcut after both grammar cards, before Task plan. */
-        const shortcut = document.getElementById('lesson-vocabulary-shortcut');
-        if (shortcut && shortcut.parentNode !== roadmap.parentNode) {
-          roadmap.parentNode.insertBefore(shortcut, roadmap);
-        } else if (shortcut) {
-          roadmap.parentNode.insertBefore(shortcut, roadmap);
-        }
+        placeLessonVocabularyAfterGrammar();
       };
 
 
@@ -1143,8 +1158,7 @@
           card.dataset.movedToTop = 'true';
         });
 
-        const shortcut = document.getElementById('lesson-vocabulary-shortcut');
-        if (shortcut) roadmap.parentNode.insertBefore(shortcut, roadmap);
+        placeLessonVocabularyAfterGrammar();
       };
 
       const applyEnhancements = () => {
@@ -1193,7 +1207,7 @@
 
       new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
 
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=8`, { cache: 'no-store' })
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=7`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
@@ -1233,6 +1247,7 @@
             link.append(copy, arrow);
             shortcut.replaceChildren(link);
             shortcut.hidden = false;
+            placeLessonVocabularyAfterGrammar();
           }
         })
         .catch((error) => console.warn('Lesson enhancements were not loaded.', error));
