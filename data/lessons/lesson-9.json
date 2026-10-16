@@ -1,0 +1,742 @@
+{
+  "id": "lesson-9",
+  "number": 9,
+  "title": "Unit 1 review: Mystery & getting a job",
+  "subtitle": "B2.1 · Grammar review, reading and colloquial English",
+  "status": "available",
+  "publishedAt": "2026-10-16",
+  "notification": {
+    "enabled": true,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-9-getting-a-job",
+  "grammarIds": [
+    "grammar-lesson-6-question-formation",
+    "grammar-lesson-8-auxiliary-verbs",
+    "grammar-lesson-8-double-comparatives"
+  ],
+  "totalPoints": 36,
+  "blocks": [
+    {
+      "type": "grammar-link",
+      "title": "Question formation: advanced patterns",
+      "text": "Review direct and indirect questions before the sentence transformations.",
+      "grammarId": "grammar-lesson-6-question-formation",
+      "buttonLabel": "Review grammar"
+    },
+    {
+      "type": "grammar-link",
+      "title": "Auxiliary verbs: advanced use",
+      "text": "Review ellipsis, emphasis, So / Neither and question tags.",
+      "grammarId": "grammar-lesson-8-auxiliary-verbs",
+      "buttonLabel": "Review grammar"
+    },
+    {
+      "type": "grammar-link",
+      "title": "The …, the … + comparatives",
+      "text": "Review paired comparatives before the Bermuda Triangle text.",
+      "grammarId": "grammar-lesson-8-double-comparatives",
+      "buttonLabel": "Review grammar"
+    },
+    {
+      "type": "section",
+      "title": "Can you remember…? 1",
+      "text": "Grammar and vocabulary review"
+    },
+    {
+      "type": "exercise",
+      "id": "hw9-ex1a-part1",
+      "title": "1a Complete the second sentence so that it means the same as the first. Use the word in brackets.",
+      "instructions": "Part 1 · Contractions are one word.",
+      "items": [
+        {
+          "id": "1a-1",
+          "number": 1,
+          "example": true,
+          "prompt": "My husband and I both love animals. (so)",
+          "exampleAnswer": "I love animals and so does my husband."
+        },
+        {
+          "id": "1a-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "I’m sure I sent you a message last night. (did)",
+          "placeholder": "Write the second sentence",
+          "acceptedAnswers": [
+            "I did send you a message last night.",
+            "I did send you a message last night"
+          ]
+        },
+        {
+          "id": "1a-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "Whose is this phone? (belong)",
+          "placeholder": "Write the second sentence",
+          "acceptedAnswers": [
+            "Who does this phone belong to?",
+            "Who does this phone belong to"
+          ]
+        },
+        {
+          "id": "1a-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "What was wrong with the hotel you stayed in? (like)",
+          "placeholder": "Write the second sentence",
+          "acceptedAnswers": [
+            "Why didn’t you like the hotel you stayed in?",
+            "Why didn't you like the hotel you stayed in?",
+            "Why didn’t you like the hotel you stayed in",
+            "Why didn't you like the hotel you stayed in"
+          ]
+        },
+        {
+          "id": "1a-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "Where did you get that book from? (gave)",
+          "placeholder": "Write the second sentence",
+          "acceptedAnswers": [
+            "Who gave you that book?",
+            "Who gave you that book"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw9-ex1a-part2",
+      "title": "1a Complete the second sentence so that it means the same as the first. Use the word in brackets.",
+      "instructions": "Part 2 · Contractions are one word.",
+      "items": [
+        {
+          "id": "1a-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "How much is petrol in your country? (costs)",
+          "placeholder": "Write the second sentence",
+          "acceptedAnswers": [
+            "Do you know how much petrol costs in your country?",
+            "Do you know how much petrol costs in your country"
+          ]
+        },
+        {
+          "id": "1a-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "Do you have any vacancies at the moment? (whether)",
+          "placeholder": "Write the second sentence",
+          "acceptedAnswers": [
+            "Can you tell me whether you have any vacancies at the moment?",
+            "Can you tell me whether you have any vacancies at the moment"
+          ]
+        },
+        {
+          "id": "1a-8",
+          "number": 8,
+          "input": "text",
+          "prompt": "I’m just checking you’ll pick me up from work tonight. (you)",
+          "placeholder": "Write the second sentence",
+          "acceptedAnswers": [
+            "You will pick me up from work tonight, won’t you?",
+            "You will pick me up from work tonight, won't you?",
+            "You’ll pick me up from work tonight, won’t you?",
+            "You'll pick me up from work tonight, won't you?"
+          ]
+        },
+        {
+          "id": "1a-9",
+          "number": 9,
+          "input": "text",
+          "prompt": "My friends and I can’t afford to go on holiday this year. (neither)",
+          "placeholder": "Write the second sentence",
+          "acceptedAnswers": [
+            "I can’t afford to go on holiday this year and neither can my friends.",
+            "I can't afford to go on holiday this year and neither can my friends.",
+            "I can’t afford to go on holiday this year, and neither can my friends.",
+            "I can't afford to go on holiday this year, and neither can my friends."
+          ]
+        },
+        {
+          "id": "1a-10",
+          "number": 10,
+          "input": "text",
+          "prompt": "I’m sure Tom knows about the meeting – he mentioned it yesterday. (does)",
+          "placeholder": "Write the second sentence",
+          "acceptedAnswers": [
+            "Tom does know about the meeting – he mentioned it yesterday.",
+            "Tom does know about the meeting - he mentioned it yesterday.",
+            "Tom does know about the meeting – he mentioned it yesterday",
+            "Tom does know about the meeting - he mentioned it yesterday"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "id": "hw9-bermuda-reading",
+      "title": "Fact or fiction? The Bermuda Triangle",
+      "sections": [
+        {
+          "number": "",
+          "heading": "",
+          "text": "During the 1960s and 70s, many stories were told of ships and aircraft disappearing mysteriously in a region of the Atlantic Ocean known as the Bermuda Triangle. People asked, ‘What is causing these boats and planes to disappear?’, and several extraordinary reasons were given to explain the mystery. Some writers wondered whether aliens had established an underwater base and were hijacking aircraft to study their crew. Others said that enormous waves might be hitting vessels, causing them to sink without a trace. However, nobody asked the question of whether there really was any mystery to explain."
+        },
+        {
+          "number": "",
+          "heading": "",
+          "text": "Journalist Larry Kusche was the first person to do this. He asked questions about the mysterious disappearances which previous writers hadn’t. These writers had simply collected stories that had already been written and repeated them in their own way. Kusche found many mistakes in their stories: in some cases, there was no record of the ships and planes that were said to have been lost, and in others, they had disappeared during extremely bad storms."
+        },
+        {
+          "number": "",
+          "heading": "",
+          "text": "Kusche pointed out that it was logical that more accidents would occur in the busy Bermuda Triangle than in more remote areas such as the South Pacific because the more ships there are in an area, the more likely it is for one of them to sink. In the end, Kusche concluded that the explanation for the Bermuda Triangle puzzle was neither aliens nor massive waves, but the lack of research done by writers in search of a sensational story."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw9-ex1b",
+      "title": "1b Read the text. Choose a, b, or c.",
+      "items": [
+        {
+          "id": "b-1",
+          "number": 1,
+          "input": "single",
+          "prompt": "___ is causing these boats and planes to disappear?",
+          "options": [
+            "How",
+            "What",
+            "Which"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b-2",
+          "number": 2,
+          "input": "single",
+          "prompt": "Several ___ reasons were given to explain the mystery.",
+          "options": [
+            "foreign",
+            "extraordinary",
+            "absent-minded"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b-3",
+          "number": 3,
+          "input": "single",
+          "prompt": "Some writers wondered ___ aliens had established an underwater base.",
+          "options": [
+            "how",
+            "whether",
+            "where"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b-4",
+          "number": 4,
+          "input": "single",
+          "prompt": "…causing them to sink without a ___.",
+          "options": [
+            "mark",
+            "sign",
+            "trace"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b-5",
+          "number": 5,
+          "input": "single",
+          "prompt": "…whether there really ___ any mystery to explain.",
+          "options": [
+            "is",
+            "has",
+            "was"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b-6",
+          "number": 6,
+          "input": "single",
+          "prompt": "He asked questions which previous writers ___.",
+          "options": [
+            "didn’t",
+            "hadn’t",
+            "weren’t"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b-7",
+          "number": 7,
+          "input": "single",
+          "prompt": "…they had disappeared during ___ bad storms.",
+          "options": [
+            "rather",
+            "quite",
+            "extremely"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b-8",
+          "number": 8,
+          "input": "single",
+          "prompt": "…than in more ___ areas such as the South Pacific.",
+          "options": [
+            "congested",
+            "far",
+            "remote"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b-9",
+          "number": 9,
+          "input": "single",
+          "prompt": "…the ___ it is for one of them to sink.",
+          "options": [
+            "likely",
+            "more likely",
+            "most likely"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b-10",
+          "number": 10,
+          "input": "single",
+          "prompt": "…the explanation for the Bermuda Triangle ___ was neither aliens nor massive waves.",
+          "options": [
+            "puzzle",
+            "quiz",
+            "story"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Colloquial English: getting a job",
+      "text": "Formal language, interview vocabulary and natural emphasis"
+    },
+    {
+      "type": "exercise",
+      "id": "hw9-ex2",
+      "title": "2 Looking at language. Match the formal words with the informal words in the list.",
+      "wordBank": [
+        "answer",
+        "begin",
+        "buy",
+        "check",
+        "fill in",
+        "finish",
+        "follow",
+        "say",
+        "see",
+        "show"
+      ],
+      "items": [
+        {
+          "id": "formal-1",
+          "number": 1,
+          "example": true,
+          "prompt": "adhere to",
+          "exampleAnswer": "follow"
+        },
+        {
+          "id": "formal-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "state",
+          "options": [
+            "answer",
+            "begin",
+            "buy",
+            "check",
+            "fill in",
+            "finish",
+            "follow",
+            "say",
+            "see",
+            "show"
+          ],
+          "answer": 7
+        },
+        {
+          "id": "formal-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "commence",
+          "options": [
+            "answer",
+            "begin",
+            "buy",
+            "check",
+            "fill in",
+            "finish",
+            "follow",
+            "say",
+            "see",
+            "show"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "formal-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "complete (an application form)",
+          "options": [
+            "answer",
+            "begin",
+            "buy",
+            "check",
+            "fill in",
+            "finish",
+            "follow",
+            "say",
+            "see",
+            "show"
+          ],
+          "answer": 4
+        },
+        {
+          "id": "formal-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "demonstrate",
+          "options": [
+            "answer",
+            "begin",
+            "buy",
+            "check",
+            "fill in",
+            "finish",
+            "follow",
+            "say",
+            "see",
+            "show"
+          ],
+          "answer": 9
+        },
+        {
+          "id": "formal-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "purchase",
+          "options": [
+            "answer",
+            "begin",
+            "buy",
+            "check",
+            "fill in",
+            "finish",
+            "follow",
+            "say",
+            "see",
+            "show"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "formal-7",
+          "number": 7,
+          "input": "select",
+          "prompt": "response",
+          "options": [
+            "answer",
+            "begin",
+            "buy",
+            "check",
+            "fill in",
+            "finish",
+            "follow",
+            "say",
+            "see",
+            "show"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "formal-8",
+          "number": 8,
+          "input": "select",
+          "prompt": "terminate",
+          "options": [
+            "answer",
+            "begin",
+            "buy",
+            "check",
+            "fill in",
+            "finish",
+            "follow",
+            "say",
+            "see",
+            "show"
+          ],
+          "answer": 5
+        },
+        {
+          "id": "formal-9",
+          "number": 9,
+          "input": "select",
+          "prompt": "verify",
+          "options": [
+            "answer",
+            "begin",
+            "buy",
+            "check",
+            "fill in",
+            "finish",
+            "follow",
+            "say",
+            "see",
+            "show"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "formal-10",
+          "number": 10,
+          "input": "select",
+          "prompt": "view",
+          "options": [
+            "answer",
+            "begin",
+            "buy",
+            "check",
+            "fill in",
+            "finish",
+            "follow",
+            "say",
+            "see",
+            "show"
+          ],
+          "answer": 8
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw9-ex3",
+      "title": "3 Vocabulary from the interview. Choose the correct definition.",
+      "items": [
+        {
+          "id": "interview-1",
+          "number": 1,
+          "example": true,
+          "prompt": "their background",
+          "exampleAnswer": "their education, experience, and interests"
+        },
+        {
+          "id": "interview-2",
+          "number": 2,
+          "input": "single",
+          "prompt": "settle down",
+          "options": [
+            "take a seat",
+            "feel comfortable"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "interview-3",
+          "number": 3,
+          "input": "single",
+          "prompt": "engage with the candidate",
+          "options": [
+            "establish a connection with",
+            "agree with"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "interview-4",
+          "number": 4,
+          "input": "single",
+          "prompt": "carry on the interview",
+          "options": [
+            "start again",
+            "continue"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "interview-5",
+          "number": 5,
+          "input": "single",
+          "prompt": "recruitment",
+          "options": [
+            "finding people for a job",
+            "looking for a job"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw9-ex4",
+      "title": "4 The conversation. Complete the sentences with one word to add emphasis.",
+      "instructions": "These answers are saved for teacher review because the answer key was not included in the material you sent.",
+      "items": [
+        {
+          "id": "emph-1",
+          "number": 1,
+          "example": true,
+          "prompt": "It’s a terrible ______ idea to go to an interview when you’re feeling hungry.",
+          "exampleAnswer": "terrible"
+        },
+        {
+          "id": "emph-2",
+          "number": 2,
+          "input": "text",
+          "scored": false,
+          "prompt": "I’ve ______ you this before more than once.",
+          "placeholder": "One word"
+        },
+        {
+          "id": "emph-3",
+          "number": 3,
+          "input": "text",
+          "scored": false,
+          "prompt": "I felt really ______ silly when I realized I’d locked my keys in the house.",
+          "placeholder": "One word"
+        },
+        {
+          "id": "emph-4",
+          "number": 4,
+          "input": "text",
+          "scored": false,
+          "prompt": "You ______ told me you would be here by 11.00.",
+          "placeholder": "One word"
+        },
+        {
+          "id": "emph-5",
+          "number": 5,
+          "input": "text",
+          "scored": false,
+          "prompt": "Can you make me a cup of tea? I’ve had a ______ bad day.",
+          "placeholder": "One word"
+        },
+        {
+          "id": "emph-6",
+          "number": 6,
+          "input": "text",
+          "scored": false,
+          "prompt": "It’s a wonderful ______ film. You really should go and see it.",
+          "placeholder": "One word"
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw9-ex5",
+      "title": "5 Vocabulary from the conversation. Complete the sentences with a word from the list.",
+      "wordBank": [
+        "caught",
+        "potentially",
+        "slightly",
+        "white",
+        "willing"
+      ],
+      "items": [
+        {
+          "id": "conv-1",
+          "number": 1,
+          "example": true,
+          "prompt": "I sometimes ______ exaggerate when I talk about my experience.",
+          "exampleAnswer": "slightly"
+        },
+        {
+          "id": "conv-2",
+          "number": 2,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "You might find yourself in a ",
+            " difficult situation."
+          ],
+          "options": [
+            "caught",
+            "potentially",
+            "slightly",
+            "white",
+            "willing"
+          ],
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "conv-3",
+          "number": 3,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Nobody will worry if you tell a couple of ",
+            " lies."
+          ],
+          "options": [
+            "caught",
+            "potentially",
+            "slightly",
+            "white",
+            "willing"
+          ],
+          "answers": [
+            3
+          ]
+        },
+        {
+          "id": "conv-4",
+          "number": 4,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "You could get ",
+            " out if they ask you questions about something on your CV."
+          ],
+          "options": [
+            "caught",
+            "potentially",
+            "slightly",
+            "white",
+            "willing"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "conv-5",
+          "number": 5,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "You need to show that you are ",
+            " to learn."
+          ],
+          "options": [
+            "caught",
+            "potentially",
+            "slightly",
+            "white",
+            "willing"
+          ],
+          "answers": [
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}

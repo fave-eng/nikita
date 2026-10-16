@@ -319,5 +319,73 @@ window.VOCABULARY_DATA = [
       { id: 'l8-14', uniqueKey: 'block out time', en: 'block out time', ru: 'выделить; зарезервировать время', transcription: '', exampleEn: 'I block out time for focused work every morning.', group: 'organisation' },
       { id: 'l8-15', uniqueKey: 'be due', en: 'be due', ru: 'быть назначенным к сроку; подлежать сдаче', transcription: '', exampleEn: 'The final version is due at 5 p.m.', group: 'organisation' }
     ]
+  },
+  {
+    id: 'vocab-lesson-8-compound-adjectives',
+    title: 'Compound adjectives: personality',
+    label: 'Homework 8 · 14 compound adjectives',
+    icon: '🧩',
+    type: 'lesson',
+    linkedLessonId: 'lesson-8',
+    page: 'vocabulary.html?id=vocab-lesson-8-compound-adjectives',
+    description: 'Useful B2.1 compound adjectives for describing personality and behaviour.',
+    groups: [
+      { id: 'personality', title: 'Personality', subtitle: 'Compound adjectives for people', icon: '👤' }
+    ],
+    words: [
+      { id: "l9-01", uniqueKey: "absent-minded", en: "absent-minded", ru: "рассеянный", transcription: "/ˌæbsəntˈmaɪndɪd/", exampleEn: "I’m quite absent-minded, so I write everything down.", group: 'personality' },
+      { id: "l9-02", uniqueKey: "bad-tempered", en: "bad-tempered", ru: "вспыльчивый; раздражительный", transcription: "/ˌbæd ˈtempəd/", exampleEn: "He can be bad-tempered first thing in the morning.", group: 'personality' },
+      { id: "l9-03", uniqueKey: "big-headed", en: "big-headed", ru: "самодовольный; высокого мнения о себе", transcription: "/ˌbɪɡ ˈhedɪd/", exampleEn: "He sounded big-headed when he talked about his success.", group: 'personality' },
+      { id: "l9-04", uniqueKey: "easy-going", en: "easy-going", ru: "спокойный; лёгкий в общении", transcription: "/ˌiːzi ˈɡəʊɪŋ/", exampleEn: "My parents are quite easy-going.", group: 'personality' },
+      { id: "l9-05", uniqueKey: "good-tempered", en: "good-tempered", ru: "добродушный; невспыльчивый", transcription: "/ˌɡʊd ˈtempəd/", exampleEn: "Our teacher is extremely good-tempered.", group: 'personality' },
+      { id: "l9-06", uniqueKey: "laid-back", en: "laid-back", ru: "расслабленный; невозмутимый", transcription: "/ˌleɪd ˈbæk/", exampleEn: "She’s very laid-back and rarely worries.", group: 'personality' },
+      { id: "l9-07", uniqueKey: "narrow-minded", en: "narrow-minded", ru: "узколобый; нетерпимый к другим взглядам", transcription: "/ˌnærəʊ ˈmaɪndɪd/", exampleEn: "A narrow-minded person refuses to consider other views.", group: 'personality' },
+      { id: "l9-08", uniqueKey: "open-minded", en: "open-minded", ru: "непредвзятый; открытый новым идеям", transcription: "/ˌəʊpən ˈmaɪndɪd/", exampleEn: "Travelling made him more open-minded.", group: 'personality' },
+      { id: "l9-09", uniqueKey: "self-centred", en: "self-centred", ru: "эгоцентричный; думающий только о себе", transcription: "/ˌself ˈsentəd/", exampleEn: "He can be rather self-centred.", group: 'personality' },
+      { id: "l9-10", uniqueKey: "strong-willed", en: "strong-willed", ru: "волевой; решительный", transcription: "/ˌstrɒŋ ˈwɪld/", exampleEn: "She is strong-willed and rarely changes her mind.", group: 'personality' },
+      { id: "l9-11", uniqueKey: "tight-fisted", en: "tight-fisted", ru: "скупой; жадный", transcription: "/ˌtaɪt ˈfɪstɪd/", exampleEn: "He is too tight-fisted to pay for everyone.", group: 'personality' },
+      { id: "l9-12", uniqueKey: "two-faced", en: "two-faced", ru: "двуличный", transcription: "/ˌtuː ˈfeɪst/", exampleEn: "I stopped trusting him because he was two-faced.", group: 'personality' },
+      { id: "l9-13", uniqueKey: "well-balanced", en: "well-balanced", ru: "уравновешенный", transcription: "/ˌwel ˈbælənst/", exampleEn: "She seems sensible and well-balanced.", group: 'personality' },
+      { id: "l9-14", uniqueKey: "well-behaved", en: "well-behaved", ru: "воспитанный; хорошо себя ведущий", transcription: "/ˌwel bɪˈheɪvd/", exampleEn: "Their children are always well-behaved.", group: 'personality' }
+    ]
+  },
+  {
+    id: 'vocab-lesson-9-getting-a-job',
+    title: 'Getting a job: formal and colloquial English',
+    label: 'Homework 9 · 22 useful words and phrases',
+    icon: '💼',
+    type: 'lesson',
+    linkedLessonId: 'lesson-9',
+    page: 'vocabulary.html?id=vocab-lesson-9-getting-a-job',
+    description: 'Formal workplace language and useful expressions from job interviews and conversation.',
+    groups: [
+      { id: 'formal', title: 'Formal workplace language', subtitle: 'Formal words used in applications and contracts', icon: '📄' },
+      { id: 'interview', title: 'Interview language', subtitle: 'Useful vocabulary for interviews and recruitment', icon: '💼' },
+      { id: 'conversation', title: 'Colloquial English', subtitle: 'Natural phrases from conversation', icon: '💬' }
+    ],
+    words: [
+      { id: 'l10-01', uniqueKey: 'adhere to', en: 'adhere to', ru: 'придерживаться; соблюдать', transcription: '/ədˈhɪə tə/', exampleEn: 'Employees must adhere to the terms of the contract.', group: 'formal' },
+      { id: 'l10-02', uniqueKey: 'state', en: 'state', ru: 'заявлять; указывать', transcription: '/steɪt/', exampleEn: 'Please state whether you prefer an online or face-to-face interview.', group: 'formal' },
+      { id: 'l10-03', uniqueKey: 'commence', en: 'commence', ru: 'начинать(ся) (форм.)', transcription: '/kəˈmens/', exampleEn: 'The training course will commence in June.', group: 'formal' },
+      { id: 'l10-04', uniqueKey: 'complete a form', en: 'complete a form', ru: 'заполнить форму', transcription: '', exampleEn: 'Please complete the application form before the interview.', group: 'formal' },
+      { id: 'l10-05', uniqueKey: 'demonstrate', en: 'demonstrate', ru: 'демонстрировать; показывать', transcription: '/ˈdemənstreɪt/', exampleEn: 'These figures demonstrate the scale of the problem.', group: 'formal' },
+      { id: 'l10-06', uniqueKey: 'purchase', en: 'purchase', ru: 'приобретать; покупать (форм.)', transcription: '/ˈpɜːtʃəs/', exampleEn: 'Customers should keep the receipt when they purchase an item.', group: 'formal' },
+      { id: 'l10-07', uniqueKey: 'retain', en: 'retain', ru: 'сохранять; оставлять у себя (форм.)', transcription: '/rɪˈteɪn/', exampleEn: 'Retain a copy of your application.', group: 'formal' },
+      { id: 'l10-08', uniqueKey: 'response', en: 'response', ru: 'ответ; отклик', transcription: '/rɪˈspɒns/', exampleEn: 'The candidate gave a clear response.', group: 'formal' },
+      { id: 'l10-09', uniqueKey: 'terminate', en: 'terminate', ru: 'прекращать; завершать (форм.)', transcription: '/ˈtɜːmɪneɪt/', exampleEn: 'The contract will terminate at the end of the year.', group: 'formal' },
+      { id: 'l10-10', uniqueKey: 'verify', en: 'verify', ru: 'проверять; подтверждать', transcription: '/ˈverɪfaɪ/', exampleEn: 'The employer called the referee to verify the information.', group: 'formal' },
+      { id: 'l10-11', uniqueKey: 'prospects', en: 'prospects', ru: 'перспективы', transcription: '/ˈprɒspekts/', exampleEn: 'Her prospects of promotion are very good.', group: 'formal' },
+      { id: 'l10-12', uniqueKey: 'background', en: 'background', ru: 'образование, опыт и профессиональный путь', transcription: '/ˈbækɡraʊnd/', exampleEn: 'Interviewers often ask candidates about their background.', group: 'interview' },
+      { id: 'l10-13', uniqueKey: 'settle down', en: 'settle down', ru: 'освоиться; успокоиться', transcription: '', exampleEn: 'Give the candidate a moment to settle down.', group: 'interview' },
+      { id: 'l10-14', uniqueKey: 'engage with', en: 'engage with', ru: 'установить контакт; активно взаимодействовать с', transcription: '', exampleEn: 'A good interviewer tries to engage with the candidate.', group: 'interview' },
+      { id: 'l10-15', uniqueKey: 'carry on', en: 'carry on', ru: 'продолжать', transcription: '', exampleEn: 'After the interruption, they carried on with the interview.', group: 'interview' },
+      { id: 'l10-16', uniqueKey: 'recruitment', en: 'recruitment', ru: 'подбор персонала; найм', transcription: '/rɪˈkruːtmənt/', exampleEn: 'Recruitment has changed a lot in recent years.', group: 'interview' },
+      { id: 'l10-17', uniqueKey: 'potentially', en: 'potentially', ru: 'потенциально; возможно', transcription: '/pəˈtenʃəli/', exampleEn: 'That could create a potentially difficult situation.', group: 'conversation' },
+      { id: 'l10-18', uniqueKey: 'white lie', en: 'white lie', ru: 'невинная ложь', transcription: '', exampleEn: 'Some people think a small white lie is harmless.', group: 'conversation' },
+      { id: 'l10-19', uniqueKey: 'get caught out', en: 'get caught out', ru: 'попасться; быть разоблачённым', transcription: '', exampleEn: 'You may get caught out if the interviewer checks your claim.', group: 'conversation' },
+      { id: 'l10-20', uniqueKey: 'willing to', en: 'willing to', ru: 'готовый что-либо сделать', transcription: '/ˈwɪlɪŋ tə/', exampleEn: 'Show that you are willing to learn.', group: 'conversation' },
+      { id: 'l10-21', uniqueKey: 'referee', en: 'referee', ru: 'рекомендатель; человек, дающий рекомендацию', transcription: '/ˌrefəˈriː/', exampleEn: 'The company contacted one of her referees.', group: 'interview' },
+      { id: 'l10-22', uniqueKey: 'dismissed', en: 'dismissed', ru: 'уволенный', transcription: '/dɪsˈmɪst/', exampleEn: 'He was dismissed for breaking company rules.', group: 'formal' }
+    ]
   }
 ];
