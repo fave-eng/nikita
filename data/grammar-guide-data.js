@@ -1,6 +1,6 @@
 window.GRAMMAR_GUIDES = {
   "grammar-lesson-1-habits": {
-    "title": "Habits: present and past · Привычки: настоящее и прошлое",
+    "title": "Привычки: настоящее и прошлое",
     "intro": "Главное — не просто выбрать «настоящее или прошлое». Сначала определите смысл: это регулярное действие сейчас, общая тенденция, привычка в прошлом, которая изменилась, или одно завершённое событие.",
     "sections": [
       {
@@ -10,31 +10,31 @@ window.GRAMMAR_GUIDES = {
         "items": [
           {
             "label": "NOW",
-            "title": "Present habit · Привычка сейчас",
+            "title": "Привычка сейчас",
             "text": "Present Simple используется для регулярных действий и типичного поведения.",
             "example": "I usually read before bed."
           },
           {
             "label": "NOW",
-            "title": "Present tendency · Общая тенденция",
+            "title": "Общая тенденция",
             "text": "tend to используется, когда что-то обычно происходит, но не обязательно каждый раз.",
             "example": "I tend to avoid crowded places."
           },
           {
             "label": "PAST → NOW",
-            "title": "Past habit/state that changed · Прошлая привычка или состояние",
+            "title": "Прошлая привычка или состояние",
             "text": "used to показывает, что действие или состояние было обычным в прошлом, но сейчас уже не актуально.",
             "example": "I used to live near the cinema."
           },
           {
             "label": "PAST",
-            "title": "Repeated past action · Повторяющееся действие в прошлом",
+            "title": "Повторяющееся действие в прошлом",
             "text": "would используется для повторяющихся действий, если период прошлого уже понятен из контекста.",
             "example": "Every summer, we would stay with my grandparents."
           },
           {
             "label": "PAST",
-            "title": "Finished event · Завершённое событие",
+            "title": "Завершённое событие",
             "text": "Past Simple используется для одного завершённого события или факта в конкретном прошлом.",
             "example": "I went to the cinema yesterday."
           }
@@ -147,7 +147,7 @@ window.GRAMMAR_GUIDES = {
     ]
   },
   "grammar-lesson-2-speculation": {
-    "title": "Speculating about pictures · Предположения по картинкам",
+    "title": "Предположения по картинкам",
     "intro": "Когда мы предполагаем, грамматика показывает степень уверенности и тип доказательства. Сильный вывод — не то же самое, что обычная возможность, а для визуального впечатления есть отдельные конструкции.",
     "sections": [
       {
@@ -281,7 +281,7 @@ window.GRAMMAR_GUIDES = {
     ]
   },
   "grammar-lesson-4-adjectives-adverbs": {
-    "title": "Adjectives and adverbs · Прилагательные и наречия",
+    "title": "Прилагательные и наречия",
     "intro": "Главный вопрос: что именно описывает слово? Прилагательное описывает существительное или подлежащее после глагола-связки. Наречие обычно описывает действие, прилагательное, другое наречие или всё предложение.",
     "sections": [
       {
@@ -290,27 +290,27 @@ window.GRAMMAR_GUIDES = {
         "items": [
           {
             "target": "существительное",
-            "use": "adjective · прилагательное",
+            "use": "прилагательное",
             "example": "a dramatic picture"
           },
           {
             "target": "подлежащее после look / seem / feel / sound",
-            "use": "adjective · прилагательное",
+            "use": "прилагательное",
             "example": "She looks tired."
           },
           {
             "target": "действие",
-            "use": "adverb · наречие",
+            "use": "наречие",
             "example": "She spoke quietly."
           },
           {
             "target": "прилагательное",
-            "use": "adverb of degree · наречие степени",
+            "use": "наречие степени",
             "example": "absolutely amazing"
           },
           {
             "target": "другое наречие",
-            "use": "adverb · наречие",
+            "use": "наречие",
             "example": "really carefully"
           }
         ]
@@ -427,12 +427,12 @@ window.GRAMMAR_GUIDES = {
         ],
         "rows": [
           [
-            "Gradable: tired, cold, interesting · можно усиливать по степени",
+            "можно усиливать по степени",
             "very, really, quite, fairly",
             "very tired / really interesting"
           ],
           [
-            "Extreme: amazing, awful, impossible · уже содержат сильное значение",
+            "уже содержат сильное значение",
             "absolutely, completely, totally, really",
             "absolutely amazing / completely impossible"
           ]
@@ -453,7 +453,7 @@ window.GRAMMAR_GUIDES = {
     ]
   },
   "grammar-lesson-5-relative-clauses": {
-    "title": "Relative clauses · Относительные придаточные",
+    "title": "Относительные придаточные предложения",
     "intro": "Relative clause либо уточняет, о каком именно человеке/предмете идёт речь, либо добавляет дополнительную информацию. Сначала определите, является ли информация обязательной: от этого зависят запятые, relative word и возможность его опустить.",
     "sections": [
       {
@@ -461,8 +461,8 @@ window.GRAMMAR_GUIDES = {
         "title": "1. Defining и non-defining clauses: главное различие",
         "columns": [
           "",
-          "Defining · уточняет, кто/что именно",
-          "Non-defining · добавляет информацию"
+          "уточняет, кто/что именно",
+          "добавляет информацию"
         ],
         "rows": [
           [
@@ -586,17 +586,17 @@ window.GRAMMAR_GUIDES = {
     ]
   },
   "grammar-lesson-6-question-formation": {
-    "title": "Question formation: advanced patterns · Построение вопросов B2",
+    "title": "Построение вопросов: продвинутые модели",
     "intro": "На уровне B2 важно сначала определить тип вопроса. В object questions используется инверсия, в subject questions — нет. В embedded questions после вводной части используется порядок слов утверждения.",
     "sections": [
       {
         "type": "questionAnatomy",
         "title": "1. Базовая схема прямого вопроса",
         "parts": [
-          "question word · вопросительное слово",
-          "auxiliary / be / modal · вспомогательный глагол",
-          "subject · подлежащее",
-          "main verb · смысловой глагол",
+          "вопросительное слово",
+          "вспомогательный глагол",
+          "подлежащее",
+          "смысловой глагол",
           "остальная часть"
         ],
         "examples": [
@@ -617,13 +617,13 @@ window.GRAMMAR_GUIDES = {
         ],
         "rows": [
           [
-            "Subject question · вопрос к подлежащему",
+            "вопрос к подлежащему",
             "Кто/что выполняет действие",
             "who/what + verb",
             "Who repaired your car?"
           ],
           [
-            "Object question · вопрос к дополнению",
+            "вопрос к дополнению",
             "На кого/что направлено действие",
             "who/what + auxiliary + subject + verb",
             "Who did you call?"
@@ -689,7 +689,7 @@ window.GRAMMAR_GUIDES = {
     ]
   },
   "grammar-lesson-7-causative-have-get": {
-    "title": "Causatives with have and get · Каузативные конструкции с have и get",
+    "title": "Каузативные конструкции с have и get",
     "intro": "Causative structures используются, когда вы организуете действие, поручаете его, добиваетесь его выполнения или говорите о результате, а не просто выполняете действие сами. Выбор структуры зависит от того, хотите ли вы назвать исполнителя или подчеркнуть результат.",
     "sections": [
       {
@@ -756,22 +756,22 @@ window.GRAMMAR_GUIDES = {
         "subtitle": "Меняется форма have/get, а последующая модель остаётся той же.",
         "items": [
           {
-            "label": "present · настоящее",
+            "label": "настоящее",
             "formula": "have/get",
             "example": "I have the figures checked every Friday."
           },
           {
-            "label": "past · прошлое",
+            "label": "прошлое",
             "formula": "had/got",
             "example": "I got the figures checked yesterday."
           },
           {
-            "label": "future · будущее",
+            "label": "будущее",
             "formula": "will have/get",
             "example": "I'll have Maya check them tomorrow."
           },
           {
-            "label": "modal · с модальным глаголом",
+            "label": "с модальным глаголом",
             "formula": "modal + have/get",
             "example": "We need to get the report finished today."
           }
@@ -810,287 +810,287 @@ window.GRAMMAR_GUIDES = {
       }
     ]
   },
-"grammar-lesson-8-auxiliary-verbs": {
-  "title": "Auxiliary verbs: advanced use / Вспомогательные глаголы: продвинутое употребление",
-  "intro": "At B2, auxiliary verbs are not only used to build tenses. They can replace a repeated verb phrase, form question tags, show agreement and add contrast or emphasis. / На уровне B2 вспомогательные глаголы нужны не только для образования времён. Они заменяют повторяющуюся часть сказуемого, образуют question tags, помогают согласиться с собеседником и позволяют усилить или противопоставить утверждение.",
-  "sections": [
-    {
-      "type": "comparison",
-      "title": "1. Which auxiliary do I need? / Какой auxiliary выбрать?",
-      "columns": [
-        "Original verb phrase / Исходная форма",
-        "Auxiliary",
-        "Example / Пример"
-      ],
-      "rows": [
-        [
-          "be",
-          "am / is / are / was / were",
-          "She isn’t worried, but I am."
+  "grammar-lesson-8-auxiliary-verbs": {
+    "title": "Вспомогательные глаголы: продвинутое употребление",
+    "intro": "На уровне B2 вспомогательные глаголы нужны не только для образования времён. Они заменяют повторяющуюся часть сказуемого, образуют question tags, помогают согласиться с собеседником и позволяют усилить или противопоставить утверждение.",
+    "sections": [
+      {
+        "type": "comparison",
+        "title": "Какой auxiliary выбрать?",
+        "columns": [
+          "Исходная форма",
+          "Auxiliary",
+          "Пример"
         ],
-        [
-          "Present/Past Perfect",
-          "have / has / had",
-          "I’ve been there, but he hasn’t."
+        "rows": [
+          [
+            "be",
+            "am / is / are / was / were",
+            "She isn’t worried, but I am."
+          ],
+          [
+            "Present/Past Perfect",
+            "have / has / had",
+            "I’ve been there, but he hasn’t."
+          ],
+          [
+            "Present/Past Simple with an ordinary verb",
+            "do / does / did",
+            "I like it, but she doesn’t."
+          ],
+          [
+            "Modal verb",
+            "can / could / will / would / should …",
+            "I can drive, but he can’t."
+          ]
         ],
-        [
-          "Present/Past Simple with an ordinary verb",
-          "do / does / did",
-          "I like it, but she doesn’t."
+        "note": "Именно auxiliary сохраняет время, форму и модальность пропущенной части."
+      },
+      {
+        "type": "transformation",
+        "title": "Убираем повтор",
+        "pairs": [
+          {
+            "from": "My mum can drive, but my dad can’t drive.",
+            "to": "My mum can drive, but my dad can’t."
+          },
+          {
+            "from": "I loved that book, but my wife didn’t love that book.",
+            "to": "I loved that book, but my wife didn’t."
+          },
+          {
+            "from": "You weren’t listening, but I was listening.",
+            "to": "You weren’t listening, but I was."
+          }
         ],
-        [
-          "Modal verb",
-          "can / could / will / would / should …",
-          "I can drive, but he can’t."
+        "rule": "Если повторяемое действие уже понятно из контекста, оставляем auxiliary и убираем остальную часть сказуемого."
+      },
+      {
+        "type": "patterns",
+        "title": "Разделительные вопросы",
+        "subtitle": "Хвостик сохраняет время или modal, но обычно меняет + на − или − на +.",
+        "items": [
+          {
+            "label": "+ → −",
+            "formula": "positive statement + negative tag",
+            "example": "You’re coming, aren’t you?"
+          },
+          {
+            "label": "− → +",
+            "formula": "negative statement + positive tag",
+            "example": "You haven’t finished, have you?"
+          },
+          {
+            "label": "modal",
+            "formula": "modal in statement → same modal in tag",
+            "example": "You couldn’t help me, could you?"
+          },
+          {
+            "label": "simple",
+            "formula": "ordinary present/past verb → do/does/did",
+            "example": "You like it, don’t you?"
+          }
+        ],
+        "warning": "В хвостике подлежащее заменяется местоимением."
+      },
+      {
+        "type": "comparison",
+        "title": "Neither / short contrast / Согласие и контраст",
+        "columns": [
+          "Значение",
+          "Схема",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "согласие с +",
+            "So + auxiliary + subject",
+            "I’m tired. — So am I."
+          ],
+          [
+            "согласие с −",
+            "Neither/Nor + auxiliary + subject",
+            "I don’t smoke. — Neither do I."
+          ],
+          [
+            "у меня наоборот",
+            "subject + auxiliary (+ not)",
+            "I love the sea. — I don’t."
+          ],
+          [
+            "усиленное возражение",
+            "subject + stressed auxiliary + verb",
+            "You didn’t reply. — I did reply!"
+          ]
         ]
-      ],
-      "note": "The auxiliary carries the grammar of the missing verb phrase. / Именно auxiliary сохраняет время, форму и модальность пропущенной части."
-    },
-    {
-      "type": "transformation",
-      "title": "2. Avoid repetition / Убираем повтор",
-      "pairs": [
-        {
-          "from": "My mum can drive, but my dad can’t drive.",
-          "to": "My mum can drive, but my dad can’t."
-        },
-        {
-          "from": "I loved that book, but my wife didn’t love that book.",
-          "to": "I loved that book, but my wife didn’t."
-        },
-        {
-          "from": "You weren’t listening, but I was listening.",
-          "to": "You weren’t listening, but I was."
-        }
-      ],
-      "rule": "If the meaning is already clear, keep the auxiliary and omit the repeated verb phrase. / Если повторяемое действие уже понятно из контекста, оставляем auxiliary и убираем остальную часть сказуемого."
-    },
-    {
-      "type": "patterns",
-      "title": "3. Question tags / Разделительные вопросы",
-      "subtitle": "The tag mirrors the tense/modal but normally reverses the polarity. / Хвостик сохраняет время или modal, но обычно меняет + на − или − на +.",
-      "items": [
-        {
-          "label": "+ → −",
-          "formula": "positive statement + negative tag",
-          "example": "You’re coming, aren’t you?"
-        },
-        {
-          "label": "− → +",
-          "formula": "negative statement + positive tag",
-          "example": "You haven’t finished, have you?"
-        },
-        {
-          "label": "modal",
-          "formula": "modal in statement → same modal in tag",
-          "example": "You couldn’t help me, could you?"
-        },
-        {
-          "label": "simple",
-          "formula": "ordinary present/past verb → do/does/did",
-          "example": "You like it, don’t you?"
-        }
-      ],
-      "warning": "The subject in the tag is a pronoun: Sam is coming, isn’t he? / В хвостике подлежащее заменяется местоимением."
-    },
-    {
-      "type": "comparison",
-      "title": "4. So / Neither / short contrast / Согласие и контраст",
-      "columns": [
-        "Meaning / Значение",
-        "Pattern / Схема",
-        "Example / Пример"
-      ],
-      "rows": [
-        [
-          "I agree with a positive statement / согласие с +",
-          "So + auxiliary + subject",
-          "I’m tired. — So am I."
-        ],
-        [
-          "I agree with a negative statement / согласие с −",
-          "Neither/Nor + auxiliary + subject",
-          "I don’t smoke. — Neither do I."
-        ],
-        [
-          "My situation is different / у меня наоборот",
-          "subject + auxiliary (+ not)",
-          "I love the sea. — I don’t."
-        ],
-        [
-          "Strong correction / усиленное возражение",
-          "subject + stressed auxiliary + verb",
-          "You didn’t reply. — I did reply!"
+      },
+      {
+        "type": "contrastCards",
+        "title": "Усилительное do",
+        "cards": [
+          {
+            "title": "I like it.",
+            "meaning": "Нейтральное утверждение",
+            "example": "I like the British weather."
+          },
+          {
+            "title": "I do like it.",
+            "meaning": "Усиление или возражение: «я действительно люблю».",
+            "example": "I don’t suppose you like it. — Actually, I do like it."
+          }
         ]
-      ]
-    },
-    {
-      "type": "contrastCards",
-      "title": "5. Emphatic do / Усилительное do",
-      "cards": [
-        {
-          "title": "I like it.",
-          "meaning": "Neutral statement / Нейтральное утверждение",
-          "example": "I like the British weather."
-        },
-        {
-          "title": "I do like it.",
-          "meaning": "Emphasis or correction: it really is true. / Усиление или возражение: «я действительно люблю».",
-          "example": "I don’t suppose you like it. — Actually, I do like it."
-        }
-      ]
-    },
-    {
-      "type": "algorithm",
-      "title": "6. Quick algorithm / Быстрый алгоритм",
-      "steps": [
-        "Find be, have or a modal. / Найдите be, have или modal.",
-        "If there is no auxiliary, use do / does / did. / Если auxiliary нет, используйте do / does / did.",
-        "For a tag, reverse + and − and use a pronoun. / Для question tag поменяйте полярность и поставьте местоимение.",
-        "For agreement, use So after a positive statement and Neither/Nor after a negative one. / Для согласия: So после +, Neither/Nor после −.",
-        "For strong correction, stress the auxiliary. / Для усиленного возражения выделите auxiliary."
-      ]
-    }
-  ]
-},
-"grammar-lesson-8-double-comparatives": {
-  "title": "The …, the … + comparatives / Парные сравнительные конструкции",
-  "intro": "This structure shows a relationship between two changing situations: as one thing changes, another changes too. / Эта конструкция показывает связь двух изменений: чем сильнее меняется одна ситуация, тем сильнее меняется другая.",
-  "sections": [
-    {
-      "type": "transformation",
-      "title": "1. Read it as “as X changes, Y changes” / Смысл конструкции",
-      "pairs": [
-        {
-          "from": "We leave earlier → we have a better chance.",
-          "to": "The earlier we leave, the better our chance."
-        },
-        {
-          "from": "The class becomes more interesting → students become more likely to learn.",
-          "to": "The more interesting the class, the more likely students are to learn."
-        },
-        {
-          "from": "You travel farther north → it gets colder.",
-          "to": "The farther north you travel, the colder it gets."
-        }
-      ],
-      "rule": "The does not work as an ordinary article here; it is part of the paired comparative structure. / Здесь the — часть грамматической конструкции, а не обычный определённый артикль."
-    },
-    {
-      "type": "patterns",
-      "title": "2. Main structure / Основная схема",
-      "subtitle": "Both halves begin with the + comparative. / Обе части начинаются с the + comparative.",
-      "items": [
-        {
-          "label": "full",
-          "formula": "the + comparative + subject + verb, the + comparative + subject + verb",
-          "example": "The later you go to bed, the harder it is to get up."
-        },
-        {
-          "label": "noun",
-          "formula": "the + comparative adjective + noun …",
-          "example": "The bigger the class, the harder it is to focus."
-        },
-        {
-          "label": "more",
-          "formula": "the more + adjective …",
-          "example": "The more qualified the person, the higher the salary."
-        },
-        {
-          "label": "less",
-          "formula": "the more …, the less …",
-          "example": "The more you prepare, the less nervous you feel."
-        }
-      ],
-      "warning": "Do not use than between the two halves. / В этой конструкции than не используется."
-    },
-    {
-      "type": "comparison",
-      "title": "3. Form the comparative correctly / Образуем comparative",
-      "columns": [
-        "Type / Тип",
-        "Form / Форма",
-        "Examples / Примеры"
-      ],
-      "rows": [
-        [
-          "Short adjective / короткое",
-          "-er",
-          "big → bigger; cold → colder; late → later"
-        ],
-        [
-          "Ends in -y",
-          "-y → -ier",
-          "early → earlier"
-        ],
-        [
-          "Long adjective / длинное",
-          "more + adjective",
-          "more difficult; more interesting; more qualified"
-        ],
-        [
-          "Irregular / неправильное",
-          "special form",
-          "good → better; bad → worse; far → farther/further"
+      },
+      {
+        "type": "algorithm",
+        "title": "Быстрый алгоритм",
+        "steps": [
+          "Найдите be, have или modal.",
+          "does / did. / Если auxiliary нет, используйте do / does / did.",
+          "Для question tag поменяйте полярность и поставьте местоимение.",
+          "Для согласия: So после +, Neither/Nor после −.",
+          "Для усиленного возражения выделите auxiliary."
         ]
-      ]
-    },
-    {
-      "type": "comparison",
-      "title": "4. Normal comparative vs paired comparative / Сравнение",
-      "columns": [
-        "",
-        "Normal comparative",
-        "The …, the …"
-      ],
-      "rows": [
-        [
-          "Meaning / Значение",
-          "compare two things / сравниваем два объекта",
-          "connect two changes / связываем два изменения"
+      }
+    ]
+  },
+  "grammar-lesson-8-double-comparatives": {
+    "title": "Парные сравнительные конструкции",
+    "intro": "Эта конструкция показывает связь двух изменений: чем сильнее меняется одна ситуация, тем сильнее меняется другая.",
+    "sections": [
+      {
+        "type": "transformation",
+        "title": "Смысл конструкции",
+        "pairs": [
+          {
+            "from": "We leave earlier → we have a better chance.",
+            "to": "The earlier we leave, the better our chance."
+          },
+          {
+            "from": "The class becomes more interesting → students become more likely to learn.",
+            "to": "The more interesting the class, the more likely students are to learn."
+          },
+          {
+            "from": "You travel farther north → it gets colder.",
+            "to": "The farther north you travel, the colder it gets."
+          }
         ],
-        [
-          "Typical marker",
-          "than",
-          "the + comparative in both halves"
+        "rule": "Здесь the — часть грамматической конструкции, а не обычный определённый артикль."
+      },
+      {
+        "type": "patterns",
+        "title": "Основная схема",
+        "subtitle": "Обе части начинаются с the + comparative.",
+        "items": [
+          {
+            "label": "full",
+            "formula": "the + comparative + subject + verb, the + comparative + subject + verb",
+            "example": "The later you go to bed, the harder it is to get up."
+          },
+          {
+            "label": "noun",
+            "formula": "the + comparative adjective + noun …",
+            "example": "The bigger the class, the harder it is to focus."
+          },
+          {
+            "label": "more",
+            "formula": "the more + adjective …",
+            "example": "The more qualified the person, the higher the salary."
+          },
+          {
+            "label": "less",
+            "formula": "the more …, the less …",
+            "example": "The more you prepare, the less nervous you feel."
+          }
         ],
-        [
-          "Example",
-          "This route is longer than that one.",
-          "The longer the route, the more tired I get."
+        "warning": "В этой конструкции than не используется."
+      },
+      {
+        "type": "comparison",
+        "title": "Образуем comparative",
+        "columns": [
+          "Тип",
+          "Форма",
+          "Примеры"
+        ],
+        "rows": [
+          [
+            "короткое",
+            "-er",
+            "big → bigger; cold → colder; late → later"
+          ],
+          [
+            "Ends in -y",
+            "-y → -ier",
+            "early → earlier"
+          ],
+          [
+            "длинное",
+            "more + adjective",
+            "more difficult; more interesting; more qualified"
+          ],
+          [
+            "неправильное",
+            "special form",
+            "good → better; bad → worse; far → farther/further"
+          ]
         ]
-      ],
-      "note": "A paired comparative does not normally use than. / В парной конструкции than обычно не ставится."
-    },
-    {
-      "type": "examples",
-      "title": "5. Notice the word order / Обратите внимание на порядок слов",
-      "pairs": [
-        {
-          "context": "comparative before subject",
-          "sentence": "The later you go to bed, the more difficult it is to get up."
-        },
-        {
-          "context": "comparative + noun",
-          "sentence": "The bigger your house, the longer it takes to clean."
-        },
-        {
-          "context": "long adjective",
-          "sentence": "The more qualified the candidate, the higher the salary."
-        }
-      ]
-    },
-    {
-      "type": "algorithm",
-      "title": "6. Build it step by step / Алгоритм",
-      "steps": [
-        "Identify the two changing situations. / Определите два связанных изменения.",
-        "Choose the correct comparative for each. / Образуйте сравнительную форму в обеих частях.",
-        "Put the before each comparative. / Поставьте the перед обеими comparative forms.",
-        "Keep normal subject + verb order after each comparative phrase. / После comparative phrase сохраняйте обычный порядок subject + verb.",
-        "Do not add than. / Не добавляйте than."
-      ]
-    }
-  ]
-}
+      },
+      {
+        "type": "comparison",
+        "title": "Сравнение",
+        "columns": [
+          "",
+          "Normal comparative",
+          "The …, the …"
+        ],
+        "rows": [
+          [
+            "Значение",
+            "сравниваем два объекта",
+            "связываем два изменения"
+          ],
+          [
+            "Typical marker",
+            "than",
+            "the + comparative in both halves"
+          ],
+          [
+            "Example",
+            "This route is longer than that one.",
+            "The longer the route, the more tired I get."
+          ]
+        ],
+        "note": "В парной конструкции than обычно не ставится."
+      },
+      {
+        "type": "examples",
+        "title": "Обратите внимание на порядок слов",
+        "pairs": [
+          {
+            "context": "comparative before subject",
+            "sentence": "The later you go to bed, the more difficult it is to get up."
+          },
+          {
+            "context": "comparative + noun",
+            "sentence": "The bigger your house, the longer it takes to clean."
+          },
+          {
+            "context": "long adjective",
+            "sentence": "The more qualified the candidate, the higher the salary."
+          }
+        ]
+      },
+      {
+        "type": "algorithm",
+        "title": "Алгоритм",
+        "steps": [
+          "Определите два связанных изменения.",
+          "Образуйте сравнительную форму в обеих частях.",
+          "Поставьте the перед обеими comparative forms.",
+          "После comparative phrase сохраняйте обычный порядок subject + verb.",
+          "Не добавляйте than."
+        ]
+      }
+    ]
+  }
 };

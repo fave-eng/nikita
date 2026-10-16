@@ -381,11 +381,11 @@
   };
 
   function migrateLegacyLocalProgress() {
-    window.localStorage.setItem(key('legacy_migration_v2'), 'not-needed-for-nikita');
+    storage.write(key('legacy_migration_v2'), 'not-needed-for-nikita');
   }
 
   function archiveLegacyLesson8LocalProgress() {
-    window.localStorage.setItem(key('lesson8_slot_archive_v1'), 'not-needed-for-nikita');
+    storage.write(key('lesson8_slot_archive_v1'), 'not-needed-for-nikita');
   }
 
   function findLegacyLessonTarget(lessonId, legacyKey) {
@@ -3242,33 +3242,45 @@
   }
 
   async function init() {
-    migrateLegacyLocalProgress();
-    archiveLegacyLesson8LocalProgress();
-    fillConfig();
-    markNavigation();
     try {
-      await loadHomeworkData();
-    } catch (error) {
-      console.error('Lesson catalog loading error:', error);
-      HOMEWORK_DATA = [];
-      window.HOMEWORK_DATA = HOMEWORK_DATA;
-    }
-    await refreshCurrentView();
-    startHomeworkAutoRefresh();
-    if (!CloudService.isConfigured()) return;
-    startRecoverySync();
-    try {
-      await CloudService.init();
-      await window.ProgressService.syncFromCloud();
+      migrateLegacyLocalProgress();
+      archiveLegacyLesson8LocalProgress();
+      fillConfig();
+      markNavigation();
+      try {
+        await loadHomeworkData();
+      } catch (error) {
+        console.error('Lesson catalog loading error:', error);
+        HOMEWORK_DATA = [];
+        window.HOMEWORK_DATA = HOMEWORK_DATA;
+      }
       await refreshCurrentView();
-      // One extra retry is intentional for recovery of progress that was already
-      // stored locally before Supabase permissions for Nikita were fixed.
-      scheduleRecoverySync('post-startup-confirmation', 3500);
+      startHomeworkAutoRefresh();
+      if (!CloudService.isConfigured()) return;
+      startRecoverySync();
+      try {
+        await CloudService.init();
+        await window.ProgressService.syncFromCloud();
+        await refreshCurrentView();
+        // One extra retry is intentional for recovery of progress that was already
+        // stored locally before Supabase permissions for Nikita were fixed.
+        scheduleRecoverySync('post-startup-confirmation', 3500);
+      } catch (error) {
+        console.error('Supabase connection error:', error);
+        const detail = safeText(error?.message || error?.details || error?.hint);
+        showToast(detail ? `Supabase error: ${detail}` : 'Supabase is temporarily unavailable.');
+        scheduleRecoverySync('startup-error', 3500);
+      }
     } catch (error) {
-      console.error('Supabase connection error:', error);
-      const detail = safeText(error?.message || error?.details || error?.hint);
-      showToast(detail ? `Supabase error: ${detail}` : 'Supabase is temporarily unavailable.');
-      scheduleRecoverySync('startup-error', 3500);
+      console.error('Application initialization error:', error);
+      const main = document.querySelector('main');
+      if (main) {
+        main.innerHTML = emptyState(
+          '⚠️',
+          'Could not open the page',
+          'Please refresh the page. Your saved progress has not been deleted.'
+        );
+      }
     }
   }
 
