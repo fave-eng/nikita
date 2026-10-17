@@ -389,3 +389,313 @@ window.VOCABULARY_DATA = [
     ]
   }
 ];
+
+// Homework 10: keep vocabulary topics in the shared catalogue.
+window.VOCABULARY_DATA.push({
+  "id": "vocab-lesson-10-illnesses-injuries",
+  "title": "Illnesses, injuries and medical advice",
+  "label": "Homework 10 · 30 useful words and expressions",
+  "icon": "🩺",
+  "type": "lesson",
+  "linkedLessonId": "lesson-10",
+  "page": "vocabulary.html?id=vocab-lesson-10-illnesses-injuries",
+  "description": "Key illnesses, symptoms, injuries, treatments and useful phrasal verbs from Unit 2A.",
+  "groups": [
+    {
+      "id": "symptoms",
+      "title": "Symptoms",
+      "subtitle": "How you feel",
+      "icon": "🤒"
+    },
+    {
+      "id": "conditions",
+      "title": "Conditions & injuries",
+      "subtitle": "Health problems and diagnoses",
+      "icon": "🩺"
+    },
+    {
+      "id": "treatment",
+      "title": "Treatment",
+      "subtitle": "Healthcare and first aid",
+      "icon": "🩹"
+    },
+    {
+      "id": "phrases",
+      "title": "Everyday expressions",
+      "subtitle": "Useful medical phrasal verbs",
+      "icon": "💬"
+    }
+  ],
+  "words": [
+    {
+      "id": "l11-01",
+      "uniqueKey": "rash",
+      "en": "rash",
+      "ru": "сыпь",
+      "transcription": "",
+      "exampleEn": "She has a rash on her arm.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-02",
+      "uniqueKey": "swollen",
+      "en": "swollen",
+      "ru": "опухший; отёкший",
+      "transcription": "",
+      "exampleEn": "My ankle is swollen after the fall.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-03",
+      "uniqueKey": "bleeding",
+      "en": "bleeding",
+      "ru": "кровоточащий; кровотечение",
+      "transcription": "",
+      "exampleEn": "Her finger is bleeding.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-04",
+      "uniqueKey": "blister",
+      "en": "blister",
+      "ru": "волдырь; мозоль",
+      "transcription": "",
+      "exampleEn": "My new shoes gave me a blister.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-05",
+      "uniqueKey": "sunburn",
+      "en": "sunburn",
+      "ru": "солнечный ожог",
+      "transcription": "",
+      "exampleEn": "He got sunburn after a long day outside.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-06",
+      "uniqueKey": "sneeze",
+      "en": "sneeze",
+      "ru": "чихать",
+      "transcription": "",
+      "exampleEn": "She keeps sneezing.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-07",
+      "uniqueKey": "cough",
+      "en": "cough",
+      "ru": "кашель; кашлять",
+      "transcription": "",
+      "exampleEn": "I have had a cough all week.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-08",
+      "uniqueKey": "headache",
+      "en": "headache",
+      "ru": "головная боль",
+      "transcription": "",
+      "exampleEn": "I woke up with a headache.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-09",
+      "uniqueKey": "temperature",
+      "en": "temperature",
+      "ru": "повышенная температура",
+      "transcription": "",
+      "exampleEn": "I have a temperature today.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-10",
+      "uniqueKey": "diarrhoea",
+      "en": "diarrhoea",
+      "ru": "диарея",
+      "transcription": "",
+      "exampleEn": "The illness caused diarrhoea.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-11",
+      "uniqueKey": "flu",
+      "en": "flu",
+      "ru": "грипп",
+      "transcription": "",
+      "exampleEn": "She thinks she has flu.",
+      "group": "conditions"
+    },
+    {
+      "id": "l11-12",
+      "uniqueKey": "faint",
+      "en": "faint",
+      "ru": "падать в обморок",
+      "transcription": "",
+      "exampleEn": "He fainted in the hot room.",
+      "group": "conditions"
+    },
+    {
+      "id": "l11-13",
+      "uniqueKey": "sore throat",
+      "en": "sore throat",
+      "ru": "боль в горле",
+      "transcription": "",
+      "exampleEn": "I have a sore throat and can hardly speak.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-14",
+      "uniqueKey": "feel sick",
+      "en": "feel sick",
+      "ru": "испытывать тошноту",
+      "transcription": "",
+      "exampleEn": "I feel sick after the journey.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-15",
+      "uniqueKey": "dizzy",
+      "en": "dizzy",
+      "ru": "испытывающий головокружение",
+      "transcription": "",
+      "exampleEn": "I felt dizzy when I stood up.",
+      "group": "symptoms"
+    },
+    {
+      "id": "l11-16",
+      "uniqueKey": "sprain",
+      "en": "sprain",
+      "ru": "растянуть связки",
+      "transcription": "",
+      "exampleEn": "She sprained her ankle.",
+      "group": "conditions"
+    },
+    {
+      "id": "l11-17",
+      "uniqueKey": "infection",
+      "en": "infection",
+      "ru": "инфекция",
+      "transcription": "",
+      "exampleEn": "The doctor said it was an infection.",
+      "group": "conditions"
+    },
+    {
+      "id": "l11-18",
+      "uniqueKey": "allergic reaction",
+      "en": "allergic reaction",
+      "ru": "аллергическая реакция",
+      "transcription": "",
+      "exampleEn": "The rash may be an allergic reaction.",
+      "group": "conditions"
+    },
+    {
+      "id": "l11-19",
+      "uniqueKey": "unconscious",
+      "en": "unconscious",
+      "ru": "без сознания",
+      "transcription": "",
+      "exampleEn": "He was unconscious for a minute.",
+      "group": "conditions"
+    },
+    {
+      "id": "l11-20",
+      "uniqueKey": "food poisoning",
+      "en": "food poisoning",
+      "ru": "пищевое отравление",
+      "transcription": "",
+      "exampleEn": "They had food poisoning after lunch.",
+      "group": "conditions"
+    },
+    {
+      "id": "l11-21",
+      "uniqueKey": "stitches",
+      "en": "stitches",
+      "ru": "швы (медицинские)",
+      "transcription": "",
+      "exampleEn": "The cut needed stitches.",
+      "group": "treatment"
+    },
+    {
+      "id": "l11-22",
+      "uniqueKey": "antiseptic cream",
+      "en": "antiseptic cream",
+      "ru": "антисептический крем",
+      "transcription": "",
+      "exampleEn": "Put antiseptic cream on a minor cut.",
+      "group": "treatment"
+    },
+    {
+      "id": "l11-23",
+      "uniqueKey": "painkillers",
+      "en": "painkillers",
+      "ru": "обезболивающие",
+      "transcription": "",
+      "exampleEn": "She took painkillers for her headache.",
+      "group": "treatment"
+    },
+    {
+      "id": "l11-24",
+      "uniqueKey": "bandage",
+      "en": "bandage",
+      "ru": "бинт; бинтовать",
+      "transcription": "",
+      "exampleEn": "Put a bandage on the injury.",
+      "group": "treatment"
+    },
+    {
+      "id": "l11-25",
+      "uniqueKey": "pass out",
+      "en": "pass out",
+      "ru": "терять сознание; падать в обморок",
+      "transcription": "",
+      "exampleEn": "You might pass out in the heat.",
+      "group": "phrases"
+    },
+    {
+      "id": "l11-26",
+      "uniqueKey": "get over",
+      "en": "get over",
+      "ru": "оправиться от (болезни)",
+      "transcription": "",
+      "exampleEn": "It took her a week to get over the flu.",
+      "group": "phrases"
+    },
+    {
+      "id": "l11-27",
+      "uniqueKey": "throw up",
+      "en": "throw up",
+      "ru": "рвать; стошнить",
+      "transcription": "",
+      "exampleEn": "He felt he was going to throw up.",
+      "group": "phrases"
+    },
+    {
+      "id": "l11-28",
+      "uniqueKey": "come round",
+      "en": "come round",
+      "ru": "прийти в сознание",
+      "transcription": "",
+      "exampleEn": "She came round after a few minutes.",
+      "group": "phrases"
+    },
+    {
+      "id": "l11-29",
+      "uniqueKey": "under the weather",
+      "en": "under the weather",
+      "ru": "плохо себя чувствовать; прихворнуть",
+      "transcription": "",
+      "exampleEn": "I have been feeling under the weather.",
+      "group": "phrases"
+    },
+    {
+      "id": "l11-30",
+      "uniqueKey": "heart rate",
+      "en": "heart rate",
+      "ru": "частота сердечных сокращений; пульс",
+      "transcription": "",
+      "exampleEn": "His heart rate rises during exercise.",
+      "group": "conditions"
+    }
+  ]
+});

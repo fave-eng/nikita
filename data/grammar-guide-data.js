@@ -1094,3 +1094,194 @@ window.GRAMMAR_GUIDES = {
     ]
   }
 };
+
+window.GRAMMAR_GUIDES["grammar-lesson-10-present-perfect-simple-continuous"] = {
+  "title": "Present Perfect Simple и Present Perfect Continuous: когда какую форму выбрать",
+  "intro": "Оба времени связывают прошлое с настоящим. Разница не в том, что одно «завершённое», а второе обязательно «незавершённое»: Simple чаще обозначает факт, результат или количество, Continuous — процесс, продолжительность или причину заметного сейчас состояния.",
+  "sections": [
+    {
+      "type": "comparison",
+      "title": "1. Сначала сравни значения",
+      "columns": [
+        "Ситуация",
+        "Present Perfect Simple",
+        "Present Perfect Continuous"
+      ],
+      "rows": [
+        [
+          "Важен результат",
+          "I’ve written three emails. — Я написал три письма.",
+          "I’ve been writing emails. — Я писал письма (чем был занят)."
+        ],
+        [
+          "Текущая связь с прошлым",
+          "She has broken her arm. — Рука сломана сейчас.",
+          "She’s been playing tennis. — Видно, чем она занималась."
+        ],
+        [
+          "Количество или длительность",
+          "I’ve seen five patients today. — Пятеро приняты.",
+          "I’ve been seeing patients all morning. — Принимаю весь день до сих пор."
+        ],
+        [
+          "Состояние",
+          "I’ve known her for years. — Я знаю её много лет.",
+          "✗ I’ve been knowing her. — Нельзя с know."
+        ]
+      ],
+      "note": "Контекст имеет значение: «I’ve cleaned the kitchen» подчеркивает чистую кухню; «I’ve been cleaning the kitchen» — сам процесс, возможно, даже если работа ещё не закончена."
+    },
+    {
+      "type": "patterns",
+      "title": "2. Формулы: утвердительная, отрицательная и вопросительная формы",
+      "subtitle": "В обеих формах спрягается have/has; главное различие — V3 против been + V-ing.",
+      "items": [
+        {
+          "label": "Simple +",
+          "formula": "subject + have/has + V3",
+          "example": "She has recovered."
+        },
+        {
+          "label": "Simple −",
+          "formula": "subject + haven’t/hasn’t + V3",
+          "example": "She hasn’t recovered."
+        },
+        {
+          "label": "Continuous +",
+          "formula": "subject + have/has + been + V-ing",
+          "example": "She has been recovering."
+        },
+        {
+          "label": "Continuous ?",
+          "formula": "Have/Has + subject + been + V-ing?",
+          "example": "Have you been sleeping well?"
+        }
+      ],
+      "warning": "Нельзя опускать been в Continuous: ✗ I have waiting. Правильно: I have been waiting."
+    },
+    {
+      "type": "comparison",
+      "title": "3. Сравни вопросы How many? и How long?",
+      "columns": [
+        "Вопрос",
+        "Типичный выбор",
+        "Пример"
+      ],
+      "rows": [
+        [
+          "How many? / How much?",
+          "Обычно Simple: считаем результат",
+          "How many tablets have you taken today?"
+        ],
+        [
+          "How long? (действие)",
+          "Часто Continuous: процесс",
+          "How long have you been coughing?"
+        ],
+        [
+          "How long? (состояние)",
+          "Simple: глагол состояния",
+          "How long have you had a headache?"
+        ],
+        [
+          "Есть ли результат?",
+          "Simple, если важен факт завершения",
+          "Have you called the doctor yet?"
+        ]
+      ],
+      "note": "How long? не означает автоматический Continuous: How long have you known him? — правильный Simple."
+    },
+    {
+      "type": "comparison",
+      "title": "4. For и since: длительность и начальная точка",
+      "columns": [
+        "Выражение",
+        "Значение",
+        "Примеры"
+      ],
+      "rows": [
+        [
+          "for + период",
+          "сколько длится",
+          "for two days; for a week; for years"
+        ],
+        [
+          "since + момент",
+          "с какого момента",
+          "since Monday; since 9 a.m.; since 2020"
+        ],
+        [
+          "Личная история",
+          "оба времени возможны с длительностью",
+          "I’ve lived here for five years. / I’ve been living here for five years."
+        ],
+        [
+          "Недавнее действие",
+          "Continuous часто естественен",
+          "I’ve been feeling unwell since Tuesday."
+        ]
+      ],
+      "note": "✗ since three days и ✗ for Monday — неверно."
+    },
+    {
+      "type": "contrastCards",
+      "title": "5. Где Continuous обычно не используют",
+      "cards": [
+        {
+          "title": "Глаголы состояния",
+          "meaning": "know, believe, understand, own, belong обычно не описывают процесс в Continuous.",
+          "example": "I’ve known her since school. / This bag has belonged to him for years."
+        },
+        {
+          "title": "Have: владение и состояние",
+          "meaning": "Have в значении «иметь» обычно употребляется в Simple. В значении «испытывать / проходить» некоторые Continuous-формы возможны при повторяемости; важно значение.",
+          "example": "I’ve had a headache for two days. / I’ve been having headaches lately."
+        },
+        {
+          "title": "Just / already / yet",
+          "meaning": "Эти маркеры часто показывают факт результата, поэтому обычно подходят к Simple.",
+          "example": "I’ve just finished. / Have you taken the medicine yet?"
+        },
+        {
+          "title": "Повторение / временная активность",
+          "meaning": "Continuous часто описывает повторяющуюся временную деятельность, особенно lately/recently.",
+          "example": "He’s been going to the doctor a lot recently."
+        }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "6. Пары, где меняется смысл",
+      "pairs": [
+        {
+          "context": "Задача завершена",
+          "sentence": "I’ve read the article. — Я прочитал статью (теперь знаю содержание)."
+        },
+        {
+          "context": "Задача в процессе",
+          "sentence": "I’ve been reading the article. — Я читал статью (возможно, не закончил)."
+        },
+        {
+          "context": "Следствие видно сейчас",
+          "sentence": "You’re sweaty. Have you been running? — Видно, что ты бегал."
+        },
+        {
+          "context": "Количество завершённых действий",
+          "sentence": "She has visited the clinic three times. — Она была в клинике три раза."
+        }
+      ]
+    },
+    {
+      "type": "algorithm",
+      "title": "7. Алгоритм выбора",
+      "steps": [
+        "Уточни, что важно сообщить: результат/число или процесс/длительность.",
+        "Если считаешь завершённые действия («three times», «five patients») — используй Simple.",
+        "Если говоришь, что делал всё утро/день, или объясняешь видимые последствия процесса — чаще Continuous.",
+        "Проверь тип глагола: know, own, believe обычно требуют Simple.",
+        "Сверь формулу: have/has + V3 либо have/has + been + V-ing.",
+        "Проверь for (период) и since (начальная точка)."
+      ]
+    }
+  ]
+};

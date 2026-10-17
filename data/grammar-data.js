@@ -1363,3 +1363,394 @@ window.GRAMMAR_DATA = [
     ]
   }
 ];
+
+// Homework 10: one shared grammar catalogue, no per-lesson scripts.
+window.GRAMMAR_DATA.push({
+  "id": "grammar-lesson-10-present-perfect-simple-continuous",
+  "order": 9,
+  "title": "Present perfect simple vs present perfect continuous",
+  "level": "B2.1",
+  "status": "available",
+  "linkedLessonId": "lesson-10",
+  "page": "grammar-topic.html?id=grammar-lesson-10-present-perfect-simple-continuous",
+  "passScore": 100,
+  "overview": {
+    "lead": "Оба времени связывают прошлое с настоящим, но смещают внимание: результат / факт против процесса и длительности.",
+    "keyRule": "Present Perfect Simple: have/has + V3. Present Perfect Continuous: have/has + been + V-ing. Выбор зависит от смысла и типа глагола.",
+    "subjects": [
+      "результат и завершённость",
+      "процесс и длительность",
+      "for / since",
+      "How many? / How long?",
+      "stative verbs"
+    ],
+    "example": "I’ve written three emails. / I’ve been writing emails all morning."
+  },
+  "uses": [
+    {
+      "icon": "✓",
+      "title": "Результат и количество",
+      "text": "Simple показывает полученный результат, число завершённых действий или значимый факт.",
+      "example": "I’ve taken two tablets today."
+    },
+    {
+      "icon": "↔",
+      "title": "Процесс и длительность",
+      "text": "Continuous показывает, чем человек занимался в течение периода; действие могло закончиться только что.",
+      "example": "I’ve been waiting for the doctor for an hour."
+    },
+    {
+      "icon": "⏱",
+      "title": "Продолжительность до настоящего момента",
+      "text": "В некоторых контекстах обе формы возможны, но Continuous сильнее акцентирует процесс.",
+      "example": "I’ve lived here for five years. / I’ve been living here for five years."
+    },
+    {
+      "icon": "≠",
+      "title": "Глаголы состояния",
+      "text": "know, believe, own, have (в значении владеть) обычно употребляются в Simple, даже с How long.",
+      "example": "I’ve known my doctor for years."
+    }
+  ],
+  "forms": [
+    {
+      "id": "affirmative",
+      "icon": "+",
+      "title": "Утверждение",
+      "formula": "S + have/has + V3  |  S + have/has been + V-ing",
+      "example": "She has recovered. / She has been recovering since Monday.",
+      "translation": "Simple: выздоровела; Continuous: процесс восстановления длится.",
+      "note": "has — только с he/she/it; have — с I/you/we/they."
+    },
+    {
+      "id": "negative",
+      "icon": "−",
+      "title": "Отрицание",
+      "formula": "S + haven’t/hasn’t + V3  |  S + haven’t/hasn’t been + V-ing",
+      "example": "I haven’t slept well. / I haven’t been sleeping well lately.",
+      "translation": "Simple: не выспался / не спал хорошо; Continuous: проблемы со сном продолжаются.",
+      "note": "Отрицание относится к have/has, а не к V3 или V-ing."
+    },
+    {
+      "id": "question",
+      "icon": "?",
+      "title": "Вопрос",
+      "formula": "Have/Has + S + V3?  |  Have/Has + S + been + V-ing?",
+      "example": "Have you called the doctor? / Have you been coughing all day?",
+      "translation": "Первый вопрос — о результате звонка, второй — о длительном действии.",
+      "note": "В вопросе have/has ставится перед подлежащим."
+    },
+    {
+      "id": "short-answer",
+      "icon": "↗",
+      "title": "Краткий ответ",
+      "formula": "Yes, I have. / No, she hasn’t.",
+      "example": "Have you been feeling better? — Yes, I have.",
+      "translation": "Краткие ответы строятся одинаково для обеих форм.",
+      "note": "В ответе повторяем have/has, не been и не основной глагол."
+    }
+  ],
+  "contrast": {
+    "title": "Главное различие: итог или процесс",
+    "intro": "Употребление определяется коммуникативным акцентом.",
+    "ordinary": {
+      "label": "Present Perfect Simple",
+      "verbs": "Итог • факт • сколько раз",
+      "affirmative": "I’ve finished the report.",
+      "negative": "I haven’t finished the report.",
+      "question": "Have you finished the report?",
+      "rule": "Подходит для результата и количества завершённых действий."
+    },
+    "be": {
+      "label": "Present Perfect Continuous",
+      "verbs": "Процесс • длительность • причина видимого результата",
+      "affirmative": "I’ve been working all morning.",
+      "negative": "I haven’t been working today.",
+      "question": "Have you been working all morning?",
+      "rule": "Подходит для процесса, который длится или длился до недавнего момента."
+    }
+  },
+  "questionBuilder": {
+    "title": "Формула Present Perfect Continuous",
+    "pattern": [
+      "Subject",
+      "have / has",
+      "been",
+      "V-ing",
+      "(for / since / lately)"
+    ],
+    "example": "She has been feeling dizzy since this morning.",
+    "translation": "Она испытывает головокружение с самого утра.",
+    "note": "Порядок: подлежащее → have/has → been → глагол с -ing."
+  },
+  "memoryRule": {
+    "title": "Как выбрать время",
+    "steps": [
+      "Результат или число действий → Simple.",
+      "Процесс или длительность → Continuous.",
+      "Глагол состояния (know, own, have в значении владения) → обычно Simple.",
+      "For + период; since + начальный момент.",
+      "Проверить V3 в Simple и been + V-ing в Continuous."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "wrong": "I have been knowing him for years.",
+      "right": "I have known him for years.",
+      "reason": "Know — stative verb; обычно не используется в Continuous."
+    },
+    {
+      "wrong": "She has been written three emails.",
+      "right": "She has written three emails.",
+      "reason": "Для законченного количества используем have/has + V3."
+    },
+    {
+      "wrong": "I have waiting for an hour.",
+      "right": "I have been waiting for an hour.",
+      "reason": "Continuous требует been + V-ing."
+    },
+    {
+      "wrong": "He has had a fever since three days.",
+      "right": "He has had a fever for three days.",
+      "reason": "For — период времени; since — точка отсчёта."
+    }
+  ],
+  "quizExercises": [
+    {
+      "title": "Выбери подходящее время",
+      "instructions": "Ориентируйся на результат или процесс.",
+      "items": [
+        {
+          "type": "single",
+          "difficulty": "Easy",
+          "skill": "Количество",
+          "prompt": "I ___ three emails this morning.",
+          "options": [
+            "have written",
+            "have been writing",
+            "write"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "single",
+          "difficulty": "Easy",
+          "skill": "Видимый результат процесса",
+          "prompt": "Why are your hands dirty? — I ___ the car.",
+          "options": [
+            "have washed",
+            "have been washing",
+            "washed"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "difficulty": "Easy",
+          "skill": "Количество посещений",
+          "prompt": "She ___ to the doctor twice this week.",
+          "options": [
+            "has been going",
+            "has gone",
+            "goes"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "single",
+          "difficulty": "Easy",
+          "skill": "Длительное действие",
+          "prompt": "He looks exhausted because he ___ all night.",
+          "options": [
+            "has studied",
+            "has been studying",
+            "is studying"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Формы и ограничения",
+      "instructions": "Обрати внимание на for/since, глаголы состояния и части составной формы.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Medium",
+          "skill": "Since",
+          "prompt": "I’ve known her ___ 2019.",
+          "options": [
+            "for",
+            "since",
+            "during"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Medium",
+          "skill": "Have в значении состояния",
+          "prompt": "She ___ this pain for two days.",
+          "options": [
+            "has had",
+            "has been having",
+            "have had"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Medium",
+          "skill": "Continuous + been",
+          "prompt": "Have you ___ coughing since yesterday?",
+          "options": [
+            "be",
+            "been",
+            "being"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Medium",
+          "skill": "Формула",
+          "prompt": "They ___ for their test results for three hours.",
+          "options": [
+            "have been waiting",
+            "has been waiting",
+            "have waiting"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Тонкие различия B2",
+      "instructions": "Выбери фразу, которая соответствует контексту.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Challenge",
+          "skill": "Результат",
+          "prompt": "Which sentence emphasizes a completed result?",
+          "options": [
+            "I’ve been reading the report.",
+            "I’ve read the report."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Challenge",
+          "skill": "Количество",
+          "prompt": "Which sentence answers “How many patients?”",
+          "options": [
+            "She has been seeing patients.",
+            "She has seen eight patients."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Challenge",
+          "skill": "Stative",
+          "prompt": "Which sentence is normally correct with a stative verb?",
+          "options": [
+            "I’ve known him for years.",
+            "I’ve been knowing him for years."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Challenge",
+          "skill": "Длительность",
+          "prompt": "A cough started at 9 a.m. and is still continuing.",
+          "options": [
+            "I have been coughing since 9 a.m.",
+            "I have coughed three times since 9 a.m."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Собери предложение",
+      "instructions": "Поставь части предложения в нужном порядке.",
+      "items": [
+        {
+          "type": "reorder",
+          "difficulty": "Advanced",
+          "skill": "Word order",
+          "prompt": "been / have / all day / feeling dizzy / I",
+          "tokens": [
+            "I",
+            "have",
+            "been",
+            "feeling dizzy",
+            "all day"
+          ],
+          "answer": "I have been feeling dizzy all day.",
+          "acceptedAnswers": [
+            "I have been feeling dizzy all day.",
+            "I have been feeling dizzy all day"
+          ]
+        },
+        {
+          "type": "reorder",
+          "difficulty": "Advanced",
+          "skill": "Result",
+          "prompt": "three times / the doctor / has / called / she",
+          "tokens": [
+            "She",
+            "has",
+            "called",
+            "the doctor",
+            "three times"
+          ],
+          "answer": "She has called the doctor three times.",
+          "acceptedAnswers": [
+            "She has called the doctor three times.",
+            "She has called the doctor three times"
+          ]
+        },
+        {
+          "type": "reorder",
+          "difficulty": "Advanced",
+          "skill": "Duration",
+          "prompt": "for two hours / waiting / been / we / have",
+          "tokens": [
+            "We",
+            "have",
+            "been",
+            "waiting",
+            "for two hours"
+          ],
+          "answer": "We have been waiting for two hours.",
+          "acceptedAnswers": [
+            "We have been waiting for two hours.",
+            "We have been waiting for two hours"
+          ]
+        },
+        {
+          "type": "reorder",
+          "difficulty": "Advanced",
+          "skill": "Stative",
+          "prompt": "he / has / for years / known / her",
+          "tokens": [
+            "He",
+            "has",
+            "known",
+            "her",
+            "for years"
+          ],
+          "answer": "He has known her for years.",
+          "acceptedAnswers": [
+            "He has known her for years.",
+            "He has known her for years"
+          ]
+        }
+      ]
+    }
+  ]
+});

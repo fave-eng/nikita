@@ -786,12 +786,53 @@
       }
     }
 
+  
+    /* Homework 10: retain the entire original workbook illustration.
+       Do not crop or stretch the small medical pictures. */
+    [data-task="hw10-ex1ab"].exercise-card.exercise-layout-media-list .exercise-item.has-item-media {
+      grid-template-columns: 178px minmax(0, 1fr);
+      column-gap: 22px;
+    }
+    [data-task="hw10-ex1ab"].exercise-card.exercise-layout-media-list .exercise-item-media {
+      width: 178px;
+      max-width: 100%;
+    }
+    [data-task="hw10-ex1ab"].exercise-card.exercise-layout-media-list .exercise-item-media img {
+      aspect-ratio: auto;
+      object-fit: contain;
+      height: auto;
+      background: #f8fafc;
+    }
+    [data-task="hw10-ex1ab"] [data-exercise-item="1b-1"] {
+      border-top: 2px solid #e2e8f0;
+      padding-top: 22px;
+      margin-top: 22px;
+    }
+    @media (max-width: 620px) {
+      [data-task="hw10-ex1ab"].exercise-card.exercise-layout-media-list .exercise-item.has-item-media {
+        grid-template-columns: 124px minmax(0, 1fr);
+        gap: 12px;
+      }
+      [data-task="hw10-ex1ab"].exercise-card.exercise-layout-media-list .exercise-item-media {
+        width: 124px;
+      }
+    }
+    @media (max-width: 420px) {
+      [data-task="hw10-ex1ab"].exercise-card.exercise-layout-media-list .exercise-item.has-item-media {
+        grid-template-columns: 112px minmax(0, 1fr);
+        grid-template-areas: "media header" "media control" "media feedback";
+      }
+      [data-task="hw10-ex1ab"].exercise-card.exercise-layout-media-list .exercise-item-media {
+        width: 112px;
+      }
+    }
+
   </style>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="config.js" defer></script>
-  <script src="data/vocabulary-data.js?v=18" defer></script>
-  <script src="data/grammar-data.js?v=15" defer></script>
+  <script src="data/vocabulary-data.js?v=19" defer></script>
+  <script src="data/grammar-data.js?v=16" defer></script>
   <script src="app.js?v=20" defer></script>
 </head>
 <body class="has-bottom-nav" data-page="homework" data-view="lesson">

@@ -1,0 +1,755 @@
+{
+  "id": "lesson-10",
+  "number": 10,
+  "title": "2A Doctor, doctor!",
+  "subtitle": "B2.1 · Illnesses and injuries, first aid, present perfect simple vs continuous",
+  "status": "available",
+  "publishedAt": "2026-10-17",
+  "notification": {
+    "enabled": true,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-10-illnesses-injuries",
+  "grammarIds": [
+    "grammar-lesson-10-present-perfect-simple-continuous"
+  ],
+  "totalPoints": 44,
+  "blocks": [
+    {
+      "type": "grammar-link",
+      "title": "Present perfect simple vs continuous",
+      "text": "Выучи тему: формы, значение результата и процесса, for/since и ограничения со stative verbs.",
+      "grammarId": "grammar-lesson-10-present-perfect-simple-continuous",
+      "buttonLabel": "Study grammar"
+    },
+    {
+      "type": "section",
+      "title": "1. Illnesses and injuries",
+      "text": "Build useful language for describing symptoms and injuries."
+    },
+    {
+      "type": "exercise",
+      "id": "hw10-ex1ab",
+      "title": "1a–b · Illnesses and injuries: pictures and sentences",
+      "instructions": "Part A: name the illness or injury in each picture. Part B: complete the sentences. Use British English spelling.",
+      "layout": "media-list",
+      "autosaveDraft": true,
+      "items": [
+        {
+          "id": "1a-1",
+          "number": "A1",
+          "image": "images/lesson-10/illness-01.png",
+          "imageAlt": "Original workbook illustration 1 for an illness or injury",
+          "prompt": "She has a rash.",
+          "example": true,
+          "exampleAnswer": "rash"
+        },
+        {
+          "id": "1a-2",
+          "number": "A2",
+          "image": "images/lesson-10/illness-02.png",
+          "imageAlt": "Original workbook illustration 2 for an illness or injury",
+          "prompt": "Her ankle is _____.",
+          "input": "text",
+          "placeholder": "Write the word or phrase",
+          "answer": "swollen"
+        },
+        {
+          "id": "1a-3",
+          "number": "A3",
+          "image": "images/lesson-10/illness-03.png",
+          "imageAlt": "Original workbook illustration 3 for an illness or injury",
+          "prompt": "She’s _____ _____.",
+          "input": "text",
+          "placeholder": "Write the word or phrase",
+          "answer": "being sick"
+        },
+        {
+          "id": "1a-4",
+          "number": "A4",
+          "image": "images/lesson-10/illness-04.png",
+          "imageAlt": "Original workbook illustration 4 for an illness or injury",
+          "prompt": "Her finger is _____.",
+          "input": "text",
+          "placeholder": "Write the word or phrase",
+          "answer": "bleeding"
+        },
+        {
+          "id": "1a-5",
+          "number": "A5",
+          "image": "images/lesson-10/illness-05.png",
+          "imageAlt": "Original workbook illustration 5 for an illness or injury",
+          "prompt": "She has _____.",
+          "input": "text",
+          "placeholder": "Write the word or phrase",
+          "answer": "sunburn"
+        },
+        {
+          "id": "1a-6",
+          "number": "A6",
+          "image": "images/lesson-10/illness-06.png",
+          "imageAlt": "Original workbook illustration 6 for an illness or injury",
+          "prompt": "She’s _____.",
+          "input": "text",
+          "placeholder": "Write the word or phrase",
+          "answer": "sneezing"
+        },
+        {
+          "id": "1a-7",
+          "number": "A7",
+          "image": "images/lesson-10/illness-07.png",
+          "imageAlt": "Original workbook illustration 7 for an illness or injury",
+          "prompt": "She has a _____.",
+          "input": "text",
+          "placeholder": "Write the word or phrase",
+          "answer": "cough"
+        },
+        {
+          "id": "1a-8",
+          "number": "A8",
+          "image": "images/lesson-10/illness-08.png",
+          "imageAlt": "Original workbook illustration 8 for an illness or injury",
+          "prompt": "Her back _____.",
+          "input": "text",
+          "placeholder": "Write the word or phrase",
+          "answer": "hurts"
+        },
+        {
+          "id": "1a-9",
+          "number": "A9",
+          "image": "images/lesson-10/illness-09.png",
+          "imageAlt": "Original workbook illustration 9 for an illness or injury",
+          "prompt": "She has a _____.",
+          "input": "text",
+          "placeholder": "Write the word or phrase",
+          "answer": "headache"
+        },
+        {
+          "id": "1a-10",
+          "number": "A10",
+          "image": "images/lesson-10/illness-10.png",
+          "imageAlt": "Original workbook illustration 10 for an illness or injury",
+          "prompt": "She has a _____.",
+          "input": "text",
+          "placeholder": "Write the word or phrase",
+          "answer": "temperature"
+        },
+        {
+          "id": "1b-1",
+          "number": "B1",
+          "example": true,
+          "prompt": "Alex has diarrhoea. He’s been to the toilet six times this morning.",
+          "exampleAnswer": "diarrhoea"
+        },
+        {
+          "id": "1b-2",
+          "number": "B2",
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "I think I have ",
+            ". I have a temperature and I ache all over."
+          ],
+          "answers": [
+            "flu"
+          ]
+        },
+        {
+          "id": "1b-3",
+          "number": "B3",
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "That knife is very sharp. Please don’t ",
+            "."
+          ],
+          "answers": [
+            "cut yourself"
+          ]
+        },
+        {
+          "id": "1b-4",
+          "number": "B4",
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Matt ",
+            " in the art gallery. It was so hot that he lost consciousness."
+          ],
+          "answers": [
+            "fainted"
+          ]
+        },
+        {
+          "id": "1b-5",
+          "number": "B5",
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "These shoes aren’t very comfortable. I think I have a ",
+            "."
+          ],
+          "answers": [
+            "blister"
+          ]
+        },
+        {
+          "id": "1b-6",
+          "number": "B6",
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "I have a ",
+            ". It hurts when I talk."
+          ],
+          "answers": [
+            "sore throat"
+          ]
+        },
+        {
+          "id": "1b-7",
+          "number": "B7",
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Rachel ",
+            ". She thinks she’s going to vomit."
+          ],
+          "answers": [
+            "feels sick"
+          ]
+        },
+        {
+          "id": "1b-8",
+          "number": "B8",
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "You’re coughing and sneezing a lot. Do you have a ",
+            "?"
+          ],
+          "answers": [
+            "cold"
+          ]
+        },
+        {
+          "id": "1b-9",
+          "number": "B9",
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "I feel ",
+            ". Everything is spinning round."
+          ],
+          "answers": [
+            "dizzy"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw10-ex1c",
+      "title": "1c · Complete the doctor–patient conversations",
+      "instructions": "Complete each conversation with a word or phrase from the list.",
+      "wordBank": [
+        "allergic reaction",
+        "blood pressure",
+        "burnt",
+        "choking",
+        "food poisoning",
+        "sprained",
+        "unconscious"
+      ],
+      "items": [
+        {
+          "id": "1c-1",
+          "number": 1,
+          "example": true,
+          "prompt": "P  There’s a rash all over my body.\nD  You might have had an allergic reaction to something.",
+          "exampleAnswer": "allergic reaction"
+        },
+        {
+          "id": "1c-2",
+          "number": 2,
+          "input": "gaps",
+          "layout": "dialogue",
+          "prompt": "",
+          "segments": [
+            "P  Where am I?\nD  In hospital. You had an accident and you’ve been ",
+            " for an hour."
+          ],
+          "answers": [
+            "unconscious"
+          ]
+        },
+        {
+          "id": "1c-3",
+          "number": 3,
+          "input": "gaps",
+          "layout": "dialogue",
+          "prompt": "",
+          "segments": [
+            "P  I fell and hurt my wrist playing tennis – now it’s very swollen.\nD  I think you’ve ",
+            " it."
+          ],
+          "answers": [
+            "sprained"
+          ]
+        },
+        {
+          "id": "1c-4",
+          "number": 4,
+          "input": "gaps",
+          "layout": "dialogue",
+          "prompt": "",
+          "segments": [
+            "P  I sometimes feel a bit dizzy when I first get up.\nD  It sounds like you have low ",
+            "."
+          ],
+          "answers": [
+            "blood pressure"
+          ]
+        },
+        {
+          "id": "1c-5",
+          "number": 5,
+          "input": "gaps",
+          "layout": "dialogue",
+          "prompt": "",
+          "segments": [
+            "P  I’ve been sick and I have diarrhoea.\nD  You might have ",
+            ". Didn’t you say you thought the prawns you had for lunch were off?"
+          ],
+          "answers": [
+            "food poisoning"
+          ]
+        },
+        {
+          "id": "1c-6",
+          "number": 6,
+          "input": "gaps",
+          "layout": "dialogue",
+          "prompt": "",
+          "segments": [
+            "P  What should I do if one of my children starts ",
+            "?\nD  Tell them not to panic and to keep coughing – they need to move the food."
+          ],
+          "answers": [
+            "choking"
+          ]
+        },
+        {
+          "id": "1c-7",
+          "number": 7,
+          "input": "gaps",
+          "layout": "dialogue",
+          "prompt": "",
+          "segments": [
+            "P  I dropped a pan of boiling water on my hand.\nD  Yes, you’ve ",
+            " yourself quite badly."
+          ],
+          "answers": [
+            "burnt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw10-ex1d",
+      "title": "1d · Match conditions to treatments",
+      "instructions": "Match each condition to the treatment suggested in the workbook.",
+      "items": [
+        {
+          "id": "1d-1",
+          "number": 1,
+          "prompt": "an allergic reaction",
+          "example": true,
+          "exampleAnswer": "e — take antihistamine tablets or cream"
+        },
+        {
+          "id": "1d-2",
+          "number": 2,
+          "prompt": "a headache",
+          "input": "select",
+          "options": [
+            "a — have stitches",
+            "b — put antiseptic cream and a plaster on it",
+            "c — put ice on it and bandage it",
+            "d — take antibiotics",
+            "e — take antihistamine tablets or cream",
+            "f — take painkillers"
+          ],
+          "answer": 5
+        },
+        {
+          "id": "1d-3",
+          "number": 3,
+          "prompt": "an infection",
+          "input": "select",
+          "options": [
+            "a — have stitches",
+            "b — put antiseptic cream and a plaster on it",
+            "c — put ice on it and bandage it",
+            "d — take antibiotics",
+            "e — take antihistamine tablets or cream",
+            "f — take painkillers"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "1d-4",
+          "number": 4,
+          "prompt": "a major cut",
+          "input": "select",
+          "options": [
+            "a — have stitches",
+            "b — put antiseptic cream and a plaster on it",
+            "c — put ice on it and bandage it",
+            "d — take antibiotics",
+            "e — take antihistamine tablets or cream",
+            "f — take painkillers"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "1d-5",
+          "number": 5,
+          "prompt": "a minor cut",
+          "input": "select",
+          "options": [
+            "a — have stitches",
+            "b — put antiseptic cream and a plaster on it",
+            "c — put ice on it and bandage it",
+            "d — take antibiotics",
+            "e — take antihistamine tablets or cream",
+            "f — take painkillers"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "1d-6",
+          "number": 6,
+          "prompt": "a sprained ankle",
+          "input": "select",
+          "options": [
+            "a — have stitches",
+            "b — put antiseptic cream and a plaster on it",
+            "c — put ice on it and bandage it",
+            "d — take antibiotics",
+            "e — take antihistamine tablets or cream",
+            "f — take painkillers"
+          ],
+          "answer": 2
+        }
+      ],
+      "wordBank": [
+        "a — have stitches",
+        "b — put antiseptic cream and a plaster on it",
+        "c — put ice on it and bandage it",
+        "d — take antibiotics",
+        "e — take antihistamine tablets or cream",
+        "f — take painkillers"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "2. Medical expressions and first aid",
+      "text": "Use phrasal verbs and first-aid vocabulary in context."
+    },
+    {
+      "type": "exercise",
+      "id": "hw10-ex1e",
+      "title": "1e · Medical phrasal verbs",
+      "instructions": "Complete each sentence with the word that completes the phrasal verb.",
+      "wordBank": [
+        "down",
+        "out",
+        "over",
+        "round",
+        "up"
+      ],
+      "items": [
+        {
+          "id": "1e-1",
+          "number": 1,
+          "example": true,
+          "prompt": "You should go and lie down if you aren’t feeling well.",
+          "exampleAnswer": "down"
+        },
+        {
+          "id": "1e-2",
+          "number": 2,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "If you stand for too long in this heat, you might pass ",
+            "."
+          ],
+          "answers": [
+            "out"
+          ]
+        },
+        {
+          "id": "1e-3",
+          "number": 3,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "You shouldn’t go out until you get ",
+            " the flu properly."
+          ],
+          "answers": [
+            "over"
+          ]
+        },
+        {
+          "id": "1e-4",
+          "number": 4,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "If you think you’re going to throw ",
+            ", tell me and I’ll stop the car."
+          ],
+          "answers": [
+            "up"
+          ]
+        },
+        {
+          "id": "1e-5",
+          "number": 5,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "I must have fainted. When I came ",
+            ", I was lying on the floor."
+          ],
+          "answers": [
+            "round"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw10-ex1f",
+      "title": "1f · Medical advice",
+      "instructions": "Use the words and phrases from the list. The first word (pinch) is already given.",
+      "wordBank": [
+        "bandage",
+        "damp cloth",
+        "pinch",
+        "press",
+        "rub",
+        "running water",
+        "tip"
+      ],
+      "items": [
+        {
+          "id": "1f-1",
+          "number": 1,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "You can stop a nosebleed if you pinch the soft part of your nose and ",
+            " your head forward."
+          ],
+          "answers": [
+            "tip"
+          ]
+        },
+        {
+          "id": "1f-2",
+          "number": 2,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "If you put cool ",
+            " on a burn, it will stop blisters from forming."
+          ],
+          "answers": [
+            "running water"
+          ]
+        },
+        {
+          "id": "1f-3",
+          "number": 3,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "You shouldn’t put a hot ",
+            " on a sprained ankle, as the heat will make the ankle more swollen."
+          ],
+          "answers": [
+            "damp cloth"
+          ]
+        },
+        {
+          "id": "1f-4",
+          "number": 4,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Don’t ",
+            " the arms and legs of someone with hypothermia, as you will make them lose more heat."
+          ],
+          "answers": [
+            "rub"
+          ]
+        },
+        {
+          "id": "1f-5",
+          "number": 5,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "You should only stand behind someone who’s choking and ",
+            " their stomach inwards if they can’t talk, cough, or breathe."
+          ],
+          "answers": [
+            "press"
+          ]
+        },
+        {
+          "id": "1f-6",
+          "number": 6,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "If you put antiseptic cream and a ",
+            " on a bad cut, you will stop the wound getting infected."
+          ],
+          "answers": [
+            "bandage"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "3. Reading vocabulary and writing",
+      "text": "Review vocabulary from the text, then apply it in your own writing."
+    },
+    {
+      "type": "exercise",
+      "id": "hw10-ex2",
+      "title": "2 · Vocabulary from reading",
+      "instructions": "Complete the sentences with a phrase from the list.",
+      "wordBank": [
+        "heart rate",
+        "life-threatening illness",
+        "miracle cures",
+        "open-heart surgery",
+        "scare stories",
+        "under the weather",
+        "worst-case scenario"
+      ],
+      "items": [
+        {
+          "id": "2-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Most stories about miracle cures are fake news.",
+          "exampleAnswer": "miracle cures"
+        },
+        {
+          "id": "2-2",
+          "number": 2,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Ethan is concerned because his ",
+            " gets very high when he does exercise."
+          ],
+          "answers": [
+            "heart rate"
+          ]
+        },
+        {
+          "id": "2-3",
+          "number": 3,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Most people want to know about the ",
+            " when they are diagnosed with an illness, but it’s unlikely things will get that bad."
+          ],
+          "answers": [
+            "worst-case scenario"
+          ]
+        },
+        {
+          "id": "2-4",
+          "number": 4,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "It isn’t easy for doctors to tell patients that they are suffering from a ",
+            "."
+          ],
+          "answers": [
+            "life-threatening illness"
+          ]
+        },
+        {
+          "id": "2-5",
+          "number": 5,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "I’ve been feeling ",
+            " recently, so I’ve made an appointment with my doctor."
+          ],
+          "answers": [
+            "under the weather"
+          ]
+        },
+        {
+          "id": "2-6",
+          "number": 6,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "My uncle is very ill in hospital, and he’s going to have ",
+            " tomorrow."
+          ],
+          "answers": [
+            "open-heart surgery"
+          ]
+        },
+        {
+          "id": "2-7",
+          "number": 7,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Newspapers are full of ",
+            " about what will happen if we eat certain foods."
+          ],
+          "answers": [
+            "scare stories"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw10-ex1g",
+      "title": "1g · Write about your last illness or injury",
+      "instructions": "Write a short paragraph. Include when it happened, your symptoms, the treatment, and how long recovery took. This is reviewed by your teacher, not auto-graded.",
+      "autosaveDraft": true,
+      "items": [
+        {
+          "id": "1g-1",
+          "number": "Writing",
+          "input": "textarea",
+          "scored": false,
+          "prompt": "Think of an illness or injury you have experienced. Write a short paragraph in English, including all four points.",
+          "placeholder": "Last time I was ill / injured ..."
+        }
+      ]
+    }
+  ]
+}
