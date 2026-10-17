@@ -1452,7 +1452,9 @@
 
         exercise.querySelectorAll('.dialogue-answer-select').forEach((select) => {
           const first = select.options?.[0];
-          if (first && first.value === '') first.textContent = 'Choose';
+          if (first && first.value === '' && first.textContent !== 'Choose') {
+            first.textContent = 'Choose';
+          }
         });
       };
 
@@ -1520,7 +1522,7 @@
 
       new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
 
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=12`, { cache: 'no-store' })
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=13`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
