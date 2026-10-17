@@ -827,6 +827,83 @@
       }
     }
 
+  
+    /* Homework 10: inline vocabulary choices, sized to the actual answers. */
+    [data-task="hw10-ex1c"] .exercise-item:not(.exercise-example),
+    [data-task="hw10-ex1e"] .exercise-item:not(.exercise-example),
+    [data-task="hw10-ex2"] .exercise-item:not(.exercise-example) {
+      display: grid;
+      grid-template-columns: 31px minmax(0, 1fr);
+      gap: 7px 10px;
+      align-items: start;
+    }
+
+    [data-task="hw10-ex1c"] .exercise-item-header,
+    [data-task="hw10-ex1e"] .exercise-item-header,
+    [data-task="hw10-ex2"] .exercise-item-header {
+      margin-bottom: 0;
+    }
+
+    [data-task="hw10-ex1c"] .exercise-item:not(.exercise-example) .exercise-prompt:empty,
+    [data-task="hw10-ex1e"] .exercise-item:not(.exercise-example) .exercise-prompt:empty,
+    [data-task="hw10-ex2"] .exercise-item:not(.exercise-example) .exercise-prompt:empty {
+      display: none;
+    }
+
+    [data-task="hw10-ex1c"] .exercise-control,
+    [data-task="hw10-ex1e"] .exercise-control,
+    [data-task="hw10-ex2"] .exercise-control {
+      min-width: 0;
+      padding-left: 0;
+    }
+
+    [data-task="hw10-ex1c"] .sentence-gaps.has-select-gaps,
+    [data-task="hw10-ex1e"] .sentence-gaps.has-select-gaps,
+    [data-task="hw10-ex2"] .sentence-gaps.has-select-gaps {
+      display: block;
+      line-height: 2.2;
+      white-space: normal;
+    }
+
+    [data-task="hw10-ex1c"] .dialogue-answer-select,
+    [data-task="hw10-ex1e"] .dialogue-answer-select,
+    [data-task="hw10-ex2"] .dialogue-answer-select {
+      display: inline-block;
+      box-sizing: border-box;
+      min-width: 0;
+      min-height: 36px;
+      margin: 1px 3px;
+      padding: 5px 28px 5px 9px;
+      border: 1px solid #a5b4fc;
+      border-radius: 9px;
+      background-color: #fff;
+      color: #312e81;
+      font: inherit;
+      font-size: .91rem;
+      font-weight: 650;
+      vertical-align: middle;
+    }
+
+    [data-task="hw10-ex1c"] .dialogue-answer-select { width: 195px; max-width: 100%; }
+    [data-task="hw10-ex1e"] .dialogue-answer-select { width: 114px; max-width: 100%; }
+    [data-task="hw10-ex2"] .dialogue-answer-select { width: 224px; max-width: 100%; }
+
+    [data-task="hw10-ex1c"] .exercise-item > .feedback,
+    [data-task="hw10-ex1e"] .exercise-item > .feedback,
+    [data-task="hw10-ex2"] .exercise-item > .feedback { grid-column: 2; }
+
+    @media (max-width: 520px) {
+      [data-task="hw10-ex1c"] .exercise-item:not(.exercise-example),
+      [data-task="hw10-ex1e"] .exercise-item:not(.exercise-example),
+      [data-task="hw10-ex2"] .exercise-item:not(.exercise-example) {
+        grid-template-columns: 28px minmax(0, 1fr);
+        column-gap: 8px;
+      }
+      [data-task="hw10-ex1c"] .dialogue-answer-select { width: min(100%, 180px); }
+      [data-task="hw10-ex1e"] .dialogue-answer-select { width: min(100%, 110px); }
+      [data-task="hw10-ex2"] .dialogue-answer-select { width: min(100%, 210px); }
+    }
+
   </style>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
@@ -1563,7 +1640,7 @@
 
       new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
 
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=13`, { cache: 'no-store' })
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=14`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();

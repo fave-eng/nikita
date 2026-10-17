@@ -272,7 +272,7 @@
         {
           "id": "1c-2",
           "number": 2,
-          "input": "gaps",
+          "input": "select-gaps",
           "layout": "dialogue",
           "prompt": "",
           "segments": [
@@ -280,13 +280,22 @@
             " for an hour."
           ],
           "answers": [
+            6
+          ],
+          "options": [
+            "allergic reaction",
+            "blood pressure",
+            "burnt",
+            "choking",
+            "food poisoning",
+            "sprained",
             "unconscious"
           ]
         },
         {
           "id": "1c-3",
           "number": 3,
-          "input": "gaps",
+          "input": "select-gaps",
           "layout": "dialogue",
           "prompt": "",
           "segments": [
@@ -294,13 +303,22 @@
             " it."
           ],
           "answers": [
-            "sprained"
+            5
+          ],
+          "options": [
+            "allergic reaction",
+            "blood pressure",
+            "burnt",
+            "choking",
+            "food poisoning",
+            "sprained",
+            "unconscious"
           ]
         },
         {
           "id": "1c-4",
           "number": 4,
-          "input": "gaps",
+          "input": "select-gaps",
           "layout": "dialogue",
           "prompt": "",
           "segments": [
@@ -308,13 +326,22 @@
             "."
           ],
           "answers": [
-            "blood pressure"
+            1
+          ],
+          "options": [
+            "allergic reaction",
+            "blood pressure",
+            "burnt",
+            "choking",
+            "food poisoning",
+            "sprained",
+            "unconscious"
           ]
         },
         {
           "id": "1c-5",
           "number": 5,
-          "input": "gaps",
+          "input": "select-gaps",
           "layout": "dialogue",
           "prompt": "",
           "segments": [
@@ -322,13 +349,22 @@
             ". Didn’t you say you thought the prawns you had for lunch were off?"
           ],
           "answers": [
-            "food poisoning"
+            4
+          ],
+          "options": [
+            "allergic reaction",
+            "blood pressure",
+            "burnt",
+            "choking",
+            "food poisoning",
+            "sprained",
+            "unconscious"
           ]
         },
         {
           "id": "1c-6",
           "number": 6,
-          "input": "gaps",
+          "input": "select-gaps",
           "layout": "dialogue",
           "prompt": "",
           "segments": [
@@ -336,13 +372,22 @@
             "?\nD  Tell them not to panic and to keep coughing – they need to move the food."
           ],
           "answers": [
-            "choking"
+            3
+          ],
+          "options": [
+            "allergic reaction",
+            "blood pressure",
+            "burnt",
+            "choking",
+            "food poisoning",
+            "sprained",
+            "unconscious"
           ]
         },
         {
           "id": "1c-7",
           "number": 7,
-          "input": "gaps",
+          "input": "select-gaps",
           "layout": "dialogue",
           "prompt": "",
           "segments": [
@@ -350,7 +395,16 @@
             " yourself quite badly."
           ],
           "answers": [
-            "burnt"
+            2
+          ],
+          "options": [
+            "allergic reaction",
+            "blood pressure",
+            "burnt",
+            "choking",
+            "food poisoning",
+            "sprained",
+            "unconscious"
           ]
         }
       ]
@@ -481,53 +535,81 @@
         {
           "id": "1e-2",
           "number": 2,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
           "segments": [
             "If you stand for too long in this heat, you might pass ",
             "."
           ],
           "answers": [
-            "out"
+            1
+          ],
+          "options": [
+            "down",
+            "out",
+            "over",
+            "round",
+            "up"
           ]
         },
         {
           "id": "1e-3",
           "number": 3,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
           "segments": [
             "You shouldn’t go out until you get ",
             " the flu properly."
           ],
           "answers": [
-            "over"
+            2
+          ],
+          "options": [
+            "down",
+            "out",
+            "over",
+            "round",
+            "up"
           ]
         },
         {
           "id": "1e-4",
           "number": 4,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
           "segments": [
             "If you think you’re going to throw ",
             ", tell me and I’ll stop the car."
           ],
           "answers": [
+            4
+          ],
+          "options": [
+            "down",
+            "out",
+            "over",
+            "round",
             "up"
           ]
         },
         {
           "id": "1e-5",
           "number": 5,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
           "segments": [
             "I must have fainted. When I came ",
             ", I was lying on the floor."
           ],
           "answers": [
-            "round"
+            3
+          ],
+          "options": [
+            "down",
+            "out",
+            "over",
+            "round",
+            "up"
           ]
         }
       ]
@@ -657,79 +739,133 @@
         {
           "id": "2-2",
           "number": 2,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
           "segments": [
             "Ethan is concerned because his ",
             " gets very high when he does exercise."
           ],
           "answers": [
-            "heart rate"
+            0
+          ],
+          "options": [
+            "heart rate",
+            "life-threatening illness",
+            "miracle cures",
+            "open-heart surgery",
+            "scare stories",
+            "under the weather",
+            "worst-case scenario"
           ]
         },
         {
           "id": "2-3",
           "number": 3,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
           "segments": [
             "Most people want to know about the ",
             " when they are diagnosed with an illness, but it’s unlikely things will get that bad."
           ],
           "answers": [
+            6
+          ],
+          "options": [
+            "heart rate",
+            "life-threatening illness",
+            "miracle cures",
+            "open-heart surgery",
+            "scare stories",
+            "under the weather",
             "worst-case scenario"
           ]
         },
         {
           "id": "2-4",
           "number": 4,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
           "segments": [
             "It isn’t easy for doctors to tell patients that they are suffering from a ",
             "."
           ],
           "answers": [
-            "life-threatening illness"
+            1
+          ],
+          "options": [
+            "heart rate",
+            "life-threatening illness",
+            "miracle cures",
+            "open-heart surgery",
+            "scare stories",
+            "under the weather",
+            "worst-case scenario"
           ]
         },
         {
           "id": "2-5",
           "number": 5,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
           "segments": [
             "I’ve been feeling ",
             " recently, so I’ve made an appointment with my doctor."
           ],
           "answers": [
-            "under the weather"
+            5
+          ],
+          "options": [
+            "heart rate",
+            "life-threatening illness",
+            "miracle cures",
+            "open-heart surgery",
+            "scare stories",
+            "under the weather",
+            "worst-case scenario"
           ]
         },
         {
           "id": "2-6",
           "number": 6,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
           "segments": [
             "My uncle is very ill in hospital, and he’s going to have ",
             " tomorrow."
           ],
           "answers": [
-            "open-heart surgery"
+            3
+          ],
+          "options": [
+            "heart rate",
+            "life-threatening illness",
+            "miracle cures",
+            "open-heart surgery",
+            "scare stories",
+            "under the weather",
+            "worst-case scenario"
           ]
         },
         {
           "id": "2-7",
           "number": 7,
-          "input": "gaps",
+          "input": "select-gaps",
           "prompt": "",
           "segments": [
             "Newspapers are full of ",
             " about what will happen if we eat certain foods."
           ],
           "answers": [
-            "scare stories"
+            4
+          ],
+          "options": [
+            "heart rate",
+            "life-threatening illness",
+            "miracle cures",
+            "open-heart surgery",
+            "scare stories",
+            "under the weather",
+            "worst-case scenario"
           ]
         }
       ]
