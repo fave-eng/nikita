@@ -533,6 +533,259 @@
       .lesson-vocabulary-icon { flex-basis: 40px; width: 40px; height: 40px; }
       .lesson-vocabulary-text span { font-size: 0.78rem; }
     }
+  
+    /* Homework 8 · Exercise 1a
+       Make the selectable words/phrases look and behave like real choices. */
+    [data-task="hw8-ex1a"] .mark-text {
+      display: block;
+      padding: 0;
+    }
+
+    [data-task="hw8-ex1a"] .mark-text p {
+      line-height: 2.15;
+    }
+
+    [data-task="hw8-ex1a"] .mark-word {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      margin: 0 3px;
+      padding: 3px 8px;
+      border: 1.5px dashed #a5b4fc;
+      border-radius: 9px;
+      background: #f8f7ff;
+      color: #3730a3;
+      font-weight: 800;
+      line-height: 1.35;
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+
+    [data-task="hw8-ex1a"] .mark-word:hover,
+    [data-task="hw8-ex1a"] .mark-word:focus-visible {
+      border-style: solid;
+      border-color: #6366f1;
+      background: #eef2ff;
+      outline: none;
+    }
+
+    [data-task="hw8-ex1a"] .mark-word.is-selected {
+      border-style: solid;
+      border-color: #6366f1;
+      background: #e0e7ff;
+      color: #3730a3;
+      text-decoration-line: line-through;
+      text-decoration-thickness: 2px;
+    }
+
+    /* Homework 8 · Exercise 3
+       Compact inline selects so every item reads as one sentence. */
+    [data-task="hw8-ex3"] .exercise-item:not(.exercise-example) {
+      display: grid;
+      grid-template-columns: 31px minmax(0, 1fr);
+      column-gap: 11px;
+      align-items: center;
+    }
+
+    [data-task="hw8-ex3"] .exercise-item:not(.exercise-example) .exercise-item-header {
+      display: block;
+      margin: 0;
+    }
+
+    [data-task="hw8-ex3"] .exercise-item:not(.exercise-example) .exercise-prompt:empty {
+      display: none;
+    }
+
+    [data-task="hw8-ex3"] .exercise-item:not(.exercise-example) .exercise-control {
+      min-width: 0;
+      padding-left: 0;
+    }
+
+    [data-task="hw8-ex3"] .sentence-gaps.has-select-gaps {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 5px 4px;
+      line-height: 1.75;
+    }
+
+    [data-task="hw8-ex3"] .dialogue-answer-select {
+      display: inline-block;
+      flex: 0 1 auto;
+      width: auto;
+      min-width: 118px;
+      max-width: 185px;
+      min-height: 36px;
+      margin: 0 2px;
+      padding: 5px 30px 5px 9px;
+      border-radius: 9px;
+      font-size: .92rem;
+      vertical-align: baseline;
+    }
+
+    @media (max-width: 520px) {
+      [data-task="hw8-ex3"] .exercise-item:not(.exercise-example) {
+        grid-template-columns: 28px minmax(0, 1fr);
+        column-gap: 8px;
+      }
+
+      [data-task="hw8-ex3"] .dialogue-answer-select {
+        min-width: 110px;
+        max-width: 165px;
+      }
+    }
+
+  
+    /* Homework 9 · Exercise 1a
+       Show the word in brackets as its own clear workbook-style column. */
+    [data-task="hw9-ex1a-part1"] .hw9-transform-head,
+    [data-task="hw9-ex1a-part2"] .hw9-transform-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 92px minmax(250px, 1.08fr);
+      gap: 12px;
+      align-items: end;
+      margin: 2px 0 8px;
+      padding: 0 14px 8px 46px;
+      border-bottom: 1px solid #e2e8f0;
+      color: #64748b;
+      font-size: .72rem;
+      font-weight: 850;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    [data-task="hw9-ex1a-part1"] .exercise-item,
+    [data-task="hw9-ex1a-part2"] .exercise-item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 92px minmax(250px, 1.08fr);
+      gap: 12px;
+      align-items: center;
+    }
+
+    [data-task="hw9-ex1a-part1"] .exercise-item-header,
+    [data-task="hw9-ex1a-part2"] .exercise-item-header {
+      min-width: 0;
+      margin: 0;
+    }
+
+    .hw9-cue-word {
+      display: inline-grid;
+      place-items: center;
+      justify-self: center;
+      min-width: 70px;
+      min-height: 36px;
+      padding: 6px 10px;
+      border: 1.5px solid #c7d2fe;
+      border-radius: 10px;
+      background: #eef2ff;
+      color: #3730a3;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    [data-task="hw9-ex1a-part1"] .exercise-control,
+    [data-task="hw9-ex1a-part2"] .exercise-control,
+    [data-task="hw9-ex1a-part1"] .example-answer,
+    [data-task="hw9-ex1a-part2"] .example-answer {
+      min-width: 0;
+      padding-left: 0;
+    }
+
+    [data-task="hw9-ex1a-part1"] .text-field,
+    [data-task="hw9-ex1a-part2"] .text-field {
+      width: 100%;
+      margin: 0;
+    }
+
+    [data-task="hw9-ex1a-part1"] .feedback,
+    [data-task="hw9-ex1a-part2"] .feedback {
+      grid-column: 3;
+    }
+
+    /* Homework 9 · Exercise 5
+       One short word = one compact inline select, not a full-width field. */
+    [data-task="hw9-ex5"] .exercise-item:not(.exercise-example) {
+      display: grid;
+      grid-template-columns: 31px minmax(0, 1fr);
+      column-gap: 10px;
+      align-items: center;
+    }
+
+    [data-task="hw9-ex5"] .exercise-item:not(.exercise-example) .exercise-item-header {
+      display: block;
+      margin: 0;
+    }
+
+    [data-task="hw9-ex5"] .exercise-item:not(.exercise-example) .exercise-prompt:empty {
+      display: none;
+    }
+
+    [data-task="hw9-ex5"] .exercise-item:not(.exercise-example) .exercise-control {
+      min-width: 0;
+      padding-left: 0;
+    }
+
+    [data-task="hw9-ex5"] .sentence-gaps.has-select-gaps {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px;
+      line-height: 1.8;
+    }
+
+    [data-task="hw9-ex5"] .dialogue-answer-select {
+      display: inline-block;
+      flex: 0 0 auto;
+      width: auto;
+      min-width: 102px;
+      max-width: 142px;
+      min-height: 36px;
+      margin: 0 2px;
+      padding: 5px 28px 5px 9px;
+      border-radius: 9px;
+      font-size: .92rem;
+      vertical-align: baseline;
+    }
+
+    @media (max-width: 760px) {
+      [data-task="hw9-ex1a-part1"] .hw9-transform-head,
+      [data-task="hw9-ex1a-part2"] .hw9-transform-head {
+        display: none;
+      }
+
+      [data-task="hw9-ex1a-part1"] .exercise-item,
+      [data-task="hw9-ex1a-part2"] .exercise-item {
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 9px;
+        align-items: start;
+      }
+
+      [data-task="hw9-ex1a-part1"] .exercise-item-header,
+      [data-task="hw9-ex1a-part2"] .exercise-item-header {
+        grid-column: 1;
+      }
+
+      .hw9-cue-word {
+        grid-column: 2;
+        min-width: 62px;
+        min-height: 34px;
+      }
+
+      [data-task="hw9-ex1a-part1"] .exercise-control,
+      [data-task="hw9-ex1a-part2"] .exercise-control,
+      [data-task="hw9-ex1a-part1"] .example-answer,
+      [data-task="hw9-ex1a-part2"] .example-answer,
+      [data-task="hw9-ex1a-part1"] .feedback,
+      [data-task="hw9-ex1a-part2"] .feedback {
+        grid-column: 1 / -1;
+      }
+
+      [data-task="hw9-ex5"] .dialogue-answer-select {
+        min-width: 98px;
+        max-width: 132px;
+      }
+    }
+
   </style>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
@@ -1111,13 +1364,14 @@
 
         const roadmap = root.querySelector('.lesson-roadmap');
         const sourceShortcut = document.getElementById('lesson-vocabulary-shortcut');
-        if (!roadmap || !sourceShortcut || sourceShortcut.hidden || !sourceShortcut.firstElementChild) return;
+        if (!roadmap || !sourceShortcut || !sourceShortcut.firstElementChild) return;
 
         let inlineShortcut = root.querySelector('.lesson-vocabulary-shortcut-inline');
         if (!inlineShortcut) {
           inlineShortcut = sourceShortcut.cloneNode(true);
           inlineShortcut.id = 'lesson-vocabulary-shortcut-inline';
           inlineShortcut.classList.add('lesson-vocabulary-shortcut-inline');
+          inlineShortcut.hidden = false;
           roadmap.parentNode.insertBefore(inlineShortcut, roadmap);
         } else if (inlineShortcut.nextElementSibling !== roadmap) {
           roadmap.parentNode.insertBefore(inlineShortcut, roadmap);
@@ -1145,6 +1399,63 @@
       };
 
 
+
+      const enhanceLesson9Transformations = () => {
+        if (lessonId !== 'lesson-9') return;
+
+        for (const blockId of ['hw9-ex1a-part1', 'hw9-ex1a-part2']) {
+          const exercise = root.querySelector(`[data-task="${blockId}"]`);
+          if (!exercise) continue;
+
+          const block = lesson?.blocks?.find((candidate) => candidate.id === blockId);
+          if (!block) continue;
+
+          const itemsRoot = exercise.querySelector('.exercise-items');
+          if (itemsRoot && !itemsRoot.querySelector('.hw9-transform-head')) {
+            const head = document.createElement('div');
+            head.className = 'hw9-transform-head';
+            head.innerHTML = '<span>Original sentence</span><span>Word</span><span>Your sentence</span>';
+            itemsRoot.insertBefore(head, itemsRoot.firstChild);
+          }
+
+          for (const item of block.items || []) {
+            const node = exercise.querySelector(`[data-exercise-item="${esc(item.id)}"]`);
+            if (!node || node.dataset.hw9CueEnhanced === 'true') continue;
+
+            const prompt = node.querySelector('.exercise-prompt');
+            const cue = String(item.cueWord || '').trim()
+              || String(item.prompt || '').match(/\(([^()]+)\)\s*$/)?.[1]?.trim()
+              || '';
+            if (!cue) continue;
+
+            if (prompt) {
+              const source = prompt.textContent || '';
+              prompt.textContent = source.replace(/\s*\([^()]+\)\s*$/, '');
+            }
+
+            const badge = document.createElement('span');
+            badge.className = 'hw9-cue-word';
+            badge.textContent = `(${cue})`;
+
+            const header = node.querySelector('.exercise-item-header');
+            if (header) header.insertAdjacentElement('afterend', badge);
+
+            node.dataset.hw9CueEnhanced = 'true';
+          }
+        }
+      };
+
+      const enhanceLesson9ConversationVocabulary = () => {
+        if (lessonId !== 'lesson-9') return;
+        const exercise = root.querySelector('[data-task="hw9-ex5"]');
+        if (!exercise) return;
+
+        exercise.querySelectorAll('.dialogue-answer-select').forEach((select) => {
+          const first = select.options?.[0];
+          if (first && first.value === '') first.textContent = 'Choose';
+        });
+      };
+
       const applyLesson9Enhancements = () => {
         if (lessonId !== 'lesson-9') return;
 
@@ -1159,6 +1470,8 @@
         });
 
         placeLessonVocabularyAfterGrammar();
+        enhanceLesson9Transformations();
+        enhanceLesson9ConversationVocabulary();
       };
 
       const applyEnhancements = () => {
@@ -1207,7 +1520,7 @@
 
       new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
 
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=10`, { cache: 'no-store' })
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=12`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();

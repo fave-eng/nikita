@@ -54,7 +54,8 @@
           "number": 1,
           "example": true,
           "prompt": "My husband and I both love animals. (so)",
-          "exampleAnswer": "I love animals and so does my husband."
+          "exampleAnswer": "I love animals and so does my husband.",
+          "cueWord": "so"
         },
         {
           "id": "1a-2",
@@ -65,7 +66,8 @@
           "acceptedAnswers": [
             "I did send you a message last night.",
             "I did send you a message last night"
-          ]
+          ],
+          "cueWord": "did"
         },
         {
           "id": "1a-3",
@@ -76,7 +78,8 @@
           "acceptedAnswers": [
             "Who does this phone belong to?",
             "Who does this phone belong to"
-          ]
+          ],
+          "cueWord": "belong"
         },
         {
           "id": "1a-4",
@@ -89,7 +92,8 @@
             "Why didn't you like the hotel you stayed in?",
             "Why didn’t you like the hotel you stayed in",
             "Why didn't you like the hotel you stayed in"
-          ]
+          ],
+          "cueWord": "like"
         },
         {
           "id": "1a-5",
@@ -100,7 +104,8 @@
           "acceptedAnswers": [
             "Who gave you that book?",
             "Who gave you that book"
-          ]
+          ],
+          "cueWord": "gave"
         }
       ]
     },
@@ -119,7 +124,8 @@
           "acceptedAnswers": [
             "Do you know how much petrol costs in your country?",
             "Do you know how much petrol costs in your country"
-          ]
+          ],
+          "cueWord": "costs"
         },
         {
           "id": "1a-7",
@@ -130,7 +136,8 @@
           "acceptedAnswers": [
             "Can you tell me whether you have any vacancies at the moment?",
             "Can you tell me whether you have any vacancies at the moment"
-          ]
+          ],
+          "cueWord": "whether"
         },
         {
           "id": "1a-8",
@@ -143,7 +150,8 @@
             "You will pick me up from work tonight, won't you?",
             "You’ll pick me up from work tonight, won’t you?",
             "You'll pick me up from work tonight, won't you?"
-          ]
+          ],
+          "cueWord": "you"
         },
         {
           "id": "1a-9",
@@ -156,7 +164,8 @@
             "I can't afford to go on holiday this year and neither can my friends.",
             "I can’t afford to go on holiday this year, and neither can my friends.",
             "I can't afford to go on holiday this year, and neither can my friends."
-          ]
+          ],
+          "cueWord": "neither"
         },
         {
           "id": "1a-10",
@@ -169,7 +178,8 @@
             "Tom does know about the meeting - he mentioned it yesterday.",
             "Tom does know about the meeting – he mentioned it yesterday",
             "Tom does know about the meeting - he mentioned it yesterday"
-          ]
+          ],
+          "cueWord": "does"
         }
       ]
     },
