@@ -52,12 +52,8 @@ jobs:
             NOTIFY_WEBHOOK_SECRET="$NOTIFY_WEBHOOK_SECRET" \
             TEACHER_CHAT_ID="$TEACHER_CHAT_ID" \
             SITE_PUBLIC_API_KEY="$SITE_PUBLIC_API_KEY"
-
-      - name: Deploy notification function
-        shell: bash
-        run: |
-          set -euo pipefail
-          supabase functions deploy notify-telegram --project-ref "$SUPABASE_PROJECT_ID"
+      - name: Shared notification function
+        run: echo "notify-telegram is managed centrally; this repository does not deploy it."
 
       - name: Done
         run: echo "Telegram notification function is deployed."
