@@ -1416,3 +1416,294 @@ window.VOCABULARY_DATA.push({
     }
   ]
 });
+
+window.VOCABULARY_DATA.push({
+  "id": "vocab-lesson-14-air-travel",
+  "title": "Air travel",
+  "label": "Homework 14 · 30 useful words and phrases",
+  "icon": "✈️",
+  "type": "lesson",
+  "linkedLessonId": "lesson-14",
+  "page": "vocabulary.html?id=vocab-lesson-14-air-travel",
+  "description": "Airport announcements, airport facilities and flight vocabulary.",
+  "groups": [
+    {
+      "id": "air",
+      "title": "Air travel",
+      "subtitle": "At the airport and on board",
+      "icon": "✈️"
+    }
+  ],
+  "words": [
+    {
+      "id": "l15-01",
+      "uniqueKey": "VIP lounge",
+      "en": "VIP lounge",
+      "ru": "зал повышенной комфортности",
+      "transcription": "",
+      "exampleEn": "They waited in the VIP lounge.",
+      "group": "air"
+    },
+    {
+      "id": "l15-02",
+      "uniqueKey": "airport terminal",
+      "en": "airport terminal",
+      "ru": "терминал аэропорта",
+      "transcription": "",
+      "exampleEn": "We arrived at the airport terminal.",
+      "group": "air"
+    },
+    {
+      "id": "l15-03",
+      "uniqueKey": "approximately",
+      "en": "approximately",
+      "ru": "приблизительно",
+      "transcription": "",
+      "exampleEn": "The flight takes approximately two hours.",
+      "group": "air"
+    },
+    {
+      "id": "l15-04",
+      "uniqueKey": "baggage drop-off",
+      "en": "baggage drop-off",
+      "ru": "стойка сдачи багажа",
+      "transcription": "",
+      "exampleEn": "Take your suitcase to baggage drop-off.",
+      "group": "air"
+    },
+    {
+      "id": "l15-05",
+      "uniqueKey": "baggage reclaim",
+      "en": "baggage reclaim",
+      "ru": "зона выдачи багажа",
+      "transcription": "",
+      "exampleEn": "Collect your bag at baggage reclaim.",
+      "group": "air"
+    },
+    {
+      "id": "l15-06",
+      "uniqueKey": "board",
+      "en": "board",
+      "ru": "садиться на борт",
+      "transcription": "",
+      "exampleEn": "We were about to board the plane.",
+      "group": "air"
+    },
+    {
+      "id": "l15-07",
+      "uniqueKey": "boarding pass",
+      "en": "boarding pass",
+      "ru": "посадочный талон",
+      "transcription": "",
+      "exampleEn": "Show your boarding pass at the gate.",
+      "group": "air"
+    },
+    {
+      "id": "l15-08",
+      "uniqueKey": "check in",
+      "en": "check in",
+      "ru": "зарегистрироваться на рейс",
+      "transcription": "",
+      "exampleEn": "We checked in online.",
+      "group": "air"
+    },
+    {
+      "id": "l15-09",
+      "uniqueKey": "check-in desk",
+      "en": "check-in desk",
+      "ru": "стойка регистрации",
+      "transcription": "",
+      "exampleEn": "The check-in desk opens at six.",
+      "group": "air"
+    },
+    {
+      "id": "l15-10",
+      "uniqueKey": "connecting flight",
+      "en": "connecting flight",
+      "ru": "стыковочный рейс",
+      "transcription": "",
+      "exampleEn": "We missed our connecting flight.",
+      "group": "air"
+    },
+    {
+      "id": "l15-11",
+      "uniqueKey": "customs",
+      "en": "customs",
+      "ru": "таможня",
+      "transcription": "",
+      "exampleEn": "We went through customs.",
+      "group": "air"
+    },
+    {
+      "id": "l15-12",
+      "uniqueKey": "delayed",
+      "en": "delayed",
+      "ru": "задержанный (о рейсе)",
+      "transcription": "",
+      "exampleEn": "Our flight was delayed.",
+      "group": "air"
+    },
+    {
+      "id": "l15-13",
+      "uniqueKey": "departure lounge",
+      "en": "departure lounge",
+      "ru": "зал ожидания вылета",
+      "transcription": "",
+      "exampleEn": "They waited in the departure lounge.",
+      "group": "air"
+    },
+    {
+      "id": "l15-14",
+      "uniqueKey": "departures board",
+      "en": "departures board",
+      "ru": "табло вылетов",
+      "transcription": "",
+      "exampleEn": "Check the departures board.",
+      "group": "air"
+    },
+    {
+      "id": "l15-15",
+      "uniqueKey": "disembark",
+      "en": "disembark",
+      "ru": "сойти с борта",
+      "transcription": "",
+      "exampleEn": "Passengers can disembark after landing.",
+      "group": "air"
+    },
+    {
+      "id": "l15-16",
+      "uniqueKey": "drop off",
+      "en": "drop off",
+      "ru": "подвезти и высадить",
+      "transcription": "",
+      "exampleEn": "He dropped me off at the airport.",
+      "group": "air"
+    },
+    {
+      "id": "l15-17",
+      "uniqueKey": "emergency exit",
+      "en": "emergency exit",
+      "ru": "аварийный выход",
+      "transcription": "",
+      "exampleEn": "Locate the nearest emergency exit.",
+      "group": "air"
+    },
+    {
+      "id": "l15-18",
+      "uniqueKey": "flight attendant",
+      "en": "flight attendant",
+      "ru": "бортпроводник",
+      "transcription": "",
+      "exampleEn": "The flight attendant made an announcement.",
+      "group": "air"
+    },
+    {
+      "id": "l15-19",
+      "uniqueKey": "flight mode",
+      "en": "flight mode",
+      "ru": "режим полёта",
+      "transcription": "",
+      "exampleEn": "Put your phone in flight mode.",
+      "group": "air"
+    },
+    {
+      "id": "l15-20",
+      "uniqueKey": "get off",
+      "en": "get off",
+      "ru": "выйти из транспорта",
+      "transcription": "",
+      "exampleEn": "We got off the plane.",
+      "group": "air"
+    },
+    {
+      "id": "l15-21",
+      "uniqueKey": "get on",
+      "en": "get on",
+      "ru": "сесть на транспорт",
+      "transcription": "",
+      "exampleEn": "We got on the plane.",
+      "group": "air"
+    },
+    {
+      "id": "l15-22",
+      "uniqueKey": "hand luggage",
+      "en": "hand luggage",
+      "ru": "ручная кладь",
+      "transcription": "",
+      "exampleEn": "I only have hand luggage.",
+      "group": "air"
+    },
+    {
+      "id": "l15-23",
+      "uniqueKey": "landing card",
+      "en": "landing card",
+      "ru": "миграционная карточка при въезде",
+      "transcription": "",
+      "exampleEn": "Fill in the landing card before arrival.",
+      "group": "air"
+    },
+    {
+      "id": "l15-24",
+      "uniqueKey": "locate",
+      "en": "locate",
+      "ru": "найти; определить местонахождение",
+      "transcription": "",
+      "exampleEn": "Locate your nearest emergency exit.",
+      "group": "air"
+    },
+    {
+      "id": "l15-25",
+      "uniqueKey": "personal electronic devices",
+      "en": "personal electronic devices",
+      "ru": "персональные электронные устройства",
+      "transcription": "",
+      "exampleEn": "Switch personal electronic devices to flight mode.",
+      "group": "air"
+    },
+    {
+      "id": "l15-26",
+      "uniqueKey": "proceed to",
+      "en": "proceed to",
+      "ru": "пройти; проследовать к",
+      "transcription": "",
+      "exampleEn": "Please proceed to gate 36.",
+      "group": "air"
+    },
+    {
+      "id": "l15-27",
+      "uniqueKey": "rear",
+      "en": "rear",
+      "ru": "задняя часть",
+      "transcription": "",
+      "exampleEn": "The toilets are at the rear of the plane.",
+      "group": "air"
+    },
+    {
+      "id": "l15-28",
+      "uniqueKey": "runway",
+      "en": "runway",
+      "ru": "взлётно-посадочная полоса",
+      "transcription": "",
+      "exampleEn": "The plane was on the runway.",
+      "group": "air"
+    },
+    {
+      "id": "l15-29",
+      "uniqueKey": "sharp objects",
+      "en": "sharp objects",
+      "ru": "острые предметы",
+      "transcription": "",
+      "exampleEn": "Sharp objects are restricted in hand luggage.",
+      "group": "air"
+    },
+    {
+      "id": "l15-30",
+      "uniqueKey": "take off",
+      "en": "take off",
+      "ru": "взлететь",
+      "transcription": "",
+      "exampleEn": "The plane took off on time.",
+      "group": "air"
+    }
+  ]
+});

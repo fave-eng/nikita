@@ -1676,3 +1676,261 @@ Object.assign(window.GRAMMAR_GUIDES, {
     ]
   }
 });
+
+Object.assign(window.GRAMMAR_GUIDES, {
+  "grammar-lesson-14-narrative-tenses": {
+    "title": "Повествовательные времена: Narrative tenses",
+    "intro": "Чтобы рассказать о прошлом, сначала определите точку отсчёта. Одни события двигают историю вперёд, другие описывают фон, а третьи объясняют, что произошло до этой точки. Сравните: When I arrived, the plane left (самолёт улетел в момент моего прибытия) и When I arrived, the plane had left (самолёт уже улетел).",
+    "sections": [
+      {
+        "type": "comparison",
+        "title": "Четыре времени в одной истории",
+        "columns": [
+          "Время",
+          "Что выражает",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "Past Simple",
+            "Основные завершённые события, последовательность",
+            "I arrived and checked in."
+          ],
+          [
+            "Past Continuous",
+            "Действие в процессе в прошлый момент, фон",
+            "People were queuing."
+          ],
+          [
+            "Past Perfect Simple",
+            "Действие раньше другого прошлого события, результат",
+            "The plane had already left."
+          ],
+          [
+            "Past Perfect Continuous",
+            "Процесс или повторяющееся действие до прошлого момента; длительность или причина состояния",
+            "They had been waiting for hours."
+          ]
+        ],
+        "subtitle": ""
+      },
+      {
+        "type": "patterns",
+        "title": "Как строятся формы",
+        "subtitle": "",
+        "items": [
+          {
+            "label": "Past Simple",
+            "formula": "subject + V2 / -ed",
+            "example": "I missed my flight."
+          },
+          {
+            "label": "Past Continuous",
+            "formula": "subject + was/were + V-ing",
+            "example": "We were waiting."
+          },
+          {
+            "label": "Past Perfect Simple",
+            "formula": "subject + had + V3",
+            "example": "She had lost her passport."
+          },
+          {
+            "label": "Past Perfect Continuous",
+            "formula": "subject + had been + V-ing",
+            "example": "She had been looking for her passport."
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "Результат или процесс?",
+        "columns": [
+          "Past Perfect Simple",
+          "Past Perfect Continuous"
+        ],
+        "rows": [
+          [
+            "I had packed my suitcase. — Чемодан уже был собран.",
+            "I had been packing my suitcase for an hour. — Важно, сколько времени длился процесс."
+          ],
+          [
+            "He had called the airline three times. — Важно число завершённых звонков.",
+            "He had been calling the airline all morning. — Важны повторные попытки в течение периода."
+          ],
+          [
+            "I had known her for years. — Состояние; know обычно не употребляется в Continuous.",
+            "I had been working there for years. — Длительная деятельность."
+          ]
+        ],
+        "subtitle": ""
+      },
+      {
+        "type": "examples",
+        "title": "Когда возможны обе формы",
+        "pairs": [
+          {
+            "context": "С work, live, study длительность можно выразить обеими формами; Continuous сильнее подчёркивает процесс.",
+            "sentence": "She had worked / had been working there for eight years."
+          },
+          {
+            "context": "Однократное завершённое событие с результатом: обычно Simple.",
+            "sentence": "The airline had cancelled our flight."
+          },
+          {
+            "context": "Действие началось раньше и могло продолжаться в точке отсчёта; либо только что закончилось.",
+            "sentence": "He was tired because he had been running."
+          },
+          {
+            "context": "After и before уже указывают порядок: Past Simple иногда достаточно. Past Perfect подчёркивает предшествование.",
+            "sentence": "After I collected / had collected my bag, I left."
+          }
+        ]
+      },
+      {
+        "type": "algorithm",
+        "title": "Как выбрать время",
+        "steps": [
+          "Найдите основное прошлое событие — Past Simple.",
+          "Опишите фон в тот момент — Past Continuous.",
+          "Если событие произошло раньше точки отсчёта, используйте Past Perfect.",
+          "Если важна продолжительность процесса до точки отсчёта, выберите Past Perfect Continuous.",
+          "Проверьте, не является ли глагол глаголом состояния (know, believe, own); обычно нужен Simple."
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "Типичные ошибки",
+        "pairs": [
+          {
+            "context": "После had нужна третья форма, не V2.",
+            "sentence": "had gone, не had went"
+          },
+          {
+            "context": "Не путайте had been + V-ing с had + V3.",
+            "sentence": "had been waiting / had waited"
+          },
+          {
+            "context": "Не используйте Past Perfect для каждого следующего события рассказа.",
+            "sentence": "I arrived, collected my bag and left."
+          }
+        ]
+      }
+    ]
+  },
+  "grammar-lesson-14-so-such-that": {
+    "title": "So / such … that",
+    "intro": "Обе конструкции означают «такой / настолько …, что …». Выбор зависит не от русского перевода, а от того, что следует после усилителя: прилагательное, наречие, существительное или выражение количества.",
+    "sections": [
+      {
+        "type": "patterns",
+        "title": "Основные конструкции",
+        "subtitle": "",
+        "items": [
+          {
+            "label": "So — признак",
+            "formula": "so + adjective + that",
+            "example": "The suitcase was so heavy that I couldn’t lift it."
+          },
+          {
+            "label": "So — наречие",
+            "formula": "so + adverb + that",
+            "example": "She spoke so quietly that I couldn’t hear."
+          },
+          {
+            "label": "Such — предмет или человек",
+            "formula": "such + a/an + (adjective) + singular countable noun + that",
+            "example": "It was such a long delay that we missed our flight."
+          },
+          {
+            "label": "Such — множественное число / неисчисляемое",
+            "formula": "such + (adjective) + plural/uncountable noun + that",
+            "example": "We had such bad weather that the flight was cancelled."
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "Количество: особое правило",
+        "columns": [
+          "Форма",
+          "С каким существительным",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "so many / so few",
+            "Исчисляемое, множественное",
+            "so many passengers"
+          ],
+          [
+            "so much / so little",
+            "Неисчисляемое",
+            "so much luggage"
+          ],
+          [
+            "such a lot of",
+            "Оба типа",
+            "such a lot of luggage"
+          ]
+        ],
+        "subtitle": ""
+      },
+      {
+        "type": "comparison",
+        "title": "Один смысл, две структуры",
+        "columns": [
+          "So",
+          "Such"
+        ],
+        "rows": [
+          [
+            "The flight was so long.",
+            "It was such a long flight."
+          ],
+          [
+            "The seats were so narrow.",
+            "They were such narrow seats."
+          ],
+          [
+            "The weather was so bad.",
+            "It was such bad weather."
+          ]
+        ],
+        "subtitle": ""
+      },
+      {
+        "type": "algorithm",
+        "title": "Как выбрать",
+        "steps": [
+          "После пропуска только прилагательное или наречие? → so.",
+          "Дальше существительное? → such.",
+          "Один исчисляемый предмет? → such a/an. Во множественном числе или с неисчисляемым существительным артикль не нужен.",
+          "Перед many, much, few, little в значении количества используйте so.",
+          "Добавьте that и предложение со следствием; в разговорной речи that иногда опускается."
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "Типичные ошибки",
+        "pairs": [
+          {
+            "context": "Не ставьте a перед неисчисляемым существительным.",
+            "sentence": "such bad weather, не such a bad weather"
+          },
+          {
+            "context": "Артикль стоит после such.",
+            "sentence": "such an interesting story, не a such interesting story"
+          },
+          {
+            "context": "Не употребляйте so напрямую перед существительным.",
+            "sentence": "such narrow seats, не so narrow seats"
+          },
+          {
+            "context": "Не путайте so much с so many.",
+            "sentence": "so much luggage / so many bags"
+          }
+        ]
+      }
+    ]
+  }
+});

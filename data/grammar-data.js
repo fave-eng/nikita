@@ -2209,3 +2209,458 @@ window.GRAMMAR_DATA.push({
     }
   ]
 });
+
+window.GRAMMAR_DATA.push({
+  "id": "grammar-lesson-14-narrative-tenses",
+  "order": 12,
+  "title": "Повествовательные времена: Narrative tenses",
+  "level": "B2.1",
+  "status": "available",
+  "linkedLessonId": "lesson-14",
+  "page": "grammar-topic.html?id=grammar-lesson-14-narrative-tenses",
+  "passScore": 100,
+  "overview": {
+    "lead": "В рассказе о прошлом время показывает, что было фоном, что случилось и что произошло раньше.",
+    "keyRule": "Past Simple — события; Past Continuous — фон; Past Perfect — более раннее действие; Past Perfect Continuous — процесс до прошлого момента.",
+    "subjects": [],
+    "example": "When I arrived, they had been waiting for an hour."
+  },
+  "uses": [],
+  "forms": [],
+  "commonMistakes": [],
+  "quizExercises": [
+    {
+      "title": "Действия и фон",
+      "instructions": "Выбери правильное время.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "When I arrived, the passengers ___ for their flight.",
+          "options": [
+            "waited",
+            "were waiting"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "I ___ my passport on the desk and went upstairs.",
+          "options": [
+            "left",
+            "was leaving"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "While we ___ to the airport, it began to snow.",
+          "options": [
+            "drove",
+            "were driving"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "The gate opened and we ___.",
+          "options": [
+            "boarded",
+            "were boarding"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Что произошло раньше?",
+      "instructions": "Выбери форму, передающую последовательность событий.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "When we reached the gate, the plane ___. It was already in the air.",
+          "options": [
+            "left",
+            "had left"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "She couldn’t check in because she ___ her passport at home.",
+          "options": [
+            "had left",
+            "was leaving"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "After he had collected his bag, he ___ a taxi.",
+          "options": [
+            "had taken",
+            "took"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "I recognised him because we ___ before.",
+          "options": [
+            "had met",
+            "were meeting"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Past Perfect Simple или Continuous?",
+      "instructions": "Выбери форму, которая лучше передаёт результат или длительность.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "I was exhausted because I ___ all night.",
+          "options": [
+            "had been travelling",
+            "had travelled to three cities"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "By the time we arrived, the staff ___ all the bags.",
+          "options": [
+            "had loaded",
+            "had been loading"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "The ground was wet because it ___ for hours.",
+          "options": [
+            "had been raining",
+            "had stopped raining at dawn"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "She ___ the tickets, so we could go straight to security.",
+          "options": [
+            "had printed",
+            "had been printing"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Самостоятельная форма",
+      "instructions": "Впиши только нужную форму глагола. Пример: When he arrived, I ___ (already / leave). → had already left.",
+      "items": [
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "We ___ (wait) for two hours when the gate finally opened. Use Past Perfect Continuous.",
+          "answer": "had been waiting",
+          "acceptedAnswers": [
+            "had been waiting"
+          ],
+          "placeholder": "Write only the missing words"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "When we arrived, the flight ___ (already / depart).",
+          "answer": "had already departed",
+          "acceptedAnswers": [
+            "had already departed"
+          ],
+          "placeholder": "Write only the missing words"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "I ___ (read) when the announcement interrupted me. Use Past Continuous.",
+          "answer": "was reading",
+          "acceptedAnswers": [
+            "was reading"
+          ],
+          "placeholder": "Write only the missing words"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "The aircraft ___ (land) at 6 p.m. yesterday.",
+          "answer": "landed",
+          "acceptedAnswers": [
+            "landed"
+          ],
+          "placeholder": "Write only the missing words"
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": "grammar-lesson-14-so-such-that",
+  "order": 13,
+  "title": "So / such … that",
+  "level": "B2.1",
+  "status": "available",
+  "linkedLessonId": "lesson-14",
+  "page": "grammar-topic.html?id=grammar-lesson-14-so-such-that",
+  "passScore": 100,
+  "overview": {
+    "lead": "So и such усиливают признак; that вводит следствие.",
+    "keyRule": "so + adjective/adverb; such + (a/an) + adjective + noun; so much/many + noun",
+    "subjects": [],
+    "example": "It was such a long delay that we missed our flight."
+  },
+  "uses": [],
+  "forms": [],
+  "commonMistakes": [],
+  "quizExercises": [
+    {
+      "title": "So: признак или наречие",
+      "instructions": "Выбери нужную форму.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "The plane was ___ noisy that I couldn’t sleep.",
+          "options": [
+            "so",
+            "such",
+            "such a"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "She spoke ___ quietly that I couldn’t hear her.",
+          "options": [
+            "so",
+            "such",
+            "so much"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "The queue was ___ long that we missed boarding.",
+          "options": [
+            "such",
+            "so",
+            "so many"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "He was ___ tired that he fell asleep at the gate.",
+          "options": [
+            "such a",
+            "so",
+            "so much"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Such: существительное",
+      "instructions": "Учитывай число и исчисляемость существительного.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "It was ___ long flight that we needed a rest.",
+          "options": [
+            "so",
+            "such",
+            "such a"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "There were ___ comfortable seats that we slept well.",
+          "options": [
+            "so",
+            "such",
+            "such a"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "We had ___ bad weather that the flight was cancelled.",
+          "options": [
+            "such",
+            "such a",
+            "so many"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "She told us ___ interesting story that everyone listened.",
+          "options": [
+            "such",
+            "such an",
+            "so"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Количество: many, much, few, little",
+      "instructions": "Выбери выражение количества.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "There were ___ passengers that the queue reached the door.",
+          "options": [
+            "so much",
+            "so many",
+            "such many"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "We had ___ luggage that we needed two trolleys.",
+          "options": [
+            "so many",
+            "so much",
+            "such a"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "There were ___ seats left that we had to stand.",
+          "options": [
+            "so few",
+            "so little",
+            "such few"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "There was ___ time left that we had to run.",
+          "options": [
+            "so few",
+            "so little",
+            "such little"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Заполни пропуск",
+      "instructions": "Впиши только выражение so / such / such a / such an / so many / so much. Пример: ___ cold that … → so.",
+      "items": [
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "It was ___ expensive ticket that I changed my mind.",
+          "answer": "such an",
+          "acceptedAnswers": [
+            "such an"
+          ],
+          "placeholder": "Write only the missing words"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "The flight was ___ smooth that I forgot I was flying.",
+          "answer": "so",
+          "acceptedAnswers": [
+            "so"
+          ],
+          "placeholder": "Write only the missing words"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "We had ___ turbulence that drinks spilled everywhere. (quantity: a large amount)",
+          "answer": "so much",
+          "acceptedAnswers": [
+            "so much"
+          ],
+          "placeholder": "Write only the missing words"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "They were ___ helpful people that we thanked them twice.",
+          "answer": "such",
+          "acceptedAnswers": [
+            "such"
+          ],
+          "placeholder": "Write only the missing words"
+        }
+      ]
+    }
+  ]
+});

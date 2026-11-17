@@ -979,13 +979,31 @@
     [data-task="hw13-ex2d"] select {width:100%;max-width:550px;white-space:normal;}
     @media(max-width:620px){[data-task="hw13-ex2a"] .exercise-items {grid-template-columns:1fr;}[data-task="hw13-ex2a"] .hw13-crossword {padding:3px;}[data-task="hw13-ex2a"] .hw13-cell-number{top:1px;left:1px;}}
 
-  </style>
+  
+    /* HW14: compact native controls and continuous stories. */
+    [data-task^="hw14-"] .sentence-gaps {display:block;line-height:2.5;white-space:normal;}
+    [data-task^="hw14-"] .dialogue-answer-select {display:inline-block;width:clamp(112px,24vw,205px);min-width:0;max-width:100%;min-height:38px;margin:2px 4px;padding:5px 24px 5px 8px;vertical-align:baseline;font-size:.9rem;}
+    [data-task="hw14-ex1g"] .dialogue-answer-select, [data-task="hw14-ex2"] .dialogue-answer-select {width:112px;}
+    [data-task="hw14-ex3a"] .dialogue-answer-select {width:220px;}
+    [data-task="hw14-ex1a"] select {width:min(100%,255px);}
+    [data-task="hw14-ex1a"] .replacement-target {font-weight:800;}
+    [data-task="hw14-ex1d"] .exercise-item-header,[data-task="hw14-ex3b"] .exercise-item-header {display:none;}
+    [data-task="hw14-ex1d"] .exercise-control,[data-task="hw14-ex3b"] .exercise-control {padding:14px 16px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;}
+    [data-task="hw14-ex1d"] .gap-input,[data-task="hw14-ex3b"] .gap-input {display:inline-block;width:clamp(140px,25vw,210px);min-width:0;max-width:100%;min-height:38px;margin:2px 4px;padding:5px 8px;vertical-align:baseline;text-align:left;}
+    [data-task="hw14-ex1b"] .exercise-item:not(.exercise-example),[data-task="hw14-ex1g"] .exercise-item:not(.exercise-example),[data-task="hw14-ex2"] .exercise-item:not(.exercise-example),[data-task="hw14-ex3a"] .exercise-item:not(.exercise-example) {display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;align-items:start;}
+    [data-task^="hw14-"] .exercise-prompt:empty {display:none;}
+    [data-task^="hw14-"] .exercise-control {min-width:0;}
+    [data-task="hw14-ex1b"] .exercise-control,[data-task="hw14-ex1g"] .exercise-control,[data-task="hw14-ex2"] .exercise-control,[data-task="hw14-ex3a"] .exercise-control {padding-left:0;}
+    [data-task^="hw14-"] .feedback {grid-column:2;}
+    @media(max-width:520px){[data-task="hw14-ex1d"] .exercise-control,[data-task="hw14-ex3b"] .exercise-control{padding:10px;}[data-task="hw14-ex3a"] .dialogue-answer-select{width:min(100%,205px);}}
+
+</style>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="config.js" defer></script>
-  <script src="data/vocabulary-data.js?v=22" defer></script>
-  <script src="data/grammar-data.js?v=17" defer></script>
-  <script src="app.js?v=21" defer></script>
+  <script src="data/vocabulary-data.js?v=23" defer></script>
+  <script src="data/grammar-data.js?v=18" defer></script>
+  <script src="app.js?v=22" defer></script>
 </head>
 <body class="has-bottom-nav" data-page="homework" data-view="lesson">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -1553,7 +1571,7 @@
 
 
       const placeLessonVocabularyAfterGrammar = () => {
-        if (!['lesson-8', 'lesson-9', 'lesson-11', 'lesson-12', 'lesson-13'].includes(lessonId)) return;
+        if (!['lesson-8', 'lesson-9', 'lesson-11', 'lesson-12', 'lesson-13', 'lesson-14'].includes(lessonId)) return;
 
         const roadmap = root.querySelector('.lesson-roadmap');
         const sourceShortcut = document.getElementById('lesson-vocabulary-shortcut');
@@ -1576,7 +1594,7 @@
       };
 
       const applyLesson8Enhancements = () => {
-        if (!['lesson-8', 'lesson-11', 'lesson-12', 'lesson-13'].includes(lessonId)) return;
+        if (!['lesson-8', 'lesson-11', 'lesson-12', 'lesson-13', 'lesson-14'].includes(lessonId)) return;
 
         const roadmap = root.querySelector('.lesson-roadmap');
         if (!roadmap) return;
@@ -1776,7 +1794,7 @@
 
       new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
 
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=18`, { cache: 'no-store' })
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=19`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();

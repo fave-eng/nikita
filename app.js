@@ -4,6 +4,7 @@
   const config = window.APP_CONFIG || {};
   const student = config.student || {};
   let HOMEWORK_DATA = [];
+  let homeworkCatalogHadErrors = false;
   const RAW_VOCABULARY_DATA = Array.isArray(window.VOCABULARY_DATA) ? window.VOCABULARY_DATA : [];
   const GRAMMAR_DATA = Array.isArray(window.GRAMMAR_DATA) ? window.GRAMMAR_DATA : [];
   const lessonCache = new Map();
@@ -87,7 +88,23 @@
   async function discoverHomeworkData() {
     const lessonsById = new Map();
     let highestKnownLessonNumber = 0;
-
+    let hadErrors = false;
+    const remember = (lesson) => {
+      if (!lesson) return;
+      lessonsById.set(lesson.id, lesson);
+      highestKnownLessonNumber = Math.max(highestKnownLessonNumber, Number(lesson.number || 0));
+    };
+    const tryLesson = async (id) => {
+      try { return await fetchLessonFile(id); }
+      catch (error) {
+        hadErrors = true;
+        console.warn(`Could not load ${id}; the remaining homework will still be shown:`, error);
+        return null;
+      }
+    };
+    // The optional index contains non-sequential IDs such as lesson-3-2.
+    // Load entries independently so one failed request cannot discard the others.
+    let indexedIds = ['lesson-3-2'];
     try {
       const indexUrl = new URL(`${lessonsPath}/index.json`, document.baseURI);
       indexUrl.searchParams.set('_', Date.now().toString());
@@ -95,33 +112,39 @@
       if (response.ok) {
         const payload = await response.json();
         const ids = Array.isArray(payload) ? payload : payload.lessons;
-        if (Array.isArray(ids)) {
-          const indexedLessons = (await Promise.all(ids.map((id) => fetchLessonFile(id)))).filter(Boolean);
-          indexedLessons.forEach((lesson) => {
-            lessonsById.set(lesson.id, lesson);
-            highestKnownLessonNumber = Math.max(highestKnownLessonNumber, Number(lesson.number || 0));
-          });
-        }
-      }
+        if (Array.isArray(ids)) indexedIds = [...new Set([...indexedIds, ...ids])];
+        else hadErrors = true;
+      } else if (response.status !== 404) hadErrors = true;
     } catch (error) {
+      hadErrors = true;
       console.warn('Could not load the lesson index; automatic discovery is used:', error);
     }
-
-    // Even if index.json is stale, automatically look for lesson-1.json, lesson-2.json, and so on.
-    // Discovery stops after three missing files in a row after the last found lesson.
+    // Avoid a burst of concurrent network requests during discovery.
+    for (const id of indexedIds) remember(await tryLesson(id));
+    const previousHighest = HOMEWORK_DATA.reduce((n, lesson) => Math.max(n, Number(lesson.number || 0)), 0);
+    const indexedHighest = indexedIds.reduce((n, id) => {
+      const m = /^lesson-(\d+)(?:-\d+)?$/.exec(String(id));
+      return m ? Math.max(n, Number(m[1])) : n;
+    }, 0);
     let consecutiveMissing = 0;
     for (let number = 1; number <= maxLessonNumber; number += 1) {
-      const lesson = await fetchLessonFile(`lesson-${number}`);
+      const lesson = await tryLesson(`lesson-${number}`);
       if (lesson) {
-        lessonsById.set(lesson.id, lesson);
-        highestKnownLessonNumber = Math.max(highestKnownLessonNumber, Number(lesson.number || number));
+        remember(lesson);
         consecutiveMissing = 0;
       } else {
         consecutiveMissing += 1;
-        if (number > highestKnownLessonNumber && consecutiveMissing >= maxConsecutiveMissingLessons) break;
+        if (number > Math.max(highestKnownLessonNumber, previousHighest, indexedHighest) && consecutiveMissing >= maxConsecutiveMissingLessons) break;
       }
     }
-
+    // Preserve the last visible catalog on a partial/failed refresh. Never write
+    // to the student's progress storage from catalog discovery.
+    if (hadErrors) {
+      for (const previous of HOMEWORK_DATA) {
+        if (!lessonsById.has(previous.id)) lessonsById.set(previous.id, previous);
+      }
+    }
+    homeworkCatalogHadErrors = hadErrors;
     return [...lessonsById.values()]
       .sort((a, b) => Number(a.number || 0) - Number(b.number || 0));
   }
@@ -132,6 +155,7 @@
 
     if (view === 'lesson' && requestedId) {
       const lesson = await fetchLessonFile(requestedId);
+      homeworkCatalogHadErrors = false;
       HOMEWORK_DATA = lesson ? [lesson] : [];
     } else {
       HOMEWORK_DATA = await discoverHomeworkData();
@@ -883,7 +907,9 @@
       } else {
         const publishedHomework = HOMEWORK_DATA.filter((item) => ['available', 'completed'].includes(item.status));
         const everythingCompleted = publishedHomework.length > 0 && publishedHomework.every((item) => item.status === 'completed' || homeworkProgress.completedIds.includes(item.id) || Boolean(homeworkProgress.submissions[item.id]));
-        current.innerHTML = everythingCompleted
+        current.innerHTML = homeworkCatalogHadErrors
+          ? emptyState('⚠️', 'Could not refresh homework', 'Open Homework or refresh the page to try again.')
+          : everythingCompleted
           ? '<a class="card interactive item-card current-material-card" href="homework.html"><div class="item-icon">✅</div><div class="item-main"><h3>All published materials are completed</h3><p>New material will appear after the teacher publishes it.</p></div><span class="arrow" aria-hidden="true">→</span></a>'
           : '<div class="card disabled empty-state"><div class="empty-state-icon">✨</div><h3>No current material has been published yet</h3><p>The latest available homework will appear here automatically.</p></div>';
       }
@@ -930,7 +956,9 @@
 
     const root = byId('homework-list');
     if (!published.length) {
-      root.innerHTML = emptyState('📝', 'No homework has been published yet', 'After the first lesson, the teacher will add an interactive task here.');
+      root.innerHTML = homeworkCatalogHadErrors
+        ? emptyState('⚠️', 'Could not load homework', 'The connection failed. Refresh the page or wait for the automatic retry. Your saved progress has not been changed by this error.')
+        : emptyState('📝', 'No homework has been published yet', 'After the first lesson, the teacher will add an interactive task here.');
       return;
     }
 
@@ -982,6 +1010,7 @@
       .sort((a, b) => Number(a.number || 0) - Number(b.number || 0));
 
     root.innerHTML = [
+      homeworkCatalogHadErrors ? '<div class="card info-card" role="status"><p class="muted">Some materials could not be loaded. Available homework is shown below. The list will retry automatically.</p></div>' : '',
       renderGroup('To do', toDo, 'homework-group-todo'),
       renderGroup('Completed', done, 'homework-group-done'),
       renderGroup('Soon', comingSoon, 'homework-group-locked')
@@ -2182,7 +2211,9 @@
     const lessonRecord = HOMEWORK_DATA.find((item) => item.id === id && item.status !== 'draft');
     const root = byId('lesson-root');
     if (!lessonRecord || lessonRecord.status === 'locked') {
-      root.innerHTML = emptyState('📝', 'This homework has not been published yet', 'The teacher will add the material after the lesson.');
+      root.innerHTML = homeworkCatalogHadErrors
+        ? emptyState('⚠️', 'Could not load the homework', 'Refresh the page to try again. Your saved progress has not been changed by this error.')
+        : emptyState('📝', 'This homework has not been published yet', 'The teacher will add the material after the lesson.');
       return;
     }
 
@@ -3211,14 +3242,15 @@
     if (!['home', 'homework'].includes(view)) return;
 
     const before = homeworkCatalogSignature();
+    const beforeErrors = homeworkCatalogHadErrors;
     lessonCache.clear();
 
     try {
       await loadHomeworkData();
       const after = homeworkCatalogSignature();
-      if (after !== before) {
+      if (after !== before || beforeErrors !== homeworkCatalogHadErrors) {
         await refreshCurrentView();
-        showToast('Homework list updated.');
+        if (!homeworkCatalogHadErrors) showToast('Homework list updated.');
       }
     } catch (error) {
       console.warn('Could not automatically update the homework list:', error);
@@ -3284,7 +3316,7 @@
         await loadHomeworkData();
       } catch (error) {
         console.error('Lesson catalog loading error:', error);
-        HOMEWORK_DATA = [];
+        homeworkCatalogHadErrors = true;
         window.HOMEWORK_DATA = HOMEWORK_DATA;
       }
       await refreshCurrentView();

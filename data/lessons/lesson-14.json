@@ -1,0 +1,939 @@
+{
+  "id": "lesson-14",
+  "number": 14,
+  "title": "3A Fasten your seatbelts",
+  "subtitle": "B2.1 · Air travel, narrative tenses and so / such … that",
+  "status": "available",
+  "publishedAt": "2026-11-17",
+  "notification": {
+    "enabled": true,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-14-air-travel",
+  "grammarIds": [
+    "grammar-lesson-14-narrative-tenses",
+    "grammar-lesson-14-so-such-that"
+  ],
+  "totalPoints": 64,
+  "blocks": [
+    {
+      "type": "grammar-link",
+      "title": "Повествовательные времена",
+      "text": "Past Simple, Past Continuous, Past Perfect Simple и Continuous: последовательность событий.",
+      "grammarId": "grammar-lesson-14-narrative-tenses",
+      "buttonLabel": "Review grammar"
+    },
+    {
+      "type": "grammar-link",
+      "title": "So / such … that",
+      "text": "Как выразить степень признака и его следствие.",
+      "grammarId": "grammar-lesson-14-so-such-that",
+      "buttonLabel": "Review grammar"
+    },
+    {
+      "type": "section",
+      "title": "Vocabulary: air travel",
+      "text": "Airport announcements, airport facilities and phrasal verbs."
+    },
+    {
+      "type": "exercise",
+      "id": "hw14-ex1a",
+      "title": "1a · Replace the bold words with a formal word or phrase",
+      "instructions": "Choose the formal equivalent of the highlighted words. Example: mobile phones, tablets, and laptops → personal electronic devices.",
+      "items": [
+        {
+          "id": "1a-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Mobile phones, tablets, and laptops may be used in flight mode during the flight.",
+          "exampleAnswer": "personal electronic devices",
+          "underline": "Mobile phones, tablets, and laptops"
+        },
+        {
+          "id": "1a-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "There are toilets at the front and at the back of the plane.",
+          "options": [
+            "approximately",
+            "disembark",
+            "locate",
+            "personal electronic devices",
+            "place",
+            "proceed to",
+            "rear",
+            "requiring"
+          ],
+          "answer": 6,
+          "underline": "back"
+        },
+        {
+          "id": "1a-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "Our flight time today is about two and a half hours.",
+          "options": [
+            "approximately",
+            "disembark",
+            "locate",
+            "personal electronic devices",
+            "place",
+            "proceed to",
+            "rear",
+            "requiring"
+          ],
+          "answer": 0,
+          "underline": "about"
+        },
+        {
+          "id": "1a-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "The crew will be passing through the cabin with landing cards for any passengers needing one.",
+          "options": [
+            "approximately",
+            "disembark",
+            "locate",
+            "personal electronic devices",
+            "place",
+            "proceed to",
+            "rear",
+            "requiring"
+          ],
+          "answer": 7,
+          "underline": "needing"
+        },
+        {
+          "id": "1a-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "Passengers to New York are asked to go to Gate 36 immediately.",
+          "options": [
+            "approximately",
+            "disembark",
+            "locate",
+            "personal electronic devices",
+            "place",
+            "proceed to",
+            "rear",
+            "requiring"
+          ],
+          "answer": 5,
+          "underline": "go to"
+        },
+        {
+          "id": "1a-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "Please check you have all your belongings with you before you leave the plane.",
+          "options": [
+            "approximately",
+            "disembark",
+            "locate",
+            "personal electronic devices",
+            "place",
+            "proceed to",
+            "rear",
+            "requiring"
+          ],
+          "answer": 1,
+          "underline": "leave the plane"
+        },
+        {
+          "id": "1a-7",
+          "number": 7,
+          "input": "select",
+          "prompt": "We ask that you put bags and jackets under the seat in front of you.",
+          "options": [
+            "approximately",
+            "disembark",
+            "locate",
+            "personal electronic devices",
+            "place",
+            "proceed to",
+            "rear",
+            "requiring"
+          ],
+          "answer": 4,
+          "underline": "put"
+        },
+        {
+          "id": "1a-8",
+          "number": 8,
+          "input": "select",
+          "prompt": "Please take some time now to find your nearest emergency exit.",
+          "options": [
+            "approximately",
+            "disembark",
+            "locate",
+            "personal electronic devices",
+            "place",
+            "proceed to",
+            "rear",
+            "requiring"
+          ],
+          "answer": 2,
+          "underline": "find"
+        }
+      ],
+      "wordBank": [
+        "approximately",
+        "disembark",
+        "locate",
+        "personal electronic devices",
+        "place",
+        "proceed to",
+        "rear",
+        "requiring"
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw14-ex1b",
+      "title": "1b · Choose the correct word",
+      "instructions": "Choose the correct airport word or phrase in each sentence.",
+      "items": [
+        {
+          "id": "1b-1",
+          "number": 1,
+          "example": true,
+          "prompt": "They had booked an economy flight, so they couldn’t use the ______.",
+          "exampleAnswer": "VIP lounge"
+        },
+        {
+          "id": "1b-2",
+          "number": 2,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "It didn’t take long for me to check in my suitcase at the ",
+            "."
+          ],
+          "options": [
+            "baggage drop-off",
+            "security"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "1b-3",
+          "number": 3,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The passengers were stopped at ",
+            " for their bags to be checked."
+          ],
+          "options": [
+            "customs",
+            "the check-in desk"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "1b-4",
+          "number": 4,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "I showed my boarding pass and ID at the ",
+            " and went to board my flight."
+          ],
+          "options": [
+            "baggage reclaim",
+            "gate"
+          ],
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "1b-5",
+          "number": 5,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "I didn’t have a boarding pass, so I had to queue at the ",
+            " to get one."
+          ],
+          "options": [
+            "check-in desk",
+            "customs"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "1b-6",
+          "number": 6,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "We could see our plane on the ",
+            " while we were waiting to board."
+          ],
+          "options": [
+            "runway",
+            "gate"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "1b-7",
+          "number": 7,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "We parked as near as possible to the ",
+            " because we were late."
+          ],
+          "options": [
+            "airport terminal",
+            "VIP lounge"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "1b-8",
+          "number": 8,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The quickest way to find your flight on the departures board is to look at the ",
+            "."
+          ],
+          "options": [
+            "flight times",
+            "runway"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "1b-9",
+          "number": 9,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "I was wearing boots, so I had to take them off at ",
+            "."
+          ],
+          "options": [
+            "security",
+            "baggage drop-off"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "1b-10",
+          "number": 10,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "When I went to ",
+            ", I found that my suitcase hadn’t arrived."
+          ],
+          "options": [
+            "baggage reclaim",
+            "flight times"
+          ],
+          "answers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw14-ex1d",
+      "title": "1d · Complete the text",
+      "instructions": "Read the whole story. Type only the missing word or phrase in each gap, using the initial letters. Example: (int… fl…) → international flight. The first answer is already included.",
+      "items": [
+        {
+          "id": "1d-story",
+          "number": "",
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Last year, I wanted to travel from Madrid to Hamburg to visit a friend. I had booked an international flight (1 — example) from Madrid to Frankfurt and a (2 · c… fl…) ",
+            " from Frankfurt to Hamburg. I printed off my (3 · b… p…) ",
+            " the day before my flight, and I took it with me to the airport. I was able to go straight to security in (4 · D…) ",
+            " because I only had (5 · h… l…) ",
+            " – a small backpack. After (6 · sc…) ",
+            " my bag, they opened it and (7 · ch…) ",
+            " it to make sure I wasn’t carrying any (8 · l…) ",
+            " or (9 · sh… ob…) ",
+            ", like scissors.\n\nWhen I finally got my bag back, I looked at the (10 · d… b…) ",
+            " to see if my flight was already (11 · b…) ",
+            ". I needn’t have worried, because the flight was (12 · d…) ",
+            ". The plane didn’t (13 · t… o…) ",
+            " until two hours later. When I eventually arrived in Frankfurt, I was happy to see that my next flight was (14 · o… t…) ",
+            ". However, just before we were due to (15 · b…) ",
+            ", we were informed that the flight had been cancelled – apparently, planes couldn’t (16 · l…) ",
+            " in Hamburg because of bad weather. In the end, I finished my journey by train, and I arrived in Hamburg eight hours late!"
+          ],
+          "answers": [
+            [
+              "connecting flight"
+            ],
+            [
+              "boarding pass"
+            ],
+            [
+              "Departures"
+            ],
+            [
+              "hand luggage"
+            ],
+            [
+              "scanning"
+            ],
+            [
+              "checked"
+            ],
+            [
+              "liquids"
+            ],
+            [
+              "sharp objects"
+            ],
+            [
+              "departures board"
+            ],
+            [
+              "boarding"
+            ],
+            [
+              "delayed"
+            ],
+            [
+              "take off"
+            ],
+            [
+              "on time"
+            ],
+            [
+              "board"
+            ],
+            [
+              "land"
+            ]
+          ],
+          "wideGaps": true
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw14-ex1g",
+      "title": "1g · Complete the phrasal verbs",
+      "instructions": "Choose the missing particle, not the whole verb. You can use a particle more than once.",
+      "items": [
+        {
+          "id": "1g-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Who picked you ______ from the airport the last time you travelled?",
+          "exampleAnswer": "up"
+        },
+        {
+          "id": "1g-2",
+          "number": 2,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "When do you usually check ",
+            " for a flight?"
+          ],
+          "options": [
+            "in",
+            "off",
+            "on",
+            "up"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "1g-3",
+          "number": 3,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Who usually drops you ",
+            " at the airport?"
+          ],
+          "options": [
+            "in",
+            "off",
+            "on",
+            "up"
+          ],
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "1g-4",
+          "number": 4,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Have you ever filled ",
+            " an immigration form? If so, when?"
+          ],
+          "options": [
+            "in",
+            "off",
+            "on",
+            "up"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "1g-5",
+          "number": 5,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "What’s the first thing you do when you get ",
+            " a plane?"
+          ],
+          "options": [
+            "in",
+            "off",
+            "on",
+            "up"
+          ],
+          "answers": [
+            2
+          ]
+        },
+        {
+          "id": "1g-6",
+          "number": 6,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Have you ever picked ",
+            " the wrong bag at baggage reclaim?"
+          ],
+          "options": [
+            "in",
+            "off",
+            "on",
+            "up"
+          ],
+          "answers": [
+            3
+          ]
+        },
+        {
+          "id": "1g-7",
+          "number": 7,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Are you usually in a hurry to get ",
+            " the plane? Why / Why not?"
+          ],
+          "options": [
+            "in",
+            "off",
+            "on",
+            "up"
+          ],
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "1g-8",
+          "number": 8,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Do you ever feel nervous when a plane takes ",
+            "?"
+          ],
+          "options": [
+            "in",
+            "off",
+            "on",
+            "up"
+          ],
+          "answers": [
+            1
+          ]
+        }
+      ],
+      "wordBank": [
+        "in (×2)",
+        "off (×3)",
+        "on",
+        "up (×2)"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Grammar in context: so / such … that",
+      "text": "Express degree and result."
+    },
+    {
+      "type": "exercise",
+      "id": "hw14-ex2",
+      "title": "2 · So / such … that",
+      "instructions": "Choose the correct expression in each sentence. Example: so heavy that …",
+      "items": [
+        {
+          "id": "2-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Her suitcase was ______ heavy that she couldn’t pick it up.",
+          "exampleAnswer": "so"
+        },
+        {
+          "id": "2-2",
+          "number": 2,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "We had ",
+            " long delay that we missed our connecting flight."
+          ],
+          "options": [
+            "so",
+            "such",
+            "such a"
+          ],
+          "answers": [
+            2
+          ]
+        },
+        {
+          "id": "2-3",
+          "number": 3,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "There were ",
+            " people at the airport that there weren’t any trolleys left."
+          ],
+          "options": [
+            "so",
+            "so much",
+            "so many"
+          ],
+          "answers": [
+            2
+          ]
+        },
+        {
+          "id": "2-4",
+          "number": 4,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "We flew over ",
+            " lovely countryside that I took some photos from the plane."
+          ],
+          "options": [
+            "so",
+            "such",
+            "such a"
+          ],
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "2-5",
+          "number": 5,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "There was ",
+            " rain that the road to the airport was flooded."
+          ],
+          "options": [
+            "so",
+            "so much",
+            "so many"
+          ],
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "2-6",
+          "number": 6,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "We were sitting in ",
+            " narrow seats on the plane that it was very uncomfortable."
+          ],
+          "options": [
+            "so",
+            "so much",
+            "such"
+          ],
+          "answers": [
+            2
+          ]
+        },
+        {
+          "id": "2-7",
+          "number": 7,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The flight attendant spoke ",
+            " softly that I couldn’t hear what she was saying."
+          ],
+          "options": [
+            "so",
+            "so much",
+            "such"
+          ],
+          "answers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Grammar: narrative tenses",
+      "text": "Past Perfect Simple and Continuous in past narratives."
+    },
+    {
+      "type": "exercise",
+      "id": "hw14-ex3a",
+      "title": "3a · Choose the correct verb form",
+      "instructions": "Choose the most natural form in context, or Both are possible when both forms fit. Follow the two examples.",
+      "items": [
+        {
+          "id": "3a-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Tim couldn’t close his case because he ______ too many clothes in it.",
+          "exampleAnswer": "had put"
+        },
+        {
+          "id": "3a-2",
+          "number": 2,
+          "example": true,
+          "prompt": "She ______ for the same airline for eight years before she was promoted.",
+          "exampleAnswer": "Both are possible — had worked / had been working"
+        },
+        {
+          "id": "3a-3",
+          "number": 3,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "I was delighted when I found my passport. I ",
+            " for it for hours."
+          ],
+          "options": [
+            "had looked",
+            "had been looking",
+            "Both are possible"
+          ],
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "3a-4",
+          "number": 4,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "After I ",
+            " my luggage, I took a taxi to my hotel."
+          ],
+          "options": [
+            "had picked up",
+            "had been picking up",
+            "Both are possible"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "3a-5",
+          "number": 5,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "I ",
+            " in departures for 20 minutes when I saw that my flight was boarding at a different gate."
+          ],
+          "options": [
+            "had sat",
+            "had been sitting",
+            "Both are possible"
+          ],
+          "answers": [
+            1
+          ]
+        },
+        {
+          "id": "3a-6",
+          "number": 6,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "They ",
+            " in Manchester before they moved to Scotland."
+          ],
+          "options": [
+            "had lived",
+            "had been living",
+            "Both are possible"
+          ],
+          "answers": [
+            2
+          ]
+        },
+        {
+          "id": "3a-7",
+          "number": 7,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The passengers were angry because the airline ",
+            " their flight."
+          ],
+          "options": [
+            "had cancelled",
+            "had been cancelling",
+            "Both are possible"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "3a-8",
+          "number": 8,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "I was surprised when I was told that my suitcase was too big: I ",
+            " it for years without having to pay for it."
+          ],
+          "options": [
+            "had taken",
+            "had been taking",
+            "Both are possible"
+          ],
+          "answers": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw14-ex3b",
+      "title": "3b · Complete the text with the correct form of the verbs",
+      "instructions": "Type only the verb form for each gap. Use narrative tenses and put adverbs in the correct position. Example: (never fly) → had never flown.",
+      "items": [
+        {
+          "id": "3b-story",
+          "number": "",
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "My parents had never flown (1 · never fly — example) before, so they were very nervous when we (2 · arrive) ",
+            " at Heathrow Airport to take our flight to Rome. It (3 · rain) ",
+            ", so I (4 · leave) ",
+            " them at the terminal building with instructions to get in the queue at the check-in desk while I (5 · go) ",
+            " to park my car in the long-term car park. However, when I (6 · get) ",
+            " to the check-in desk myself, they were nowhere in sight. I (7 · look) ",
+            " for them everywhere until it occurred to me it was possible they (8 · already / check in) ",
+            " and they (9 · wait) ",
+            " for me in the departure lounge.\n\nThis was a real problem for me because I (10 · give) ",
+            " my passport to my mother, so I couldn’t check in. I (11 · call) ",
+            " my parents on their mobile and, fortunately, my mother answered. They (12 · already / go) ",
+            " through to the departure lounge, and they (13 · wait) ",
+            " for me for nearly half an hour at the gate. Apparently, my mum (14 · read) ",
+            " her book and my dad (15 · do) ",
+            " a crossword. After we hung up, my mum found an understanding member of staff who met me at the information desk with my passport!"
+          ],
+          "answers": [
+            [
+              "arrived"
+            ],
+            [
+              "was raining"
+            ],
+            [
+              "left"
+            ],
+            [
+              "went"
+            ],
+            [
+              "got"
+            ],
+            [
+              "looked",
+              "was looking"
+            ],
+            [
+              "had already checked in",
+              "’d already checked in"
+            ],
+            [
+              "were waiting",
+              "had been waiting"
+            ],
+            [
+              "had given",
+              "’d given"
+            ],
+            [
+              "called"
+            ],
+            [
+              "had already gone",
+              "’d already gone"
+            ],
+            [
+              "had been waiting",
+              "had waited",
+              "’d been waiting"
+            ],
+            [
+              "was reading"
+            ],
+            [
+              "was doing"
+            ]
+          ],
+          "wideGaps": true
+        }
+      ]
+    }
+  ]
+}
