@@ -1,0 +1,451 @@
+{
+  "id": "lesson-12",
+  "number": 12,
+  "title": "2B Act your age",
+  "subtitle": "B2.1 · Adjectives as nouns and adjective order",
+  "status": "available",
+  "publishedAt": "2026-11-17",
+  "notification": {
+    "enabled": true,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-12-clothes-and-people",
+  "grammarIds": [
+    "grammar-lesson-12-adjectives-as-nouns",
+    "grammar-lesson-12-adjective-order"
+  ],
+  "totalPoints": 20,
+  "blocks": [
+    {
+      "type": "grammar-link",
+      "title": "Прилагательные в роли существительных",
+      "text": "Группы людей и национальности: the elderly, the French, the Swiss.",
+      "grammarId": "grammar-lesson-12-adjectives-as-nouns",
+      "buttonLabel": "Review grammar"
+    },
+    {
+      "type": "grammar-link",
+      "title": "Порядок прилагательных",
+      "text": "Как располагать описательные прилагательные перед существительным.",
+      "grammarId": "grammar-lesson-12-adjective-order",
+      "buttonLabel": "Review grammar"
+    },
+    {
+      "type": "section",
+      "title": "Grammar: adjectives as nouns",
+      "text": "Groups of people and nationalities."
+    },
+    {
+      "type": "exercise",
+      "id": "hw12-ex1a",
+      "title": "1a · Complete the sentences with the noun form of the adjectives",
+      "instructions": "Choose the + adjective from the list. Example: elderly → the elderly.",
+      "wordBank": [
+        "blind",
+        "deaf",
+        "disabled",
+        "elderly",
+        "injured",
+        "rich",
+        "unemployed",
+        "young"
+      ],
+      "items": [
+        {
+          "id": "1a-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Should the family or the state look after ______?",
+          "exampleAnswer": "the elderly"
+        },
+        {
+          "id": "1a-2",
+          "number": 2,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The government is offering courses to help ",
+            " to find jobs."
+          ],
+          "options": [
+            "the blind",
+            "the deaf",
+            "the disabled",
+            "the elderly",
+            "the injured",
+            "the rich",
+            "the unemployed",
+            "the young"
+          ],
+          "answers": [
+            6
+          ]
+        },
+        {
+          "id": "1a-3",
+          "number": 3,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "After the accident, ",
+            " were taken to hospital."
+          ],
+          "options": [
+            "the blind",
+            "the deaf",
+            "the disabled",
+            "the elderly",
+            "the injured",
+            "the rich",
+            "the unemployed",
+            "the young"
+          ],
+          "answers": [
+            4
+          ]
+        },
+        {
+          "id": "1a-4",
+          "number": 4,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "The building has easy access for ",
+            "."
+          ],
+          "options": [
+            "the blind",
+            "the deaf",
+            "the disabled",
+            "the elderly",
+            "the injured",
+            "the rich",
+            "the unemployed",
+            "the young"
+          ],
+          "answers": [
+            2
+          ]
+        },
+        {
+          "id": "1a-5",
+          "number": 5,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "Do you think ",
+            " should pay higher taxes than the poor?"
+          ],
+          "options": [
+            "the blind",
+            "the deaf",
+            "the disabled",
+            "the elderly",
+            "the injured",
+            "the rich",
+            "the unemployed",
+            "the young"
+          ],
+          "answers": [
+            5
+          ]
+        },
+        {
+          "id": "1a-6",
+          "number": 6,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "In some countries, ",
+            " use special dogs to help them find their way around."
+          ],
+          "options": [
+            "the blind",
+            "the deaf",
+            "the disabled",
+            "the elderly",
+            "the injured",
+            "the rich",
+            "the unemployed",
+            "the young"
+          ],
+          "answers": [
+            0
+          ]
+        },
+        {
+          "id": "1a-7",
+          "number": 7,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " always think that they know better than their parents."
+          ],
+          "options": [
+            "the blind",
+            "the deaf",
+            "the disabled",
+            "the elderly",
+            "the injured",
+            "the rich",
+            "the unemployed",
+            "the young"
+          ],
+          "answers": [
+            7
+          ]
+        },
+        {
+          "id": "1a-8",
+          "number": 8,
+          "input": "select-gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " usually communicate with each other using sign language."
+          ],
+          "options": [
+            "the blind",
+            "the deaf",
+            "the disabled",
+            "the elderly",
+            "the injured",
+            "the rich",
+            "the unemployed",
+            "the young"
+          ],
+          "answers": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw12-ex1b",
+      "title": "1b · Complete the sentences with the + adjective",
+      "instructions": "Write only the missing nationality expression, including the. Example: (Ireland) → The Irish. The statements are examples for grammar practice.",
+      "items": [
+        {
+          "id": "1b-1",
+          "number": 1,
+          "example": true,
+          "prompt": "______ celebrate St Patrick’s Day on 17th March. (Ireland)",
+          "exampleAnswer": "The Irish"
+        },
+        {
+          "id": "1b-2",
+          "number": 2,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " eat a lot of fish. (Japan)"
+          ],
+          "answers": [
+            [
+              "The Japanese"
+            ]
+          ]
+        },
+        {
+          "id": "1b-3",
+          "number": 3,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " export a lot of electrical products to the rest of the world. (China)"
+          ],
+          "answers": [
+            [
+              "The Chinese"
+            ]
+          ]
+        },
+        {
+          "id": "1b-4",
+          "number": 4,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " have a good standard of living. (Switzerland)"
+          ],
+          "answers": [
+            [
+              "The Swiss"
+            ]
+          ]
+        },
+        {
+          "id": "1b-5",
+          "number": 5,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " are very kind and friendly to visitors. (Portugal)"
+          ],
+          "answers": [
+            [
+              "The Portuguese"
+            ]
+          ]
+        },
+        {
+          "id": "1b-6",
+          "number": 6,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " have a reputation for not speaking foreign languages. (England)"
+          ],
+          "answers": [
+            [
+              "The English"
+            ]
+          ]
+        },
+        {
+          "id": "1b-7",
+          "number": 7,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " are famous for wearing skirts called kilts. (Scotland)"
+          ],
+          "answers": [
+            [
+              "The Scottish",
+              "The Scots"
+            ]
+          ]
+        },
+        {
+          "id": "1b-8",
+          "number": 8,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " are extremely fond of cycling. (France)"
+          ],
+          "answers": [
+            [
+              "The French"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Grammar: adjective order",
+      "text": "Put adjectives in the natural order before a noun."
+    },
+    {
+      "type": "exercise",
+      "id": "hw12-ex1c",
+      "title": "1c · Right or wrong?",
+      "instructions": "If the highlighted phrase is correct, click ✓ Correct. If it is wrong, type only the corrected highlighted phrase, not the whole sentence. Keep any article that is highlighted. Follow the two examples.",
+      "items": [
+        {
+          "id": "1c-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Sarah’s wearing a denim short skirt.",
+          "exampleAnswer": "Type: a short denim skirt",
+          "underline": "a denim short skirt"
+        },
+        {
+          "id": "1c-2",
+          "number": 2,
+          "example": true,
+          "prompt": "I’m looking for a sleeveless cotton T-shirt.",
+          "exampleAnswer": "Click ✓ Correct.",
+          "underline": "a sleeveless cotton T-shirt"
+        },
+        {
+          "id": "1c-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "I want to buy some leather white trousers.",
+          "underline": "leather white trousers",
+          "acceptedAnswers": [
+            "white leather trousers"
+          ],
+          "correctPhraseButton": true,
+          "placeholder": "Write only the corrected phrase"
+        },
+        {
+          "id": "1c-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "You can’t wear those old scruffy jeans to the wedding.",
+          "underline": "old scruffy jeans",
+          "acceptedAnswers": [
+            "scruffy old jeans"
+          ],
+          "correctPhraseButton": true,
+          "placeholder": "Write only the corrected phrase"
+        },
+        {
+          "id": "1c-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "He gave his mother a spotted silk scarf for her birthday.",
+          "underline": "a spotted silk scarf",
+          "acceptedAnswers": [
+            "right",
+            "correct",
+            "✓"
+          ],
+          "correctPhraseButton": true,
+          "placeholder": "Write only the corrected phrase"
+        },
+        {
+          "id": "1c-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "He looks very smart in his grey new Armani suit.",
+          "underline": "grey new Armani suit",
+          "acceptedAnswers": [
+            "new grey Armani suit"
+          ],
+          "correctPhraseButton": true,
+          "placeholder": "Write only the corrected phrase"
+        },
+        {
+          "id": "1c-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "She was wearing a bright red woollen jumper.",
+          "underline": "a bright red woollen jumper",
+          "acceptedAnswers": [
+            "right",
+            "correct",
+            "✓"
+          ],
+          "correctPhraseButton": true,
+          "placeholder": "Write only the corrected phrase"
+        },
+        {
+          "id": "1c-8",
+          "number": 8,
+          "input": "text",
+          "prompt": "My sister’s bought some purple trendy glasses.",
+          "underline": "purple trendy glasses",
+          "acceptedAnswers": [
+            "trendy purple glasses"
+          ],
+          "correctPhraseButton": true,
+          "placeholder": "Write only the corrected phrase"
+        }
+      ]
+    }
+  ]
+}

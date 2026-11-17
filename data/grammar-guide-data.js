@@ -1285,3 +1285,394 @@ window.GRAMMAR_GUIDES["grammar-lesson-10-present-perfect-simple-continuous"] = {
     }
   ]
 };
+
+Object.assign(window.GRAMMAR_GUIDES, {
+  "grammar-lesson-12-adjectives-as-nouns": {
+    "title": "Прилагательные в роли существительных",
+    "intro": "В русском языке мы можем говорить «пожилые», «богатые», «безработные» без слова «люди». В английском похожая конструкция строится с определённым артиклем the. Она называет людей как группу, а не одного человека.",
+    "sections": [
+      {
+        "type": "patterns",
+        "title": "1. Как образуется конструкция",
+        "subtitle": "",
+        "items": [
+          {
+            "label": "Группа людей",
+            "formula": "the + adjective",
+            "example": "the elderly = elderly people"
+          },
+          {
+            "label": "Согласование",
+            "formula": "the + adjective + plural verb",
+            "example": "The rich are not always happy."
+          },
+          {
+            "label": "Дополнение",
+            "formula": "verb / preposition + the + adjective",
+            "example": "The charity helps the homeless."
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "2. Какие группы можно обозначить так",
+        "columns": [
+          "Прилагательное",
+          "Группа",
+          "Значение"
+        ],
+        "rows": [
+          [
+            "elderly",
+            "the elderly",
+            "пожилые люди"
+          ],
+          [
+            "unemployed",
+            "the unemployed",
+            "безработные"
+          ],
+          [
+            "injured",
+            "the injured",
+            "пострадавшие"
+          ],
+          [
+            "disabled",
+            "the disabled",
+            "люди с инвалидностью"
+          ],
+          [
+            "rich / poor",
+            "the rich / the poor",
+            "богатые / бедные"
+          ],
+          [
+            "blind / deaf",
+            "the blind / the deaf",
+            "незрячие / глухие люди"
+          ],
+          [
+            "young",
+            "the young",
+            "молодёжь"
+          ]
+        ],
+        "subtitle": "Прилагательное не получает окончание -s. В нейтральной современной речи часто предпочитают people with disabilities, blind people, deaf people и другие названия с существительным; выбор зависит от контекста и предпочтений людей."
+      },
+      {
+        "type": "comparison",
+        "title": "3. Один человек или группа?",
+        "columns": [
+          "Смысл",
+          "Правильно",
+          "Почему"
+        ],
+        "rows": [
+          [
+            "один пожилой человек",
+            "an elderly person",
+            "Нужен исчисляемый существительный компонент."
+          ],
+          [
+            "пожилые люди как группа",
+            "the elderly",
+            "Устойчивое групповое значение."
+          ],
+          [
+            "конкретный богатый человек",
+            "the rich man",
+            "Прилагательное описывает существительное man."
+          ],
+          [
+            "богатые вообще",
+            "the rich",
+            "Глагол согласуется во множественном числе."
+          ]
+        ],
+        "subtitle": ""
+      },
+      {
+        "type": "comparison",
+        "title": "4. Национальности: не все образуются одинаково",
+        "columns": [
+          "Страна",
+          "Прилагательное",
+          "Народ в целом",
+          "Один человек"
+        ],
+        "rows": [
+          [
+            "Ireland",
+            "Irish",
+            "the Irish",
+            "an Irish person"
+          ],
+          [
+            "Japan",
+            "Japanese",
+            "the Japanese",
+            "a Japanese person"
+          ],
+          [
+            "China",
+            "Chinese",
+            "the Chinese",
+            "a Chinese person"
+          ],
+          [
+            "Switzerland",
+            "Swiss",
+            "the Swiss",
+            "a Swiss person"
+          ],
+          [
+            "Portugal",
+            "Portuguese",
+            "the Portuguese",
+            "a Portuguese person"
+          ],
+          [
+            "England",
+            "English",
+            "the English",
+            "an English person"
+          ],
+          [
+            "Scotland",
+            "Scottish",
+            "the Scottish / the Scots",
+            "a Scottish person / a Scot"
+          ],
+          [
+            "France",
+            "French",
+            "the French",
+            "a French person"
+          ],
+          [
+            "Canada",
+            "Canadian",
+            "the Canadians",
+            "a Canadian"
+          ],
+          [
+            "Germany",
+            "German",
+            "the Germans",
+            "a German"
+          ]
+        ],
+        "subtitle": "У многих национальностей на -ish, -sh, -ch, -ese и у Swiss форма с the совпадает с прилагательным. У Canadian, German и многих других название народа — существительное во множественном числе. Национальности пишутся с заглавной буквы. The Scots — также обычное название жителей Шотландии."
+      },
+      {
+        "type": "examples",
+        "title": "5. Типичные ошибки",
+        "pairs": [
+          {
+            "context": "Нет -s у прилагательного",
+            "sentence": "✗ the richs → ✓ the rich"
+          },
+          {
+            "context": "Глагол во множественном числе",
+            "sentence": "✗ The unemployed is looking for work. → ✓ The unemployed are looking for work."
+          },
+          {
+            "context": "Один человек",
+            "sentence": "✗ an elderly → ✓ an elderly person"
+          },
+          {
+            "context": "Не любое прилагательное образует группу",
+            "sentence": "✗ the happies → ✓ happy people"
+          }
+        ]
+      },
+      {
+        "type": "algorithm",
+        "title": "Как выбрать форму",
+        "steps": [
+          "Определи, говоришь ли о группе людей или об одном человеке.",
+          "Для устойчивой группы используй the + adjective без -s.",
+          "Для национальности проверь форму названия народа: the French, но the Germans.",
+          "Если группа — подлежащее, используй глагол во множественном числе."
+        ]
+      }
+    ]
+  },
+  "grammar-lesson-12-adjective-order": {
+    "title": "Порядок прилагательных",
+    "intro": "Когда перед существительным стоят несколько прилагательных, их порядок обычно не случаен. Субъективная оценка чаще идёт раньше объективных характеристик, а материал и назначение ближе всего к существительному. Это типичные предпочтения, а не абсолютно жёсткий закон: контекст и устойчивые сочетания иногда меняют порядок.",
+    "sections": [
+      {
+        "type": "comparison",
+        "title": "1. Основная последовательность",
+        "columns": [
+          "Позиция",
+          "Тип признака",
+          "Примеры"
+        ],
+        "rows": [
+          [
+            "1",
+            "мнение / оценка",
+            "lovely, ugly, trendy, scruffy"
+          ],
+          [
+            "2",
+            "размер / длина",
+            "large, small, short, long"
+          ],
+          [
+            "3",
+            "возраст / новизна",
+            "old, new, young"
+          ],
+          [
+            "4",
+            "форма / фасон",
+            "round, square, sleeveless"
+          ],
+          [
+            "5",
+            "цвет / рисунок",
+            "grey, white, striped, spotted"
+          ],
+          [
+            "6",
+            "происхождение",
+            "Italian, French"
+          ],
+          [
+            "7",
+            "материал",
+            "denim, leather, silk, cotton, woollen"
+          ],
+          [
+            "8",
+            "назначение / тип",
+            "summer (shirt), running (shoes)"
+          ]
+        ],
+        "subtitle": "Артикль, притяжательное слово или указательное местоимение ставятся перед всей группой. Категории размера, возраста и формы иногда меняются местами в зависимости от сочетания."
+      },
+      {
+        "type": "patterns",
+        "title": "2. Схема сочетания",
+        "subtitle": "",
+        "items": [
+          {
+            "label": "Оценка → возраст → существительное",
+            "formula": "opinion + age + noun",
+            "example": "scruffy old jeans"
+          },
+          {
+            "label": "Размер → материал → существительное",
+            "formula": "size + material + noun",
+            "example": "a short denim skirt"
+          },
+          {
+            "label": "Цвет → материал → существительное",
+            "formula": "colour + material + noun",
+            "example": "white leather trousers"
+          },
+          {
+            "label": "Возраст → цвет → марка → существительное",
+            "formula": "age + colour + brand + noun",
+            "example": "a new grey Armani suit"
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "title": "3. Разбираем одежду по смыслу",
+        "columns": [
+          "Сочетание",
+          "Почему такой порядок"
+        ],
+        "rows": [
+          [
+            "a sleeveless cotton T-shirt",
+            "Фасон перед материалом."
+          ],
+          [
+            "a spotted silk scarf",
+            "Рисунок перед материалом."
+          ],
+          [
+            "a bright red woollen jumper",
+            "bright уточняет оттенок red; woollen — материал."
+          ],
+          [
+            "trendy purple glasses",
+            "Оценка перед цветом."
+          ],
+          [
+            "a lovely small Italian leather bag",
+            "Оценка → размер → происхождение → материал."
+          ]
+        ],
+        "subtitle": ""
+      },
+      {
+        "type": "comparison",
+        "title": "4. Когда запятая нужна, а когда нет",
+        "columns": [
+          "Тип",
+          "Пример",
+          "Объяснение"
+        ],
+        "rows": [
+          [
+            "Разные признаки",
+            "a new black coat",
+            "Обычно без запятой: возраст и цвет."
+          ],
+          [
+            "Равноправные оценки",
+            "a warm, comfortable coat",
+            "Можно сказать warm and comfortable; запятая возможна."
+          ],
+          [
+            "Единое описание оттенка",
+            "a bright red coat",
+            "bright относится к red, не отделяем запятой."
+          ]
+        ],
+        "subtitle": ""
+      },
+      {
+        "type": "examples",
+        "title": "5. Сравни неправильный и обычный порядок",
+        "pairs": [
+          {
+            "context": "Цвет перед материалом",
+            "sentence": "✗ leather white trousers → ✓ white leather trousers"
+          },
+          {
+            "context": "Оценка перед возрастом",
+            "sentence": "✗ old scruffy jeans → ✓ scruffy old jeans"
+          },
+          {
+            "context": "Возраст перед цветом",
+            "sentence": "✗ grey new suit → ✓ new grey suit"
+          },
+          {
+            "context": "Оценка перед цветом",
+            "sentence": "✗ purple trendy glasses → ✓ trendy purple glasses"
+          }
+        ]
+      },
+      {
+        "type": "algorithm",
+        "title": "Как быстро проверить порядок",
+        "steps": [
+          "Найди главное существительное: skirt, suit, bag.",
+          "Определи, что означает каждое описание: оценка, размер, возраст, цвет, материал и т. д.",
+          "Поставь субъективную оценку раньше объективных признаков, а материал и назначение ближе к существительному.",
+          "Не разрывай сочетания вроде bright red и leather jacket.",
+          "Проверь артикль и форму существительного: a short denim skirt, но some white leather trousers."
+        ]
+      }
+    ]
+  }
+});

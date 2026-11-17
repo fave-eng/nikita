@@ -1754,3 +1754,458 @@ window.GRAMMAR_DATA.push({
     }
   ]
 });
+
+window.GRAMMAR_DATA.push({
+  "id": "grammar-lesson-12-adjectives-as-nouns",
+  "order": 10,
+  "title": "Прилагательные в роли существительных",
+  "level": "B2.1",
+  "status": "available",
+  "linkedLessonId": "lesson-12",
+  "page": "grammar-topic.html?id=grammar-lesson-12-adjectives-as-nouns",
+  "passScore": 100,
+  "overview": {
+    "lead": "Некоторые прилагательные после the обозначают целую группу людей.",
+    "keyRule": "the + adjective → группа людей; глагол во множественном числе.",
+    "subjects": [],
+    "example": "The elderly need support."
+  },
+  "uses": [],
+  "forms": [],
+  "commonMistakes": [],
+  "quizExercises": [
+    {
+      "title": "Группы людей",
+      "instructions": "Выбери грамматически правильный вариант.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "Артикль",
+          "prompt": "The charity supports ___.",
+          "options": [
+            "elderly",
+            "the elderly",
+            "the elderlies"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "Согласование",
+          "prompt": "The unemployed ___ looking for work.",
+          "options": [
+            "is",
+            "are",
+            "has"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "Множественное число",
+          "prompt": "The injured ___ taken to hospital.",
+          "options": [
+            "was",
+            "were",
+            "is"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "Форма",
+          "prompt": "She is helping ___.",
+          "options": [
+            "the deaf",
+            "the deafs",
+            "a deaf"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Национальности",
+      "instructions": "Выбери название народа целиком.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___ are known for their cuisine. (France)",
+          "options": [
+            "The French",
+            "The Frenches",
+            "Frenchs"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___ speak several national languages. (Switzerland)",
+          "options": [
+            "The Swisses",
+            "The Swiss",
+            "The Switzerland"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___ are celebrating a national holiday. (Japan)",
+          "options": [
+            "The Japan",
+            "The Japaneses",
+            "The Japanese"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___ have many regional dialects. (Portugal)",
+          "options": [
+            "The Portuguese",
+            "The Portugueses",
+            "The Portugal"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Один человек или группа?",
+      "instructions": "Выбери форму, соответствующую смыслу.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "I met ___ at the station. (one person)",
+          "options": [
+            "the French",
+            "a French woman",
+            "a French"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___ need equal access to education. (people as a group)",
+          "options": [
+            "The disabled",
+            "A disabled",
+            "The disableds"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "He is ___ engineer. (from China)",
+          "options": [
+            "a Chinese",
+            "the Chinese",
+            "a Chinese person"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___ are moving into the new flats. (people from Canada)",
+          "options": [
+            "The Canadian",
+            "The Canadians",
+            "The Canadianes"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Преобразуй выражения",
+      "instructions": "Напиши только выражение the + adjective (не всё предложение). Пример: rich people → the rich.",
+      "items": [
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "young people →",
+          "answer": "the young",
+          "acceptedAnswers": [
+            "the young"
+          ],
+          "placeholder": "Write the answer"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "people who are blind →",
+          "answer": "the blind",
+          "acceptedAnswers": [
+            "the blind"
+          ],
+          "placeholder": "Write the answer"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "people who are unemployed →",
+          "answer": "the unemployed",
+          "acceptedAnswers": [
+            "the unemployed"
+          ],
+          "placeholder": "Write the answer"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "people who are injured →",
+          "answer": "the injured",
+          "acceptedAnswers": [
+            "the injured"
+          ],
+          "placeholder": "Write the answer"
+        }
+      ]
+    }
+  ]
+},
+{
+  "id": "grammar-lesson-12-adjective-order",
+  "order": 11,
+  "title": "Порядок прилагательных",
+  "level": "B2.1",
+  "status": "available",
+  "linkedLessonId": "lesson-12",
+  "page": "grammar-topic.html?id=grammar-lesson-12-adjective-order",
+  "passScore": 100,
+  "overview": {
+    "lead": "В английском языке несколько прилагательных перед существительным обычно идут в определённом порядке.",
+    "keyRule": "Оценка → размер → возраст → форма → цвет → происхождение → материал → назначение → существительное.",
+    "subjects": [],
+    "example": "a beautiful long black silk dress"
+  },
+  "uses": [],
+  "forms": [],
+  "commonMistakes": [],
+  "quizExercises": [
+    {
+      "title": "Основной порядок",
+      "instructions": "Выбери естественный порядок прилагательных.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "She bought ___.",
+          "options": [
+            "a woollen blue coat",
+            "a blue woollen coat"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "He wore ___.",
+          "options": [
+            "an old lovely jacket",
+            "a lovely old jacket"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "I need ___.",
+          "options": [
+            "a large black bag",
+            "a black large bag"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "She has ___.",
+          "options": [
+            "a leather red belt",
+            "a red leather belt"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Цвет, материал и рисунок",
+      "instructions": "Выбери естественное сочетание.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___",
+          "options": [
+            "a silk striped scarf",
+            "a striped silk scarf"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___",
+          "options": [
+            "a cotton sleeveless top",
+            "a sleeveless cotton top"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___",
+          "options": [
+            "a new grey suit",
+            "a grey new suit"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___",
+          "options": [
+            "a bright red woollen jumper",
+            "a woollen red bright jumper"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Несколько признаков",
+      "instructions": "Расположи признаки от оценки к более конкретным свойствам.",
+      "items": [
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___",
+          "options": [
+            "a lovely small Italian leather bag",
+            "a leather small lovely Italian bag"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___",
+          "options": [
+            "a wooden round table",
+            "a round wooden table"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___",
+          "options": [
+            "an elegant long black dress",
+            "a black elegant long dress"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "select",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "___",
+          "options": [
+            "a cotton white summer shirt",
+            "a white cotton summer shirt"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Исправь порядок",
+      "instructions": "Напиши только исправленное словосочетание целиком, включая артикль. Пример: a leather black bag → a black leather bag.",
+      "items": [
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "a silk beautiful scarf",
+          "answer": "a beautiful silk scarf",
+          "acceptedAnswers": [
+            "a beautiful silk scarf"
+          ],
+          "placeholder": "Write the answer"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "a cotton green shirt",
+          "answer": "a green cotton shirt",
+          "acceptedAnswers": [
+            "a green cotton shirt"
+          ],
+          "placeholder": "Write the answer"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "an old ugly coat",
+          "answer": "an ugly old coat",
+          "acceptedAnswers": [
+            "an ugly old coat"
+          ],
+          "placeholder": "Write the answer"
+        },
+        {
+          "type": "text",
+          "difficulty": "Practice",
+          "skill": "",
+          "prompt": "a wooden small box",
+          "answer": "a small wooden box",
+          "acceptedAnswers": [
+            "a small wooden box"
+          ],
+          "placeholder": "Write the answer"
+        }
+      ]
+    }
+  ]
+});

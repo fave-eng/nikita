@@ -888,3 +888,228 @@ window.VOCABULARY_DATA.push({
     }
   ]
 });
+
+window.VOCABULARY_DATA.push({
+  "id": "vocab-lesson-12-clothes-and-people",
+  "title": "Act your age: people and clothes",
+  "label": "Homework 12 · 22 words and phrases",
+  "icon": "👕",
+  "type": "lesson",
+  "linkedLessonId": "lesson-12",
+  "page": "vocabulary.html?id=vocab-lesson-12-clothes-and-people",
+  "description": "Vocabulary from the grammar practice on groups of people and clothing.",
+  "groups": [
+    {
+      "id": "people",
+      "title": "People and society",
+      "subtitle": "Groups, nationality and everyday expressions",
+      "icon": "👥"
+    },
+    {
+      "id": "clothes",
+      "title": "Clothes and fabrics",
+      "subtitle": "Describing garments, styles and materials",
+      "icon": "👕"
+    }
+  ],
+  "words": [
+    {
+      "id": "l13-01",
+      "uniqueKey": "be fond of",
+      "en": "be fond of",
+      "ru": "любить; увлекаться",
+      "transcription": "",
+      "exampleEn": "He is fond of cycling.",
+      "group": "people"
+    },
+    {
+      "id": "l13-02",
+      "uniqueKey": "blind",
+      "en": "blind",
+      "ru": "слепой; незрячий",
+      "transcription": "",
+      "exampleEn": "Guide dogs can help blind people get around.",
+      "group": "people"
+    },
+    {
+      "id": "l13-03",
+      "uniqueKey": "cotton",
+      "en": "cotton",
+      "ru": "хлопок; хлопковая ткань",
+      "transcription": "",
+      "exampleEn": "This shirt is made of cotton.",
+      "group": "clothes"
+    },
+    {
+      "id": "l13-04",
+      "uniqueKey": "deaf",
+      "en": "deaf",
+      "ru": "глухой; неслышащий",
+      "transcription": "",
+      "exampleEn": "Many deaf people use sign language.",
+      "group": "people"
+    },
+    {
+      "id": "l13-05",
+      "uniqueKey": "denim",
+      "en": "denim",
+      "ru": "деним; джинсовая ткань",
+      "transcription": "",
+      "exampleEn": "She bought a denim jacket.",
+      "group": "clothes"
+    },
+    {
+      "id": "l13-06",
+      "uniqueKey": "disabled",
+      "en": "disabled",
+      "ru": "имеющий инвалидность",
+      "transcription": "",
+      "exampleEn": "The building is accessible to disabled people.",
+      "group": "people"
+    },
+    {
+      "id": "l13-07",
+      "uniqueKey": "easy access",
+      "en": "easy access",
+      "ru": "удобный доступ",
+      "transcription": "",
+      "exampleEn": "The entrance provides easy access.",
+      "group": "people"
+    },
+    {
+      "id": "l13-08",
+      "uniqueKey": "elderly",
+      "en": "elderly",
+      "ru": "пожилой",
+      "transcription": "",
+      "exampleEn": "The elderly often need extra support.",
+      "group": "people"
+    },
+    {
+      "id": "l13-09",
+      "uniqueKey": "have a reputation for",
+      "en": "have a reputation for",
+      "ru": "иметь репутацию; славиться чем-либо",
+      "transcription": "",
+      "exampleEn": "The shop has a reputation for good service.",
+      "group": "people"
+    },
+    {
+      "id": "l13-10",
+      "uniqueKey": "jumper",
+      "en": "jumper",
+      "ru": "джемпер; свитер (брит.)",
+      "transcription": "",
+      "exampleEn": "I need a warm jumper for winter.",
+      "group": "clothes"
+    },
+    {
+      "id": "l13-11",
+      "uniqueKey": "kilt",
+      "en": "kilt",
+      "ru": "килт; традиционная шотландская одежда",
+      "transcription": "",
+      "exampleEn": "He wore a kilt to the wedding.",
+      "group": "clothes"
+    },
+    {
+      "id": "l13-12",
+      "uniqueKey": "leather",
+      "en": "leather",
+      "ru": "кожа (материал)",
+      "transcription": "",
+      "exampleEn": "He wore a black leather jacket.",
+      "group": "clothes"
+    },
+    {
+      "id": "l13-13",
+      "uniqueKey": "scruffy",
+      "en": "scruffy",
+      "ru": "неряшливый; потрёпанный",
+      "transcription": "",
+      "exampleEn": "Those jeans look a bit scruffy.",
+      "group": "clothes"
+    },
+    {
+      "id": "l13-14",
+      "uniqueKey": "sign language",
+      "en": "sign language",
+      "ru": "жестовый язык",
+      "transcription": "",
+      "exampleEn": "She is learning sign language.",
+      "group": "people"
+    },
+    {
+      "id": "l13-15",
+      "uniqueKey": "silk",
+      "en": "silk",
+      "ru": "шёлк",
+      "transcription": "",
+      "exampleEn": "He bought a silk tie.",
+      "group": "clothes"
+    },
+    {
+      "id": "l13-16",
+      "uniqueKey": "sleeveless",
+      "en": "sleeveless",
+      "ru": "без рукавов",
+      "transcription": "",
+      "exampleEn": "I prefer sleeveless tops in summer.",
+      "group": "clothes"
+    },
+    {
+      "id": "l13-17",
+      "uniqueKey": "smart",
+      "en": "smart",
+      "ru": "элегантный; опрятный (об одежде)",
+      "transcription": "",
+      "exampleEn": "He looks smart in that suit.",
+      "group": "clothes"
+    },
+    {
+      "id": "l13-18",
+      "uniqueKey": "spotted",
+      "en": "spotted",
+      "ru": "в горошек; с пятнистым рисунком",
+      "transcription": "",
+      "exampleEn": "She wore a spotted silk scarf.",
+      "group": "clothes"
+    },
+    {
+      "id": "l13-19",
+      "uniqueKey": "standard of living",
+      "en": "standard of living",
+      "ru": "уровень жизни",
+      "transcription": "",
+      "exampleEn": "The standard of living has improved.",
+      "group": "people"
+    },
+    {
+      "id": "l13-20",
+      "uniqueKey": "the injured",
+      "en": "the injured",
+      "ru": "пострадавшие",
+      "transcription": "",
+      "exampleEn": "The injured were taken to hospital.",
+      "group": "people"
+    },
+    {
+      "id": "l13-21",
+      "uniqueKey": "unemployed",
+      "en": "unemployed",
+      "ru": "безработный",
+      "transcription": "",
+      "exampleEn": "The unemployed can apply for training courses.",
+      "group": "people"
+    },
+    {
+      "id": "l13-22",
+      "uniqueKey": "woollen",
+      "en": "woollen",
+      "ru": "шерстяной",
+      "transcription": "",
+      "exampleEn": "A woollen jumper keeps you warm.",
+      "group": "clothes"
+    }
+  ]
+});
