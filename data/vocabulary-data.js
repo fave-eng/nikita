@@ -1113,3 +1113,306 @@ window.VOCABULARY_DATA.push({
     }
   ]
 });
+
+window.VOCABULARY_DATA.push({
+  "id": "vocab-lesson-13-clothes-fashion",
+  "title": "Clothes and fashion",
+  "label": "Homework 13 · 30 useful words and phrases",
+  "icon": "👕",
+  "type": "lesson",
+  "linkedLessonId": "lesson-13",
+  "page": "vocabulary.html?id=vocab-lesson-13-clothes-fashion",
+  "description": "Clothing descriptions, fabrics and everyday expressions for talking about fashion.",
+  "groups": [
+    {
+      "id": "style",
+      "title": "Styles and patterns",
+      "subtitle": "Describe the cut, shape and design",
+      "icon": "👕"
+    },
+    {
+      "id": "material",
+      "title": "Materials and clothing",
+      "subtitle": "Fabrics and garments",
+      "icon": "🧵"
+    },
+    {
+      "id": "expressions",
+      "title": "Fashion expressions",
+      "subtitle": "Talk about getting dressed and matching clothes",
+      "icon": "🧥"
+    }
+  ],
+  "words": [
+    {
+      "id": "l14-01",
+      "uniqueKey": "cardigan",
+      "en": "cardigan",
+      "ru": "кардиган",
+      "transcription": "",
+      "exampleEn": "He put on a woollen cardigan.",
+      "group": "material"
+    },
+    {
+      "id": "l14-02",
+      "uniqueKey": "casual",
+      "en": "casual",
+      "ru": "повседневный; неформальный",
+      "transcription": "",
+      "exampleEn": "The dress code is casual.",
+      "group": "style"
+    },
+    {
+      "id": "l14-03",
+      "uniqueKey": "checked",
+      "en": "checked",
+      "ru": "в клетку",
+      "transcription": "",
+      "exampleEn": "He wore a checked shirt.",
+      "group": "style"
+    },
+    {
+      "id": "l14-04",
+      "uniqueKey": "classic",
+      "en": "classic",
+      "ru": "классический; не выходящий из моды",
+      "transcription": "",
+      "exampleEn": "She prefers classic clothes.",
+      "group": "style"
+    },
+    {
+      "id": "l14-05",
+      "uniqueKey": "dress up",
+      "en": "dress up",
+      "ru": "наряжаться; одеваться нарядно",
+      "transcription": "",
+      "exampleEn": "We dressed up for the wedding.",
+      "group": "expressions"
+    },
+    {
+      "id": "l14-06",
+      "uniqueKey": "fit",
+      "en": "fit",
+      "ru": "подходить по размеру",
+      "transcription": "",
+      "exampleEn": "These shoes don’t fit me.",
+      "group": "expressions"
+    },
+    {
+      "id": "l14-07",
+      "uniqueKey": "fur",
+      "en": "fur",
+      "ru": "мех",
+      "transcription": "",
+      "exampleEn": "The coat is made of artificial fur.",
+      "group": "material"
+    },
+    {
+      "id": "l14-08",
+      "uniqueKey": "get changed",
+      "en": "get changed",
+      "ru": "переодеться",
+      "transcription": "",
+      "exampleEn": "I get changed when I get home.",
+      "group": "expressions"
+    },
+    {
+      "id": "l14-09",
+      "uniqueKey": "go out of fashion",
+      "en": "go out of fashion",
+      "ru": "выходить из моды",
+      "transcription": "",
+      "exampleEn": "Some styles never go out of fashion.",
+      "group": "expressions"
+    },
+    {
+      "id": "l14-10",
+      "uniqueKey": "go with",
+      "en": "go with",
+      "ru": "сочетаться с",
+      "transcription": "",
+      "exampleEn": "This jacket goes with everything.",
+      "group": "expressions"
+    },
+    {
+      "id": "l14-11",
+      "uniqueKey": "hang up",
+      "en": "hang up",
+      "ru": "вешать (одежду)",
+      "transcription": "",
+      "exampleEn": "Hang up your coat before dinner.",
+      "group": "expressions"
+    },
+    {
+      "id": "l14-12",
+      "uniqueKey": "hooded",
+      "en": "hooded",
+      "ru": "с капюшоном",
+      "transcription": "",
+      "exampleEn": "He bought a hooded sweatshirt.",
+      "group": "style"
+    },
+    {
+      "id": "l14-13",
+      "uniqueKey": "lace",
+      "en": "lace",
+      "ru": "кружево",
+      "transcription": "",
+      "exampleEn": "The blouse has a lace collar.",
+      "group": "material"
+    },
+    {
+      "id": "l14-14",
+      "uniqueKey": "linen",
+      "en": "linen",
+      "ru": "лён; льняная ткань",
+      "transcription": "",
+      "exampleEn": "Linen shirts are cool in summer.",
+      "group": "material"
+    },
+    {
+      "id": "l14-15",
+      "uniqueKey": "long-sleeved",
+      "en": "long-sleeved",
+      "ru": "с длинными рукавами",
+      "transcription": "",
+      "exampleEn": "I wear long-sleeved shirts in winter.",
+      "group": "style"
+    },
+    {
+      "id": "l14-16",
+      "uniqueKey": "loose",
+      "en": "loose",
+      "ru": "свободный; не облегающий",
+      "transcription": "",
+      "exampleEn": "Loose clothes are comfortable in summer.",
+      "group": "style"
+    },
+    {
+      "id": "l14-17",
+      "uniqueKey": "lycra",
+      "en": "lycra",
+      "ru": "лайкра; эластичная ткань",
+      "transcription": "",
+      "exampleEn": "These leggings contain Lycra.",
+      "group": "material"
+    },
+    {
+      "id": "l14-18",
+      "uniqueKey": "match",
+      "en": "match",
+      "ru": "сочетаться по цвету или стилю",
+      "transcription": "",
+      "exampleEn": "Your shoes match your bag.",
+      "group": "expressions"
+    },
+    {
+      "id": "l14-19",
+      "uniqueKey": "old-fashioned",
+      "en": "old-fashioned",
+      "ru": "старомодный",
+      "transcription": "",
+      "exampleEn": "Those trousers look old-fashioned.",
+      "group": "style"
+    },
+    {
+      "id": "l14-20",
+      "uniqueKey": "patterned",
+      "en": "patterned",
+      "ru": "с рисунком; узорчатый",
+      "transcription": "",
+      "exampleEn": "She wore a patterned blouse.",
+      "group": "style"
+    },
+    {
+      "id": "l14-21",
+      "uniqueKey": "plain",
+      "en": "plain",
+      "ru": "однотонный; без рисунка",
+      "transcription": "",
+      "exampleEn": "A plain T-shirt goes with everything.",
+      "group": "style"
+    },
+    {
+      "id": "l14-22",
+      "uniqueKey": "polo-neck",
+      "en": "polo-neck",
+      "ru": "с высоким отворачивающимся воротом",
+      "transcription": "",
+      "exampleEn": "He wore a polo-neck jumper.",
+      "group": "style"
+    },
+    {
+      "id": "l14-23",
+      "uniqueKey": "slippers",
+      "en": "slippers",
+      "ru": "домашние тапочки",
+      "transcription": "",
+      "exampleEn": "I wear slippers around the house.",
+      "group": "material"
+    },
+    {
+      "id": "l14-24",
+      "uniqueKey": "striped",
+      "en": "striped",
+      "ru": "в полоску",
+      "transcription": "",
+      "exampleEn": "Ava bought a striped top.",
+      "group": "style"
+    },
+    {
+      "id": "l14-25",
+      "uniqueKey": "stylish",
+      "en": "stylish",
+      "ru": "стильный",
+      "transcription": "",
+      "exampleEn": "She always looks stylish.",
+      "group": "style"
+    },
+    {
+      "id": "l14-26",
+      "uniqueKey": "suede",
+      "en": "suede",
+      "ru": "замша",
+      "transcription": "",
+      "exampleEn": "Don’t wear suede shoes in the rain.",
+      "group": "material"
+    },
+    {
+      "id": "l14-27",
+      "uniqueKey": "suit",
+      "en": "suit",
+      "ru": "идти; подходить по стилю",
+      "transcription": "",
+      "exampleEn": "That colour suits you.",
+      "group": "expressions"
+    },
+    {
+      "id": "l14-28",
+      "uniqueKey": "tight",
+      "en": "tight",
+      "ru": "обтягивающий; тесный",
+      "transcription": "",
+      "exampleEn": "These jeans are too tight.",
+      "group": "style"
+    },
+    {
+      "id": "l14-29",
+      "uniqueKey": "v-neck",
+      "en": "v-neck",
+      "ru": "с V-образным вырезом",
+      "transcription": "",
+      "exampleEn": "She prefers a V-neck top.",
+      "group": "style"
+    },
+    {
+      "id": "l14-30",
+      "uniqueKey": "velvet",
+      "en": "velvet",
+      "ru": "бархат",
+      "transcription": "",
+      "exampleEn": "She wore a velvet jacket.",
+      "group": "material"
+    }
+  ]
+});

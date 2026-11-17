@@ -1,0 +1,1225 @@
+{
+  "id": "lesson-13",
+  "number": 13,
+  "title": "2B Act your age: clothes and fashion",
+  "subtitle": "B2.1 · Adjective order, clothes and vowel sounds",
+  "status": "available",
+  "publishedAt": "2026-11-17",
+  "notification": {
+    "enabled": true,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-13-clothes-fashion",
+  "grammarIds": [
+    "grammar-lesson-12-adjective-order"
+  ],
+  "totalPoints": 43,
+  "blocks": [
+    {
+      "type": "grammar-link",
+      "title": "Порядок прилагательных",
+      "text": "Повтори последовательность прилагательных перед существительным.",
+      "grammarId": "grammar-lesson-12-adjective-order",
+      "buttonLabel": "Review grammar"
+    },
+    {
+      "type": "section",
+      "title": "Grammar: adjective order",
+      "text": "Combine descriptions in the natural order."
+    },
+    {
+      "type": "exercise",
+      "id": "hw13-ex1d",
+      "title": "1d · Write each pair of sentences as one sentence",
+      "instructions": "Combine the two sentences. Write the complete new sentence, including the subject and verb. Follow the example.",
+      "items": [
+        {
+          "id": "1d-1",
+          "number": 1,
+          "example": true,
+          "prompt": "My grandparents live in an old Victorian house. It’s big.",
+          "exampleAnswer": "My grandparents live in a big old Victorian house."
+        },
+        {
+          "id": "1d-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "I met a French woman at the party. She was interesting.",
+          "acceptedAnswers": [
+            "I met an interesting French woman at the party."
+          ],
+          "placeholder": "Write the complete sentence"
+        },
+        {
+          "id": "1d-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "My sister has lovely black hair. It’s long.",
+          "acceptedAnswers": [
+            "My sister has lovely long black hair."
+          ],
+          "placeholder": "Write the complete sentence"
+        },
+        {
+          "id": "1d-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "Ava’s just bought an expensive silk top. It’s striped.",
+          "acceptedAnswers": [
+            "Ava’s just bought an expensive striped silk top.",
+            "Ava has just bought an expensive striped silk top."
+          ],
+          "placeholder": "Write the complete sentence"
+        },
+        {
+          "id": "1d-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "There’s a round wooden table in my friend’s kitchen. It’s beautiful.",
+          "acceptedAnswers": [
+            "There’s a beautiful round wooden table in my friend’s kitchen.",
+            "There is a beautiful round wooden table in my friend’s kitchen."
+          ],
+          "placeholder": "Write the complete sentence"
+        },
+        {
+          "id": "1d-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "Max gave his girlfriend an unusual ring for her birthday. It’s gold.",
+          "acceptedAnswers": [
+            "Max gave his girlfriend an unusual gold ring for her birthday."
+          ],
+          "placeholder": "Write the complete sentence"
+        },
+        {
+          "id": "1d-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "My boss drives a powerful Italian sports car. It’s red.",
+          "acceptedAnswers": [
+            "My boss drives a powerful red Italian sports car."
+          ],
+          "placeholder": "Write the complete sentence"
+        },
+        {
+          "id": "1d-8",
+          "number": 8,
+          "input": "text",
+          "prompt": "We’ve been having some wet weather recently. It’s been awful.",
+          "acceptedAnswers": [
+            "We’ve been having some awful wet weather recently.",
+            "We have been having some awful wet weather recently."
+          ],
+          "placeholder": "Write the complete sentence"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Vocabulary: clothes and fashion",
+      "text": "Describe clothes, materials and style."
+    },
+    {
+      "type": "exercise",
+      "id": "hw13-ex2a",
+      "title": "2a · Complete the crossword with the adjectives",
+      "instructions": "Look at the pictures. Type one adjective in each clue box. The letters appear in the crossword automatically. Tap a cell to jump to its clue. Use the hyphen for compound adjectives. Example: plain.",
+      "items": [
+        {
+          "id": "2a-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Across · 5 letters",
+          "exampleAnswer": "plain",
+          "image": "images/hw13/clue-1.webp",
+          "imageAlt": "Clothing picture, clue 1"
+        },
+        {
+          "id": "2a-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "Across · 6 letters",
+          "acceptedAnswers": [
+            "hooded"
+          ],
+          "placeholder": "Type the adjective",
+          "image": "images/hw13/clue-4.webp",
+          "imageAlt": "Clothing picture, clue 4"
+        },
+        {
+          "id": "2a-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "Across · 4–7 letters",
+          "acceptedAnswers": [
+            "long-sleeved",
+            "long sleeved",
+            "longsleeved"
+          ],
+          "placeholder": "Type the adjective",
+          "image": "images/hw13/clue-6.webp",
+          "imageAlt": "Clothing picture, clue 6"
+        },
+        {
+          "id": "2a-8",
+          "number": 8,
+          "input": "text",
+          "prompt": "Across · 7 letters",
+          "acceptedAnswers": [
+            "checked"
+          ],
+          "placeholder": "Type the adjective",
+          "image": "images/hw13/clue-8.webp",
+          "imageAlt": "Clothing picture, clue 8"
+        },
+        {
+          "id": "2a-10",
+          "number": 10,
+          "input": "text",
+          "prompt": "Across · 5 letters",
+          "acceptedAnswers": [
+            "tight"
+          ],
+          "placeholder": "Type the adjective",
+          "image": "images/hw13/clue-10.webp",
+          "imageAlt": "Clothing picture, clue 10"
+        },
+        {
+          "id": "2a-11",
+          "number": 11,
+          "input": "text",
+          "prompt": "Across · 9 letters",
+          "acceptedAnswers": [
+            "patterned"
+          ],
+          "placeholder": "Type the adjective",
+          "image": "images/hw13/clue-11.webp",
+          "imageAlt": "Clothing picture, clue 11"
+        },
+        {
+          "id": "2a-12",
+          "number": 12,
+          "input": "text",
+          "prompt": "Across · 7 letters",
+          "acceptedAnswers": [
+            "spotted"
+          ],
+          "placeholder": "Type the adjective",
+          "image": "images/hw13/clue-12.webp",
+          "imageAlt": "Clothing picture, clue 12"
+        },
+        {
+          "id": "2a-2",
+          "number": 2,
+          "input": "text",
+          "prompt": "Down · 5 letters",
+          "acceptedAnswers": [
+            "loose"
+          ],
+          "placeholder": "Type the adjective",
+          "image": "images/hw13/clue-2.webp",
+          "imageAlt": "Clothing picture, clue 2"
+        },
+        {
+          "id": "2a-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "Down · 4–4 letters",
+          "acceptedAnswers": [
+            "polo-neck",
+            "polo neck",
+            "poloneck"
+          ],
+          "placeholder": "Type the adjective",
+          "image": "images/hw13/clue-3.webp",
+          "imageAlt": "Clothing picture, clue 3"
+        },
+        {
+          "id": "2a-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "Down · 1–4 letters",
+          "acceptedAnswers": [
+            "V-neck",
+            "V neck",
+            "Vneck"
+          ],
+          "placeholder": "Type the adjective",
+          "image": "images/hw13/clue-5.webp",
+          "imageAlt": "Clothing picture, clue 5"
+        },
+        {
+          "id": "2a-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "Down · 10 letters",
+          "acceptedAnswers": [
+            "sleeveless"
+          ],
+          "placeholder": "Type the adjective",
+          "image": "images/hw13/clue-7.webp",
+          "imageAlt": "Clothing picture, clue 7"
+        },
+        {
+          "id": "2a-9",
+          "number": 9,
+          "input": "text",
+          "prompt": "Down · 7 letters",
+          "acceptedAnswers": [
+            "striped"
+          ],
+          "placeholder": "Type the adjective",
+          "image": "images/hw13/clue-9.webp",
+          "imageAlt": "Clothing picture, clue 9"
+        }
+      ],
+      "layout": "media-list",
+      "crossword": [
+        {
+          "id": "2a-1",
+          "number": 1,
+          "direction": "Across",
+          "cells": [
+            [
+              9,
+              0
+            ],
+            [
+              10,
+              0
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              13,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "2a-4",
+          "number": 4,
+          "direction": "Across",
+          "cells": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        },
+        {
+          "id": "2a-6",
+          "number": 6,
+          "direction": "Across",
+          "cells": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ],
+            [
+              11,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "2a-8",
+          "number": 8,
+          "direction": "Across",
+          "cells": [
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              8,
+              6
+            ],
+            [
+              9,
+              6
+            ]
+          ]
+        },
+        {
+          "id": "2a-10",
+          "number": 10,
+          "direction": "Across",
+          "cells": [
+            [
+              7,
+              8
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              9,
+              8
+            ],
+            [
+              10,
+              8
+            ],
+            [
+              11,
+              8
+            ]
+          ]
+        },
+        {
+          "id": "2a-11",
+          "number": 11,
+          "direction": "Across",
+          "cells": [
+            [
+              1,
+              11
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              11
+            ]
+          ]
+        },
+        {
+          "id": "2a-12",
+          "number": 12,
+          "direction": "Across",
+          "cells": [
+            [
+              5,
+              13
+            ],
+            [
+              6,
+              13
+            ],
+            [
+              7,
+              13
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              9,
+              13
+            ],
+            [
+              10,
+              13
+            ],
+            [
+              11,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "2a-2",
+          "number": 2,
+          "direction": "Down",
+          "cells": [
+            [
+              10,
+              0
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              10,
+              4
+            ]
+          ]
+        },
+        {
+          "id": "2a-3",
+          "number": 3,
+          "direction": "Down",
+          "cells": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              8
+            ]
+          ]
+        },
+        {
+          "id": "2a-5",
+          "number": 5,
+          "direction": "Down",
+          "cells": [
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              6
+            ]
+          ]
+        },
+        {
+          "id": "2a-7",
+          "number": 7,
+          "direction": "Down",
+          "cells": [
+            [
+              5,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              5,
+              12
+            ],
+            [
+              5,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "2a-9",
+          "number": 9,
+          "direction": "Down",
+          "cells": [
+            [
+              11,
+              7
+            ],
+            [
+              11,
+              8
+            ],
+            [
+              11,
+              9
+            ],
+            [
+              11,
+              10
+            ],
+            [
+              11,
+              11
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              13
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw13-ex2b",
+      "title": "2b · Order the letters to make a material",
+      "instructions": "Unscramble the letters in brackets and type only the missing material. Example: NIMED → denim.",
+      "items": [
+        {
+          "id": "2b-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Jack was wearing a blue ______ jacket. (NIMED)",
+          "exampleAnswer": "denim"
+        },
+        {
+          "id": "2b-2",
+          "number": 2,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "I prefer to wear light ",
+            " shirts in the summer. (TTNCOO)"
+          ],
+          "answers": [
+            [
+              "cotton"
+            ]
+          ]
+        },
+        {
+          "id": "2b-3",
+          "number": 3,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "I gave my mum a blouse with a ",
+            " collar for her birthday. (CEAL)"
+          ],
+          "answers": [
+            [
+              "lace"
+            ]
+          ]
+        },
+        {
+          "id": "2b-4",
+          "number": 4,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Are you sure those boots are made of ",
+            "? (HTRELEA)"
+          ],
+          "answers": [
+            [
+              "leather"
+            ]
+          ]
+        },
+        {
+          "id": "2b-5",
+          "number": 5,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "I never buy ",
+            " clothes because they take so long to iron. (NINLE)"
+          ],
+          "answers": [
+            [
+              "linen"
+            ]
+          ]
+        },
+        {
+          "id": "2b-6",
+          "number": 6,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "They gave me a very expensive ",
+            " tie as a leaving present. (LIKS)"
+          ],
+          "answers": [
+            [
+              "silk"
+            ]
+          ]
+        },
+        {
+          "id": "2b-7",
+          "number": 7,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Don’t wear your ",
+            " jacket outside – it’s raining. (SEDUE)"
+          ],
+          "answers": [
+            [
+              "suede"
+            ]
+          ]
+        },
+        {
+          "id": "2b-8",
+          "number": 8,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "I really like your new ",
+            " jacket. It looks very soft. (VVTEEL)"
+          ],
+          "answers": [
+            [
+              "velvet"
+            ]
+          ]
+        },
+        {
+          "id": "2b-9",
+          "number": 9,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "My aunt often wears a ",
+            " coat, but it isn’t real. (URF)"
+          ],
+          "answers": [
+            [
+              "fur"
+            ]
+          ]
+        },
+        {
+          "id": "2b-10",
+          "number": 10,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "I always wear a ",
+            " top in the gym – it’s the most comfortable. (CRALY)"
+          ],
+          "answers": [
+            [
+              "lycra"
+            ]
+          ]
+        },
+        {
+          "id": "2b-11",
+          "number": 11,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "My grandfather wears an old ",
+            " cardigan around the house in the winter. (LELOWNO)"
+          ],
+          "answers": [
+            [
+              "woollen"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw13-ex2c",
+      "title": "2c · Complete the sentences",
+      "instructions": "Type only the missing adjective. Use the first letters as a clue. Example: sm… → smart.",
+      "items": [
+        {
+          "id": "2c-1",
+          "number": 1,
+          "example": true,
+          "prompt": "I don’t have to wear a uniform at work, but I have to look ______.",
+          "exampleAnswer": "smart"
+        },
+        {
+          "id": "2c-2",
+          "number": 2,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Alice enjoys wearing ",
+            " clothes that will never go out of fashion. (starts with cl)"
+          ],
+          "answers": [
+            [
+              "classic"
+            ]
+          ]
+        },
+        {
+          "id": "2c-3",
+          "number": 3,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "It isn’t a formal dinner, so I’m going to wear something ",
+            ". (starts with c)"
+          ],
+          "answers": [
+            [
+              "casual"
+            ]
+          ]
+        },
+        {
+          "id": "2c-4",
+          "number": 4,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Zach looked quite ",
+            " when I saw him: his T-shirt was dirty, and he hadn’t combed his hair. (starts with scr)"
+          ],
+          "answers": [
+            [
+              "scruffy"
+            ]
+          ]
+        },
+        {
+          "id": "2c-5",
+          "number": 5,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "You look like my dad in those trousers – they’re really ",
+            ". (starts with o…-f…)"
+          ],
+          "answers": [
+            [
+              "old-fashioned",
+              "old fashioned"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw13-ex2d",
+      "title": "2d · Match 1–8 to a–h to make questions",
+      "instructions": "Choose the ending that completes each question. Example: How often do you dress → up to go out for a special occasion?",
+      "items": [
+        {
+          "id": "2d-1",
+          "number": 1,
+          "example": true,
+          "prompt": "How often do you dress ______",
+          "exampleAnswer": "up to go out for a special occasion?"
+        },
+        {
+          "id": "2d-2",
+          "number": 2,
+          "input": "select",
+          "prompt": "How many clothes do you have",
+          "options": [
+            "suits you best?",
+            "in the morning?",
+            "match your clothes? Why / Why not?",
+            "that don’t fit you?",
+            "with everything? What?",
+            "up to go out for a special occasion?",
+            "changed as soon as you get home from work / school? Why / Why not?",
+            "up your clothes before you go to bed?"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "2d-3",
+          "number": 3,
+          "input": "select",
+          "prompt": "Do you get",
+          "options": [
+            "suits you best?",
+            "in the morning?",
+            "match your clothes? Why / Why not?",
+            "that don’t fit you?",
+            "with everything? What?",
+            "up to go out for a special occasion?",
+            "changed as soon as you get home from work / school? Why / Why not?",
+            "up your clothes before you go to bed?"
+          ],
+          "answer": 6
+        },
+        {
+          "id": "2d-4",
+          "number": 4,
+          "input": "select",
+          "prompt": "When do you get dressed",
+          "options": [
+            "suits you best?",
+            "in the morning?",
+            "match your clothes? Why / Why not?",
+            "that don’t fit you?",
+            "with everything? What?",
+            "up to go out for a special occasion?",
+            "changed as soon as you get home from work / school? Why / Why not?",
+            "up your clothes before you go to bed?"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "2d-5",
+          "number": 5,
+          "input": "select",
+          "prompt": "Do you always hang",
+          "options": [
+            "suits you best?",
+            "in the morning?",
+            "match your clothes? Why / Why not?",
+            "that don’t fit you?",
+            "with everything? What?",
+            "up to go out for a special occasion?",
+            "changed as soon as you get home from work / school? Why / Why not?",
+            "up your clothes before you go to bed?"
+          ],
+          "answer": 7
+        },
+        {
+          "id": "2d-6",
+          "number": 6,
+          "input": "select",
+          "prompt": "What colour do you think",
+          "options": [
+            "suits you best?",
+            "in the morning?",
+            "match your clothes? Why / Why not?",
+            "that don’t fit you?",
+            "with everything? What?",
+            "up to go out for a special occasion?",
+            "changed as soon as you get home from work / school? Why / Why not?",
+            "up your clothes before you go to bed?"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "2d-7",
+          "number": 7,
+          "input": "select",
+          "prompt": "Is it important for you that your shoes",
+          "options": [
+            "suits you best?",
+            "in the morning?",
+            "match your clothes? Why / Why not?",
+            "that don’t fit you?",
+            "with everything? What?",
+            "up to go out for a special occasion?",
+            "changed as soon as you get home from work / school? Why / Why not?",
+            "up your clothes before you go to bed?"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "2d-8",
+          "number": 8,
+          "input": "select",
+          "prompt": "Do you have any clothes that go",
+          "options": [
+            "suits you best?",
+            "in the morning?",
+            "match your clothes? Why / Why not?",
+            "that don’t fit you?",
+            "with everything? What?",
+            "up to go out for a special occasion?",
+            "changed as soon as you get home from work / school? Why / Why not?",
+            "up your clothes before you go to bed?"
+          ],
+          "answer": 4
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "hw13-ex2e",
+      "title": "2e · Answer the questions in 2d",
+      "instructions": "Write your own answers in complete sentences. Example: I dress up about once a month, usually for a birthday or a dinner. These answers are for your teacher to review.",
+      "items": [
+        {
+          "id": "2e-1",
+          "number": 1,
+          "input": "textarea",
+          "scored": false,
+          "prompt": "How often do you dress up to go out for a special occasion?",
+          "placeholder": "Write your own answer in a complete sentence."
+        },
+        {
+          "id": "2e-2",
+          "number": 2,
+          "input": "textarea",
+          "scored": false,
+          "prompt": "How many clothes do you have that don’t fit you?",
+          "placeholder": "Write your own answer in a complete sentence."
+        },
+        {
+          "id": "2e-3",
+          "number": 3,
+          "input": "textarea",
+          "scored": false,
+          "prompt": "Do you get changed as soon as you get home from work / school? Why / Why not?",
+          "placeholder": "Write your own answer in a complete sentence."
+        },
+        {
+          "id": "2e-4",
+          "number": 4,
+          "input": "textarea",
+          "scored": false,
+          "prompt": "When do you get dressed in the morning?",
+          "placeholder": "Write your own answer in a complete sentence."
+        },
+        {
+          "id": "2e-5",
+          "number": 5,
+          "input": "textarea",
+          "scored": false,
+          "prompt": "Do you always hang up your clothes before you go to bed?",
+          "placeholder": "Write your own answer in a complete sentence."
+        },
+        {
+          "id": "2e-6",
+          "number": 6,
+          "input": "textarea",
+          "scored": false,
+          "prompt": "What colour do you think suits you best?",
+          "placeholder": "Write your own answer in a complete sentence."
+        },
+        {
+          "id": "2e-7",
+          "number": 7,
+          "input": "textarea",
+          "scored": false,
+          "prompt": "Is it important for you that your shoes match your clothes? Why / Why not?",
+          "placeholder": "Write your own answer in a complete sentence."
+        },
+        {
+          "id": "2e-8",
+          "number": 8,
+          "input": "textarea",
+          "scored": false,
+          "prompt": "Do you have any clothes that go with everything? What?",
+          "placeholder": "Write your own answer in a complete sentence."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Pronunciation: vowel sounds",
+      "text": "Identify the word with a different vowel sound."
+    },
+    {
+      "type": "exercise",
+      "id": "hw13-ex3a",
+      "title": "3a · Circle the word with a different sound",
+      "instructions": "Choose the word that does not have the same vowel sound as the example word. Use British English pronunciation.",
+      "items": [
+        {
+          "id": "3a-1",
+          "number": 1,
+          "example": true,
+          "prompt": "boot /uː/: loose · scruffy · shoes · suit",
+          "exampleAnswer": "scruffy"
+        },
+        {
+          "id": "3a-2",
+          "number": 2,
+          "input": "single",
+          "prompt": "fish /ɪ/",
+          "options": [
+            "linen",
+            "slippers",
+            "silk",
+            "striped"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "3a-3",
+          "number": 3,
+          "input": "single",
+          "prompt": "bird /ɜː/",
+          "options": [
+            "fur",
+            "shirt",
+            "shorts",
+            "skirt"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "3a-4",
+          "number": 4,
+          "input": "single",
+          "prompt": "bike /aɪ/",
+          "options": [
+            "fit",
+            "lycra",
+            "stylish",
+            "tight"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "3a-5",
+          "number": 5,
+          "input": "single",
+          "prompt": "train /eɪ/",
+          "options": [
+            "lace",
+            "leather",
+            "plain",
+            "suede"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

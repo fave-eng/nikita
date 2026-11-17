@@ -951,11 +951,39 @@
     [data-task="hw12-ex1c"] .correct-phrase-control .text-field {flex:1 1 230px;min-width:0;width:auto;max-width:420px;margin:0;}
     @media(max-width:520px){[data-task="hw12-ex1c"] .correct-phrase-control .text-field {flex-basis:100%;width:100%;max-width:100%;}}
 
+  
+    /* HW13: native answer controls and a crossword preview, scoped to the new lesson. */
+    [data-task="hw13-ex2a"] .hw13-crossword {display:grid;grid-template-columns:repeat(14,minmax(0,1fr));gap:1px;width:min(100%,560px);margin:16px auto 24px;padding:8px;background:#f1f5f9;border-radius:12px;}
+    [data-task="hw13-ex2a"] .hw13-cell {position:relative;aspect-ratio:1;display:grid;place-items:center;border:1px solid #cbd5e1;border-radius:2px;background:#fff;min-width:0;padding:0;color:#1e293b;font:700 clamp(.65rem,2.5vw,1rem)/1 system-ui;cursor:pointer;}
+    [data-task="hw13-ex2a"] .hw13-cell-number {position:absolute;top:2px;left:2px;font:600 clamp(.4rem,1.4vw,.65rem)/1 system-ui;color:#64748b;}
+    [data-task="hw13-ex2a"] .hw13-cell.is-example {background:#e0e7ff;}
+    [data-task="hw13-ex2a"] .hw13-cell.is-active {background:#eef2ff;border-color:#6366f1;}
+    [data-task="hw13-ex2a"] .hw13-cell.is-conflict {background:#fee2e2;color:#991b1b;}
+    [data-task="hw13-ex2a"] .exercise-items {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;}
+    [data-task="hw13-ex2a"].exercise-card.exercise-layout-media-list .exercise-item.has-item-media {display:grid;grid-template-columns:85px minmax(0,1fr);grid-template-areas:'media header' 'media control' 'media feedback';gap:7px 10px;padding:12px;align-items:start;}
+    [data-task="hw13-ex2a"] .exercise-item-media {width:85px!important;margin:0;}
+    [data-task="hw13-ex2a"] .exercise-item-media img {aspect-ratio:auto;object-fit:contain;box-shadow:none;background:#fff;border-radius:9px;}
+    [data-task="hw13-ex2a"] .exercise-item-header {margin:0;min-width:0;}
+    [data-task="hw13-ex2a"] .exercise-control {min-width:0;padding:0;}
+    [data-task="hw13-ex2a"] .example-answer {grid-area:control;margin:0;padding:5px 8px;}
+    [data-task="hw13-ex2a"] .exercise-prompt {font-size:.85rem;}
+    [data-task="hw13-ex2a"] .text-field {width:100%;min-width:0;margin:0;font-size:.95rem;}
+    [data-task="hw13-ex2b"] .exercise-item:not(.exercise-example),[data-task="hw13-ex2c"] .exercise-item:not(.exercise-example) {display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;align-items:start;}
+    [data-task="hw13-ex2b"] .exercise-item-header,[data-task="hw13-ex2c"] .exercise-item-header {margin:0;}
+    [data-task="hw13-ex2b"] .exercise-prompt:empty,[data-task="hw13-ex2c"] .exercise-prompt:empty {display:none;}
+    [data-task="hw13-ex2b"] .exercise-control,[data-task="hw13-ex2c"] .exercise-control {min-width:0;padding-left:0;}
+    [data-task="hw13-ex2b"] .feedback,[data-task="hw13-ex2c"] .feedback {grid-column:2;}
+    [data-task="hw13-ex2b"] .sentence-gaps,[data-task="hw13-ex2c"] .sentence-gaps {display:block;line-height:2.5;white-space:normal;}
+    [data-task="hw13-ex2b"] .gap-input,[data-task="hw13-ex2c"] .gap-input {display:inline-block;width:125px;min-width:0;max-width:100%;min-height:38px;margin:2px 4px;padding:5px 8px;vertical-align:baseline;text-align:left;}
+    [data-task="hw13-ex2c"] .gap-input {width:155px;}
+    [data-task="hw13-ex2d"] select {width:100%;max-width:550px;white-space:normal;}
+    @media(max-width:620px){[data-task="hw13-ex2a"] .exercise-items {grid-template-columns:1fr;}[data-task="hw13-ex2a"] .hw13-crossword {padding:3px;}[data-task="hw13-ex2a"] .hw13-cell-number{top:1px;left:1px;}}
+
   </style>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="config.js" defer></script>
-  <script src="data/vocabulary-data.js?v=21" defer></script>
+  <script src="data/vocabulary-data.js?v=22" defer></script>
   <script src="data/grammar-data.js?v=17" defer></script>
   <script src="app.js?v=21" defer></script>
 </head>
@@ -1525,7 +1553,7 @@
 
 
       const placeLessonVocabularyAfterGrammar = () => {
-        if (!['lesson-8', 'lesson-9', 'lesson-11', 'lesson-12'].includes(lessonId)) return;
+        if (!['lesson-8', 'lesson-9', 'lesson-11', 'lesson-12', 'lesson-13'].includes(lessonId)) return;
 
         const roadmap = root.querySelector('.lesson-roadmap');
         const sourceShortcut = document.getElementById('lesson-vocabulary-shortcut');
@@ -1548,7 +1576,7 @@
       };
 
       const applyLesson8Enhancements = () => {
-        if (!['lesson-8', 'lesson-11', 'lesson-12'].includes(lessonId)) return;
+        if (!['lesson-8', 'lesson-11', 'lesson-12', 'lesson-13'].includes(lessonId)) return;
 
         const roadmap = root.querySelector('.lesson-roadmap');
         if (!roadmap) return;
@@ -1641,6 +1669,65 @@
         enhanceLesson9ConversationVocabulary();
       };
 
+
+      const enhanceLesson13Crossword = () => {
+        if (lessonId !== 'lesson-13') return;
+        const ex = root.querySelector('[data-task="hw13-ex2a"]');
+        const block = lesson?.blocks?.find(b => b.id === 'hw13-ex2a');
+        if (!ex || !block || ex.querySelector('.hw13-crossword')) return;
+        const grid = document.createElement('div');
+        grid.className = 'hw13-crossword';
+        grid.setAttribute('aria-label', 'Crossword grid. Type answers in the picture clues below.');
+        const byCell = new Map();
+        const entryList = block.crossword || [];
+        const itemNodes = new Map();
+        let active = null;
+        for (const entry of entryList) {
+          const node = ex.querySelector(`[data-exercise-item="${esc(entry.id)}"]`);
+          if (!node) continue;
+          const input = node.querySelector('input.text-field');
+          const item = block.items.find(i => i.id === entry.id);
+          itemNodes.set(entry.id, {node, input, example: item?.example ? item.exampleAnswer : ''});
+          entry.cells.forEach(([x,y],index) => {
+            const key = `${x}:${y}`;
+            if (!byCell.has(key)) byCell.set(key,{x,y,refs:[]});
+            byCell.get(key).refs.push({entry,index});
+          });
+        }
+        const clean = val => String(val || '').toUpperCase().replace(/[^A-Z]/g,'');
+        const sync = () => {
+          for (const cell of byCell.values()) {
+            const values = cell.refs.map(({entry,index}) => {
+              const rec = itemNodes.get(entry.id);
+              return clean(rec?.input?.value || rec?.example)[index] || '';
+            }).filter(Boolean);
+            const unique = [...new Set(values)];
+            const value = unique.length > 1 ? '!' : (unique[0] || '');
+            if (cell.letter.textContent !== value) cell.letter.textContent = value;
+            cell.button.classList.toggle('is-conflict',unique.length > 1);
+            cell.button.classList.toggle('is-active',cell.refs.some(ref => ref.entry.id === active));
+          }
+        };
+        for (const cell of byCell.values()) {
+          const btn = document.createElement('button');btn.type='button';btn.className='hw13-cell';
+          btn.style.gridColumn=String(cell.x+1);btn.style.gridRow=String(cell.y+1);
+          const starts=cell.refs.filter(ref=>ref.index===0);
+          if(starts.length){const n=document.createElement('span');n.className='hw13-cell-number';n.textContent=starts.map(ref=>ref.entry.number).join('/');btn.append(n);}
+          const letter=document.createElement('span');btn.append(letter);cell.letter=letter;cell.button=btn;
+          btn.setAttribute('aria-label',cell.refs.map(ref=>`${ref.entry.number} ${ref.entry.direction}`).join(' / '));
+          if(cell.refs.some(ref=>itemNodes.get(ref.entry.id)?.example))btn.classList.add('is-example');
+          btn.addEventListener('click',()=>{
+            const choices=cell.refs.filter(ref=>itemNodes.get(ref.entry.id)?.input && !itemNodes.get(ref.entry.id).input.disabled);
+            const target=choices.find(ref=>ref.entry.id!==active)||choices[0];
+            if(target){active=target.entry.id;itemNodes.get(active).input.focus();sync();}
+          });
+          grid.append(btn);
+        }
+        for(const [id,rec] of itemNodes){if(rec.input){rec.input.addEventListener('input',sync);rec.input.addEventListener('change',sync);rec.input.addEventListener('focus',()=>{active=id;sync();});}}
+        ex.querySelector('.exercise-items').before(grid);
+        sync();
+      };
+
       const applyEnhancements = () => {
         if (!lesson || applying) return;
         applying = true;
@@ -1681,6 +1768,7 @@
           applyLesson8Enhancements();
           applyLesson9Enhancements();
           if (lessonId === 'lesson-12') enhanceLesson9ConversationVocabulary();
+          enhanceLesson13Crossword();
         } finally {
           applying = false;
         }
@@ -1688,7 +1776,7 @@
 
       new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
 
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=17`, { cache: 'no-store' })
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=18`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
