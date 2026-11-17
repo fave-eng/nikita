@@ -1139,6 +1139,8 @@
       control = `<div class="option-list compact-options">${(item.options || []).map((option, optionIndex) => `<label class="option"><input type="${inputType}" name="${escapeHtml(inputId)}" value="${optionIndex}"><span>${escapeHtml(option)}</span></label>`).join('')}</div>`;
     } else if (item.input === 'select') {
       control = `<select id="${escapeHtml(inputId)}"><option value="">Choose an answer</option>${(item.options || []).map((option, optionIndex) => `<option value="${optionIndex}">${escapeHtml(option)}</option>`).join('')}</select>`;
+    } else if (item.input === 'text' && item.correctPhraseButton === true) {
+      control = `<div class="correct-phrase-control" data-correct-phrase-control><input type="hidden" data-phrase-answer><button class="btn btn-secondary correct-phrase-button" type="button" aria-pressed="false" data-phrase-correct>✓ Correct</button><span class="correct-phrase-or">or</span><input class="text-field" id="${escapeHtml(inputId)}" data-phrase-correction aria-label="Write only the corrected highlighted phrase" autocomplete="off" placeholder="${escapeHtml(item.placeholder || 'Corrected phrase')}"></div>`;
     } else if (item.input === 'textarea') {
       control = `<textarea id="${escapeHtml(inputId)}" placeholder="${escapeHtml(item.placeholder || '')}"></textarea>`;
     } else if (item.input === 'inline-single') {
@@ -2046,7 +2048,11 @@
     if (!savedAnswers || typeof savedAnswers !== 'object') return;
     blocks.forEach((block, index) => {
       const taskId = safeText(block.id, `task-${index}`);
-      const value = savedAnswers[taskId];
+      let value = savedAnswers[taskId];
+      if (block.type === 'exercise' && Array.isArray(block.previousBlockIds)) {
+        const previous = block.previousBlockIds.map((id) => savedAnswers[id]).filter((entry) => entry && typeof entry === 'object' && !Array.isArray(entry));
+        if (previous.length) value = Object.assign({}, ...previous, value || {});
+      }
       if (value === undefined) return;
       const node = root.querySelector(`[data-task="${CSS.escape(taskId)}"]`);
       if (!node) return;
@@ -2128,6 +2134,32 @@
         const result = checkLessonTask(block, node);
         showLessonTaskResult(block, node, result);
       });
+  }
+
+  function setupCorrectPhraseControls(root) {
+    root.querySelectorAll('[data-correct-phrase-control]').forEach((control) => {
+      const answer = control.querySelector('[data-phrase-answer]');
+      const correction = control.querySelector('[data-phrase-correction]');
+      const button = control.querySelector('[data-phrase-correct]');
+      if (!answer || !correction || !button) return;
+      const isCorrectChoice = () => ['right', 'correct', '✓'].includes(normalizeAnswer(answer.value));
+      const update = () => {
+        const selected = isCorrectChoice();
+        button.setAttribute('aria-pressed', selected ? 'true' : 'false');
+        correction.value = selected ? '' : answer.value;
+      };
+      update();
+      button.addEventListener('click', () => {
+        if (button.disabled || correction.readOnly) return;
+        answer.value = isCorrectChoice() ? '' : 'Correct';
+        update();
+        answer.dispatchEvent(new Event('change', { bubbles: true }));
+      });
+      correction.addEventListener('input', () => {
+        answer.value = correction.value;
+        button.setAttribute('aria-pressed', isCorrectChoice() ? 'true' : 'false');
+      });
+    });
   }
 
   function lockCompletedLesson(root) {
@@ -2214,6 +2246,7 @@
       savedResult?.answers
     );
     restoreLessonAnswers(root, blocks, restoredAnswers);
+    setupCorrectPhraseControls(root);
     setupReadingQuizBlocks(root, blocks);
     setupExerciseDependencies(root, blocks);
     setupManualLessonWidgets(root);

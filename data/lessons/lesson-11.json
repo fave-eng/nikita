@@ -114,15 +114,15 @@
     },
     {
       "type": "exercise",
-      "id": "hw11-ex4a-part1",
-      "title": "4a · Right or wrong? (1–5)",
+      "id": "hw11-ex4a",
+      "title": "4a · Right or wrong?",
       "items": [
         {
           "id": "4a-1",
           "number": 1,
           "example": true,
           "prompt": "You don’t need to call the doctor – I’ve already made an appointment for you.",
-          "exampleAnswer": "Right (✓)",
+          "exampleAnswer": "Click ✓ Correct.",
           "underline": "I’ve already made an appointment"
         },
         {
@@ -130,7 +130,7 @@
           "number": 2,
           "example": true,
           "prompt": "This is the first time I’ve been spraining my ankle – I didn’t know it hurt so much!",
-          "exampleAnswer": "Wrong (✗) → I’ve sprained my ankle",
+          "exampleAnswer": "Type: I’ve sprained my ankle",
           "underline": "I’ve been spraining my ankle"
         },
         {
@@ -143,8 +143,9 @@
             "correct",
             "✓"
           ],
-          "placeholder": "Write your answer",
-          "underline": "she’s been throwing up all night"
+          "placeholder": "Write only the corrected phrase",
+          "underline": "she’s been throwing up all night",
+          "correctPhraseButton": true
         },
         {
           "id": "4a-4",
@@ -156,8 +157,9 @@
             "correct",
             "✓"
           ],
-          "placeholder": "Write your answer",
-          "underline": "I’ve never broken a bone"
+          "placeholder": "Write only the corrected phrase",
+          "underline": "I’ve never broken a bone",
+          "correctPhraseButton": true
         },
         {
           "id": "4a-5",
@@ -168,17 +170,10 @@
             "we’ve run out of painkillers",
             "we have run out of painkillers"
           ],
-          "placeholder": "Write your answer",
-          "underline": "we’ve been running out of painkillers"
-        }
-      ],
-      "instructions": "If the underlined phrase is right, type Right. If it is wrong, write only the corrected phrase."
-    },
-    {
-      "type": "exercise",
-      "id": "hw11-ex4a-part2",
-      "title": "4a · Right or wrong? (6–10)",
-      "items": [
+          "placeholder": "Write only the corrected phrase",
+          "underline": "we’ve been running out of painkillers",
+          "correctPhraseButton": true
+        },
         {
           "id": "4a-6",
           "number": 6,
@@ -189,8 +184,9 @@
             "correct",
             "✓"
           ],
-          "placeholder": "Write your answer",
-          "underline": "You’ve been complaining"
+          "placeholder": "Write only the corrected phrase",
+          "underline": "You’ve been complaining",
+          "correctPhraseButton": true
         },
         {
           "id": "4a-7",
@@ -200,8 +196,9 @@
           "acceptedAnswers": [
             "How long have you known"
           ],
-          "placeholder": "Write your answer",
-          "underline": "How long have you been knowing"
+          "placeholder": "Write only the corrected phrase",
+          "underline": "How long have you been knowing",
+          "correctPhraseButton": true
         },
         {
           "id": "4a-8",
@@ -212,8 +209,9 @@
             "Sasha’s been coughing all day",
             "Sasha has been coughing all day"
           ],
-          "placeholder": "Write your answer",
-          "underline": "Sasha’s coughed all day"
+          "placeholder": "Write only the corrected phrase",
+          "underline": "Sasha’s coughed all day",
+          "correctPhraseButton": true
         },
         {
           "id": "4a-9",
@@ -225,8 +223,9 @@
             "correct",
             "✓"
           ],
-          "placeholder": "Write your answer",
-          "underline": "she’s been going to the hospital"
+          "placeholder": "Write only the corrected phrase",
+          "underline": "she’s been going to the hospital",
+          "correctPhraseButton": true
         },
         {
           "id": "4a-10",
@@ -237,16 +236,21 @@
             "have you fainted recently",
             "How many times have you fainted recently"
           ],
-          "placeholder": "Write your answer",
-          "underline": "have you been fainting recently"
+          "placeholder": "Write only the corrected phrase",
+          "underline": "have you been fainting recently",
+          "correctPhraseButton": true
         }
       ],
-      "instructions": "If the underlined phrase is right, type Right. If it is wrong, write only the corrected phrase. Example: I’ve been spraining my ankle → I’ve sprained my ankle."
+      "instructions": "Look at the highlighted phrase in each sentence. If it is correct, click ✓ Correct. If it is wrong, type only the corrected highlighted phrase, not the whole sentence. The two examples show exactly what to do.",
+      "previousBlockIds": [
+        "hw11-ex4a-part1",
+        "hw11-ex4a-part2"
+      ]
     },
     {
       "type": "exercise",
-      "id": "hw11-ex4b-part1",
-      "title": "4b · Complete the sentences (1–5)",
+      "id": "hw11-ex4b",
+      "title": "4b · Complete the sentences",
       "items": [
         {
           "id": "4b-1",
@@ -325,15 +329,7 @@
             ]
           ],
           "wideGaps": true
-        }
-      ],
-      "instructions": "Use the present perfect simple or continuous form of the words in brackets. Put the adverbs in the correct position."
-    },
-    {
-      "type": "exercise",
-      "id": "hw11-ex4b-part2",
-      "title": "4b · Complete the sentences (6–10)",
-      "items": [
+        },
         {
           "id": "4b-6",
           "number": 6,
@@ -417,7 +413,11 @@
           "wideGaps": true
         }
       ],
-      "instructions": "Use the present perfect simple or continuous form of the words in brackets. Put the adverbs in the correct position. Example: (she / ride / never) → she’s never ridden."
+      "instructions": "Use the present perfect simple or continuous form of the words in brackets. Put the adverbs in the correct position. Write only the missing words, not the whole sentence.",
+      "previousBlockIds": [
+        "hw11-ex4b-part1",
+        "hw11-ex4b-part2"
+      ]
     },
     {
       "type": "section",

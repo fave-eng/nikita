@@ -924,13 +924,22 @@
     [data-task="hw11-ex3a"] .compact-options {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;}
     @media(max-width:520px){[data-task="hw11-ex4c"] .exercise-control {padding:10px;}[data-task^="hw11-ex4b"] .sentence-gaps .gap-input,[data-task="hw11-ex4c"] .sentence-gaps .gap-input{width:min(100%,185px);}}
 
+  
+    /* Homework 11: one decision or a corrected phrase. */
+    [data-task="hw11-ex4a"] .correct-phrase-control { display:flex; align-items:center; flex-wrap:wrap; gap:8px; }
+    [data-task="hw11-ex4a"] .correct-phrase-button { flex:0 0 auto; min-height:42px; padding:8px 14px; border:1.5px solid #c7d2fe; color:#3730a3; background:#fff; }
+    [data-task="hw11-ex4a"] .correct-phrase-button[aria-pressed="true"] { border-color:#4f46e5; background:#e0e7ff; color:#312e81; box-shadow:0 0 0 1px #4f46e5; }
+    [data-task="hw11-ex4a"] .correct-phrase-or {color:#64748b; font-size:.86rem;}
+    [data-task="hw11-ex4a"] .correct-phrase-control .text-field {flex:1 1 230px; min-width:0; width:auto; max-width:420px; margin:0;}
+    @media(max-width:520px) { [data-task="hw11-ex4a"] .correct-phrase-control .text-field {flex-basis:100%; width:100%; max-width:100%;} }
+
   </style>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="config.js" defer></script>
   <script src="data/vocabulary-data.js?v=20" defer></script>
   <script src="data/grammar-data.js?v=16" defer></script>
-  <script src="app.js?v=20" defer></script>
+  <script src="app.js?v=21" defer></script>
 </head>
 <body class="has-bottom-nav" data-page="homework" data-view="lesson">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -1660,7 +1669,7 @@
 
       new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
 
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=15`, { cache: 'no-store' })
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=16`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
