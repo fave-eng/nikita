@@ -699,3 +699,192 @@ window.VOCABULARY_DATA.push({
     }
   ]
 });
+
+window.VOCABULARY_DATA.push({
+  "id": "vocab-lesson-11-health-and-email",
+  "title": "Health and everyday expressions",
+  "label": "Homework 11 · 18 useful words and phrases",
+  "icon": "📚",
+  "type": "lesson",
+  "linkedLessonId": "lesson-11",
+  "page": "vocabulary.html?id=vocab-lesson-11-health-and-email",
+  "description": "Useful vocabulary from the pronunciation and grammar review.",
+  "groups": [
+    {
+      "id": "health",
+      "title": "Health and medicine",
+      "subtitle": "Illness, treatment and medical vocabulary",
+      "icon": "🩺"
+    },
+    {
+      "id": "phrases",
+      "title": "Useful expressions",
+      "subtitle": "Phrases from the grammar and email exercises",
+      "icon": "💬"
+    }
+  ],
+  "words": [
+    {
+      "id": "l12-01",
+      "uniqueKey": "ache",
+      "en": "ache",
+      "ru": "болеть; ноющая боль",
+      "transcription": "",
+      "exampleEn": "My shoulders ache after exercise.",
+      "group": "health"
+    },
+    {
+      "id": "l12-02",
+      "uniqueKey": "chest",
+      "en": "chest",
+      "ru": "грудь; грудная клетка",
+      "transcription": "",
+      "exampleEn": "He felt a pain in his chest.",
+      "group": "health"
+    },
+    {
+      "id": "l12-03",
+      "uniqueKey": "choke",
+      "en": "choke",
+      "ru": "подавиться; задыхаться",
+      "transcription": "",
+      "exampleEn": "She started to choke on a piece of food.",
+      "group": "health"
+    },
+    {
+      "id": "l12-04",
+      "uniqueKey": "cholesterol",
+      "en": "cholesterol",
+      "ru": "холестерин",
+      "transcription": "",
+      "exampleEn": "The doctor checked his cholesterol level.",
+      "group": "health"
+    },
+    {
+      "id": "l12-05",
+      "uniqueKey": "emergency",
+      "en": "emergency",
+      "ru": "неотложная ситуация",
+      "transcription": "",
+      "exampleEn": "Call for help in an emergency.",
+      "group": "health"
+    },
+    {
+      "id": "l12-06",
+      "uniqueKey": "injury",
+      "en": "injury",
+      "ru": "травма; повреждение",
+      "transcription": "",
+      "exampleEn": "He has recovered from his knee injury.",
+      "group": "health"
+    },
+    {
+      "id": "l12-07",
+      "uniqueKey": "injection",
+      "en": "injection",
+      "ru": "инъекция; укол",
+      "transcription": "",
+      "exampleEn": "The nurse gave him an injection.",
+      "group": "health"
+    },
+    {
+      "id": "l12-08",
+      "uniqueKey": "operation",
+      "en": "operation",
+      "ru": "операция",
+      "transcription": "",
+      "exampleEn": "She is recovering from an operation.",
+      "group": "health"
+    },
+    {
+      "id": "l12-09",
+      "uniqueKey": "pressure",
+      "en": "pressure",
+      "ru": "давление",
+      "transcription": "",
+      "exampleEn": "The nurse measured his blood pressure.",
+      "group": "health"
+    },
+    {
+      "id": "l12-10",
+      "uniqueKey": "specialist",
+      "en": "specialist",
+      "ru": "специалист; врач-специалист",
+      "transcription": "",
+      "exampleEn": "My doctor referred me to a specialist.",
+      "group": "health"
+    },
+    {
+      "id": "l12-11",
+      "uniqueKey": "surgeon",
+      "en": "surgeon",
+      "ru": "хирург",
+      "transcription": "",
+      "exampleEn": "The surgeon explained the procedure.",
+      "group": "health"
+    },
+    {
+      "id": "l12-12",
+      "uniqueKey": "fall over",
+      "en": "fall over",
+      "ru": "упасть; потерять равновесие",
+      "transcription": "",
+      "exampleEn": "He fell over while playing football.",
+      "group": "phrases"
+    },
+    {
+      "id": "l12-13",
+      "uniqueKey": "make an appointment",
+      "en": "make an appointment",
+      "ru": "записаться на приём; назначить встречу",
+      "transcription": "",
+      "exampleEn": "I’ve already made an appointment with the doctor.",
+      "group": "phrases"
+    },
+    {
+      "id": "l12-14",
+      "uniqueKey": "run out of",
+      "en": "run out of",
+      "ru": "исчерпать запас; остаться без чего-либо",
+      "transcription": "",
+      "exampleEn": "We’ve run out of milk.",
+      "group": "phrases"
+    },
+    {
+      "id": "l12-15",
+      "uniqueKey": "look after",
+      "en": "look after",
+      "ru": "присматривать за; заботиться о",
+      "transcription": "",
+      "exampleEn": "She has been looking after her sister.",
+      "group": "phrases"
+    },
+    {
+      "id": "l12-16",
+      "uniqueKey": "come up with",
+      "en": "come up with",
+      "ru": "придумать; предложить",
+      "transcription": "",
+      "exampleEn": "We’ve come up with a few ideas.",
+      "group": "phrases"
+    },
+    {
+      "id": "l12-17",
+      "uniqueKey": "manage to",
+      "en": "manage to",
+      "ru": "суметь; справиться с чем-либо",
+      "transcription": "",
+      "exampleEn": "I haven’t managed to get any tickets yet.",
+      "group": "phrases"
+    },
+    {
+      "id": "l12-18",
+      "uniqueKey": "look forward to",
+      "en": "look forward to",
+      "ru": "с нетерпением ждать",
+      "transcription": "",
+      "exampleEn": "I’m looking forward to seeing you.",
+      "group": "phrases"
+    }
+  ]
+});

@@ -1,0 +1,515 @@
+{
+  "id": "lesson-11",
+  "number": 11,
+  "title": "2A Doctor, doctor! — Grammar and pronunciation",
+  "subtitle": "B2.1 · Present perfect simple and continuous, consonant sounds, email writing",
+  "status": "available",
+  "publishedAt": "2026-11-17",
+  "notification": {
+    "enabled": true,
+    "version": 1
+  },
+  "vocabularyId": "vocab-lesson-11-health-and-email",
+  "grammarIds": [
+    "grammar-lesson-10-present-perfect-simple-continuous"
+  ],
+  "totalPoints": 31,
+  "blocks": [
+    {
+      "type": "grammar-link",
+      "title": "Present perfect simple vs continuous",
+      "text": "Повтори правила, различия между результатом и процессом, глаголы состояния и выражения времени.",
+      "grammarId": "grammar-lesson-10-present-perfect-simple-continuous",
+      "buttonLabel": "Review grammar"
+    },
+    {
+      "type": "section",
+      "title": "1. Pronunciation",
+      "text": "Recognise the target consonant sounds."
+    },
+    {
+      "type": "exercise",
+      "id": "hw11-ex3a",
+      "title": "3a · Circle the word with a different sound",
+      "items": [
+        {
+          "id": "3a-1",
+          "number": 1,
+          "example": true,
+          "prompt": "/ʃ/ · shower — chest / infection / pressure / rash",
+          "exampleAnswer": "chest"
+        },
+        {
+          "id": "3a-2",
+          "number": 2,
+          "input": "single",
+          "prompt": "/k/ · keys",
+          "options": [
+            "ache",
+            "cholesterol",
+            "sick",
+            "specialist"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "3a-3",
+          "number": 3,
+          "input": "single",
+          "prompt": "/dʒ/ · jazz",
+          "options": [
+            "allergic",
+            "emergency",
+            "finger",
+            "injury"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "3a-4",
+          "number": 4,
+          "input": "single",
+          "prompt": "/tʃ/ · chess",
+          "options": [
+            "choke",
+            "stitches",
+            "stomach",
+            "temperature"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "3a-5",
+          "number": 5,
+          "input": "single",
+          "prompt": "/ʃ/ · shower",
+          "options": [
+            "couch",
+            "operation",
+            "shock",
+            "unconscious"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "3a-6",
+          "number": 6,
+          "input": "single",
+          "prompt": "/dʒ/ · jazz",
+          "options": [
+            "bandage",
+            "injection",
+            "negative",
+            "surgeon"
+          ],
+          "answer": 2
+        }
+      ],
+      "instructions": "Select the word that does not contain the sound shown."
+    },
+    {
+      "type": "section",
+      "title": "2. Present perfect simple and continuous",
+      "text": "Correct mistakes and build the verb forms."
+    },
+    {
+      "type": "exercise",
+      "id": "hw11-ex4a-part1",
+      "title": "4a · Right or wrong? (1–5)",
+      "items": [
+        {
+          "id": "4a-1",
+          "number": 1,
+          "example": true,
+          "prompt": "You don’t need to call the doctor – I’ve already made an appointment for you.",
+          "exampleAnswer": "Right (✓)",
+          "underline": "I’ve already made an appointment"
+        },
+        {
+          "id": "4a-2",
+          "number": 2,
+          "example": true,
+          "prompt": "This is the first time I’ve been spraining my ankle – I didn’t know it hurt so much!",
+          "exampleAnswer": "Wrong (✗) → I’ve sprained my ankle",
+          "underline": "I’ve been spraining my ankle"
+        },
+        {
+          "id": "4a-3",
+          "number": 3,
+          "input": "text",
+          "prompt": "Mia isn’t going to school today, because she’s been throwing up all night.",
+          "acceptedAnswers": [
+            "right",
+            "correct",
+            "✓"
+          ],
+          "placeholder": "Write your answer",
+          "underline": "she’s been throwing up all night"
+        },
+        {
+          "id": "4a-4",
+          "number": 4,
+          "input": "text",
+          "prompt": "I’ve fallen over lots of times playing football, but I’ve never broken a bone.",
+          "acceptedAnswers": [
+            "right",
+            "correct",
+            "✓"
+          ],
+          "placeholder": "Write your answer",
+          "underline": "I’ve never broken a bone"
+        },
+        {
+          "id": "4a-5",
+          "number": 5,
+          "input": "text",
+          "prompt": "I can’t take anything for my headache, because we’ve been running out of painkillers.",
+          "acceptedAnswers": [
+            "we’ve run out of painkillers",
+            "we have run out of painkillers"
+          ],
+          "placeholder": "Write your answer",
+          "underline": "we’ve been running out of painkillers"
+        }
+      ],
+      "instructions": "If the underlined phrase is right, type Right. If it is wrong, write only the corrected phrase."
+    },
+    {
+      "type": "exercise",
+      "id": "hw11-ex4a-part2",
+      "title": "4a · Right or wrong? (6–10)",
+      "items": [
+        {
+          "id": "4a-6",
+          "number": 6,
+          "input": "text",
+          "prompt": "You’ve been complaining about your back for weeks – why don’t you go to the doctor’s?",
+          "acceptedAnswers": [
+            "right",
+            "correct",
+            "✓"
+          ],
+          "placeholder": "Write your answer",
+          "underline": "You’ve been complaining"
+        },
+        {
+          "id": "4a-7",
+          "number": 7,
+          "input": "text",
+          "prompt": "How long have you been knowing about your grandfather’s illness?",
+          "acceptedAnswers": [
+            "How long have you known"
+          ],
+          "placeholder": "Write your answer",
+          "underline": "How long have you been knowing"
+        },
+        {
+          "id": "4a-8",
+          "number": 8,
+          "input": "text",
+          "prompt": "Sasha’s coughed all day, and now he has a sore throat.",
+          "acceptedAnswers": [
+            "Sasha’s been coughing all day",
+            "Sasha has been coughing all day"
+          ],
+          "placeholder": "Write your answer",
+          "underline": "Sasha’s coughed all day"
+        },
+        {
+          "id": "4a-9",
+          "number": 9,
+          "input": "text",
+          "prompt": "My sister has a skin problem – she’s been going to the hospital for treatment for over two years.",
+          "acceptedAnswers": [
+            "right",
+            "correct",
+            "✓"
+          ],
+          "placeholder": "Write your answer",
+          "underline": "she’s been going to the hospital"
+        },
+        {
+          "id": "4a-10",
+          "number": 10,
+          "input": "text",
+          "prompt": "How many times have you been fainting recently?",
+          "acceptedAnswers": [
+            "have you fainted recently",
+            "How many times have you fainted recently"
+          ],
+          "placeholder": "Write your answer",
+          "underline": "have you been fainting recently"
+        }
+      ],
+      "instructions": "If the underlined phrase is right, type Right. If it is wrong, write only the corrected phrase. Example: I’ve been spraining my ankle → I’ve sprained my ankle."
+    },
+    {
+      "type": "exercise",
+      "id": "hw11-ex4b-part1",
+      "title": "4b · Complete the sentences (1–5)",
+      "items": [
+        {
+          "id": "4b-1",
+          "number": 1,
+          "example": true,
+          "prompt": "Jess is a bit nervous – she’s never ridden a horse before. (she / ride / never)",
+          "exampleAnswer": "she’s never ridden"
+        },
+        {
+          "id": "4b-2",
+          "number": 2,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "How many biscuits ",
+            "? (you / eat)"
+          ],
+          "answers": [
+            "have you eaten"
+          ],
+          "wideGaps": true
+        },
+        {
+          "id": "4b-3",
+          "number": 3,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "My brother’s really stressed about work, so ",
+            " very well recently. (he / not sleep)"
+          ],
+          "answers": [
+            [
+              "he hasn’t been sleeping",
+              "he has not been sleeping",
+              "he hasn’t slept",
+              "he has not slept"
+            ]
+          ],
+          "wideGaps": true
+        },
+        {
+          "id": "4b-4",
+          "number": 4,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " my hand on the oven – it really hurts! (I / burn / just)"
+          ],
+          "answers": [
+            [
+              "I’ve just burnt",
+              "I have just burnt",
+              "I’ve just burned",
+              "I have just burned"
+            ]
+          ],
+          "wideGaps": true
+        },
+        {
+          "id": "4b-5",
+          "number": 5,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " problems with my shoulder for several months now. (I / have)"
+          ],
+          "answers": [
+            [
+              "I’ve been having",
+              "I have been having",
+              "I’ve had",
+              "I have had"
+            ]
+          ],
+          "wideGaps": true
+        }
+      ],
+      "instructions": "Use the present perfect simple or continuous form of the words in brackets. Put the adverbs in the correct position."
+    },
+    {
+      "type": "exercise",
+      "id": "hw11-ex4b-part2",
+      "title": "4b · Complete the sentences (6–10)",
+      "items": [
+        {
+          "id": "4b-6",
+          "number": 6,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Ed is one of the nicest people ",
+            ". (I / meet / ever)"
+          ],
+          "answers": [
+            [
+              "I’ve ever met",
+              "I have ever met"
+            ]
+          ],
+          "wideGaps": true
+        },
+        {
+          "id": "4b-7",
+          "number": 7,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " to the gym for long – just a few weeks. (Georgia / not go)"
+          ],
+          "answers": [
+            [
+              "Georgia hasn’t been going",
+              "Georgia has not been going"
+            ]
+          ],
+          "wideGaps": true
+        },
+        {
+          "id": "4b-8",
+          "number": 8,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "",
+            " a sore throat for more than a week now. (Jamie / have)"
+          ],
+          "answers": [
+            [
+              "Jamie’s had",
+              "Jamie has had"
+            ]
+          ],
+          "wideGaps": true
+        },
+        {
+          "id": "4b-9",
+          "number": 9,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "How long ",
+            " a job? (your girlfriend / look for)"
+          ],
+          "answers": [
+            "has your girlfriend been looking for"
+          ],
+          "wideGaps": true
+        },
+        {
+          "id": "4b-10",
+          "number": 10,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "I bought that book last month, but ",
+            " it yet. (I / not read)"
+          ],
+          "answers": [
+            [
+              "I haven’t read",
+              "I have not read"
+            ]
+          ],
+          "wideGaps": true
+        }
+      ],
+      "instructions": "Use the present perfect simple or continuous form of the words in brackets. Put the adverbs in the correct position. Example: (she / ride / never) → she’s never ridden."
+    },
+    {
+      "type": "section",
+      "title": "3. Email and writing",
+      "text": "Use both present perfect forms in context."
+    },
+    {
+      "type": "exercise",
+      "id": "hw11-ex4c",
+      "title": "4c · Complete Sophie’s email",
+      "items": [
+        {
+          "id": "4c-email",
+          "number": null,
+          "input": "gaps",
+          "prompt": "",
+          "segments": [
+            "Hi Nicola,\n\nThanks for your email – it was great to hear from you!\n\nSorry I haven’t replied (1: not reply) until now, but I ",
+            " (2: not feel) very well recently. I ",
+            " (3: have) flu, and I’m only just getting over it now. I ",
+            " (4: not go) to work for a week; I ",
+            " (5: lie) on the sofa at home all day. My mum ",
+            " (6: look after) me all week, and I’m nearly better now. I’ll probably go back to work the day after tomorrow.\n\nAnyway, I’m so glad you’re planning on coming to visit next summer – it will be lovely to see you! While I’ve been off work, I ",
+            " (7: think) about what we can do while you’re here, and I ",
+            " (8: come up with) a few ideas. I know how much you love music, so for the last few days I ",
+            " (9: try) to get some tickets for a music festival, but I ",
+            " (10: not manage) to get any yet. Is there anything else you’d like to do during your visit? I’m really looking forward to seeing you, and I know that we’ll have a fantastic time.\n\nWrite back soon!\n\nLove,\n\nSophie xx"
+          ],
+          "answers": [
+            [
+              "haven’t been feeling",
+              "have not been feeling",
+              "haven’t felt",
+              "have not felt"
+            ],
+            [
+              "have had",
+              "’ve had"
+            ],
+            [
+              "haven’t been going",
+              "have not been going",
+              "haven’t gone",
+              "have not gone",
+              "haven’t been",
+              "have not been"
+            ],
+            [
+              "have been lying",
+              "’ve been lying"
+            ],
+            [
+              "has been looking after",
+              "has looked after"
+            ],
+            [
+              "have been thinking",
+              "’ve been thinking"
+            ],
+            [
+              "have come up with",
+              "’ve come up with"
+            ],
+            [
+              "have been trying",
+              "’ve been trying"
+            ],
+            [
+              "haven’t managed",
+              "have not managed"
+            ]
+          ],
+          "wideGaps": true
+        }
+      ],
+      "instructions": "Use the present perfect simple or continuous. Gap 1 is the completed example: haven’t replied. Write only the missing verb phrase in gaps 2–10."
+    },
+    {
+      "type": "exercise",
+      "id": "hw11-ex4d",
+      "title": "4d · Reply to Sophie’s email",
+      "items": [
+        {
+          "id": "4d-email",
+          "number": null,
+          "input": "textarea",
+          "scored": false,
+          "prompt": "Write 140–190 words. Use the present perfect simple and continuous.\n• Thank Sophie for her email.\n• Explain why you haven’t written until now.\n• Answer Sophie’s question.\n• Ask Sophie a question.",
+          "placeholder": "Hi Sophie,\n\nThanks for your email. I’m glad you’re feeling better. ..."
+        }
+      ],
+      "instructions": "Example opening: Hi Sophie, Thanks for your email. I’m glad you’re feeling better. Your teacher will review your reply."
+    }
+  ]
+}

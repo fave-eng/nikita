@@ -904,11 +904,31 @@
       [data-task="hw10-ex2"] .dialogue-answer-select { width: min(100%, 210px); }
     }
 
+  
+    /* HW11: compact, continuous grammar sentences and email. */
+    [data-task^="hw11-ex4b"] .exercise-item:not(.exercise-example) {display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;align-items:start;}
+    [data-task^="hw11-ex4b"] .exercise-item-header {margin:0;}
+    [data-task^="hw11-ex4b"] .exercise-prompt:empty {display:none;}
+    [data-task^="hw11-ex4b"] .exercise-control {min-width:0;padding-left:0;}
+    [data-task^="hw11-ex4b"] .feedback {grid-column:2;}
+    [data-task^="hw11-ex4b"] .sentence-gaps,
+    [data-task="hw11-ex4c"] .sentence-gaps {display:block;line-height:2.8;white-space:normal;}
+    [data-task^="hw11-ex4b"] .sentence-gaps .gap-input,
+    [data-task="hw11-ex4c"] .sentence-gaps .gap-input {display:inline-block;width:clamp(155px,26vw,220px);max-width:100%;min-height:38px;margin:2px 4px;padding:5px 7px;vertical-align:baseline;text-align:left;}
+    [data-task^="hw11-ex4a"] .exercise-control .text-field {width:min(100%,420px);}
+    [data-task^="hw11-ex4a"] .replacement-target {background:#eef2ff;border-radius:4px;padding:0 2px;}
+    [data-task="hw11-ex4c"] .sentence-gaps {line-height:1.95;}
+    [data-task="hw11-ex4c"] .exercise-item-header {display:none;}
+    [data-task="hw11-ex4c"] .exercise-control {padding:14px 16px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;}
+    [data-task="hw11-ex4d"] textarea {min-height:220px;}
+    [data-task="hw11-ex3a"] .compact-options {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;}
+    @media(max-width:520px){[data-task="hw11-ex4c"] .exercise-control {padding:10px;}[data-task^="hw11-ex4b"] .sentence-gaps .gap-input,[data-task="hw11-ex4c"] .sentence-gaps .gap-input{width:min(100%,185px);}}
+
   </style>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
   <script src="config.js" defer></script>
-  <script src="data/vocabulary-data.js?v=19" defer></script>
+  <script src="data/vocabulary-data.js?v=20" defer></script>
   <script src="data/grammar-data.js?v=16" defer></script>
   <script src="app.js?v=20" defer></script>
 </head>
@@ -1478,7 +1498,7 @@
 
 
       const placeLessonVocabularyAfterGrammar = () => {
-        if (!['lesson-8', 'lesson-9'].includes(lessonId)) return;
+        if (!['lesson-8', 'lesson-9', 'lesson-11'].includes(lessonId)) return;
 
         const roadmap = root.querySelector('.lesson-roadmap');
         const sourceShortcut = document.getElementById('lesson-vocabulary-shortcut');
@@ -1501,7 +1521,7 @@
       };
 
       const applyLesson8Enhancements = () => {
-        if (lessonId !== 'lesson-8') return;
+        if (!['lesson-8', 'lesson-11'].includes(lessonId)) return;
 
         const roadmap = root.querySelector('.lesson-roadmap');
         if (!roadmap) return;
@@ -1640,7 +1660,7 @@
 
       new MutationObserver(applyEnhancements).observe(root, { childList: true, subtree: true });
 
-      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=14`, { cache: 'no-store' })
+      fetch(`data/lessons/${encodeURIComponent(lessonId)}.json?embedded-media=15`, { cache: 'no-store' })
         .then((response) => {
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
